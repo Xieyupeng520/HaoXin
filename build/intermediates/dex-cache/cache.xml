@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AZZ/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Volumes/AZZ/HX/04_源码/2015.8.26 更新，可调通串口/HaoXin/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7f03eb010f0c053671d8803c451d00edb3f9d7d6.jar" />
+    </item>
+    <item
+        jar="/Volumes/AZZ/HX/04_源码/2015.9.21 优化代码/HaoXin/app/libs/usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="/Volumes/AZZ/HX/04_源码/2015.9.21 优化代码/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-7eeb7503155979f183ff6e617a356c8a23200e47.jar" />
+    </item>
+    <item
+        jar="/Users/AZZ/Documents/My project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21 优化代码/HaoXin/app/libs/usb-serial-for-android-v010-src.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eead8afcc7674573ced1de1782e372c1d1e0a52e">
+        <dex dex="/Users/AZZ/Documents/My project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21 优化代码/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-src-6448cb96066bad9de7f2ed7715b0a477e13504e2.jar" />
+    </item>
+    <item
+        jar="/Volumes/AZZ/HX/04_源码/2015.9.21 优化代码/HaoXin/app/libs/usb-serial-for-android-v010-src.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eead8afcc7674573ced1de1782e372c1d1e0a52e">
+        <dex dex="/Volumes/AZZ/HX/04_源码/2015.9.21 优化代码/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-src-f5f17ad37e1309a9e060e003f7fa8149f0a66d41.jar" />
+    </item>
+    <item
+        jar="/Volumes/AZZ/HX/04_源码/2015.8.26 更新，可调通串口/HaoXin/app/libs/usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="/Volumes/AZZ/HX/04_源码/2015.8.26 更新，可调通串口/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-e3b583e4586905e7f923642fc30512cb00ad68a5.jar" />
+    </item>
+    <item
+        jar="/Volumes/AZZ/HX/04_源码/2015.8.26 更新，可调通串口/HaoXin/app/libs/usb-serial-for-android-v010-src.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eead8afcc7674573ced1de1782e372c1d1e0a52e">
+        <dex dex="/Volumes/AZZ/HX/04_源码/2015.8.26 更新，可调通串口/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-src-85d73da95eace485d51298ee7aff023e8ff93be0.jar" />
+    </item>
+    <item
+        jar="/Users/AZZ/Documents/My project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21 优化代码/HaoXin/app/libs/usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="/Users/AZZ/Documents/My project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21 优化代码/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-d367358ab853dcd9b9b102714ae244a2b56aee03.jar" />
+    </item>
+
+</items>

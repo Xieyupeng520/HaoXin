@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- button -->
+    <dimen name="button_normal_width">128dp</dimen><!-- 170px -->
+    <dimen name="button_normal_height">43dp</dimen><!-- 57px -->
+    <dimen name="button_noval_width">130dp</dimen><!-- 174px -->
+    <dimen name="button_noval_height">40dp</dimen><!-- 54px -->
+    <dimen name="button_back_margin_b">15dp</dimen><!-- 20px -->
+    
+    <!-- activity_change_time -->
+    <!-- <dimen name="activity_change_time_fade">500dp</dimen> -->
+    
+    <!-- background -->
+    <!-- <dimen name="app_background_width">1280px</dimen> --><!-- 1280px -->
+    <!-- <dimen name="app_background_height">800px</dimen> --><!-- 800px -->
+    
+    <!-- activity_logo -->
+    <!--  <dimen name="logo_width">500dp</dimen> --><!-- 660px -->
+    <!-- <dimen name="logo_height">166dp</dimen> --><!-- 220px -->
+    <!-- <dimen name="logo_margin_top">200dp</dimen> --><!-- 265px -->
+    
+    <!-- activity_loading -->
+    <!-- <dimen name="loading_progress_wh">174dp</dimen> --><!-- 230px -->
+    <!-- <dimen name="loading_progress_margin_top">166dp</dimen> --><!-- 220px -->
+    <!-- <dimen name="loading_msg_margin_top">53dp</dimen> --><!-- 70px -->
+    
+    <dimen name="loading_dregee_font">22sp</dimen><!-- 44px 33dp 22sp -->
+    <dimen name="loading_msg_font">18sp</dimen><!-- 36px 27dp 18sp -->
+	
+    <!-- main_work_base -->
+    <!-- <dimen name="work_head_margin_top">44dp</dimen> --><!-- 59px -->
+    <!-- <dimen name="work_head_title_width">351dp</dimen> --><!-- 464px -->
+    <!-- <dimen name="work_head_title_height">38dp</dimen> --><!-- 51px -->
+    <dimen name="work_head_time_margin_top">8dp</dimen><!-- 38px -->
+    <dimen name="work_head_time_font">19sp</dimen><!-- 38px 28dp 19sp-->
+    <dimen name="work_head_day_margin_left">15dp</dimen><!-- 20px -->
+    <dimen name="work_head_day_font">12sp</dimen><!-- 24px 18dp 12sp -->
+    <dimen name="work_head_date_margin_top">5dp</dimen><!-- 15px -->
+    <dimen name="work_head_date_font">10sp</dimen><!-- 18px 13dp 9sp -->
+    <dimen name="work_head_week_margin_left">11dp</dimen><!-- 15px -->
+    <dimen name="work_arrow_width">16dp</dimen><!-- 22px -->
+    <dimen name="work_arrow_height">30dp</dimen><!-- 40px -->
+    <dimen name="work_arrow_margin_left">11dp</dimen><!-- 15px -->
+    <dimen name="work_child_margin_top">15dp</dimen><!-- 20px -->
+    
+    <!-- main_work_home -->
+    <!-- <dimen name="home_margin_t">189dp</dimen> --><!-- 250px -->
+    <!-- <dimen name="home_slide_title_margin_top">37dp</dimen> --><!-- 50px -->
+    <dimen name="home_slide_button_margin_top">4dp</dimen><!-- 10px -->
+    <dimen name="home_slide_title_font">22dp</dimen><!-- 30px 22dp-->
+    <dimen name="home_slide_number_font">28sp</dimen><!-- 30px -->
+    <dimen name="home_slide_number_margin_left">21dp</dimen><!-- 28px -->
+    <dimen name="home_content_margin_lr">160dp</dimen><!-- 212px -->
+    <dimen name="home_info_marging_top">90dp</dimen><!-- 120px -->
+    <dimen name="home_info_title_font">22dp</dimen><!-- 30px -->
+    <dimen name="home_info_title_margin_left">180dp</dimen><!-- 200px -->
+    <dimen name="home_info_content_margin_top">7dp</dimen><!-- 10px -->
+    <dimen name="home_info_content_item_height">44dp</dimen><!-- 59px -->
+    <dimen name="home_info_content_item_margin_left">42dp</dimen><!-- 56px -->
+    <dimen name="home_info_content_item_margin_right">45dp</dimen><!-- 60px -->
+    <dimen name="home_info_content_item_name_font">19dp</dimen><!-- 26px -->
+    <dimen name="home_info_content_item_num_font">19dp</dimen><!-- 26px -->
+    <dimen name="home_slide_arrow_width">22dp</dimen><!-- 30px -->
+    <dimen name="home_slide_arrow_height">20dp</dimen><!-- 27px -->
+    <dimen name="home_slide_button_bottom_wh">239dp</dimen><!-- 316px -->
+    <dimen name="home_slide_button_top_wh">176dp</dimen><!-- 233px -->
+    <dimen name="home_info_content_width">262dp</dimen><!-- 346px -->
+    <dimen name="home_info_content_height">190dp</dimen><!-- 251px -->
+    <dimen name="home_info_item_margin_t">2dp</dimen><!-- 251px -->
+    <dimen name="home_slide_button_margin_t">2dp</dimen><!-- 251px -->
+    <dimen name="home_slide_button_wh">100dp</dimen><!-- 251px -->
+    
+    
+    <!-- main_work_clean_fill -->
+    <!-- <dimen name="clean_fill_margin_t">181dp</dimen> --><!-- 240px -->
+    <!-- <dimen name="clean_title_w">72dp</dimen> --><!-- 96px -->
+    <!-- <dimen name="clean_title_h">37dp</dimen> --><!-- 50px -->
+    <!-- <dimen name="fill_title_w">143dp</dimen> --><!-- 189px -->
+   <!--  <dimen name="fill_title_h">39dp</dimen> --><!-- 52px -->
+    <dimen name="clean_fill_flow_title_w">143dp</dimen><!-- 189px -->
+    <dimen name="clean_fill_flow_title_h">39dp</dimen><!-- 52px -->
+    <dimen name="clean_fill_info_margin_b">30dp</dimen><!-- 40px -->
+    <dimen name="clean_fill_info_margin_lf">35dp</dimen><!-- 50px -->
+    <dimen name="clean_fill_info_font">22dp</dimen><!-- 30px -->
+    <dimen name="clean_fill_info_title_margin_l">22dp</dimen><!-- 30px -->
+    <dimen name="clean_fill_progress_w">840dp</dimen><!-- 1110px -->
+    <dimen name="clean_fill_progress_h">15dp</dimen><!-- 20px -->
+    <dimen name="clean_fill_progress_margin_t">8dp</dimen><!-- 23px -->
+    <dimen name="clean_fill_close_button_margin_l">20dp</dimen><!-- 27px -->
+    <dimen name="clean_fill_close_button_w">31dp</dimen><!-- 40px -->
+    <dimen name="clean_fill_close_button_h">31dp</dimen><!-- 41px -->
+    <dimen name="clean_fill_anim_w">545dp</dimen><!-- 720px -->
+    <dimen name="clean_fill_anim_h">226dp</dimen><!-- 299px -->
+    
+    <dimen name="clean_fill_progress_padding_tlr">4dp</dimen>
+    <dimen name="clean_fill_progress_padding_b">5dp</dimen>
+    
+    <dimen name="home_work_diskcircle_wh">233dp</dimen>
+    <dimen name="spout_dr_margin_t">62dp</dimen>
+    <dimen name="spout_dr_margin_r">53dp</dimen>
+    <dimen name="spout_e_margin_b">137dp</dimen>
+    <dimen name="spout_e_margin_r">56dp</dimen>
+    <dimen name="spout_c_margin_b">126dp</dimen>
+    <dimen name="spout_c_margin_r">53dp</dimen>
+    <dimen name="spout_b_margin_b">121dp</dimen>
+    <dimen name="spout_b_margin_r">48dp</dimen>
+    <dimen name="spout_a_margin_b">96dp</dimen>
+    <dimen name="spout_a_margin_r">42dp</dimen>
+    <dimen name="spout_df_margin_b">94dp</dimen>
+    <dimen name="spout_df_margin_r">40dp</dimen>
+    <dimen name="diak_spout_margin_l">-80dp</dimen>
+    
+    
+    <!-- main_work_site -->
+    <!-- <dimen name="site_margin_t">189dp</dimen> --><!-- 250px -->
+    <!-- <dimen name="site_title_w">142dp</dimen> --><!-- 188px -->
+    <!-- <dimen name="site_title_h">38dp</dimen> --><!-- 51px -->
+    <dimen name="site_content_margin_lr">240dp</dimen><!-- 317px -->
+    <dimen name="site_item_title_margin_t">15dp</dimen><!-- 20px -->
+    <dimen name="site_item_h">37dp</dimen><!-- 50px -->
+    <dimen name="site_item_title_font">21sp</dimen><!-- 28px -->
+    <dimen name="site_btn_littlearrows_margin_r">18dp</dimen><!-- 25px -->
+    <dimen name="site_btn_margin_r">18dp</dimen><!-- 25px -->
+    <dimen name="site_btn_margin_b">15dp</dimen><!-- 20px -->
+    <dimen name="site_btn_margin_middle">7dp</dimen><!-- 10px -->
+    <dimen name="site_littlearrows_w">6dp</dimen><!-- 9px -->
+    <dimen name="site_littlearrows_h">11dp</dimen><!-- 15px -->
+    <dimen name="site_btn_list_item_w">130dp</dimen><!-- 174px -->
+    <dimen name="site_btn_list_item_h">40dp</dimen><!-- 54px -->
+    <dimen name="site_btn_list_item_font">19dp</dimen><!-- 26px -->
+    <dimen name="site_btn_list_corner">10dp</dimen><!-- 14px -->
+    <dimen name="site_btn_list_padding">1dp</dimen><!-- 14px -->
+    <dimen name="site_btn_list_divier_h">0.5dp</dimen><!-- 14px -->
+    
+    <!-- system -->
+    <!-- <dimen name="system_margin_t">189dp</dimen> --><!-- 250px -->
+    <!-- <dimen name="system_btn_back_margin_b">15dp</dimen> --><!-- 20px -->
+    <!-- <dimen name="system_title_w">139dp</dimen> --><!-- 184px -->
+    <!-- <dimen name="system_title_h">38dp</dimen> --><!-- 51px -->
+    <dimen name="system_btn_back_margin_r">18dp</dimen><!-- 25px -->
+    <dimen name="system_btn_back_font">22dp</dimen><!--30px  -->
+    <dimen name="system_margin_l">210dp</dimen><!-- 278px -->
+    <dimen name="system_titile_font">21sp</dimen><!-- 28px -->
+    <dimen name="system_btn_margin_l">193dp</dimen><!-- 255px -->
+    <dimen name="system_btn_space_rl">37dp</dimen><!-- 50px -->
+    <dimen name="system_item_space_tb">22dp</dimen><!-- 30px -->
+    <dimen name="system_btn_letter_font">21sp</dimen><!-- 26px -->
+    <dimen name="system_btn_oval_font">21dp</dimen><!-- 28px -->
+    
+    <!-- main_work_liu_chen -->
+    <!-- <dimen name="liu_chen_margin_t">189dp</dimen> --><!-- 250px -->
+    <!-- <dimen name="liu_title_w">193dp</dimen> --><!-- 256px -->
+    <!-- <dimen name="liu_title_h">38dp</dimen> --><!-- 51px -->
+    <!-- <dimen name="chen_title_w">142dp</dimen> --><!-- 188px -->
+    <!-- <dimen name="chen_title_h">37dp</dimen> --><!-- 50px -->
+    <!-- <dimen name="liu_chen_progress_h">454dp</dimen> --><!-- 600px -->
+    <dimen name="liu_chen_progress_w">23dp</dimen><!-- 29px -->
+    <dimen name="liu_chen_progress_margin_r">10dp</dimen><!-- 25px -->
+    <dimen name="liu_chen_progress_text_w">50dp</dimen><!-- 24px -->
+    <dimen name="liu_chen_progress_text_font">18dp</dimen><!-- 24px -->
+    <dimen name="liu_chen_progress_text_margin_t">7dp</dimen><!-- 10px -->
+    <dimen name="liu_chen_progress_padding_lr">1dp</dimen><!-- 10px -->
+    <dimen name="liu_chen_margin_l">106dp</dimen><!-- 140px -->
+    <dimen name="liu_chen_margin_b">60dp</dimen><!-- 80px -->
+    <dimen name="liu_chen_item_w">492dp</dimen><!-- 650px -->
+    <dimen name="liu_chen_item_divide_h">1dp</dimen><!-- 2px -->
+    <dimen name="liu_chen_list_h">189dp</dimen><!-- 250px -->
+    <dimen name="liu_chen_item_h">58dp</dimen><!-- 77px -->
+    <dimen name="liu_chen_item_text_font">21dp</dimen><!-- 28px -->
+    <dimen name="liu_chen_item_title_margin_l">22dp</dimen><!-- 30px -->
+    <dimen name="liu_chen_item_des_margin_l">22dp</dimen><!-- 30px -->
+    <dimen name="liu_chen_done_w">18dp</dimen><!-- 25px -->
+    <dimen name="liu_chen_done_h">19dp</dimen><!-- 26px -->
+    <dimen name="liu_chen_done_margin_r">22dp</dimen><!-- 30px -->
+    <dimen name="liu_chen_next_margin_l">71dp</dimen><!-- 95px -->
+    <dimen name="liu_chen_next_font">21dp</dimen><!-- 28px -->
+    <dimen name="liu_chen_btn_next_w">112dp</dimen><!-- 149px -->
+    <dimen name="liu_chen_btn_next_h">54dp</dimen><!-- 72px -->
+    <dimen name="liu_chen_progress_margin_b">80dp</dimen><!--  -->
+    <dimen name="liu_chen_progress_margin_t">15dp</dimen><!-- 20px -->
+    <dimen name="liu_chen_progress_bar_margin_t">5dp</dimen><!-- 10px -->
+    
+    
+    <!-- main_work_about -->
+    <!-- <dimen name="about_title_w">72dp</dimen> --><!-- 96px -->
+    <!-- <dimen name="about_title_h">37dp</dimen> --><!-- 50px -->
+   <!--  <dimen name="about_text_margin_t">58dp</dimen> --><!-- 77px -->
+    <!-- <dimen name="about_text_margin_lr">143dp</dimen> --><!-- 190px -->
+    <dimen name="about_text_font">22sp</dimen><!-- 30px --> 
+    
+
+    
+    <!-- success -->
+    <dimen name="success_info_head_font">20sp</dimen>
+    <dimen name="success_info_content_font">20sp</dimen>
+    
+    <dimen name="radio_wh">50dp</dimen>
+</resources>

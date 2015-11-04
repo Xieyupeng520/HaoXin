@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <FrameLayout 
+        style="@style/layout_vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"/>
+    
+    
+    <LinearLayout 
+        style="@style/layout_vertical"
+      	android:layout_width="match_parent"
+      	android:layout_weight="5"
+      	android:orientation="horizontal">
+    
+        <FrameLayout 
+        style="@style/layout_horizontal"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    
+<LinearLayout
+	style="@style/layout_horizontal"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="horizontal">
+	
+    <LinearLayout
+        style="@style/layout_horizontal"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1.65"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            style="@style/layout_vertical"
+    		android:layout_width="match_parent"
+    		android:layout_weight="1.5"
+    		android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:id="@+id/tv_home_slide_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_slide_title"
+                android:textSize="@dimen/home_slide_title_font"
+                android:text="载玻片数量"/>
+            
+            <TextView 
+                android:id="@+id/tv_home_slide_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_slide_number_margin_left"
+                android:textColor="@color/home_slide_num"
+                android:textSize="@dimen/home_slide_number_font"
+                android:text="09"/>
+        </LinearLayout>
+        
+        <FrameLayout 
+            style="@style/layout_vertical_full"
+            android:layout_weight="0.3"/>
+        
+        <ImageView 
+            style="@style/layout_vertical"
+    		android:layout_width="match_parent"
+    		android:layout_weight="0.6"
+    		android:scaleType="fitCenter"
+            android:src="@drawable/index_button_arrow"/>
+        
+        <!-- <FrameLayout 
+            style="@style/layout_vertical"
+    		android:layout_width="match_parent"
+    		android:layout_weight="0.1"/> -->
+        
+        <FrameLayout 
+            style="@style/layout_vertical"
+    		android:layout_width="match_parent"
+    		android:layout_weight="8.3"
+            android:layout_marginTop="@dimen/home_slide_button_margin_top">
+            
+            <ImageView 
+                android:id="@+id/rote_home_v"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:scaleType="fitCenter"
+            	android:clickable="true"
+            	android:layout_gravity="center_horizontal"
+           		android:src="@drawable/index_button_bottom"/><!-- @dimen/home_slide_button_bottom_wh" -->
+            
+            
+            
+            <FrameLayout
+               android:id="@+id/btn_home_bottom"
+               android:layout_width="@dimen/home_slide_button_top_wh"
+               android:layout_height="@dimen/home_slide_button_top_wh"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/home_slide_button_margin_t" 
+			   android:background="@drawable/index_button_top"><!-- @drawable/selector_home_button_top -->
+               
+                <View 
+                    android:id="@+id/btn_home_start"
+                    android:layout_width="@dimen/home_slide_button_wh"
+                    android:layout_height="@dimen/home_slide_button_wh"
+                    android:clickable="true"
+                    android:layout_gravity="center"/>
+                
+            </FrameLayout>
+            
+           <!-- <Button 
+               android:id="@+id/btn_home_start"
+               android:layout_width="@dimen/home_slide_button_top_wh"
+               android:layout_height="@dimen/home_slide_button_top_wh"
+               android:layout_gravity="center"
+               android:clickable="false"
+               android:background="@drawable/selector_home_button_top"/> -->
+        </FrameLayout>
+        
+        <FrameLayout 
+            style="@style/layout_vertical"
+    		android:layout_width="match_parent"
+    		android:layout_weight="2.5"/>
+    </LinearLayout>
+    <LinearLayout 
+            style="@style/layout_horizontal"
+    		android:layout_height="match_parent"
+    		android:layout_weight="3"
+            android:paddingTop="@dimen/home_info_marging_top"
+            android:orientation="vertical">
+            
+            <TextView 
+                android:id="@+id/tv_home_info_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_info_title_margin_left"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/home_info_title_font"
+                android:text="@string/home_info_title"/>
+            
+            <LinearLayout
+                style="@style/layout_wrap"
+                android:layout_marginTop="@dimen/home_info_content_margin_top"
+                android:layout_gravity="right"
+                android:background="@drawable/index_table"
+                android:orientation="vertical">
+                
+                <!-- 染色厚度 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+                    <View
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="2.3"
+                        />
+
+                    <TextView 
+                        android:id="@+id/tv_home_info_ranse_title"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8.5"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_name_font"
+                        android:text="@string/home_info_ranse"
+                        />
+                    <TextView 
+                        android:id="@+id/tv_home_info_ranse_num"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_num_font"
+                        android:text="3"/>
+                    <View
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="1.5"
+                        />
+                </LinearLayout>
+                
+                <!-- 结晶紫 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="2.3"/>
+                    
+                    <TextView 
+                        android:id="@+id/tv_home_info_jiejing_title"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8.5"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_name_font"
+                        android:text="@string/home_info_jiejing"/>
+                    <TextView 
+                        android:id="@+id/tv_home_info_jiejing_num"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_num_font"
+                        android:text="2"/>
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="1.5"/>
+                </LinearLayout>
+                
+                
+                <!-- 碘酒 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="2.3"/>
+                    
+                    <TextView 
+                        android:id="@+id/tv_home_info_dianjiu_title"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8.5"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_name_font"
+                        android:text="@string/home_info_dianjiu"/>
+                    <TextView 
+                        android:id="@+id/tv_home_info_dianjiu_num"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_num_font"
+                        android:text="1"/>
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="1.5"/>
+                </LinearLayout>
+                
+                <!-- 固定染色终止 -->
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="2.3"/>
+                    
+                    <TextView 
+                        android:id="@+id/tv_home_info_guding_title"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8.5"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_name_font"
+                        android:text="@string/home_info_guding"/>
+                    <TextView 
+                        android:id="@+id/tv_home_info_guding_num"
+                        style="@style/layout_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/home_info"
+                        android:textSize="@dimen/home_info_content_item_num_font"
+                        android:text="1"/>
+                    <View 
+                        style="@style/layout_horizontal_full"
+                        android:layout_weight="1.5"/>
+                </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <FrameLayout 
+        style="@style/layout_horizontal"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
+</LinearLayout>

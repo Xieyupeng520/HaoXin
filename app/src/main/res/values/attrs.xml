@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleViewRatio"> 
+		<attr name="scale_ratio_width" format="integer"/> 
+		<attr name="scale_ratio_height" format="integer"/>
+	</declare-styleable>
+</resources>

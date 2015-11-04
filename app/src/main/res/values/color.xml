@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general -->
+    <color name="btn_normal">#e8e8e8</color>
+    <color name="btn_oval_noraml">#000000</color>
+    <color name="btn_oval_selected">#ffffff</color>
+    <color name="btn_oval_unenabled">#757575</color>
+    
+	<!-- activity_loading -->
+    <color name="loading_degree">#139780</color>
+    <color name="loading_msg">#b7b7b7</color>
+
+    <!-- main_menu -->
+    <color name="menu_item_name_normal">#ffffff</color>
+    <color name="menu_item_name_selected">#2ed1b6</color>
+    
+    
+    <!-- main_work_base_view -->
+    <color name="work_base_time">#e8e8e8</color>
+    
+    
+    <!-- work_home -->
+    <color name="home_slide_title">#ffffff</color>
+    <color name="home_slide_num">#14b79c</color>
+    <color name="home_info">#b7b7b7</color>
+    
+    <!-- work_clean -->
+    <color name="clean_fill_info_title">#ffffff</color>
+    <color name="clean_fill_info_des">#14b79c</color>
+    
+    <!-- work_liu_chen -->
+    <color name="liu_chen_step_done">#ffffff</color>
+    <color name="liu_chen_step_undone">#757575</color>
+    <color name="liu_chen_progress_text">#14b79c</color>
+    <color name="liu_chen_next_normal">#ffffff</color>
+    <color name="liu_chen_next_selected">#282c2f</color>
+    
+    <!-- dialog -->
+    <color name="dialog_msg">#ffffff</color>
+    <color name="dialog_extra_msg_hint">#1172bd</color>
+    <color name="dialog_extra_msg_exception">#cc0000</color>
+</resources>

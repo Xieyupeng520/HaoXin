@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false"
+    android:orientation="vertical">
+
+    <FrameLayout 
+        style="@style/layout_vertical_full"
+        android:layout_weight="2.3"/>
+    <LinearLayout 
+        style="@style/layout_vertical_full"
+        android:layout_weight="5.3"
+        android:orientation="horizontal">
+        <LinearLayout 
+            style="@style/layout_horizontal_full"
+            android:layout_weight="2.2"/>
+    <LinearLayout
+        style="@style/layout_horizontal_full"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <!-- 模式检测 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/system_moshi"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/system_titile_font" />
+
+            <RadioGroup
+                android:id="@+id/rg_system_moshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_moshi_1"
+                    style="@style/SysRadio"
+                    android:text="@string/a"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_moshi_2"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/b"
+                     />
+
+                <RadioButton
+                    android:id="@+id/rb_moshi_3"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/c"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_moshi_4"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/d"
+                     />
+
+                <RadioButton
+                    android:id="@+id/rb_moshi_5"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/e"/>
+            </RadioGroup>
+        </FrameLayout>
+
+        <!-- 流量检测 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/system_liuliang"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/system_titile_font" />
+
+            <RadioGroup
+                android:id="@+id/rg_system_liuliang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_liuliang_1"
+                    style="@style/SysRadio"
+                    android:text="@string/a"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_liuliang_2"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/b"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_liuliang_3"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/c"
+                     />
+
+                <RadioButton
+                    android:id="@+id/rb_liuliang_4"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/d"
+                     />
+
+                <RadioButton
+                    android:id="@+id/rb_liuliang_5"
+                    style="@style/SysRadio"
+                    android:layout_marginLeft="@dimen/system_btn_space_rl"
+                    android:text="@string/e"
+                     />
+            </RadioGroup>
+        </FrameLayout>
+
+        <!-- B-流路检测 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/system_bliulu"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/system_titile_font" />
+
+            <Button
+                android:id="@+id/btn_system_bliulu"
+                style="@style/layout_wrap"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/selector_button_oval"
+                android:text="@string/btn_start"
+                android:textColor="@drawable/selector_button_oval_text"
+                android:textSize="21sp" />
+        </FrameLayout>
+
+        <!-- 称重校验 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/system_chengzhong"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/system_titile_font" />
+
+            <Button
+                android:id="@+id/btn_system_chenzhong"
+                style="@style/layout_wrap"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/selector_button_oval"
+                android:text="@string/btn_start"
+                android:textColor="@drawable/selector_button_oval_text"
+                android:textSize="21sp" />
+        </FrameLayout>
+
+        <!-- 填充流路 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/system_tianchong"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/system_titile_font" />
+
+            <Button
+                android:id="@+id/btn_system_tianchong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/selector_button_oval"
+                android:text="@string/btn_start"
+                android:textColor="@drawable/selector_button_oval_text"
+                android:textSize="21sp" />
+        </FrameLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_back_margin_b"
+            android:layout_gravity="bottom|right"
+            android:gravity="bottom|right" 
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_system_back"
+                android:layout_width="@dimen/button_normal_width"
+                android:layout_height="@dimen/button_normal_height"
+                android:layout_marginRight="@dimen/system_btn_back_margin_r"
+                android:background="@drawable/selector_button_normal"
+                android:text="@string/btn_back"
+                android:textColor="@color/btn_normal"
+                android:textSize="@dimen/system_btn_back_font" />
+            <!-- 
+            <Button
+                android:id="@+id/btn_system_back"
+                android:layout_width="@dimen/button_normal_width"
+                android:layout_height="@dimen/button_normal_height"
+                android:layout_marginBottom="@dimen/system_btn_back_margin_b"
+                android:layout_marginRight="@dimen/system_btn_back_margin_r"
+                android:background="@drawable/selector_button_normal"
+                android:text="@string/btn_back"
+                android:textColor="@color/btn_normal"
+                android:textSize="@dimen/system_btn_back_font" />
+             -->
+             </LinearLayout>
+             <LinearLayout 
+            style="@style/layout_horizontal_full"
+            android:layout_weight="2"/>
+        </LinearLayout>
+        <FrameLayout 
+        style="@style/layout_vertical_full"
+        android:layout_weight="1"/>
+</LinearLayout>

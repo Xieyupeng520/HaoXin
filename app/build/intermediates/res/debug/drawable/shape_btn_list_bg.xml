@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <stroke 
+        android:dashGap="3dp"  
+        android:dashWidth="6dp"
+        android:width="1dp"
+        android:color="#ff0000"/>
+    
+    <gradient
+        android:angle="270"
+        android:startColor="#d9d9d9"
+        android:endColor="#fbfbfb"/>
+
+    <corners android:radius="@dimen/site_btn_list_corner"/>
+</shape>
+
+<!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/drawable/shape_btn_list_bg.xml -->

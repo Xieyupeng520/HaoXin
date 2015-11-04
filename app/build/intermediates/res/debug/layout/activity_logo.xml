@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/> <!-- 0.3625 -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"><!-- 0.275 -->
+        
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"/> 
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"/><!-- 0.3625 -->
+</LinearLayout>
+<!--@dimen/logo_width  @dimen/logo_height android:layout_marginTop="@dimen/logo_margin_top"-->
+<!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/layout/activity_logo.xml -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:id="@+id/tv_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/liu_chen_item_title_margin_l"
+        android:textColor="@drawable/selector_liu_chen_step_text"
+        android:textSize="@dimen/liu_chen_item_text_font"
+        android:text="step1"/>
+    
+    <TextView 
+        android:id="@+id/tv_list_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/liu_chen_item_des_margin_l"
+        android:textColor="@drawable/selector_liu_chen_step_text"
+        android:textSize="@dimen/liu_chen_item_text_font"
+        android:text="请请"/>
+
+    <View 
+        android:id="@+id/v_list_sign"
+        android:layout_width="@dimen/liu_chen_done_w"
+        android:layout_height="@dimen/liu_chen_done_h"
+        android:layout_marginLeft="@dimen/liu_chen_done_margin_r"
+        android:background="@drawable/selector_liu_chen_step_done_sign"/>
+</LinearLayout>
+</FrameLayout>

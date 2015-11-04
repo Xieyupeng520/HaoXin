@@ -1,0 +1,77 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 全屏幕拉伸-->
+  <style name="layout_full">  
+    <item name="android:layout_width">match_parent</item>  
+    <item name="android:layout_height">match_parent</item>  
+  </style>
+   
+<!-- 固定自身大小-->
+  <style name="layout_wrap">  
+    <item name="android:layout_width">wrap_content</item>  
+    <item name="android:layout_height">wrap_content</item>  
+  </style>
+ 
+<!-- 横向分布-->
+  <style name="layout_horizontal" parent="layout_full">  
+    <item name="android:layout_width">0dp</item>  
+  </style> 
+  
+   <style name="layout_horizontal_full" parent="layout_full">  
+    <item name="android:layout_height">match_parent</item>  
+    <item name="android:layout_width">0dp</item>  
+  </style>
+    
+<!-- 纵向分布-->
+  <style name="layout_vertical" parent="layout_full">  
+    <item name="android:layout_height">0dp</item>  
+  </style> 
+  
+  <style name="layout_vertical_full" parent="layout_full">  
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0dp</item>
+  </style>
+  
+  
+  <!-- 单选按钮 -->
+    <style name="SysRadio">
+        <item name="android:background">@drawable/selector_system_radio</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/system_btn_letter_font</item>
+        <item name="android:textColor">@drawable/selector_button_text_sysradio</item>
+        <item name="android:layout_width">@dimen/radio_wh</item>
+        <item name="android:layout_height">@dimen/radio_wh</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="ProgressLoading" >
+	　　<item name="android:indeterminateDrawable">@drawable/progress_loading</item>
+	　　<item name="android:minWidth">230dip</item>
+	　　<item name="android:maxWidth">230dip</item>
+	　　<item name="android:minHeight">230dip</item>
+	　　<item name="android:maxHeight">230dip</item>
+	</style>
+	
+     <style name="btnListAnimation" parent="android:Animation" mce_bogus="1">          
+        <item name="android:windowEnterAnimation">@anim/btn_list_enter</item>     
+        <item name="android:windowExitAnimation">@anim/btn_list_exit</item>      
+    </style> 
+     
+</resources>

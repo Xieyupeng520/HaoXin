@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">全自动革兰氏染色仪器</string>
+    <string name="action_settings">Settings</string>
+    <!-- general -->
+    <string name="button_normal_sure">确认</string>
+    <string name="button_normal_cancel">取消</string>
+    <string name="week">周%s</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="switch_open">开启</string>
+    <string name="switch_close">关闭</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_exit">退出</string>
+    <string name="btn_start">START</string>
+    <string name="btn_next">下一步</string>
+    <string name="back_to_home">系统即将返回主界面...</string>
+    <string name="succ_ranse">染色结束，请拿出载玻片</string>
+    <string name="succ_liulu">B-流路检测结束</string>
+    <string name="succ_chengzhong">称重校验结束</string>
+    <string name="succ_fill">填充流路结束</string>
+    <string name="succ_centrifugal">离心结束</string>
+    <string name="waiting">Waiting...</string>
+    <!-- exception -->
+    <string name="exception_hint">【提示】</string>
+    <string name="exception_exception">【异常】</string>
+    <string name="exception_init_not_connected">设备初始化失败，无法建立通信</string>
+    <string name="exception_not_comm_actived">系统通信链路中断</string>
+    <string name="exception_of_electric_speed">设备电机转速异常</string>
+    <string name="exception_top_cover_opened">设备上盖打开，请关闭上盖</string>
+    <string name="exception_top_cover_opened_dyeing">设备上盖打开（染色）</string>
+    <string name="exception_top_cover_opened_cleaning">设备上盖打开（流路清洗）</string>
+    <string name="exception_top_cover_opened_filling">设备上盖打开（流路填充）</string>
+    <string name="exception_top_cover_opened_centrifugal">设备上盖打开（细胞离心）</string>
+    <string name="exception_heating_failure">设备加热失效</string>
+    <string name="exception_detect_glass_position_failure">设备玻盘在位检测失败</string>
+    <string name="exception_weighing">设备称重异常</string>
+    <string name="exception_reagent_not_enough">试剂不足，请添加试剂</string>
+    <!-- string -->
+    <string name="dialog_msg_cancel_tianchong">是否取消填充</string>
+    <string name="dialog_msg_cancel_ranse">是否取消染色</string>
+    <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
+    <string name="dialog_msg_cancel_liulu">是否取消B-流路检测</string>
+    <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string><!-- 称重校验 -->
+    <string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string>
+    <string name="dialog_msg_hint_liulutianchong">请拿出玻盘样本，完成流路填充</string>
+    <string name="dialog_msg_dev_fill_request">流路未填充，染色前需要进行填充</string>
+    <string name="dialog_msg_cancel_centrifugal">是否取消离心</string>
+
+    <string name="dialog_msg_clean_fill">流路清洗完成，是否进行填充</string>
+    <!-- home -->
+    <string name="home_slide_title">载玻片数量</string>
+    <string name="home_info_title">当前设置：</string>
+    <string name="home_info_ranse">染色厚度选择</string>
+    <string name="home_info_jiejing">结晶紫选择</string>
+    <string name="home_info_dianjiu">碘酒调整选择</string>
+    <string name="home_info_guding">酒精固定选择</string>
+    
+    <!-- clean -->
+    <string name="clean_jet">正在喷射：</string>
+    
+    <!-- site -->
+    <string name="site_ranse">染色厚度选择</string>
+    <string name="site_guding">酒精固定选择</string>
+    <string name="site_jiejing">结晶紫选择</string>
+    <string name="site_dianjiu">碘酒调整选择</string>
+    <string name="site_chenzhogn">称重使能选择</string>
+    <string name="site_centrifugal">细胞离心</string>
+
+    <!-- system -->
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="system_moshi">模式检测</string>
+    <string name="system_liuliang">流量检测</string>
+    <string name="system_bliulu">B-流路检测</string>
+    <string name="system_chengzhong">称重校验</string>
+    <string name="system_tianchong">填充流路</string>
+    
+    <!-- liu_chen -->
+    <string name="step">STEP</string>
+    <string-array name="STEP">
+        <item>第一步：</item>
+        <item>第二步：</item>
+        <item>第三步：</item>
+        <item>第四步：</item>
+        <item>第五步：</item>
+    </string-array>
+    <!-- about -->
+    <string name="sw_version">软件版本：</string>
+    <string name="hw_version">硬件版本：</string>
+    <string name="fw_version">固件版本：</string>
+
+    <string-array name="loading_msgs">
+        <item>获取版本信息...</item>
+        <item>初始化系统参数...</item>
+        <item>程序模块初始化中...</item>
+        <item>设备初始化完成，即将进入主页面。</item>
+        <item>进入主页面。</item>
+    </string-array>
+    
+    <string-array name="menu_names">
+        <item>主界面</item>
+        <item>流路清洗</item>
+        <item>参数设置</item>
+        <item>系统维护</item>
+        <item>关于</item>
+    </string-array>
+    
+    <string-array name="site_grade">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    
+    <string-array name="bliulu_steps">
+        <item>请在B流路放500ML去离子水</item>
+        <item>请在B流路放入200ML清洗剂</item>
+        <item>请放入B液填充</item>
+    </string-array>
+    <string-array name="chenzhong_steps">
+        <item>确认严格按照界面提示步骤操作</item>
+        <item>请将载玻盘从设备移出</item>
+        <item>请给每个容器内注入500ML试剂</item>
+        <item>启动称重校验，大概需要5秒</item>
+    </string-array>
+    
+    <string-array name="site_btn_ranses">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+    </string-array>
+    <string-array name="site_btn_gudnigs">
+        <item>关闭</item>
+        <item>普通</item>
+        <item>高效</item>
+    </string-array>
+    <string-array name="site_btn_jiejings">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="site_btn_dianjius">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="site_btn_chengzhongs">
+        <item>关闭</item>
+        <item>启动</item>
+    </string-array>
+</resources>

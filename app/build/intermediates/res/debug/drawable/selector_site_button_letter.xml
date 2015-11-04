@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/letter_button_touch" android:state_selected="true"/>
+    <item android:drawable="@drawable/letter_button" />
+</selector><!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/drawable/selector_site_button_letter.xml -->
