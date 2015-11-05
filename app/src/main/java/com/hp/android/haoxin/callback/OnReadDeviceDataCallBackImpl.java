@@ -28,7 +28,7 @@ public class OnReadDeviceDataCallBackImpl implements OnReadDeviceDataCallBack {
     /**
      * 读取操作回调
      */
-    private OnReadDeviceDataCallBack readOptionCallBack = new OnReadDeviceOptionCallBackImpl();
+    private OnReadDeviceOptionCallBackImpl readOptionCallBack = new OnReadDeviceOptionCallBackImpl();
     /**
      * 单例模式
      * @return 唯一单例
@@ -115,5 +115,12 @@ public class OnReadDeviceDataCallBackImpl implements OnReadDeviceDataCallBack {
             default:
                 break;
         }
+    }
+
+    /**
+     * 重置上一次的命令
+     */
+    public void resetOptionCallBackLastProgressResponse() {
+        readOptionCallBack.resetLastProgressResponse();
     }
 }

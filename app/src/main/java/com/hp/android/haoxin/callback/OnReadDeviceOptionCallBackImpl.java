@@ -3,6 +3,7 @@ package com.hp.android.haoxin.callback;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.command.CommandInterface;
@@ -68,6 +69,7 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
             }
             CommandBridge.getInstance().showToast("!!!!TYPE="+type+", data="+data[0]);
             call.workFinish(true);
+            resetLastProgressResponse();
             break;
         case RPT_OP_PROGRESS:
             setProgress(data);
@@ -141,6 +143,7 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                 CommandBridge.getInstance().showToast("!!!!TYPE="+type+", data="+data[0]);
                 call.workSetProgress(100);
                 call.workFinish(true);
+                resetLastProgressResponse();
                 break;
             case RPT_OP_PROGRESS:
                 setProgress(data);
@@ -152,10 +155,18 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
 
     final int colors[] = {0xffffffff,0xffcc00ff,0xffff9933,0xff0000ff,0xffffffff};
     private byte lastProgressResponse = -100; //上一次的进度命令
+
+    /**
+     * 重置上一次的命令
+     */
+    public void resetLastProgressResponse() {
+        lastProgressResponse = -100;
+    }
     /**
      * @param data 设置进度信息
      */
     private void setProgress(byte[] data) {
+        Log.e("Real", "setProgress - " + data[1] + "last" + lastProgressResponse);
         if (lastProgressResponse != data[1]) { //和上一次命令不一样时（否则相同参数动画不连贯）
             call.workStopAllSpout();
             call.workStartDiskColorAnimation(colors[data[1] % 5], 2000, 0, 180); //颜色渐变
@@ -223,6 +234,7 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                     call.workStartRotate(false);
                     break;
                 case Response.Progress.PROGRESS_CLEAN_PLUS:
+                    Log.e("Command", "正在流路清洗");
                     call.workSetProgressText("正在流路清洗 ", "...");
                     call.workStartSpout(SpoutView.A, true);
                     call.workStartSpout(SpoutView.B, true);

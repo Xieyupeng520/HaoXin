@@ -142,7 +142,6 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	
 	public void save(){
 		//检查处于连接状态（不检查的话如果也可用设置，那么首页Start的时候就需要加上同步参数操作）
-		Log.e("Real", "save 结晶 ="+mTempJiejing+"碘酒 = " + mTempDianjiu);
 		Global.mRanSeHouDu = mTempRanSe;
 		Global.mGuDingQDState = mTempGuding;
 		Global.mJieJingZiLev = mTempJiejing;

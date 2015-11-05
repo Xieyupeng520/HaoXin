@@ -60,8 +60,32 @@ public class RealCommand extends TestCommand {
      */
     private TestCmd Test = TestCmd.getInstance();
 
+    /***********************************************\
+     *                                             *
+     *              取消时要做的重置操作              *
+     *                                             *
+     ***********************************************/
+    public void resetWhenCancel() {
+        resetState();
+        resetOnReadDeviceOptionCallBackLastProgressResponse();
+    }
+
+    /**
+     * 重置系统状态（HOME）
+     */
     public void resetState() {
         Global.resetState();
+    }
+
+    /**
+     * 重置OnReadDeviceOptionCallBackImpl里面的lastProgressResponse（上一次进度命令）
+     * 该命令的作用是为了防止连续参数的回调，导致动画卡顿（如果发现回调是一样的参数，则不改变原动画）
+     *
+     * 这里需要重置的原因是：比如清洗，当取消时，lastProgressResponse还为清洗的命令，如果下次又进入清洗的话，
+     * 那么就不会执行动画
+     */
+    public void resetOnReadDeviceOptionCallBackLastProgressResponse() {
+        getReadDeviceCallBack().resetOptionCallBackLastProgressResponse();
     }
     /***********************************************\
      *                                             *
@@ -86,7 +110,7 @@ public class RealCommand extends TestCommand {
         }
         return operatorService;
     }
-    public OnReadDeviceDataCallBack getReadDeviceCallBack() {
+    public OnReadDeviceDataCallBackImpl getReadDeviceCallBack() {
         return OnReadDeviceDataCallBackImpl.getInstance();
     }
 
@@ -312,7 +336,7 @@ public class RealCommand extends TestCommand {
 		mCommand.call.workFinish(false);
 
         //重置系统状态
-        resetState();
+        resetWhenCancel();
 	}
 
     /***********************************************\
@@ -358,7 +382,7 @@ public class RealCommand extends TestCommand {
         mCommand.call.workFinish(false);
 
         //重置系统状态
-        resetState();
+        resetWhenCancel();
     }
 
     /***********************************************\
@@ -428,7 +452,7 @@ public class RealCommand extends TestCommand {
         mCommand.call.workFinish(false);
 
         //重置系统状态
-        resetState();
+        resetWhenCancel();
     }
 
     /***********************************************\
