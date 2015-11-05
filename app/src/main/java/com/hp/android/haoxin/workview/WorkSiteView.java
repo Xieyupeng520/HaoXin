@@ -3,6 +3,7 @@ package com.hp.android.haoxin.workview;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.drawable.ColorDrawable;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,11 +37,11 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	private boolean mIsChange;
 	private boolean mIsHit;
 	
-	private int mTempRanSe;
-	private int mTempGuding;
-	private int mTempJiejing;
-	private int mTempDianjiu;
-	private int mTempChengzhong;
+	private int mTempRanSe; //染色
+	private int mTempGuding; //固定
+	private int mTempJiejing; //结晶紫
+	private int mTempDianjiu; //碘酒
+	private int mTempChengzhong; //称重
 	
 	public WorkSiteView(Context context) {
 		super(context);
@@ -86,8 +87,6 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 			}
 		});
 
-		Tool.setTextType(this, R.id.btn_sure, Constant.FONT_TYPE_FANGZ);
-		Tool.setTextType(this, R.id.btn_cancel, Constant.FONT_TYPE_FANGZ);
 		Button sure = (Button) Tool.setTextType(this, R.id.btn_sure, Constant.FONT_TYPE_FANGZ);
 		Button cancel = (Button) Tool.setTextType(this, R.id.btn_cancel, Constant.FONT_TYPE_FANGZ);
 		
@@ -142,7 +141,8 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	}
 	
 	public void save(){
-		//检查处于连接状态（不检查的话如果也可用设置，那么首页Star的时候就需要加上同步参数操作）
+		//检查处于连接状态（不检查的话如果也可用设置，那么首页Start的时候就需要加上同步参数操作）
+		Log.e("Real", "save 结晶 ="+mTempJiejing+"碘酒 = " + mTempDianjiu);
 		Global.mRanSeHouDu = mTempRanSe;
 		Global.mGuDingQDState = mTempGuding;
 		Global.mJieJingZiLev = mTempJiejing;
@@ -191,11 +191,11 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		mIsHit = false;
 		
 		mTempRanSe = Global.mRanSeHouDu;
+		mTempGuding = Global.mGuDingQDState;
 		mTempJiejing = Global.mJieJingZiLev;
 		mTempDianjiu = Global.mDianJiuLev;
-		mTempDianjiu = Global.mGuDingQDState;
 		mTempChengzhong = Global.mChengZhong;
-		
+
 		mRanSeText.setText(getContext().getResources().getStringArray(R.array.site_btn_ranses)[Global.mRanSeHouDu]);
 		mJieJingText.setText(getContext().getResources().getStringArray(R.array.site_btn_jiejings)[Global.mJieJingZiLev]);
 		mDianJiuText.setText(getContext().getResources().getStringArray(R.array.site_btn_dianjius)[Global.mDianJiuLev]);
@@ -289,53 +289,41 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View view, int option, long arg3) {
 		if(mPopupWindow != null)mPopupWindow.dismiss();
-		//if(!mIsChange)mIsChange = true;
-		
+
 		if(mCurrentView == null) return;
 		((TextView)mCurrentView.findViewWithTag("btntxt")).setText(mArray[option]);
 		
-		//String key = "";
 		switch (mCurrentView.getId()) {
 		case R.id.btn_site_ransehoudu_text:
 			if(option != mTempRanSe){
 				mTempRanSe = option;
 				mIsChange = true;
 			}
-			//Global.mRanSeHouDu = option;
-			//key = Global.DATA_RANSE_NAME;
 			break;
 		case R.id.btn_site_gudingqidong_text:
 			if(option != mTempGuding){
 				mTempGuding = option;
 				mIsChange = true;
 			}
-			//Global.mGuDingQDState = option;
-			//key = Global.DATA_GUDING_NAME;
 			break;
 		case R.id.btn_site_jiejingzi_text:
 			if(option != mTempJiejing){
 				mTempJiejing = option;
 				mIsChange = true;
 			}
-			//Global.mJieJingZiLev = option;
-			//key = Global.DATA_JIEJING_NAME;
 			break;
 		case R.id.btn_site_dianjiutiaozheng_text:
 			if(option != mTempDianjiu){
 				mTempDianjiu = option;
 				mIsChange = true;
 			}
-			//Global.mDianJiuLev = option;
-			//key = Global.DATA_DIANJIU_NAME;
 			break;
 		case R.id.btn_site_chenzhongqidong_text:
 			if(option != mTempChengzhong){
 				mTempChengzhong = option;
 				mIsChange = true;
 			}
-			//Global.mChengZhong = option;
-			//key = Global.DATA_CHENGZHOGN_NAME;
-			break;	
+			break;
 		default:
 			break;
 		}
