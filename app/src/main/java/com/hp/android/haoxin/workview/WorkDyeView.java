@@ -6,6 +6,7 @@ import android.view.View;
 
 import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
+import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.request.iRequest;
 import com.hp.android.haoxin.widgets.CustomDialog;
 
@@ -56,7 +57,7 @@ public class WorkDyeView extends WorkCleanView implements iRequest {
 	/** 实现接口方法 */
 	@Override
 	public void onRequest() {
-		final CustomDialog devFillDialog = CustomDialog.createHintDialog(getContext(),R.string.dialog_msg_dev_fill_request);
+		final CustomDialog devFillDialog = CustomDialog.createHintDialog(getContext(), R.string.dialog_msg_dev_fill_request);
 		devFillDialog.setHintMsg(R.string.dialog_msg_hint_liulutianchong);
 		devFillDialog.setPositiveButton("继续", new OnClickListener() {
 			@Override
@@ -70,16 +71,25 @@ public class WorkDyeView extends WorkCleanView implements iRequest {
 		devFillDialog.setNegativeListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				cancelListener();
+				cancelFill();
 				devFillDialog.dismiss();
 			}
 		});
 		devFillDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
 			@Override
 			public void onCancel(DialogInterface dialogInterface) {
-				cancelListener();
+				cancelFill();
 				devFillDialog.dismiss();
 			}
 		});
+	}
+
+	/**
+	 * 取消填充操作
+	 */
+	private void cancelFill() {
+		Global.getSystemStateBean().setStatDevFilled(getContext().getResources().getInteger(R.integer.stat_no)); //设置状态填充未完成
+		CommandBridge.getInstance().linkFillCancel(); //发送取消的命令 15/11/05
+		cancelListener();
 	}
 }
