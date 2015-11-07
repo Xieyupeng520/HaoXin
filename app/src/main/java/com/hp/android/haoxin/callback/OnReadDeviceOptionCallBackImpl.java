@@ -119,8 +119,7 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                 return;
             }
             // TODO: 15/9/3 流量监测完成toast，还差区分ABCDE和模式/流量
-            CommandBridge.getInstance().showToast("检测完成！");
-            CommandBridge.getInstance().dismissProgressDialog();
+            CommandBridge.getInstance().linkJianCeFinish();
             break;
         case RPT_OP_PROGRESS:
             break;

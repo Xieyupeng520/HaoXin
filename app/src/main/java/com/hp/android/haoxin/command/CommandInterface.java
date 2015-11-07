@@ -11,15 +11,7 @@ public interface CommandInterface {
 	public void receiveData();
 	public void showToast(String text);
 
-	/**
-	 * 显示转圈圈
-	 */
-	public void showProgressDialog(final int resId, final Context context);
 
-	/**
-	 * 取消转圈圈
-	 */
-	public void dismissProgressDialog();
 	/**
 	 * 显示异常对话框
 	 * @param resId 显示资源id
@@ -50,7 +42,11 @@ public interface CommandInterface {
 	 * @param keyMode 0按下，1弹起
 	 */
 	public void systemJianCeChange(byte type, byte key, byte keyMode);
-	
+
+	/**
+	 * 系统维护模块，模式、流量检测结束
+	 */
+	public void systemJianCeFinish();
 	/**
 	 * 流路检测模块，当前的步数
 	 * @param step 当前步数(从1开始算步数，0为取消)

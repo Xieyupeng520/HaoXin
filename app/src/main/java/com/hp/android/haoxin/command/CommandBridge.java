@@ -58,16 +58,6 @@ public class CommandBridge {
 			mInterface.showExceptionDialog(resId, context);
 		}
 	}
-	public void showProgressDialog(int resId, Context context) {
-		if (mInterface != null) {
-			mInterface.showProgressDialog(resId, context);
-		}
-	}
-	public void dismissProgressDialog() {
-		if (mInterface != null) {
-			mInterface.dismissProgressDialog();
-		}
-	}
 
 	/**
 	 * 重置系统状态为{@link com.hp.android.haoxin.global.GlobalState}中的HOME
@@ -128,6 +118,14 @@ public class CommandBridge {
 		mInterface.systemJianCeChange(type, key, keyMode);
 	}
 
+	/**
+	 * 系统维护，模式检测/流量检测完成时
+	 */
+	public void linkJianCeFinish() {
+		if (mInterface != null) {
+			mInterface.systemJianCeFinish();
+		}
+	}
 	/**
 	 * 染色开始前，传递设置的载玻片数到硬件
 	 * 

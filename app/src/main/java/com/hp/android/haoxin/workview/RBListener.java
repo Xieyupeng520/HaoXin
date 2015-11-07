@@ -101,7 +101,6 @@ public class RBListener implements OnTouchListener {
 		}
 		if (!(type == 1 && keyMode == 0)) { //当为流量检测时，按下不发送报文（弹起发送）
 			CommandBridge.getInstance().linkJianCeChange(type, key, keyMode);
-			CommandBridge.getInstance().showProgressDialog(0, mContext);
 		}
 	}
 	private Context mContext;

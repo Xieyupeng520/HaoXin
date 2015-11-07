@@ -123,8 +123,8 @@ public class RealCommand extends TestCommand {
      *                                             *
      ***********************************************/
     public ProgressDialog progressDialog = null;
-    @Override
-    public void showProgressDialog(int resId, Context context) {
+
+    protected void showProgressDialog(int resId, Context context) {
         if (context == null) {
             Log.e("RealCommand", "showProgressDialog context is null");
         }
@@ -141,8 +141,8 @@ public class RealCommand extends TestCommand {
         progressDialog.show();
     }
 
-    @Override
-    public void dismissProgressDialog() {
+
+    protected void dismissProgressDialog() {
         if (progressDialog != null) {
             progressDialog.dismiss();
         }
@@ -528,6 +528,7 @@ public class RealCommand extends TestCommand {
         if (!getViewController().checkConnect(false)) {
             return;
         }
+        showProgressDialog(0, mContext); //显示进度条
 		super.systemJianCeChange(type, key, keyMode);
         Global.setState(GlobalState.CHECK_ABCDE); //FIXME:并没有区分式模式检测还是流量检测，后面也一样
 		try {
@@ -542,6 +543,16 @@ public class RealCommand extends TestCommand {
 		}
         Test.testJianCe();
 	}
+
+    /**
+     * 系统维护，模式检测/流量检测完成
+     */
+    @Override
+    public void systemJianCeFinish() {
+        showToast("检测完成！");
+        dismissProgressDialog();
+    }
+
     /***********************************************\
      *                                             *
      *                    异常                     *
