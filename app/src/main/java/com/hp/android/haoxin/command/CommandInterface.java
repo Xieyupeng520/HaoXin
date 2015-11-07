@@ -5,11 +5,11 @@ import android.content.Context;
 
 public interface CommandInterface {
 	
-	public void usbOTGinit();
-	public void usbClose();
-	public void sendData();
-	public void receiveData();
-	public void showToast(String text);
+	void usbOTGinit();
+	void usbClose();
+	void sendData();
+	void receiveData();
+	void showToast(String text);
 
 
 	/**
@@ -17,23 +17,23 @@ public interface CommandInterface {
 	 * @param resId 显示资源id
 	 * @param context 显示dialog需要的上下文
 	 */
-	public void showExceptionDialog(final int resId, final Context context);
+	void showExceptionDialog(final int resId, final Context context);
 
 	/**
 	 * 重置系统状态
 	 */
-	public void resetState();
+	void resetState();
 	/**
 	 * 加载模块，程序启动时触发
 	 * @param context 传入上下文（创建Dialog需要用Activity的上下文）
 	 */
-	public void loadingStart(Context context);
+	void loadingStart(Context context);
 	
 	/**
 	 * 染色模块，设置染色载玻片的数目变化时触发
 	 * @param number 载玻片的数目，范围为1~12
 	 */
-	public void dyeSetZaiBoPian(int number);
+	void dyeSetZaiBoPian(int number);
 
 	/**
 	 * 系统维护模块，模式、流量检测值发生改变时触发
@@ -41,34 +41,34 @@ public interface CommandInterface {
 	 * @param index 新的模式检测的值0~4（对应A-E）
 	 * @param keyMode 0按下，1弹起
 	 */
-	public void systemJianCeChange(byte type, byte key, byte keyMode);
+	void systemJianCeChange(byte type, byte key, byte keyMode, Context context);
 
 	/**
 	 * 系统维护模块，模式、流量检测结束
 	 */
-	public void systemJianCeFinish();
+	void systemJianCeFinish();
 	/**
 	 * 流路检测模块，当前的步数
 	 * @param step 当前步数(从1开始算步数，0为取消)
 	 */
-	public void liuluNext(int step);
+	void liuluNext(int step);
 	/**
 	 * 流路检测模块，流路检测取消步凑变时触发
 	 * @param step 取消的步凑1~5
 	 */
-	public void liuluCancel(int step);
+	void liuluCancel(int step);
 
 	/**
 	 * 称重检测模块，当前的步数
 	 * @param step 当前步数(从1开始算步数，0为取消)
 	 */
-	public void weighNext(int step);
+	void weighNext(int step);
 	
 	/**
 	 * 称重校验模块，称重校验取消步凑变时触发
 	 * @param step 取消的步凑1~4
 	 */
-	public void chengzhongCancel(int step);
+	void chengzhongCancel(int step);
 	
 	
 	
@@ -80,7 +80,7 @@ public interface CommandInterface {
 	 * @param dianjiu 碘酒调整，范围：0-2，分别表示高、中、低
 	 * @param chengzhong 称重启动终止，值：0,1，分别表示关闭、开启
 	 */
-	public void siteDates(int ranse, int guding, int jiejing, int dianjiu,int chengzhong);
+	void siteDates(int ranse, int guding, int jiejing, int dianjiu, int chengzhong);
 
 	/**
 	 * 参数设置模块，当参数设置发生变化时触发
@@ -91,52 +91,52 @@ public interface CommandInterface {
 	 * @param iodine 碘酒选择（00：关闭 01：普通 02：高效）
 	 * @param weigh 称重使能选择（00：关闭 01：启动）
 	 */
-	public void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh);
+	void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh);
 	
 	/**
 	 * 通知硬件开始染色，染色开始时触发
 	 */
-	public void dyeStart(Context context);
+	void dyeStart(Context context);
 
 	
 	
 	/**
 	 * 通知硬件开始清洗，开始清洗时触发
 	 */
-	public void cleanStart(Context context);
+	void cleanStart(Context context);
 	
 	
 	
 	/**
 	 * 通知硬件开始填充，开始填充时触发
 	 */
-	public void fillStart(Context context);
+	void fillStart(Context context);
 	
 	
 	/**
 	 * 通知硬件取消染色，取消染色时触发
 	 */
-	public void dyeCancel();
+	void dyeCancel();
 	
 	
 	/**
 	 * 通知硬件取消清洗，取消清洗时触发
 	 */
-	public void cleanCancel();
+	void cleanCancel();
 	
 	
 	/**
 	 * 通知硬件取消填充，取消填充时触发
 	 */
-	public void fillCancel();
+	void fillCancel();
 
 	/**
 	 * 离心开始
 	 */
-	public void centrifugalStart(Context context);
+	void centrifugalStart(Context context);
 
 	/**
 	 * 取消离心
 	 */
-	public void centrifugalCancel();
+	void centrifugalCancel();
 }

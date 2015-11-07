@@ -523,13 +523,13 @@ public class RealCommand extends TestCommand {
 	 * @param index 新的模式检测的值0~4（对应A-E）
 	 * @param keyMode 0按下，1弹起
 	 */
-	public void systemJianCeChange(byte type, byte key, byte keyMode) {
+	public void systemJianCeChange(byte type, byte key, byte keyMode, Context context) {
 //        检测连接
-        if (!getViewController().checkConnect(false)) {
-            return;
-        }
-        showProgressDialog(0, mContext); //显示进度条
-		super.systemJianCeChange(type, key, keyMode);
+//        if (!getViewController().checkConnect(false)) {
+//            return;
+//        }
+        showProgressDialog(0, context); //显示进度条
+		super.systemJianCeChange(type, key, keyMode, context);
         Global.setState(GlobalState.CHECK_ABCDE); //FIXME:并没有区分式模式检测还是流量检测，后面也一样
 		try {
 			if (type == 0) {

@@ -112,10 +112,11 @@ public class CommandBridge {
 	 * @param type 检测类型：1表示流量检测，0表示模式检测
 	 * @param key 模式检测的方案范围0~4(对应A~E)
 	 * @param keyMode 0按下，1弹起
+	 * @param context 用于显示进度条dialog
 	 */
-	public void linkJianCeChange(byte type, byte key, byte keyMode) {
+	public void linkJianCeChange(byte type, byte key, byte keyMode, Context context) {
 		if (mInterface != null)
-		mInterface.systemJianCeChange(type, key, keyMode);
+		mInterface.systemJianCeChange(type, key, keyMode, context);
 	}
 
 	/**

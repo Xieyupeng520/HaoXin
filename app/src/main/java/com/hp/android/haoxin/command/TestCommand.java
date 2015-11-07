@@ -214,7 +214,7 @@ public void showExceptionDialog(final int resId, final Context context){
 	 * @param index 新的模式检测的值0~4（对应A-E）
 	 * @param keyMode 0按下，1弹起
 	 */
-	public void systemJianCeChange(byte type, byte key, byte keyMode) {
+	public void systemJianCeChange(byte type, byte key, byte keyMode, Context context) {
 		String ty = type == 0 ? "模式检测":"流量检测";
 		showToast(ty);
 	}

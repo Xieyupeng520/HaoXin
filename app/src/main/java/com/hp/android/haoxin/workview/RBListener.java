@@ -100,7 +100,7 @@ public class RBListener implements OnTouchListener {
 				return; //按钮不正确
 		}
 		if (!(type == 1 && keyMode == 0)) { //当为流量检测时，按下不发送报文（弹起发送）
-			CommandBridge.getInstance().linkJianCeChange(type, key, keyMode);
+			CommandBridge.getInstance().linkJianCeChange(type, key, keyMode, mContext);
 		}
 	}
 	private Context mContext;
