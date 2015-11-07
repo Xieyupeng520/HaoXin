@@ -177,8 +177,6 @@ public class CommandBridge {
 	
 	/**
 	 * 开始染色，通知硬件染色开始
-	 * @author Administrator
-	 *
 	 */
 	public void linkRanseStart(Context context){
 		if (mInterface != null)
@@ -188,8 +186,6 @@ public class CommandBridge {
 	
 	/**
 	 * 开始清洗，通知硬件清洗开始
-	 * @author Administrator
-	 *
 	 */
 	public void linkCleanStart(Context context){
 		if (mInterface != null)
@@ -199,8 +195,6 @@ public class CommandBridge {
 	
 	/**
 	 * 开始填充，通知硬件填充开始
-	 * @author Administrator
-	 *
 	 */
 	public void linkFillStart(Context context){
 		if (mInterface != null)
@@ -300,8 +294,6 @@ public class CommandBridge {
 		/**
 		 * 圆盘（染色、清洗、填充）模块，设置进度条值
 		 * @param progress 当前进度值
-		 * @param title 当前操作标题
-		 * @param des 当前操作内容
 		 */
 		public void workSetProgress(int progress) {
 			if(getCurrentCleanView() != null){
@@ -322,7 +314,6 @@ public class CommandBridge {
 		
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块，碰头喷射
-		 * @param color 盘子上的颜色（逐渐加深），-1表示这次不设置颜色
 		 * @param index 喷头的编号，从下往上依次为0-5
 		 * @param isClean 是否为清洗阶段，因为A、B、C三个喷头在清洗和填充阶段喷射效果不一样。·
 		 *                true为喷出白色效果，false为其他颜色
@@ -349,8 +340,7 @@ public class CommandBridge {
 		 * @param color 盘子上的颜色，16进制，格式为argb（例如：0xff00bb99）
 		 * @param duration 颜色透明度渐变持续时间，单位毫秒
 		 * @param fromAlpha 颜色透明度起始值 0-255
-		 * @param toAlpht 颜色透明度终止值 0-255
-		 * 
+		 *
 		 */
 		public void workStartDiskColorAnimation(int color,int duration,float fromAlpha,float toAlpha){
 			if(getCurrentCleanView() != null){

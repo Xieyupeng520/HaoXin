@@ -97,7 +97,7 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 			 * UsbSerialProber.acquire(manager);
 			 */
 			byte buffer[] = new byte[1000];
-			buffer = "buffer".toString().getBytes();
+			buffer = "buffer".getBytes();
 			// buffer = textbox_send.getText().toString().getBytes("gb2312");
 			driver.write(buffer, 1000);
 			// Log.d(TAG, "Read " + numBytesRead + " bytes.");
@@ -126,10 +126,7 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 	}	
 	
 	
-/**
- * 
- * @param text
- */
+
 public void showToast(final String text){
 	//LogoActivity.handler.post(new Runnable() {
 	runOnUiThread(new Runnable() {
