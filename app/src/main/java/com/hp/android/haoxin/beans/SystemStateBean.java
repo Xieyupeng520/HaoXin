@@ -126,18 +126,32 @@ public class SystemStateBean {
     }
 
     /**
-     * @return 获得试剂不足的信息提示
+     * 试剂i是否充足。i范围：0-4 == A-E
      */
-    public String getReagentExceptionMessage() {
-        String msg = "";
-        int i = 0;
-        for (int statReagent : mStatReagent) {
-            if (statReagent == STAT_NO) {
-                msg += mStatReagentName[i];
-            }
-            i++;
-        }
-        return msg;
+    public boolean isReagentEnough(int i) {
+        return (mStatReagent[i] == 1);
+    }
+//    /**
+//     * @return 获得所有试剂不足的信息提示
+//     */
+//    public String getReagentExceptionMessage() {
+//        String msg = "";
+//        int i = 0;
+//        for (int statReagent : mStatReagent) {
+//            if (statReagent == STAT_NO) {
+//                msg += mStatReagentName[i];
+//            }
+//            i++;
+//        }
+//        return msg;
+//    }
+
+    /**
+     * 获取单个试剂名称
+     * @param index 试剂所在下标
+     */
+    public String getReagentString(int index) {
+        return mStatReagentName[index];
     }
     public int getStatAReagent() {
         return mStatAReagent;

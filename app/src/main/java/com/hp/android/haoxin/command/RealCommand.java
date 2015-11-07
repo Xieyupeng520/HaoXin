@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.hp.android.haoxin.R;
+import com.hp.android.haoxin.beans.CheckReagentStateBean;
 import com.hp.android.haoxin.callback.OnConnectedCallBack;
 import com.hp.android.haoxin.callback.OnConnectedCallBackImpl;
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBack;
@@ -525,9 +526,9 @@ public class RealCommand extends TestCommand {
 	 */
 	public void systemJianCeChange(byte type, byte key, byte keyMode, Context context) {
 //        检测连接
-//        if (!getViewController().checkConnect(false)) {
-//            return;
-//        }
+        if (!getViewController().checkConnect(false)) {
+            return;
+        }
         if (type == 1) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
             showProgressDialog(0, context);
         }
@@ -561,16 +562,16 @@ public class RealCommand extends TestCommand {
      *                                             *
      ***********************************************/
     /**
-     * 以及检查过试剂是否充足（当弹出试剂是否充足的选项框时,按继续就不需要再检查了）
+     * 已经检查过试剂是否充足（当弹出试剂是否充足的选项框时,按继续就不需要再检查了）
      */
-    private boolean hasCheckedReagent = false;
+    private CheckReagentStateBean checkReagentStateBean = new CheckReagentStateBean();
     /**
      * 检测清洗/染色/填充工作是否正常
      * @param which 1 染色；2 清洗；3 填充；4 离心
      * return pass正常，false不正常
      */
     private boolean checkWork(Context context, int which) {
-        //// FIXME: 15/9/26 门打开异常-测试
+        // FIXME: 15/9/26 门打开异常-测试-若被注释需要打开
 //    	if (!Global.getSystemStateBean().isDoorClosed()) {
 //            Log.e(TAG, "门打开，异常。");
 //            workFailed(context, R.string.exception_top_cover_opened, which);
@@ -580,17 +581,34 @@ public class RealCommand extends TestCommand {
         if (which == TAG_CENTRIFUGAL) { //离心不需要判断试剂
             return true;
         }
-        if (!hasCheckedReagent && !Global.getSystemStateBean().isReagentEnough()) {
+        //检查试剂
+        if (!checkReagent(context, which)) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * 检测试剂状态是否正常
+     */
+    private boolean checkReagent(Context context, int which) {
+        //如果全部冲剂都充足，则直接返回true
+        if (Global.getSystemStateBean().isReagentEnough()) {
+            Log.d(TAG, "全部试剂补给，正常。");
+            return true;
+        }
+        if (!checkReagentStateBean.checkCurrentReagent()) {
             Log.e(TAG, "试剂补给，异常。");
-            hasCheckedReagent = true;
-            String msg = Global.getSystemStateBean().getReagentExceptionMessage() + mContext.getResources().getString(R.string.exception_reagent_not_enough);
+            String msg = checkReagentStateBean.getErrorReagentName() + mContext.getResources().getString(R.string.exception_reagent_not_enough);
             workFailed(context, msg, which);
             return false;
         }
         Log.d(TAG, "试剂补给，正常。");
-        hasCheckedReagent = false; //检查试剂状态 恢复初始化
+        checkReagentStateBean.resetAllCheckedReagent(); //检查试剂状态 恢复初始化
         return true;
     }
+
     /**
      * 清洗，染色，填充，离心条件不满足,显示提示信息给用户
      */
@@ -599,7 +617,8 @@ public class RealCommand extends TestCommand {
         hintDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialogInterface) {
-                hasCheckedReagent = false; //重置检查试剂
+                //重置检查试剂
+                checkReagentStateBean.resetAllCheckedReagent();
                 hintDialog.dismiss();
                 mCommand.call.workFinish(false);
             }
@@ -628,7 +647,8 @@ public class RealCommand extends TestCommand {
         hintDialog.setNegativeListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hasCheckedReagent = false; //重置检查试剂
+                //重置检查试剂
+                checkReagentStateBean.resetAllCheckedReagent();
                 hintDialog.dismiss();
                 mCommand.call.workFinish(false);
             }

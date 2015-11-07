@@ -165,7 +165,6 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
      * @param data 设置进度信息
      */
     private void setProgress(byte[] data) {
-        Log.e("Real", "setProgress - " + data[1] + "last" + lastProgressResponse);
         if (lastProgressResponse != data[1]) { //和上一次命令不一样时（否则相同参数动画不连贯）
             call.workStopAllSpout();
             call.workStartDiskColorAnimation(colors[data[1] % 5], 2000, 0, 180); //颜色渐变
