@@ -528,7 +528,9 @@ public class RealCommand extends TestCommand {
 //        if (!getViewController().checkConnect(false)) {
 //            return;
 //        }
-        showProgressDialog(0, context); //显示进度条
+        if (type == 1) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
+            showProgressDialog(0, context);
+        }
 		super.systemJianCeChange(type, key, keyMode, context);
         Global.setState(GlobalState.CHECK_ABCDE); //FIXME:并没有区分式模式检测还是流量检测，后面也一样
 		try {
