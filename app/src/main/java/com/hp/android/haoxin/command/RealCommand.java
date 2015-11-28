@@ -604,7 +604,7 @@ public class RealCommand extends TestCommand {
             workFailed(context, msg, which);
             return false;
         }
-        Log.d(TAG, "试剂补给，正常。");
+        Log.d(TAG, "试剂补给，验证通过。");
         checkReagentStateBean.resetAllCheckedReagent(); //检查试剂状态 恢复初始化
         return true;
     }

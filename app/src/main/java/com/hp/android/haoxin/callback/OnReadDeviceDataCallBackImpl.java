@@ -92,9 +92,6 @@ public class OnReadDeviceDataCallBackImpl implements OnReadDeviceDataCallBack {
                 break;
             case RPT_DEV_STATUS:
             	Global.getSystemStateBean().setStatDevLid(data[0]);
-//            	{
-//            		commandBridge.showToast("!!!收到了系统状态数据：门状态："+data[0]);
-//            	}
             	Global.getSystemStateBean().setStatAReagent(data[1]);
             	Global.getSystemStateBean().setStatBReagent(data[2]);
             	Global.getSystemStateBean().setStatCReagent(data[3]);

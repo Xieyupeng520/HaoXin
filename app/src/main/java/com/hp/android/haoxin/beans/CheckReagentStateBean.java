@@ -40,7 +40,7 @@ public class CheckReagentStateBean {
      */
     public boolean checkCurrentReagent() {
         Log.i("CheckReagentStateBean", "checkCurrentReagent " + index);
-        //index指针已经超过了所指范围，这里允许通过
+        //index指针已经超过了所指范围，说明已经全部检查过了，这里允许通过
         if (index >= hasCheckedReagent.length) {
             Log.d("CheckReagentStateBean", "index 超出范围：index is " + index + ",lenght is " + hasCheckedReagent.length);
             return true;
@@ -52,13 +52,13 @@ public class CheckReagentStateBean {
 
             if (hasCheckedReagent[i]) { //如果当前试剂已经检查过，就跳到下一试剂
                 Log.d("CheckReagentStateBean", "当前试剂（"+getReagentString(i)+"）已经检查过，检查下一试剂");
-                break;
+                continue;
             }
 
             hasCheckedReagent[i] = true; //表示检查过了
 
             if (Global.getSystemStateBean().isReagentEnough(i)) {
-                Log.i("CheckReagentStateBean", getReagentString(index) + "试剂充足");
+                Log.i("CheckReagentStateBean", getReagentString(i) + "试剂充足");
                 continue;
             } else {
                 setErrorReagent(i);

@@ -2,11 +2,11 @@
 <resources>
     <!-- 系统状态初始化设定 -->
     <integer name="stat_dev_lid_init_data">1</integer>
-    <integer name="stat_a_reagent_init_data">0</integer>
+    <integer name="stat_a_reagent_init_data">1</integer>
     <integer name="stat_b_reagent_init_data">0</integer>
-    <integer name="stat_c_reagent_init_data">0</integer>
+    <integer name="stat_c_reagent_init_data">1</integer>
     <integer name="stat_d_reagent_init_data">0</integer>
-    <integer name="stat_e_reagent_init_data">0</integer>
+    <integer name="stat_e_reagent_init_data">1</integer>
     <integer name="stat_dev_filled_init_data">0</integer>
 
     <integer name="stat_yes">1</integer>

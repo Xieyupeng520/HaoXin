@@ -131,20 +131,6 @@ public class SystemStateBean {
     public boolean isReagentEnough(int i) {
         return (mStatReagent[i] == 1);
     }
-//    /**
-//     * @return 获得所有试剂不足的信息提示
-//     */
-//    public String getReagentExceptionMessage() {
-//        String msg = "";
-//        int i = 0;
-//        for (int statReagent : mStatReagent) {
-//            if (statReagent == STAT_NO) {
-//                msg += mStatReagentName[i];
-//            }
-//            i++;
-//        }
-//        return msg;
-//    }
 
     /**
      * 获取单个试剂名称
