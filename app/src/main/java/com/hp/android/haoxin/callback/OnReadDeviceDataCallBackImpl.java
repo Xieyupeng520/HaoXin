@@ -52,7 +52,10 @@ public class OnReadDeviceDataCallBackImpl implements OnReadDeviceDataCallBack {
             readOptionCallBack.setContext(context);
         }
     }
-    
+
+    /**
+     * 处理接收到的异常消息
+     */
     private void disposeException (byte data) {
     	GlobalException exception = new GlobalException(data);
     	int id = 0;

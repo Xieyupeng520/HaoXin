@@ -172,6 +172,18 @@ public class TestCmd {
                 getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_RESPONSE);
             }
         };
-        handler.postDelayed(runnable,3000);
+        handler.postDelayed(runnable, 3000);
+    }
+
+    public void testDisposeException() {
+        final Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                byte[] data = new byte[]{Response.Exception.WEIGHING_EXCEPTION};
+                getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_DEV_EXCEPTION);
+            }
+        };
+        handler.postDelayed(runnable, 3000);
     }
 }

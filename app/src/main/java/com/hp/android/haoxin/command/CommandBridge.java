@@ -373,6 +373,7 @@ public class CommandBridge {
 		public void workFinish(boolean isFinished){
 			if(getCurrentCleanView() != null){
 				getCurrentCleanView().getListener().finish(isFinished);
+				mInterface.resetState();
 			}
 		}
 		public void maintainFinish() {

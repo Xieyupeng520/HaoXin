@@ -66,15 +66,15 @@ public class RealCommand extends TestCommand {
      *              取消时要做的重置操作              *
      *                                             *
      ***********************************************/
-    public void resetWhenCancel() {
-        resetState();
+    public void resetState() {
+        resetSystemState();
         resetOnReadDeviceOptionCallBackLastProgressResponse();
     }
 
     /**
      * 重置系统状态（HOME）
      */
-    public void resetState() {
+    public void resetSystemState() {
         Global.resetState();
     }
 
@@ -84,6 +84,8 @@ public class RealCommand extends TestCommand {
      *
      * 这里需要重置的原因是：比如清洗，当取消时，lastProgressResponse还为清洗的命令，如果下次又进入清洗的话，
      * 那么就不会执行动画
+     *
+     * 11/28更新：同样，当有异常抛出时，比如清洗的时候出现上盖打开异常，然后下次又进入清洗的话，不会执行清洗动画
      */
     public void resetOnReadDeviceOptionCallBackLastProgressResponse() {
         getReadDeviceCallBack().resetOptionCallBackLastProgressResponse();
@@ -335,10 +337,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
 		mCommand.call.workFinish(false);
-
-        //重置系统状态
-        resetWhenCancel();
-	}
+    }
 
     /***********************************************\
      *                                             *
@@ -364,6 +363,7 @@ public class RealCommand extends TestCommand {
 		}
         // FIXME: 15/8/30 测试清洗报文
         Test.testClean();
+        Test.testDisposeException();
 //        Test.testFinish();
 	}
 
@@ -381,9 +381,6 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         mCommand.call.workFinish(false);
-
-        //重置系统状态
-        resetWhenCancel();
     }
 
     /***********************************************\
@@ -419,6 +416,7 @@ public class RealCommand extends TestCommand {
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
                     Test.testClean();
+                    Test.testDisposeException();
                 }
             } catch (IOException e) {
             e.printStackTrace();
@@ -451,9 +449,6 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         mCommand.call.workFinish(false);
-
-        //重置系统状态
-        resetWhenCancel();
     }
 
     /***********************************************\
@@ -474,7 +469,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/9/9 测试离心接收报文
-//        Test.testClean();
+        Test.testClean();
     }
 
     @Override

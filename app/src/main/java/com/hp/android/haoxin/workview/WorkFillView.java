@@ -6,6 +6,7 @@ import android.util.Log;
 import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.global.Global;
+import com.hp.android.haoxin.test.TestCmd;
 
 /**
  * 填充

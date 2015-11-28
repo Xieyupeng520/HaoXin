@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.global.Global;
+import com.hp.android.haoxin.test.TestCmd;
 import com.hp.android.haoxin.utils.Constant;
 import com.hp.android.haoxin.utils.Tool;
 import com.hp.android.haoxin.widgets.CustomDialog;

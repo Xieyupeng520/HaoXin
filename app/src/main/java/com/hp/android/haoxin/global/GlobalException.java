@@ -46,11 +46,6 @@ public class GlobalException {
      * @return
      */
     private byte getBitOfByteByPos(byte b, byte position) {
-//    	byte[] array = new byte[8];
-    	
-//    	for (int i = 0; i < 8; i++) { 
-//	    	array[i] = (byte)(1 & (b >> position)); 
-//    	}
         return (byte)(1 & (b >> position));
     }
     

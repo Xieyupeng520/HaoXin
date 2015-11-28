@@ -87,4 +87,20 @@ public class Response {
 
         public static final byte PROGRESS_CLEAN_PLUS = 0x10;        //正在清洗(动画:A、B、C、D、E、Df 和 Dr 同时喷)
     }
+
+    /**
+     * 异常_报文
+     */
+    public static class Exception {
+        public static final byte NO_ANY_EXCEPTION = 0x00;                                       //无任何异常
+
+        public static final byte ELECTRIC_SPEED_EXCEPTION = 0x01;                               //电机转速异常(实际转速与参数设置的转速不符)
+        public static final byte T0P_COVER_OPEND_WHILE_DYEING_EXCEPTION = 0x02;                 //设备执行染色过程中,上盖打开
+        public static final byte T0P_COVER_OPEND_WHILE_CLEANING_EXCEPTION  = 0x04;              //设备执行在清洗过程中,上盖打开
+        public static final byte T0P_COVER_OPEND_WHILE_FILLING_EXCEPTION = 0x08;                //设备填充过程中,上盖打开
+        public static final byte T0P_COVER_OPEND_WHILE_CENTRIFUGAL_EXCEPTION = 0x10;            //设备细胞离心过程中,上盖打开
+        public static final byte HEATING_FAILURE_EXCEPTION = 0x20;                              //设备加热失效(启动加热,但是温度无变化)
+        public static final byte DETECT_GLASS_POSITION_FAILURE_EXCEPTION = 0x40;                //设备玻盘零点检测异常
+        public static final byte WEIGHING_EXCEPTION = -0x80;                                    //设备称重异常
+    }
 }

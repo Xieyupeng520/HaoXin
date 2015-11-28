@@ -153,28 +153,25 @@ public void showExceptionDialog(final int resId, final Context context){
 			}
 			final CustomDialog exceptiondDialog = CustomDialog.createExceptionDialog(context, resId);
 			exceptiondDialog.setCancelBtnVisibilty(View.VISIBLE);
+			mCommand.call.workFinish(false);
+
 	        //按返回键时
 			exceptiondDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
 	            @Override
 	            public void onCancel(DialogInterface dialogInterface) {
-	            	exceptiondDialog.dismiss();
-	            	mCommand.call.workFinish(false);
-
+					exceptiondDialog.dismiss();
 	            }
 	        });
 			exceptiondDialog.setPositiveListener(new View.OnClickListener() {
 	            @Override
 	            public void onClick(View view) {
 	            	exceptiondDialog.dismiss();
-	            	mCommand.call.workFinish(false);
 	            }
 	        });
 			exceptiondDialog.setNegativeListener(new View.OnClickListener() {
 	            @Override
 	            public void onClick(View view) {
 	            	exceptiondDialog.dismiss();
-	            	mCommand.call.workFinish(false);
-
 	            }
 	        });
 		}

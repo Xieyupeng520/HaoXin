@@ -69,7 +69,6 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
             }
             CommandBridge.getInstance().showToast("!!!!TYPE="+type+", data="+data[0]);
             call.workFinish(true);
-            resetLastProgressResponse();
             break;
         case RPT_OP_PROGRESS:
             setProgress(data);
@@ -142,7 +141,6 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                 CommandBridge.getInstance().showToast("!!!!TYPE="+type+", data="+data[0]);
                 call.workSetProgress(100);
                 call.workFinish(true);
-                resetLastProgressResponse();
                 break;
             case RPT_OP_PROGRESS:
                 setProgress(data);
@@ -232,7 +230,6 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                     call.workStartRotate(false);
                     break;
                 case Response.Progress.PROGRESS_CLEAN_PLUS:
-                    Log.e("Command", "正在流路清洗");
                     call.workSetProgressText("正在流路清洗 ", "...");
                     call.workStartSpout(SpoutView.A, true);
                     call.workStartSpout(SpoutView.B, true);
