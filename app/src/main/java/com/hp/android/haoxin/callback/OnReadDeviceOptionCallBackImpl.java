@@ -25,6 +25,7 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
     @Override
     public void onReadDeviceData(final byte[] data, final ProtocolType type) {
         call = CommandBridge.getInstance().call;
+        Log.d("OnReadDeviceOption", "当前状态：" + Global.getState());
         mainHandler.post(new Runnable() {
             @Override
             public void run() {

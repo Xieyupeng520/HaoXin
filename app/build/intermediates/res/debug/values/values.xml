@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="STEP">
         <item>第一步：</item>
@@ -69,7 +69,7 @@
         <item>中</item>
         <item>高</item>
     </string-array>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="btn_normal">#e8e8e8</color>
     <color name="btn_oval_noraml">#000000</color>
@@ -94,7 +94,7 @@
     <color name="menu_item_name_selected">#2ed1b6</color>
     <color name="work_base_time">#e8e8e8</color>
     <declare-styleable name="ScaleViewRatio"><attr format="integer" name="scale_ratio_width"/><attr format="integer" name="scale_ratio_height"/></declare-styleable>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">22sp</dimen>
     <dimen name="button_back_margin_b">15dp</dimen>
@@ -119,23 +119,23 @@
     <dimen name="clean_fill_progress_padding_tlr">4dp</dimen>
     <dimen name="clean_fill_progress_w">840dp</dimen>
     <dimen name="diak_spout_margin_l">-80dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
     <eat-comment/>
-    <dimen name="dialog_btn_font">18dp</dimen>
-    <dimen name="dialog_btn_h">40dp</dimen>
-    <dimen name="dialog_btn_margin_b">17dp</dimen>
+    <dimen name="dialog_btn_font">18sp</dimen>
+    <dimen name="dialog_btn_h">31dp</dimen>
+    <dimen name="dialog_btn_margin_b">10dp</dimen>
     <dimen name="dialog_btn_margin_l">22dp</dimen>
-    <dimen name="dialog_btn_w">120dp</dimen>
+    <dimen name="dialog_btn_w">95dp</dimen>
     <dimen name="dialog_extra_msg_margin_b">-42dp</dimen>
     <dimen name="dialog_extra_msg_margin_t">18dp</dimen>
     <dimen name="dialog_extra_text_size">20sp</dimen>
-    <dimen name="dialog_h">170dp</dimen>
+    <dimen name="dialog_h">139dp</dimen>
     <dimen name="dialog_hint_msg_margin_t">5dp</dimen>
     <dimen name="dialog_hint_text_size">12sp</dimen>
-    <dimen name="dialog_msg_font">19dp</dimen>
+    <dimen name="dialog_msg_font">16sp</dimen>
     <dimen name="dialog_msg_margin_t">48dp</dimen>
-    <dimen name="dialog_w">305dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/dimens.xml -->
+    <dimen name="dialog_w">250dp</dimen>
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="home_content_margin_lr">160dp</dimen>
     <dimen name="home_info_content_height">190dp</dimen>
@@ -188,14 +188,14 @@
     <dimen name="liu_chen_progress_w">23dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
     <eat-comment/>
     <dimen name="main_menu_item_height">75dp</dimen>
     <dimen name="main_menu_item_text_font">15sp</dimen>
     <dimen name="main_menu_item_text_margin_top">49dp</dimen>
     <dimen name="main_menu_item_width">104dp</dimen>
     <dimen name="main_menu_width">104dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="radio_wh">50dp</dimen>
     <dimen name="site_btn_list_corner">10dp</dimen>
@@ -248,18 +248,18 @@
     <dimen name="work_head_time_font">19sp</dimen>
     <dimen name="work_head_time_margin_top">8dp</dimen>
     <dimen name="work_head_week_margin_left">11dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/integers.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/integers.xml -->
     <eat-comment/>
-    <integer name="stat_a_reagent_init_data">1</integer>
+    <integer name="stat_a_reagent_init_data">0</integer>
     <integer name="stat_b_reagent_init_data">0</integer>
-    <integer name="stat_c_reagent_init_data">1</integer>
+    <integer name="stat_c_reagent_init_data">0</integer>
     <integer name="stat_d_reagent_init_data">0</integer>
     <integer name="stat_dev_filled_init_data">0</integer>
     <integer name="stat_dev_lid_init_data">1</integer>
-    <integer name="stat_e_reagent_init_data">1</integer>
+    <integer name="stat_e_reagent_init_data">0</integer>
     <integer name="stat_no">0</integer>
     <integer name="stat_yes">1</integer>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="a">A</string>
     <string name="action_settings">Settings</string>
@@ -332,7 +332,7 @@
     <string name="system_tianchong">填充流路</string>
     <string name="waiting">Waiting...</string>
     <string name="week">周%s</string>
-    <!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

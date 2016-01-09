@@ -30,34 +30,12 @@
     <LinearLayout
         style="@style/layout_horizontal"
     	android:layout_height="match_parent"
-    	android:layout_weight="1.65"
+    	android:layout_weight="2"
         android:gravity="center_horizontal"
+        android:layout_marginRight="@dimen/home_content_margin_right"
         android:orientation="vertical">
         
-        <LinearLayout 
-            style="@style/layout_vertical"
-    		android:layout_width="match_parent"
-    		android:layout_weight="1.5"
-    		android:gravity="center_horizontal|bottom"
-            android:orientation="horizontal">
-            
-            <TextView 
-                android:id="@+id/tv_home_slide_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/home_slide_title"
-                android:textSize="@dimen/home_slide_title_font"
-                android:text="载玻片数量"/>
-            
-            <TextView 
-                android:id="@+id/tv_home_slide_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/home_slide_number_margin_left"
-                android:textColor="@color/home_slide_num"
-                android:textSize="@dimen/home_slide_number_font"
-                android:text="09"/>
-        </LinearLayout>
+
         
         <FrameLayout 
             style="@style/layout_vertical_full"
@@ -78,7 +56,7 @@
         <FrameLayout 
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
-    		android:layout_weight="8.3"
+    		android:layout_weight="4.5"
             android:layout_marginTop="@dimen/home_slide_button_margin_top">
             
             <ImageView 
@@ -117,7 +95,32 @@
                android:clickable="false"
                android:background="@drawable/selector_home_button_top"/> -->
         </FrameLayout>
-        
+
+        <LinearLayout
+            style="@style/layout_vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_home_slide_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_slide_title"
+                android:textSize="@dimen/home_slide_title_font"
+                android:text="载玻片数量"/>
+
+            <TextView
+                android:id="@+id/tv_home_slide_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_slide_number_margin_left"
+                android:textColor="@color/home_slide_num"
+                android:textSize="@dimen/home_slide_number_font"
+                android:text="09"/>
+        </LinearLayout>
+
         <FrameLayout 
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
@@ -128,6 +131,7 @@
     		android:layout_height="match_parent"
     		android:layout_weight="3"
             android:paddingTop="@dimen/home_info_marging_top"
+            android:layout_marginLeft="@dimen/home_content_margin_left"
             android:orientation="vertical">
             
             <TextView 
@@ -140,8 +144,10 @@
                 android:text="@string/home_info_title"/>
             
             <LinearLayout
-                style="@style/layout_wrap"
+                android:layout_height="150dp"
+                android:layout_width="200dp"
                 android:layout_marginTop="@dimen/home_info_content_margin_top"
+                android:paddingTop="10dp"
                 android:layout_gravity="right"
                 android:background="@drawable/index_table"
                 android:orientation="vertical">
@@ -149,8 +155,9 @@
                 <!-- 染色厚度 -->
                 <LinearLayout 
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="@dimen/home_info_item_height"
                     android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:layout_marginBottom="@dimen/home_info_item_margin_t"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
                     >
@@ -186,8 +193,9 @@
                 <!-- 结晶紫 -->
                 <LinearLayout 
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="@dimen/home_info_item_height"
                     android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:layout_marginBottom="@dimen/home_info_item_margin_t"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
                     
@@ -221,7 +229,9 @@
                 <!-- 碘酒 -->
                 <LinearLayout 
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="@dimen/home_info_item_height"
+                    android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:layout_marginBottom="@dimen/home_info_item_margin_t"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
                     
@@ -254,7 +264,9 @@
                 <!-- 固定染色终止 -->
                 <LinearLayout 
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="@dimen/home_info_item_height"
+                    android:layout_marginTop="@dimen/home_info_item_margin_t"
+                    android:layout_marginBottom="@dimen/home_info_item_margin_t"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
                     
@@ -277,7 +289,7 @@
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
                         android:textColor="@color/home_info"
-                        android:textSize="@dimen/home_info_content_item_num_font"
+                        android:textSize="@dimen/home_info_content_item_name_font"
                         android:text="1"/>
                     <View 
                         style="@style/layout_horizontal_full"

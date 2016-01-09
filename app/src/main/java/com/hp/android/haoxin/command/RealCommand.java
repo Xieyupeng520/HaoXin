@@ -244,7 +244,7 @@ public class RealCommand extends TestCommand {
             public void onCancel(DialogInterface dialogInterface) {
                 connectFailedDialog.dismiss();
                 connectFailedDialog = null;
-                //FIXME: 8/30 test connect ok
+                //FIXME: 8/30 test connect ok --- 后门进入主页面 --- 可屏蔽也可保留
                 OnConnectedCallBackImpl.getInstance().onConnected(true);
             }
         });
@@ -362,9 +362,9 @@ public class RealCommand extends TestCommand {
 			e.printStackTrace();
 		}
         // FIXME: 15/8/30 测试清洗报文
-        Test.testClean();
-        Test.testDisposeException();
-//        Test.testFinish();
+//        Test.testClean();
+//        Test.testDisposeException();
+        Test.testFinish();
 	}
 
 
@@ -391,6 +391,7 @@ public class RealCommand extends TestCommand {
     @Override
     public void fillStart(Context context) {
         //FIXME: 纠错验证
+        Log.d(TAG, "开始填充前-当前状态：" + Global.getState());
         if (GlobalState.CLEAN != Global.getState()) { //从清洗跳转过来不用再进行判断
             if (!checkWork(context, TAG_FILL)) {
                 return;
@@ -399,7 +400,6 @@ public class RealCommand extends TestCommand {
 
         showToast("开始填充");
         try {
-                Log.d(TAG, "开始填充前-当前状态：" + Global.getState());
                 //设置应用当前状态
                 if (GlobalState.DYE == Global.getState()) {
                     Global.setState(GlobalState.FILL_FROM_DYE);
@@ -469,7 +469,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/9/9 测试离心接收报文
-        Test.testClean();
+//        Test.testClean();
     }
 
     @Override
@@ -498,7 +498,9 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/10/14 测试流路检测
-//        Test.testLiuLuProgress();
+        if (step > 0) {
+            Test.testLiuLuProgress();
+        }
     }
     @Override
     public void weighNext(int step) {
@@ -539,7 +541,7 @@ public class RealCommand extends TestCommand {
 		} catch (Exception e){
 			e.printStackTrace();
 		}
-        Test.testJianCe();
+//        Test.testJianCe();
 	}
 
     /**

@@ -1,8 +1,11 @@
 package com.hp.android.haoxin;
 
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
+import android.view.Display;
 import android.view.ViewGroup.LayoutParams;
 
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBackImpl;
@@ -41,6 +44,14 @@ public class MainActivity extends FragmentActivity {
 		trans.replace(R.id.work_frame, mWorkFragment);
 		
 		trans.commit();
+
+		//获取分辨率 --- 非必要代码
+		Display display = getWindowManager().getDefaultDisplay(); //Activity#getWindowManager()
+		Point size = new Point();
+		display.getSize(size);
+		int width = size.x;
+		int height = size.y;
+		Log.d("MainActivity", "width = " + width + ", height = " + height);
 	}
 
 	@Override

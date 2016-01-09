@@ -143,7 +143,7 @@ public class WorkLiuView extends WorkBaseView{
 
 		mAdapter = new LiuChenAdapter();
 		mListView.setAdapter(mAdapter);
-//		updateUI();
+		updateProgress(0); //初始化恢复进度为0
 		mBackeButton.setEnabled(true);
 	}
 

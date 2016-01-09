@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.global.Global;
+import com.hp.android.haoxin.global.GlobalState;
 import com.hp.android.haoxin.test.TestCmd;
 import com.hp.android.haoxin.utils.Constant;
 import com.hp.android.haoxin.utils.Tool;
@@ -212,6 +213,8 @@ public class WorkCleanView extends WorkBaseView{
 		dialog.setMessage(R.string.dialog_msg_over_clean);
 		dialog.setPositiveListener(new OnClickListener() {
 			public void onClick(View arg0) {
+				//因在CommandBridge中的workFinish方法中调用了resetState()，导致系统状态变为了HOME，这里从清洗跳转至填充界面，需要设置回状态为CLEAN，否则发送的报文不对
+				Global.setState(GlobalState.CLEAN);
 				dialog.dismiss();
 				ViewController controller = ViewController.getInstance();
 				controller.setIdBack2Home(true);
@@ -221,6 +224,8 @@ public class WorkCleanView extends WorkBaseView{
 		dialog.setNegativeListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
+				//因在CommandBridge中的workFinish方法中调用了resetState()，导致系统状态变为了HOME，这里从清洗跳转至填充界面，需要设置回状态为CLEAN，否则发送的报文不对
+				Global.setState(GlobalState.CLEAN);
 				dialog.dismiss();
 				cancelFill();
 			}
@@ -228,6 +233,8 @@ public class WorkCleanView extends WorkBaseView{
 		dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
 			@Override
 			public void onCancel(DialogInterface dialogInterface) {
+				//因在CommandBridge中的workFinish方法中调用了resetState()，导致系统状态变为了HOME，这里从清洗跳转至填充界面，需要设置回状态为CLEAN，否则发送的报文不对
+				Global.setState(GlobalState.CLEAN);
 				dialog.dismiss();
 				cancelFill();
 			}

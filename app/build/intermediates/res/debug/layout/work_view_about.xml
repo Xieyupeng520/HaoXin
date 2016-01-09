@@ -4,76 +4,46 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <RelativeLayout
         style="@style/layout_full"
-        android:gravity="center_horizontal"
-        android:orientation="vertical" >
-
-        <FrameLayout
-            style="@style/layout_vertical"
-            android:layout_width="match_parent"
-            android:layout_weight="1" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            />
-        <FrameLayout
-            style="@style/layout_vertical"
-            android:layout_width="match_parent"
-            android:layout_weight="2" />
-
-        <LinearLayout
-            style="@style/layout_vertical"
-            android:layout_width="match_parent"
-            android:layout_weight="14"
-            android:orientation="horizontal" >
-
-            <FrameLayout
-                style="@style/layout_horizontal"
-                android:layout_height="match_parent"
-                android:layout_weight="1.5" />
-
+        android:gravity="center"
+>
             <LinearLayout
-                style="@style/layout_horizontal"
-                android:layout_height="match_parent"
+                android:layout_height="300dp"
+                android:layout_width="match_parent"
                 android:orientation="vertical"
-                android:layout_weight="7"
+                android:paddingTop="@dimen/about_bottom"
                 android:paddingBottom="@dimen/about_bottom">
                 <TextView
                     android:id="@+id/sw_version_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@color/home_info"
                     android:textSize="@dimen/about_text_font"
-                    android:text="@string/sw_version"/>
+                    android:text="@string/sw_version"
+                    android:gravity="center_horizontal"/>
                 <TextView
                     android:id="@+id/hw_version_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@color/home_info"
                     android:textSize="@dimen/about_text_font"
-                    android:text="@string/hw_version"/>
+                    android:text="@string/hw_version"
+                    android:gravity="center_horizontal"/>
                 <TextView
                     android:id="@+id/fw_version_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="@color/home_info"
                     android:textSize="@dimen/about_text_font"
-                    android:text="@string/fw_version"/>
+                    android:text="@string/fw_version"
+                    android:gravity="center_horizontal"/>
 
             </LinearLayout>
 
-            <FrameLayout
-                style="@style/layout_horizontal"
-                android:layout_height="match_parent"
-                android:layout_weight="1.5" />
-        </LinearLayout>
-    </LinearLayout>
+    </RelativeLayout>
 
-</FrameLayout><!-- From: file:/Users/AZZ/Documents/My%20project/其他项目/2015.8.1haoxin/02_源代码/2015.9.21%20优化代码/HaoXin/app/src/main/res/layout/work_view_about.xml -->
+</FrameLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/layout/work_view_about.xml -->

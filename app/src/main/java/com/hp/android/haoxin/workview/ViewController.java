@@ -151,7 +151,7 @@ public class ViewController {
 		return true;
 	}
 	public void changeView(final int viewId){
-		// FIXME: 15/8/30 屏蔽检查连接
+		// FIXME: 15/8/30 屏蔽检查连接--如果被屏蔽，需要打开
 //		if (!checkConnect(true)) {
 //			return;
 //		}

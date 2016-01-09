@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main_menu -->
+    <dimen name="main_menu_width">104dp</dimen><!-- 138px -->
+    <dimen name="main_menu_item_width">104dp</dimen><!-- 138px -->
+    <dimen name="main_menu_item_height">75dp</dimen><!-- 100px -->
+    <dimen name="main_menu_item_text_font">15sp</dimen><!-- 14px 10dp 7sp -->
+    <dimen name="main_menu_item_text_margin_top">49dp</dimen><!-- 65px -->
+    
+    <!-- dialog -->
+    <dimen name="dialog_w">250dp</dimen><!-- 404px -->
+    <dimen name="dialog_h">139dp</dimen><!-- 174px -->
+    <dimen name="dialog_btn_w">95dp</dimen><!-- 160px -->
+    <dimen name="dialog_btn_h">31dp</dimen><!-- 52px -->
+    <dimen name="dialog_msg_font">16sp</dimen><!-- 26px -->
+    <dimen name="dialog_btn_font">18sp</dimen><!-- 24px -->
+    <dimen name="dialog_btn_margin_l">22dp</dimen><!-- 30px -->
+    <dimen name="dialog_msg_margin_t">48dp</dimen><!-- 30px -->
+    <dimen name="dialog_btn_margin_b">10dp</dimen><!-- 25px -->
+    <dimen name="dialog_extra_msg_margin_t">18dp</dimen><!-- 30px -->
+    <dimen name="dialog_extra_msg_margin_b">-42dp</dimen><!-- 30px -->
+    <dimen name="dialog_extra_text_size">20sp</dimen>
+    <dimen name="dialog_hint_msg_margin_t">5dp</dimen>
+    <dimen name="dialog_hint_text_size">12sp</dimen>
+</resources>
