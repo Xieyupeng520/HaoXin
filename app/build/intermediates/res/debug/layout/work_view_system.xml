@@ -14,7 +14,7 @@
         android:orientation="horizontal">
         <LinearLayout 
             style="@style/layout_horizontal_full"
-            android:layout_weight="2.2"/>
+            android:layout_weight="1.7"/>
     <LinearLayout
         style="@style/layout_horizontal_full"
         android:layout_weight="8"

@@ -79,6 +79,7 @@
     <dimen name="liu_chen_progress_w">18dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
+    <dimen name="radio_wh">35dp</dimen>
     <dimen name="site_btn_list_corner">8dp</dimen>
     <dimen name="site_btn_list_divier_h">0.40dp</dimen>
     <dimen name="site_btn_list_item_font">15dp</dimen>

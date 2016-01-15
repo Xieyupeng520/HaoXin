@@ -524,10 +524,10 @@ public class RealCommand extends TestCommand {
 	 * @param keyMode 0按下，1弹起
 	 */
 	public void systemJianCeChange(byte type, byte key, byte keyMode, Context context) {
-//        检测连接
-        if (!getViewController().checkConnect(false)) {
-            return;
-        }
+        // FIXME:检测连接(如果被关闭要打开）
+//        if (!getViewController().checkConnect(false)) {
+//            return;
+//        }
         if (type == 1) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
             showProgressDialog(0, context);
         }

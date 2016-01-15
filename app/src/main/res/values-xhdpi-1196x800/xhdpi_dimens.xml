@@ -127,4 +127,5 @@
   <dimen name="about_text_font">18sp</dimen>
   <dimen name="success_info_head_font">20sp</dimen>
   <dimen name="success_info_content_font">20sp</dimen>
+  <dimen name="radio_wh">35dp</dimen>
 </resources>
