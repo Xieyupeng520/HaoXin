@@ -59,7 +59,7 @@ public class WorkFillView extends WorkCleanView{
 	protected void finished() {
 		dismissCancelDialog();
 		ViewController controller = ViewController.getInstance();
-		Global.getSystemStateBean().setStatDevFilled(getContext().getResources().getInteger(R.integer.stat_yes)); //设置状态填充已完成
+//		Global.getSystemStateBean().setStatDevFilled(getContext().getResources().getInteger(R.integer.stat_yes)); //设置状态填充已完成
 		if(controller.isBack2Home()){
 			controller.setIdBack2Home(false);
 			ViewController.getInstance().curr2Success(R.string.succ_fill, ViewController.VIEW_HOME);

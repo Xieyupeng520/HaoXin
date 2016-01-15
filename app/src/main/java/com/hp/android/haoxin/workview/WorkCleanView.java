@@ -246,7 +246,7 @@ public class WorkCleanView extends WorkBaseView{
 	 * 取消填充操作
 	 */
 	private void cancelFill() {
-		Global.getSystemStateBean().setStatDevFilled(getContext().getResources().getInteger(R.integer.stat_no)); //设置状态填充未完成
+//		Global.getSystemStateBean().setStatDevFilled(getContext().getResources().getInteger(R.integer.stat_no)); //设置状态填充未完成
 		CommandBridge.getInstance().linkFillCancel(); //发送取消的命令 15/10/14
 		cancelListener();
 	}

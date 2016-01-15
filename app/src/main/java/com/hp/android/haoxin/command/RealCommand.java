@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 
+import com.hp.android.haoxin.LoadingActivity;
+import com.hp.android.haoxin.MainActivity;
 import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.beans.CheckReagentStateBean;
 import com.hp.android.haoxin.callback.OnConnectedCallBack;
@@ -416,7 +418,7 @@ public class RealCommand extends TestCommand {
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
                     Test.testClean();
-                    Test.testDisposeException();
+//                    Test.testDisposeException();
                 }
             } catch (IOException e) {
             e.printStackTrace();

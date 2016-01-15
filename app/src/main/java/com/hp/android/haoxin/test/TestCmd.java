@@ -62,7 +62,7 @@ public class TestCmd {
         runnable = new Runnable() {
             @Override
             public void run() {
-                progress += 1;
+                progress += 4;
                 if (progress < 20) {
                     byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_CLEAN_PLUS, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
