@@ -599,7 +599,7 @@ public class RealCommand extends TestCommand {
         }
         if (!checkReagentStateBean.checkCurrentReagent()) {
             Log.e(TAG, "试剂补给，异常。");
-            String msg = checkReagentStateBean.getErrorReagentName() + mContext.getResources().getString(R.string.exception_reagent_not_enough);
+            String msg = mContext.getResources().getString(R.string.exception_reagent_not_enough, checkReagentStateBean.getErrorReagentName());
             workFailed(context, msg, which);
             return false;
         }

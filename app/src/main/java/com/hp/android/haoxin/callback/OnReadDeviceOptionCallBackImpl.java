@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
+import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.command.CommandInterface;
 import com.hp.android.haoxin.command.RealCommand;
@@ -168,70 +169,70 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
             call.workStopAllSpout();
             call.workStartDiskColorAnimation(colors[data[1] % 5], 2000, 0, 180); //颜色渐变
             switch (data[1]) {
-                case Response.Progress.PROGRESS_JET_RED:
-                    call.workSetProgressText("正在喷射: ", "番红");
+                case Response.Progress.PROGRESS_SAFFRON:
+                    call.workSetProgressText(R.string.clean_jet, R.string.saffron);
                     call.workStartSpout(SpoutView.A, false);
                     break;
                 case Response.Progress.PROGRESS_ALCOHOL:
-                    call.workSetProgressText("正在喷射: ", "酒精固定");
+                    call.workSetProgressText(R.string.clean_jet, R.string.alcohol_fixed);
                     call.workStartSpout(SpoutView.E, false);
                     break;
                 case Response.Progress.PROGRESS_IODINE:
-                    call.workSetProgressText("正在喷射: ", "碘酒");
+                    call.workSetProgressText(R.string.clean_jet, R.string.iodine);
                     call.workStartSpout(SpoutView.B, false);
                     break;
                 case Response.Progress.PROGRESS_CRYSTAL_VIOLET:
-                    call.workSetProgressText("正在喷射: ", "结晶紫");
+                    call.workSetProgressText(R.string.clean_jet, R.string.crystal_violet);
                     call.workStartSpout(SpoutView.C, false);
                     break;
                 case Response.Progress.PROGRESS_CLEAN:
-                    call.workSetProgressText("正在流路清洗 ", "...");
+                    call.workSetProgressText(R.string.progress_clean_flow_path, R.string.etc);
                     call.workStartSpout(SpoutView.DF, true);
                     call.workStartSpout(SpoutView.DR, true);
                     break;
                 case Response.Progress.PROGRESS_FILL:
-                    call.workSetProgressText("正在填充", "...");
+                    call.workSetProgressText(R.string.progress_fill, R.string.etc);
                     call.workStartSpout(SpoutView.A, false);
                     call.workStartSpout(SpoutView.B, false);
                     call.workStartSpout(SpoutView.C, false);
                     break;
                 case Response.Progress.PROGRESS_DRY:
-                    call.workSetProgressText("正在甩干", "...");
+                    call.workSetProgressText(R.string.progress_dry, R.string.etc);
                     call.workStartRotate(true);
                     break;
                 case Response.Progress.PROGRESS_WAIT:
-                    call.workSetProgressText("等待", "...");
+                    call.workSetProgressText(R.string.progress_wait, R.string.etc);
                     call.workStartRotate(false);
                     break;
                 case Response.Progress.PROGRESS_HEAT:
-                    call.workSetProgressText("正在加热", "...");
+                    call.workSetProgressText(R.string.progress_heat, R.string.etc);
                     break;
                 case Response.Progress.PROGRESS_STONE_CARBONATE:
-                    call.workSetProgressText("石碳酸复红", "...");
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_STONE_CARBONATE);
                     call.workStartSpout(SpoutView.A, false);
                     break;
                 case Response.Progress.PROGRESS_ACID_ALCOHOL:
-                    call.workSetProgressText("正在喷射:", "酸性酒精");
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_ACID_ALCOHOL);
                     call.workStartSpout(SpoutView.B, false);
                     break;
                 case Response.Progress.PROGRESS_METHYLENE_BLUE:
-                    call.workSetProgressText("正在喷射:", "亚甲基蓝");
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_METHYLENE_BLUE);
                     call.workStartSpout(SpoutView.C, false);
                     break;
                 case Response.Progress.PROGRESS_RHODAMINE_B:
-                    call.workSetProgressText("正在喷射:", "罗丹明 B");
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_RHODAMINE_B);
                     call.workStartSpout(SpoutView.A, false);
                     break;
                 case Response.Progress.PROGRESS_AURAMINE_O:
-                    call.workSetProgressText("正在喷射:", "金胺 O");
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_AURAMINE_O);
                     call.workStartSpout(SpoutView.A, false);
                     break;
                 case Response.Progress.PROGRESS_CENTRIFUGAL:
-                    call.workSetProgressText("正在细胞离心", "");
+                    call.workSetProgressText(R.string.PROGRESS_CENTRIFUGAL, R.string.etc);
                     call.workStartRotate(false);
                     break;
                 case Response.Progress.PROGRESS_CLEAN_PLUS:
-                    call.workSetProgressText("正在流路清洗 ", "...");
+                    call.workSetProgressText(R.string.PROGRESS_CLEAN_PLUS, R.string.etc);
                     call.workStartSpout(SpoutView.A, true);
                     call.workStartSpout(SpoutView.B, true);
                     call.workStartSpout(SpoutView.C, true);

@@ -14,7 +14,7 @@
         android:orientation="horizontal">
         <LinearLayout 
             style="@style/layout_horizontal_full"
-            android:layout_weight="1.7"/>
+            android:layout_weight="1.7 "/>
     <LinearLayout
         style="@style/layout_horizontal_full"
         android:layout_weight="8"
@@ -239,4 +239,4 @@
         <FrameLayout 
         style="@style/layout_vertical_full"
         android:layout_weight="1"/>
-</LinearLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/layout/work_view_system.xml -->
+</LinearLayout><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/layout/work_view_system.xml -->

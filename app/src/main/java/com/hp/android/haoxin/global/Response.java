@@ -67,7 +67,7 @@ public class Response {
      */
     public static class Progress {
         public static final byte PROGRESS_NONE      = 0x00;         //无
-        public static final byte PROGRESS_JET_RED   = 0x01;         //正在喷射:番红(动画:A 喷射)
+        public static final byte PROGRESS_SAFFRON   = 0x01;         //正在喷射:番红(动画:A 喷射)
         public static final byte PROGRESS_ALCOHOL   = 0x02;         //酒精固定(动画:E 喷射)
         public static final byte PROGRESS_IODINE    = 0x03;         //正在喷射:碘酒(动画:B 喷射)
         public static final byte PROGRESS_CRYSTAL_VIOLET   = 0x04;  //正在喷射:结晶紫(动画:C 喷射)

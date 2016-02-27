@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/spout_aw_1" android:duration="100"></item>  
     <item android:drawable="@drawable/spout_aw_2" android:duration="100"></item>  
 </animation-list>  
-<!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/anim/spout_aw.xml -->
+<!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/anim/spout_aw.xml -->

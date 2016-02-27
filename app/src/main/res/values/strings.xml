@@ -25,18 +25,18 @@
     <!-- exception -->
     <string name="exception_hint">【提示】</string>
     <string name="exception_exception">【异常】</string>
-    <string name="exception_init_not_connected">设备初始化失败，无法建立通信</string>
-    <string name="exception_not_comm_actived">系统通信链路中断</string>
-    <string name="exception_of_electric_speed">设备电机转速异常</string>
+    <string name="exception_init_not_connected">设备初始化失败，请重新启动</string>
+    <string name="exception_not_comm_actived">系统通信链路中断，请重新启动</string>
+    <string name="exception_of_electric_speed">电机转速异常，请联系技术人员</string>
     <string name="exception_top_cover_opened">设备上盖打开，请关闭上盖</string>
-    <string name="exception_top_cover_opened_dyeing">设备上盖打开（染色）</string>
-    <string name="exception_top_cover_opened_cleaning">设备上盖打开（流路清洗）</string>
-    <string name="exception_top_cover_opened_filling">设备上盖打开（流路填充）</string>
-    <string name="exception_top_cover_opened_centrifugal">设备上盖打开（细胞离心）</string>
+    <string name="exception_top_cover_opened_dyeing">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_cleaning">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_filling">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_centrifugal">上盖被打开，请关闭上盖重新开始</string>
     <string name="exception_heating_failure">设备加热失效</string>
-    <string name="exception_detect_glass_position_failure">设备玻盘在位检测失败</string>
+    <string name="exception_detect_glass_position_failure">未检测到载玻盘，请放入载玻盘</string>
     <string name="exception_weighing">设备称重异常</string>
-    <string name="exception_reagent_not_enough">试剂不足，请添加试剂</string>
+    <string name="exception_reagent_not_enough">试剂 %s 不足，请添加试剂</string>
     <!-- string -->
     <string name="dialog_msg_cancel_tianchong">是否取消填充</string>
     <string name="dialog_msg_cancel_ranse">是否取消染色</string>
@@ -45,27 +45,46 @@
     <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string><!-- 称重校验 -->
     <string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string>
     <string name="dialog_msg_hint_liulutianchong">请拿出玻盘样本，完成流路填充</string>
-    <string name="dialog_msg_dev_fill_request">流路未填充，染色前需要进行填充</string>
+    <string name="dialog_msg_dev_fill_request">管路需要填充，载玻片将被污染\n请先移除载玻盘，是否进行填充</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消离心</string>
 
     <string name="dialog_msg_clean_fill">流路清洗完成，是否进行填充</string>
     <!-- home -->
     <string name="home_slide_title">载玻片数量</string>
     <string name="home_info_title">当前设置：</string>
-    <string name="home_info_ranse">染色厚度选择</string>
-    <string name="home_info_jiejing">结晶紫选择</string>
-    <string name="home_info_dianjiu">碘酒调整选择</string>
-    <string name="home_info_guding">酒精固定选择</string>
+    <string name="home_info_ranse">染色厚度</string>
+    <string name="home_info_jiejing">结晶紫</string>
+    <string name="home_info_dianjiu">碘酒</string>
+    <string name="home_info_guding">固定启动终止</string>
     
-    <!-- clean -->
+    <!-- clean progress -->
     <string name="clean_jet">正在喷射：</string>
-    
+
+    <string name="saffron">番红</string>
+    <string name="alcohol_fixed">酒精固定</string>
+    <string name="iodine">碘酒</string>
+    <string name="crystal_violet">结晶紫</string>
+    <string name="PROGRESS_STONE_CARBONATE">石碳酸复红</string>
+    <string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string>
+    <string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string>
+    <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
+    <string name="PROGRESS_AURAMINE_O">金胺 O</string>
+
+    <string name="progress_clean_flow_path">正在流路清洗</string>
+    <string name="progress_fill">正在填充</string>
+    <string name="progress_dry">正在甩干</string>
+    <string name="progress_wait">等待</string>
+    <string name="progress_heat">正在加热</string>
+    <string name="PROGRESS_CENTRIFUGAL">正在细胞离心</string>
+    <string name="PROGRESS_CLEAN_PLUS">正在流路清洗</string>
+    <string name="etc">...</string>
+
     <!-- site -->
-    <string name="site_ranse">染色厚度选择</string>
-    <string name="site_guding">酒精固定选择</string>
-    <string name="site_jiejing">结晶紫选择</string>
-    <string name="site_dianjiu">碘酒调整选择</string>
-    <string name="site_chenzhogn">称重使能选择</string>
+    <string name="site_ranse">染色厚度设置</string>
+    <string name="site_guding">固定启动终止</string>
+    <string name="site_jiejing">结晶紫调整</string>
+    <string name="site_dianjiu">碘酒调整</string>
+    <string name="site_chenzhogn">称重启动终止</string>
     <string name="site_centrifugal">细胞离心</string>
 
     <!-- system -->
@@ -124,7 +143,7 @@
     <string-array name="chenzhong_steps">
         <item>确认严格按照界面提示步骤操作</item>
         <item>请将载玻盘从设备移出</item>
-        <item>请给每个容器内注入500ML试剂</item>
+        <item>请给每个容器内注入50ML试剂</item>
         <item>启动称重校验，大概需要5秒</item>
     </string-array>
     

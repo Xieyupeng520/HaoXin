@@ -294,6 +294,10 @@ public class WorkCleanView extends WorkBaseView{
 			mDesText.setText(des);
 		}
 
+		public void setProgressText(int titleRes, int desRes) {
+			mTitleText.setText(titleRes);
+			mDesText.setText(desRes);
+		}
 		/**
 		 * 圆盘（染色、清洗、填充）模块，开始盘子转动
 		 * @param isoffCenter 是否为离心转动。true为空转，false为离心

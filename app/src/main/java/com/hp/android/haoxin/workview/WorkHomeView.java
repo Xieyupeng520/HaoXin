@@ -82,24 +82,13 @@ public class WorkHomeView extends WorkBaseView{
 		});
 		
 		mBtnView = findViewById(R.id.btn_home_start);
-		mBtnView.setOnTouchListener(new OnTouchListener() {
-			public boolean onTouch(View arg0, MotionEvent event) {
-				int action = event.getAction();
-				switch (action) {
-				case MotionEvent.ACTION_DOWN:
-					findViewById(R.id.btn_home_bottom).setBackgroundResource(R.drawable.index_button_top_touch);
-					break;	
-				case MotionEvent.ACTION_UP:
-					findViewById(R.id.btn_home_bottom).setBackgroundResource(R.drawable.index_button_top);
-					ViewController.getInstance().changeView(ViewController.VIEW_RANSE);
-					break;
-				default:
-					break;
-				}
-				return true;
+		mBtnView.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				ViewController.getInstance().changeView(ViewController.VIEW_RANSE);
 			}
 		});
-		
+
 		mRoteView = findViewById(R.id.rote_home_v);
 		mRoteView.setOnTouchListener(new OnTouchListener() {
 			public boolean onTouch(View view, MotionEvent event) {

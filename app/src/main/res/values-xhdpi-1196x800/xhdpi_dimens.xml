@@ -27,7 +27,7 @@
   <dimen name="home_content_margin_left">66dp</dimen>
   <dimen name="home_info_marging_top">35dp</dimen>
   <dimen name="home_info_title_font">16sp</dimen>
-  <dimen name="home_info_title_margin_left">5dp</dimen>
+  <dimen name="home_info_title_margin_left">25dp</dimen>
   <dimen name="home_info_content_margin_top">5dp</dimen>
   <dimen name="home_info_content_item_height">35dp</dimen>
   <dimen name="home_info_content_item_margin_left">33dp</dimen>

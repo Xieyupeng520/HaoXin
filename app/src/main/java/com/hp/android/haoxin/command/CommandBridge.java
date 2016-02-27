@@ -311,6 +311,11 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().setProgressText(title, des);
 			}
 		}
+		public void workSetProgressText(int title,int des) {
+			if(getCurrentCleanView() != null){
+				getCurrentCleanView().getListener().setProgressText(title, des);
+			}
+		}
 		
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块，碰头喷射

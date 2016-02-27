@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/done" android:state_selected="true"/>
     <item android:drawable="@android:color/transparent" />
-</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_done_sign.xml -->
+</selector><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_done_sign.xml -->

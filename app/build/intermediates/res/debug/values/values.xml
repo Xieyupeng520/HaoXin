@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="STEP">
         <item>第一步：</item>
@@ -17,7 +17,7 @@
     <string-array name="chenzhong_steps">
         <item>确认严格按照界面提示步骤操作</item>
         <item>请将载玻盘从设备移出</item>
-        <item>请给每个容器内注入500ML试剂</item>
+        <item>请给每个容器内注入50ML试剂</item>
         <item>启动称重校验，大概需要5秒</item>
     </string-array>
     <string-array name="loading_msgs">
@@ -69,7 +69,7 @@
         <item>中</item>
         <item>高</item>
     </string-array>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="btn_normal">#e8e8e8</color>
     <color name="btn_oval_noraml">#000000</color>
@@ -94,7 +94,7 @@
     <color name="menu_item_name_selected">#2ed1b6</color>
     <color name="work_base_time">#e8e8e8</color>
     <declare-styleable name="ScaleViewRatio"><attr format="integer" name="scale_ratio_width"/><attr format="integer" name="scale_ratio_height"/></declare-styleable>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">22sp</dimen>
     <dimen name="button_back_margin_b">15dp</dimen>
@@ -119,7 +119,7 @@
     <dimen name="clean_fill_progress_padding_tlr">4dp</dimen>
     <dimen name="clean_fill_progress_w">840dp</dimen>
     <dimen name="diak_spout_margin_l">-80dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
     <eat-comment/>
     <dimen name="dialog_btn_font">18sp</dimen>
     <dimen name="dialog_btn_h">31dp</dimen>
@@ -135,7 +135,7 @@
     <dimen name="dialog_msg_font">16sp</dimen>
     <dimen name="dialog_msg_margin_t">48dp</dimen>
     <dimen name="dialog_w">250dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="home_content_margin_lr">160dp</dimen>
     <dimen name="home_info_content_height">190dp</dimen>
@@ -188,14 +188,14 @@
     <dimen name="liu_chen_progress_w">23dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/dimens_menu_dialog.xml -->
     <eat-comment/>
     <dimen name="main_menu_item_height">75dp</dimen>
     <dimen name="main_menu_item_text_font">15sp</dimen>
     <dimen name="main_menu_item_text_margin_top">49dp</dimen>
     <dimen name="main_menu_item_width">104dp</dimen>
     <dimen name="main_menu_width">104dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="radio_wh">50dp</dimen>
     <dimen name="site_btn_list_corner">10dp</dimen>
@@ -248,7 +248,7 @@
     <dimen name="work_head_time_font">19sp</dimen>
     <dimen name="work_head_time_margin_top">8dp</dimen>
     <dimen name="work_head_week_margin_left">11dp</dimen>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/integers.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/integers.xml -->
     <eat-comment/>
     <integer name="stat_a_reagent_init_data">0</integer>
     <integer name="stat_b_reagent_init_data">0</integer>
@@ -259,10 +259,18 @@
     <integer name="stat_e_reagent_init_data">0</integer>
     <integer name="stat_no">0</integer>
     <integer name="stat_yes">1</integer>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string>
+    <string name="PROGRESS_AURAMINE_O">金胺 O</string>
+    <string name="PROGRESS_CENTRIFUGAL">正在细胞离心</string>
+    <string name="PROGRESS_CLEAN_PLUS">正在流路清洗</string>
+    <string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string>
+    <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
+    <string name="PROGRESS_STONE_CARBONATE">石碳酸复红</string>
     <string name="a">A</string>
     <string name="action_settings">Settings</string>
+    <string name="alcohol_fixed">酒精固定</string>
     <string name="am">上午</string>
     <string name="app_name">全自动革兰氏染色仪器</string>
     <string name="b">B</string>
@@ -275,6 +283,7 @@
     <string name="button_normal_sure">确认</string>
     <string name="c">C</string>
     <string name="clean_jet">正在喷射：</string>
+    <string name="crystal_violet">结晶紫</string>
     <string name="d">D</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消离心</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string>
@@ -283,39 +292,47 @@
     <string name="dialog_msg_cancel_ranse">是否取消染色</string>
     <string name="dialog_msg_cancel_tianchong">是否取消填充</string>
     <string name="dialog_msg_clean_fill">流路清洗完成，是否进行填充</string>
-    <string name="dialog_msg_dev_fill_request">流路未填充，染色前需要进行填充</string>
+    <string name="dialog_msg_dev_fill_request">管路需要填充，载玻片将被污染\n请先移除载玻盘，是否进行填充</string>
     <string name="dialog_msg_hint_liulutianchong">请拿出玻盘样本，完成流路填充</string>
     <string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string>
     <string name="e">E</string>
-    <string name="exception_detect_glass_position_failure">设备玻盘在位检测失败</string>
+    <string name="etc">...</string>
+    <string name="exception_detect_glass_position_failure">未检测到载玻盘，请放入载玻盘</string>
     <string name="exception_exception">【异常】</string>
     <string name="exception_heating_failure">设备加热失效</string>
     <string name="exception_hint">【提示】</string>
-    <string name="exception_init_not_connected">设备初始化失败，无法建立通信</string>
-    <string name="exception_not_comm_actived">系统通信链路中断</string>
-    <string name="exception_of_electric_speed">设备电机转速异常</string>
-    <string name="exception_reagent_not_enough">试剂不足，请添加试剂</string>
+    <string name="exception_init_not_connected">设备初始化失败，请重新启动</string>
+    <string name="exception_not_comm_actived">系统通信链路中断，请重新启动</string>
+    <string name="exception_of_electric_speed">电机转速异常，请联系技术人员</string>
+    <string name="exception_reagent_not_enough">试剂 %s 不足，请添加试剂</string>
     <string name="exception_top_cover_opened">设备上盖打开，请关闭上盖</string>
-    <string name="exception_top_cover_opened_centrifugal">设备上盖打开（细胞离心）</string>
-    <string name="exception_top_cover_opened_cleaning">设备上盖打开（流路清洗）</string>
-    <string name="exception_top_cover_opened_dyeing">设备上盖打开（染色）</string>
-    <string name="exception_top_cover_opened_filling">设备上盖打开（流路填充）</string>
+    <string name="exception_top_cover_opened_centrifugal">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_cleaning">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_dyeing">上盖被打开，请关闭上盖重新开始</string>
+    <string name="exception_top_cover_opened_filling">上盖被打开，请关闭上盖重新开始</string>
     <string name="exception_weighing">设备称重异常</string>
     <string name="fw_version">固件版本：</string>
-    <string name="home_info_dianjiu">碘酒调整选择</string>
-    <string name="home_info_guding">酒精固定选择</string>
-    <string name="home_info_jiejing">结晶紫选择</string>
-    <string name="home_info_ranse">染色厚度选择</string>
+    <string name="home_info_dianjiu">碘酒</string>
+    <string name="home_info_guding">固定启动终止</string>
+    <string name="home_info_jiejing">结晶紫</string>
+    <string name="home_info_ranse">染色厚度</string>
     <string name="home_info_title">当前设置：</string>
     <string name="home_slide_title">载玻片数量</string>
     <string name="hw_version">硬件版本：</string>
+    <string name="iodine">碘酒</string>
     <string name="pm">下午</string>
+    <string name="progress_clean_flow_path">正在流路清洗</string>
+    <string name="progress_dry">正在甩干</string>
+    <string name="progress_fill">正在填充</string>
+    <string name="progress_heat">正在加热</string>
+    <string name="progress_wait">等待</string>
+    <string name="saffron">番红</string>
     <string name="site_centrifugal">细胞离心</string>
-    <string name="site_chenzhogn">称重使能选择</string>
-    <string name="site_dianjiu">碘酒调整选择</string>
-    <string name="site_guding">酒精固定选择</string>
-    <string name="site_jiejing">结晶紫选择</string>
-    <string name="site_ranse">染色厚度选择</string>
+    <string name="site_chenzhogn">称重启动终止</string>
+    <string name="site_dianjiu">碘酒调整</string>
+    <string name="site_guding">固定启动终止</string>
+    <string name="site_jiejing">结晶紫调整</string>
+    <string name="site_ranse">染色厚度设置</string>
     <string name="step">STEP</string>
     <string name="succ_centrifugal">离心结束</string>
     <string name="succ_chengzhong">称重校验结束</string>
@@ -332,7 +349,7 @@
     <string name="system_tianchong">填充流路</string>
     <string name="waiting">Waiting...</string>
     <string name="week">周%s</string>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

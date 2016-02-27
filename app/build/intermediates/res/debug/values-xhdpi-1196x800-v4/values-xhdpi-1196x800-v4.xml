@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">18sp</dimen>
     <dimen name="button_back_margin_b">12dp</dimen>
@@ -40,7 +40,7 @@
     <dimen name="home_info_item_margin_t">1dp</dimen>
     <dimen name="home_info_marging_top">35dp</dimen>
     <dimen name="home_info_title_font">16sp</dimen>
-    <dimen name="home_info_title_margin_left">5dp</dimen>
+    <dimen name="home_info_title_margin_left">25dp</dimen>
     <dimen name="home_slide_arrow_height">16dp</dimen>
     <dimen name="home_slide_arrow_width">17dp</dimen>
     <dimen name="home_slide_button_bottom_wh">191dp</dimen>

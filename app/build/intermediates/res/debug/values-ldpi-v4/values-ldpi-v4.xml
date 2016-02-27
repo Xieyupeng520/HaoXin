@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml -->
+    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">11sp</dimen>
     <dimen name="button_back_margin_b">3dp</dimen>

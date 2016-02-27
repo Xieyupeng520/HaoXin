@@ -180,7 +180,7 @@ public class TestCmd {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                byte[] data = new byte[]{Response.Exception.WEIGHING_EXCEPTION};
+                byte[] data = new byte[]{Response.Exception.T0P_COVER_OPEND_WHILE_DYEING_EXCEPTION};
                 getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_DEV_EXCEPTION);
             }
         };

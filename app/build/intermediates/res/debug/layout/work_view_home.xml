@@ -30,10 +30,10 @@
     <LinearLayout
         style="@style/layout_horizontal"
     	android:layout_height="match_parent"
-    	android:layout_weight="2"
+    	android:layout_weight="4"
         android:gravity="center_horizontal"
-        android:layout_marginRight="@dimen/home_content_margin_right"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        ><!--android:layout_marginRight="@dimen/home_content_margin_right"-->
         
 
         
@@ -48,52 +48,30 @@
     		android:scaleType="fitCenter"
             android:src="@drawable/index_button_arrow"/>
         
-        <!-- <FrameLayout 
-            style="@style/layout_vertical"
-    		android:layout_width="match_parent"
-    		android:layout_weight="0.1"/> -->
-        
         <FrameLayout 
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
-    		android:layout_weight="4.5"
+    		android:layout_weight="6"
             android:layout_marginTop="@dimen/home_slide_button_margin_top">
             
             <ImageView 
                 android:id="@+id/rote_home_v"
-            	android:layout_width="wrap_content"
+            	android:layout_width="match_parent"
             	android:layout_height="wrap_content"
             	android:scaleType="fitCenter"
             	android:clickable="true"
             	android:layout_gravity="center_horizontal"
-           		android:src="@drawable/index_button_bottom"/><!-- @dimen/home_slide_button_bottom_wh" -->
+           		android:src="@drawable/index_button_bottom_bigger"/><!-- @dimen/home_slide_button_bottom_wh" -->
             
-            
-            
-            <FrameLayout
-               android:id="@+id/btn_home_bottom"
-               android:layout_width="@dimen/home_slide_button_top_wh"
-               android:layout_height="@dimen/home_slide_button_top_wh"
-               android:layout_gravity="center"
-               android:layout_marginTop="@dimen/home_slide_button_margin_t" 
-			   android:background="@drawable/index_button_top"><!-- @drawable/selector_home_button_top -->
-               
-                <View 
-                    android:id="@+id/btn_home_start"
-                    android:layout_width="@dimen/home_slide_button_wh"
-                    android:layout_height="@dimen/home_slide_button_wh"
-                    android:clickable="true"
-                    android:layout_gravity="center"/>
-                
-            </FrameLayout>
-            
-           <!-- <Button 
+           <Button
                android:id="@+id/btn_home_start"
                android:layout_width="@dimen/home_slide_button_top_wh"
                android:layout_height="@dimen/home_slide_button_top_wh"
+               android:paddingLeft="1dp"
+               android:paddingTop="1dp"
                android:layout_gravity="center"
-               android:clickable="false"
-               android:background="@drawable/selector_home_button_top"/> -->
+               android:clickable="true"
+               android:background="@drawable/selector_home_button_top"/>
         </FrameLayout>
 
         <LinearLayout
@@ -109,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/home_slide_title"
                 android:textSize="@dimen/home_slide_title_font"
-                android:text="载玻片数量"/>
+                android:text="@string/home_slide_title"/>
 
             <TextView
                 android:id="@+id/tv_home_slide_number"
@@ -129,7 +107,7 @@
     <LinearLayout 
             style="@style/layout_horizontal"
     		android:layout_height="match_parent"
-    		android:layout_weight="3"
+    		android:layout_weight="6"
             android:paddingTop="@dimen/home_info_marging_top"
             android:layout_marginLeft="@dimen/home_content_margin_left"
             android:orientation="vertical">
@@ -304,4 +282,4 @@
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 </LinearLayout>
-</LinearLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/2015AndroidStudio/HaoXin/app/src/main/res/layout/work_view_home.xml -->
+</LinearLayout><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/layout/work_view_home.xml -->
