@@ -394,7 +394,8 @@ public class RealCommand extends TestCommand {
     public void fillStart(Context context) {
         //FIXME: 纠错验证
         Log.d(TAG, "开始填充前-当前状态：" + Global.getState());
-        if (GlobalState.CLEAN != Global.getState()) { //从清洗跳转过来不用再进行判断
+        if (GlobalState.CLEAN != Global.getState() //从清洗跳转过来不用再进行判断
+                && GlobalState.DYE != Global.getState()) { //从染色跳转过来不用再进行判断
             if (!checkWork(context, TAG_FILL)) {
                 return;
             }
