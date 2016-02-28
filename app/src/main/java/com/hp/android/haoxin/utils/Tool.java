@@ -21,6 +21,7 @@ import org.apache.http.util.EncodingUtils;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 
 public class Tool {
 
@@ -149,16 +150,27 @@ public class Tool {
         	}
         }
     }
-	
+
+	/*
+	 * Font family
+	 */
+	private static HashMap<String, Typeface> fontCache = new HashMap<String, Typeface>();
+
 	public static TextView setTextType(View view,int id,String type){
 		TextView textView = (TextView) view.findViewById(id);
 		//TODO: 15/9/1 设置字体暂时取消，该设置字体的方法有待优化！createFromAsset重复调用多次非常耗费内存！
-//		if(!Constant.FONT_TYPE_HELVE.equals(type))setTextType(textView, type);
+		if(!Constant.FONT_TYPE_FANGZ.equals(type)) //方正黑体由系统提供
+			setTextType(textView, type);
 		return textView;
 	}
-	
+
+
 	public static void setTextType(TextView textView,String type){
-		Typeface typeFace = Typeface.createFromAsset(HaoXinApplication.getAppContext().getAssets(),"fonts/"+type);
+		Typeface typeFace = fontCache.get(type);
+		if (null == typeFace) {
+			typeFace = Typeface.createFromAsset(HaoXinApplication.getAppContext().getAssets(),"fonts/"+type);
+			fontCache.put(type, typeFace);
+		}
 		textView.setTypeface(typeFace);
 		//textView.setTextSize(TypedValue.COMPLEX_UNIT_PX , getFontSize((int)textView.getTextSize()));
 	}

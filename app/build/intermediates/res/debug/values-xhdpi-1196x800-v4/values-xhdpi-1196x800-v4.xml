@@ -115,7 +115,7 @@
     <dimen name="system_btn_letter_font">16sp</dimen>
     <dimen name="system_btn_margin_l">154dp</dimen>
     <dimen name="system_btn_oval_font">16dp</dimen>
-    <dimen name="system_btn_space_rl">29dp</dimen>
+    <dimen name="system_btn_space_rl">35dp</dimen>
     <dimen name="system_item_space_tb">17dp</dimen>
     <dimen name="system_margin_l">168dp</dimen>
     <dimen name="system_space_between_text_button">100dp</dimen>
@@ -125,10 +125,11 @@
     <dimen name="work_arrow_width">12dp</dimen>
     <dimen name="work_child_margin_top">12dp</dimen>
     <dimen name="work_head_date_font">10sp</dimen>
-    <dimen name="work_head_date_margin_top">4dp</dimen>
-    <dimen name="work_head_day_font">12sp</dimen>
-    <dimen name="work_head_day_margin_left">12dp</dimen>
-    <dimen name="work_head_time_font">19sp</dimen>
-    <dimen name="work_head_time_margin_top">6dp</dimen>
-    <dimen name="work_head_week_margin_left">8dp</dimen>
+    <dimen name="work_head_date_margin_top">15px</dimen>
+    <dimen name="work_head_day_font">24px</dimen>
+    <dimen name="work_head_day_margin_left">20px</dimen>
+    <dimen name="work_head_time_font">38px</dimen>
+    <dimen name="work_head_time_margin_top">38px</dimen>
+    <dimen name="work_head_title_margin_top">59px</dimen>
+    <dimen name="work_head_week_margin_left">15px</dimen>
 </resources>

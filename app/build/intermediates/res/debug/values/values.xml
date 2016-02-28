@@ -320,6 +320,7 @@
     <string name="home_slide_title">载玻片数量</string>
     <string name="hw_version">硬件版本：</string>
     <string name="iodine">碘酒</string>
+    <string name="month_and_day">%1$s月%2$s日</string>
     <string name="pm">下午</string>
     <string name="progress_clean_flow_path">正在流路清洗</string>
     <string name="progress_dry">正在甩干</string>

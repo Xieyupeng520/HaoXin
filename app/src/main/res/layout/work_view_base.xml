@@ -4,24 +4,19 @@
     android:layout_height="match_parent"
     android:clickable="true">
     
-    <!-- <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"> -->
+
     <LinearLayout 
         style="@style/layout_full"
         android:gravity="center_horizontal"
         android:orientation="vertical">
-        
-        <FrameLayout 
-            style="@style/layout_vertical"
-            android:layout_weight="0.8"/>
+
         <ImageView
 	            android:id="@+id/main_head_title_img"
 	            style="@style/layout_vertical"
-	            android:layout_weight="1"
+	            android:layout_weight="1.3"
 	            android:scaleType="fitCenter"
-	            android:src="@drawable/index_title"/>
+	            android:src="@drawable/index_title"
+                android:layout_marginTop="@dimen/work_head_title_margin_top"/>
         
         <LinearLayout 
             android:layout_width="match_parent"
@@ -87,7 +82,6 @@
         style="@style/layout_vertical"
         android:layout_weight="14.5"/> 
     </LinearLayout>
-     <!-- </LinearLayout> -->
 
      <FrameLayout
          android:id="@+id/work_base_container_frame"

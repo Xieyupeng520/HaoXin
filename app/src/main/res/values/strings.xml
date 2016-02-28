@@ -7,6 +7,7 @@
     <string name="button_normal_sure">确认</string>
     <string name="button_normal_cancel">取消</string>
     <string name="week">周%s</string>
+    <string name="month_and_day">%1$s月%2$s日</string> <!-- xliff 多格式化语法 -->
     <string name="am">上午</string>
     <string name="pm">下午</string>
     <string name="switch_open">开启</string>

@@ -6,6 +6,7 @@ import java.util.Calendar;
 import android.content.Context;
 import android.os.Handler;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -20,6 +21,8 @@ import com.hp.android.haoxin.widgets.CustomDialog;
 public abstract class WorkBaseView extends FrameLayout{
 
 	private static final String[] weeks = {"日","一","二","三","四","五","六"};
+	private static final String[] dates = {"一","二","三","四","五","六","七","八","九","十","十一","十二","十三","十四","十五","十六"
+			,"十七","十八","十九","二十","二十一","二十二","二十三","二十四","二十五","二十六","二十七","二十八","二十九","三十","三十一"};
 	
 	protected View mContainer;
 	protected int mContainerId;
@@ -67,7 +70,7 @@ public abstract class WorkBaseView extends FrameLayout{
 		new Handler().post(new Runnable() {
 			public void run() {
 				Calendar calender = Calendar.getInstance();
-				SimpleDateFormat df = new SimpleDateFormat("HH:mm");
+				SimpleDateFormat df = new SimpleDateFormat("HH : mm");
 				//df.applyPattern("HH:MM");
 				//String timeStr = (String)DateUtils.formatDateTime(mContext, System.currentTimeMillis(), DateUtils.FORMAT_SHOW_TIME);
 				mTimeText.setText(df.format(calender.getTime()));
@@ -76,11 +79,14 @@ public abstract class WorkBaseView extends FrameLayout{
 				if(mOldHour != hour){
 					String smPmStr = DateUtils.getAMPMString(Calendar.getInstance().get(Calendar.AM_PM));
 					String pm = smPmStr.toLowerCase();
-					mDayText.setText(pm.equals("pm")?R.string.pm:R.string.am);
-					//String dateStr = (String)DateUtils.formatDateTime(mContext, System.currentTimeMillis(), DateUtils.FORMAT_SHOW_DATE);
-					df.applyPattern("MM月dd日");
-					mDateText.setText(df.format(calender.getTime()));
-					
+					mDayText.setText(pm.equals("pm") ? R.string.pm : R.string.am);
+
+//					df.applyPattern("MM月dd日");
+//					mDateText.setText(df.format(calender.getTime()));
+					int month = calender.get(Calendar.MONTH); //比真实的月小1（从0月开始）
+					int dayInMonth = calender.get(Calendar.DAY_OF_MONTH); //和真实的日子一样（从1日开始）
+					mDateText.setText(getContext().getString(R.string.month_and_day, dates[month], dates[dayInMonth - 1]));
+
 					int week = calender.get(Calendar.DAY_OF_WEEK);
 					mWeekText.setText(getContext().getString(R.string.week, weeks[week-1]));
 					mOldHour = hour;

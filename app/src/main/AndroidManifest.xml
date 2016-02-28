@@ -19,7 +19,7 @@
         android:allowBackup="true"
         android:icon="@drawable/icons"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar">
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity
             android:name=".LogoActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -38,6 +38,7 @@
         <activity 
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="reverseLandscape"/>
+            android:screenOrientation="reverseLandscape"
+            />
     </application>
 </manifest>
