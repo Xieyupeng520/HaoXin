@@ -22,4 +22,4 @@
         android:textColor="@drawable/selector_menu_name"
         android:textSize="@dimen/main_menu_item_text_font"
         android:text="test"/>
-</FrameLayout><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/layout/menu_view_item.xml -->
+</FrameLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/layout/menu_view_item.xml -->

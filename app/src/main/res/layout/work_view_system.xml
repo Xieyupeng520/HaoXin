@@ -12,10 +12,12 @@
         style="@style/layout_vertical_full"
         android:layout_weight="5.3"
         android:orientation="horizontal">
-        <LinearLayout 
+
+        <LinearLayout
             style="@style/layout_horizontal_full"
-            android:layout_weight="1.7 "/>
-    <LinearLayout
+            android:layout_weight="1.3 "/>
+
+        <LinearLayout
         style="@style/layout_horizontal_full"
         android:layout_weight="8"
         android:gravity="center_vertical"
@@ -40,7 +42,7 @@
                 android:id="@+id/rg_system_moshi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
+                android:layout_marginLeft="@dimen/system_space_between_text_button"
                 android:orientation="horizontal" >
 
                 <RadioButton
@@ -97,7 +99,7 @@
                 android:id="@+id/rg_system_liuliang"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
+                android:layout_marginLeft="@dimen/system_space_between_text_button"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -136,86 +138,140 @@
             </RadioGroup>
         </FrameLayout>
 
-        <!-- B-流路检测 -->
+        <!-- B-流路检测和填充流路-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb">
 
-        <FrameLayout
+            <!-- B-流路检测 -->
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_item_space_tb" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/system_bliulu"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/system_titile_font" />
+
+                <Button
+                    android:id="@+id/btn_system_bliulu"
+                    android:layout_width="@dimen/site_btn_list_item_w"
+                    android:layout_height="@dimen/site_btn_list_item_h"
+                    android:layout_marginLeft="@dimen/system_space_between_text_button"
+                    android:background="@drawable/selector_button_oval"
+                    android:text="@string/btn_start"
+                    android:textColor="@drawable/selector_button_oval_text"
+                    android:textSize="@dimen/system_titile_font" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                ></View>
+
+            <!-- 填充流路 -->
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/system_item_space_tb"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/system_tianchong"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/system_titile_font"
+                    />
+
+                <Button
+                    android:id="@+id/btn_system_tianchong"
+                    android:layout_width="@dimen/site_btn_list_item_w"
+                    android:layout_height="@dimen/site_btn_list_item_h"
+                    android:layout_marginLeft="@dimen/system_space_between_text_button"
+                    android:background="@drawable/selector_button_oval"
+                    android:text="@string/btn_start"
+                    android:textColor="@drawable/selector_button_oval_text"
+                    android:textSize="@dimen/system_titile_font" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- 称重校验和细胞离心-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/system_item_space_tb">
+            <!-- 称重校验 -->
+
+            <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/system_item_space_tb" >
 
-            <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/system_chengzhong"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/system_titile_font" />
+
+                <Button
+                    android:id="@+id/btn_system_chenzhong"
+                    android:layout_width="@dimen/site_btn_list_item_w"
+                    android:layout_height="@dimen/site_btn_list_item_h"
+                    android:layout_marginLeft="@dimen/system_space_between_text_button"
+                    android:background="@drawable/selector_button_oval"
+                    android:text="@string/btn_start"
+                    android:textColor="@drawable/selector_button_oval_text"
+                    android:textSize="@dimen/system_titile_font" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                ></View>
+            <!-- 细胞离心 -->
+
+            <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="@string/system_bliulu"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/system_titile_font" />
+                android:layout_marginTop="@dimen/system_item_space_tb"
+                >
 
-            <Button
-                android:id="@+id/btn_system_bliulu"
-                android:layout_width="@dimen/site_btn_list_item_w"
-                android:layout_height="@dimen/site_btn_list_item_h"
-                android:layout_marginLeft="150dp"
-                android:background="@drawable/selector_button_oval"
-                android:text="@string/btn_start"
-                android:textColor="@drawable/selector_button_oval_text"
-                android:textSize="@dimen/system_titile_font" />
-        </FrameLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/site_centrifugal"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/system_titile_font"
+                    />
 
-        <!-- 称重校验 -->
+                <Button
+                    android:id="@+id/btn_system_centrifugal"
+                    android:layout_width="@dimen/site_btn_list_item_w"
+                    android:layout_height="@dimen/site_btn_list_item_h"
+                    android:layout_marginLeft="@dimen/system_space_between_text_button"
+                    android:background="@drawable/selector_button_oval"
+                    android:text="@string/btn_start"
+                    android:textColor="@drawable/selector_button_oval_text"
+                    android:textSize="@dimen/system_titile_font" />
+            </FrameLayout>
+        </LinearLayout>
 
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/system_item_space_tb" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="@string/system_chengzhong"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/system_titile_font" />
-
-            <Button
-                android:id="@+id/btn_system_chenzhong"
-                android:layout_width="@dimen/site_btn_list_item_w"
-                android:layout_height="@dimen/site_btn_list_item_h"
-                android:layout_marginLeft="150dp"
-                android:background="@drawable/selector_button_oval"
-                android:text="@string/btn_start"
-                android:textColor="@drawable/selector_button_oval_text"
-                android:textSize="@dimen/system_titile_font" />
-        </FrameLayout>
-
-        <!-- 填充流路 -->
-
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/system_item_space_tb" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="@string/system_tianchong"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/system_titile_font" />
-
-            <Button
-                android:id="@+id/btn_system_tianchong"
-                android:layout_width="@dimen/site_btn_list_item_w"
-                android:layout_height="@dimen/site_btn_list_item_h"
-                android:layout_marginLeft="150dp"
-                android:background="@drawable/selector_button_oval"
-                android:text="@string/btn_start"
-                android:textColor="@drawable/selector_button_oval_text"
-                android:textSize="@dimen/system_titile_font" />
-        </FrameLayout>
     </LinearLayout>
     
-    <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/button_back_margin_b"
@@ -235,8 +291,8 @@
 
              </LinearLayout>
 
-        </LinearLayout>
+    </LinearLayout>
         <FrameLayout 
         style="@style/layout_vertical_full"
-        android:layout_weight="1"/>
+        android:layout_weight="1.4"/>
 </LinearLayout>

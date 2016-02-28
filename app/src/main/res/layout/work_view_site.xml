@@ -252,51 +252,7 @@
                 </FrameLayout>
             </RelativeLayout>
 
-            <!-- 离心开始 -->
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/site_item_title_margin_t"
-                android:gravity="center_vertical" >
-
-                <TextView
-                    android:id="@+id/tv_site_centrifugal_title"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:text="@string/site_centrifugal"
-                    android:textColor="@color/home_info"
-                    android:textSize="@dimen/site_item_title_font" />
-
-                <FrameLayout android:id="@+id/btn_site_centrifugal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:clickable="true" >
-
-                    <Button
-                        android:id="@+id/btn_site_centrifugal_text"
-                        android:tag="btntxt"
-                        android:layout_width="@dimen/site_btn_list_item_w"
-                        android:layout_height="@dimen/site_btn_list_item_h"
-                        android:background="@drawable/selector_button_oval"
-                        android:clickable="false"
-                        android:text="@string/btn_start"
-                        android:textColor="@drawable/selector_button_oval_text"
-                        android:textSize="@dimen/site_item_title_font" />
-
-                    <View
-                        android:layout_width="@dimen/site_littlearrows_w"
-                        android:layout_height="@dimen/site_littlearrows_h"
-                        android:layout_gravity="center_vertical|right"
-                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
-                        android:background="@drawable/selector_littlearrows"
-                        android:clickable="false"
-                        android:visibility="gone"/>
-                </FrameLayout>
-            </RelativeLayout>
         </LinearLayout>
         <FrameLayout 
        		style="@style/layout_horizontal_full"

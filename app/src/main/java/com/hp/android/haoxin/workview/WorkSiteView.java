@@ -32,7 +32,6 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	private TextView mDianJiuText;
 	private TextView mGuDingText;
 	private TextView mChengZhongText;
-	private TextView mCentrifugalText;
 
 	private boolean mIsChange;
 	private boolean mIsHit;
@@ -64,14 +63,12 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		Tool.setTextType(this, R.id.tv_site_jiejingzi_title, Constant.FONT_TYPE_FANGZ);
 		Tool.setTextType(this, R.id.tv_site_dianjiutiaozheng_title, Constant.FONT_TYPE_FANGZ);
 		Tool.setTextType(this, R.id.tv_site_chenzhongqidong_title, Constant.FONT_TYPE_FANGZ);
-		Tool.setTextType(this, R.id.tv_site_centrifugal_title, Constant.FONT_TYPE_FANGZ);
-		
+
 		mRanSeText = Tool.setTextType(this, R.id.btn_site_ransehoudu_text, Constant.FONT_TYPE_FANGZ);
 		mGuDingText = Tool.setTextType(this, R.id.btn_site_gudingqidong_text, Constant.FONT_TYPE_FANGZ);
 		mJieJingText = Tool.setTextType(this, R.id.btn_site_jiejingzi_text, Constant.FONT_TYPE_FANGZ);
 		mDianJiuText = Tool.setTextType(this, R.id.btn_site_dianjiutiaozheng_text, Constant.FONT_TYPE_FANGZ);
 		mChengZhongText = Tool.setTextType(this, R.id.btn_site_chenzhongqidong_text, Constant.FONT_TYPE_FANGZ);
-		mCentrifugalText = Tool.setTextType(this, R.id.btn_site_centrifugal_text, Constant.FONT_TYPE_FANGZ);
 
 		SiteBtnClickListener listener = new SiteBtnClickListener();
 		findViewById(R.id.btn_site_ransehoudu_text).setOnClickListener(listener);
@@ -80,12 +77,6 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		findViewById(R.id.btn_site_dianjiutiaozheng_text).setOnClickListener(listener);
 		findViewById(R.id.btn_site_chenzhongqidong_text).setOnClickListener(listener);
 
-		findViewById(R.id.btn_site_centrifugal_text).setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				ViewController.getInstance().changeView(ViewController.VIEW_CENTRIFUGAL);
-			}
-		});
 
 		Button sure = (Button) Tool.setTextType(this, R.id.btn_sure, Constant.FONT_TYPE_FANGZ);
 		Button cancel = (Button) Tool.setTextType(this, R.id.btn_cancel, Constant.FONT_TYPE_FANGZ);

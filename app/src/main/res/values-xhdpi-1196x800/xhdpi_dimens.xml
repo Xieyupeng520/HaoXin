@@ -90,6 +90,8 @@
   <dimen name="site_btn_list_corner">8dp</dimen>
   <dimen name="site_btn_list_padding">0dp</dimen>
   <dimen name="site_btn_list_divier_h">0.40dp</dimen>
+  
+  <!-- system -->
   <dimen name="system_btn_back_margin_r">14dp</dimen>
   <dimen name="system_btn_back_font">17dp</dimen>
   <dimen name="system_margin_l">168dp</dimen>
@@ -99,6 +101,8 @@
   <dimen name="system_item_space_tb">17dp</dimen>
   <dimen name="system_btn_letter_font">16sp</dimen>
   <dimen name="system_btn_oval_font">16dp</dimen>
+  <dimen name="system_space_between_text_button">100dp</dimen>
+  
   <dimen name="liu_chen_progress_w">18dp</dimen>
   <dimen name="liu_chen_progress_margin_r">8dp</dimen>
   <dimen name="liu_chen_progress_text_w">40dp</dimen>

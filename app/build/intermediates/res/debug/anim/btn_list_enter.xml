@@ -15,4 +15,4 @@
         android:interpolator="@android:anim/decelerate_interpolator"
         android:toAlpha="1.0" />
 
-</set><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/anim/btn_list_enter.xml -->
+</set><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/anim/btn_list_enter.xml -->

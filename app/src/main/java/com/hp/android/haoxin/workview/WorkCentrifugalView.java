@@ -35,13 +35,13 @@ public class WorkCentrifugalView extends WorkCleanView{
     @Override
     protected void finished() {
         dismissCancelDialog();
-        controller.curr2Success(R.string.succ_centrifugal, ViewController.VIEW_SITE);
-        controller.getMenuFragment().setSelected(2);
+        controller.curr2Success(R.string.succ_centrifugal, ViewController.VIEW_SYSTEM);
+        controller.getMenuFragment().setSelected(3);
     }
 
     @Override
     protected void cancelListener() {
-        controller.changeView(ViewController.VIEW_SITE);
-        controller.getMenuFragment().setSelected(2); //取消返回系统设置界面
+        controller.changeView(ViewController.VIEW_SYSTEM);
+        controller.getMenuFragment().setSelected(3); //取消返回系统设置界面
     }
 }

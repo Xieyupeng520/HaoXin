@@ -52,6 +52,8 @@ public class WorkSystemView extends WorkBaseView implements OnClickListener, OnC
 		findViewById(R.id.btn_system_bliulu).setOnClickListener(this);
 		findViewById(R.id.btn_system_chenzhong).setOnClickListener(this);
 		findViewById(R.id.btn_system_tianchong).setOnClickListener(this);
+		findViewById(R.id.btn_system_centrifugal).setOnClickListener(this);
+
 		RBListener listener = new RBListener(this);
 		listener.setContext(getContext());
 		findViewById(R.id.rb_moshi_1).setOnTouchListener(listener);
@@ -86,9 +88,12 @@ public class WorkSystemView extends WorkBaseView implements OnClickListener, OnC
 		case R.id.btn_system_tianchong:
 			viewId = ViewController.VIEW_SYSTEM_FILL;
 			break;
+		case R.id.btn_system_centrifugal:
+			viewId = ViewController.VIEW_CENTRIFUGAL;
+			break;
 		default:
 			viewId = ViewController.VIEW_SYSTEM_LIULU;
-		break;
+			break;
 		}
 		ViewController.getInstance().changeView(viewId);
 	}

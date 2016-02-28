@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">18sp</dimen>
     <dimen name="button_back_margin_b">12dp</dimen>
@@ -118,6 +118,7 @@
     <dimen name="system_btn_space_rl">29dp</dimen>
     <dimen name="system_item_space_tb">17dp</dimen>
     <dimen name="system_margin_l">168dp</dimen>
+    <dimen name="system_space_between_text_button">100dp</dimen>
     <dimen name="system_titile_font">16sp</dimen>
     <dimen name="work_arrow_height">24dp</dimen>
     <dimen name="work_arrow_margin_left">8dp</dimen>

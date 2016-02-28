@@ -61,7 +61,7 @@
             	android:scaleType="fitCenter"
             	android:clickable="true"
             	android:layout_gravity="center_horizontal"
-           		android:src="@drawable/index_button_bottom_bigger"/><!-- @dimen/home_slide_button_bottom_wh" -->
+           		android:src="@drawable/index_button_bottom"/><!-- @dimen/home_slide_button_bottom_wh" -->
             
            <Button
                android:id="@+id/btn_home_start"
@@ -282,4 +282,4 @@
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 </LinearLayout>
-</LinearLayout><!-- From: file:/Users/jiuzhoudianqi/Documents/android/zz/HaoXin/app/src/main/res/layout/work_view_home.xml -->
+</LinearLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/layout/work_view_home.xml -->
