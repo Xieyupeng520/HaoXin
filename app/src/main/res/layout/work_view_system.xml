@@ -7,7 +7,7 @@
 
     <FrameLayout 
         style="@style/layout_vertical_full"
-        android:layout_weight="3"/>
+        android:layout_weight="2.5"/>
     <LinearLayout 
         style="@style/layout_vertical_full"
         android:layout_weight="5.3"
@@ -18,10 +18,11 @@
             android:layout_weight="1.3 "/>
 
         <LinearLayout
-        style="@style/layout_horizontal_full"
-        android:layout_weight="8"
-        android:gravity="center_vertical"
-        android:orientation="vertical" >
+            style="@style/layout_horizontal_full"
+            android:layout_weight="8"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp">
 
         <!-- 模式检测 -->
 
@@ -292,7 +293,5 @@
              </LinearLayout>
 
     </LinearLayout>
-        <FrameLayout 
-        style="@style/layout_vertical_full"
-        android:layout_weight="1.4"/>
+
 </LinearLayout>

@@ -29,7 +29,6 @@ public class WorkFillView extends WorkCleanView{
 	
 	public void setListener(){
 		mDiskListener = new WorkDiskListener();
-		//CommandBridge.getInstance().appSetFillListener(mDiskListener);
 	}
 	
 	@Override

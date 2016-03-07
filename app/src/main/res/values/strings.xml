@@ -21,7 +21,7 @@
     <string name="succ_liulu">B-流路检测结束</string>
     <string name="succ_chengzhong">称重校验结束</string>
     <string name="succ_fill">填充流路结束</string>
-    <string name="succ_centrifugal">离心结束</string>
+    <string name="succ_centrifugal">细胞离心结束</string>
     <string name="waiting">Waiting...</string>
     <!-- exception -->
     <string name="exception_hint">【提示】</string>
@@ -47,7 +47,7 @@
     <string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string>
     <string name="dialog_msg_hint_liulutianchong">请拿出玻盘样本，完成流路填充</string>
     <string name="dialog_msg_dev_fill_request">管路需要填充，载玻片将被污染\n请先移除载玻盘，是否进行填充</string>
-    <string name="dialog_msg_cancel_centrifugal">是否取消离心</string>
+    <string name="dialog_msg_cancel_centrifugal">是否取消细胞离心</string>
 
     <string name="dialog_msg_clean_fill">流路清洗完成，是否进行填充</string>
     <!-- home -->
@@ -71,13 +71,13 @@
     <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
     <string name="PROGRESS_AURAMINE_O">金胺 O</string>
 
-    <string name="progress_clean_flow_path">正在流路清洗</string>
+    <string name="progress_clean_flow_path">正在清洗</string>
     <string name="progress_fill">正在填充</string>
     <string name="progress_dry">正在甩干</string>
     <string name="progress_wait">等待</string>
     <string name="progress_heat">正在加热</string>
     <string name="PROGRESS_CENTRIFUGAL">正在细胞离心</string>
-    <string name="PROGRESS_CLEAN_PLUS">正在流路清洗</string>
+    <string name="PROGRESS_CLEAN_PLUS">正在清洗</string>
     <string name="etc">...</string>
 
     <!-- site -->

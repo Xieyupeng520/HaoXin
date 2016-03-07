@@ -1,6 +1,7 @@
 package com.hp.android.haoxin.command;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 
 import com.hp.android.haoxin.LoadingActivity.LoadingListener;
@@ -417,5 +418,26 @@ public class CommandBridge {
 				((WorkLiuView) view).updateProgress(progress);
 			}
 		}
+	}
+
+	//----------------------------------------------------------------------------------调试用
+	/**
+	 * 开启悬浮返回键
+	 * @param context 用来发广播
+	 */
+	public void openBackButton(Context context) {
+		Intent intent = new Intent("com.system.action.back");
+		intent.putExtra("OPERATION", 1); //1 open; 0 close
+		context.sendBroadcast(intent);
+	}
+
+	/**
+	 * 关闭悬浮返回键
+	 * @param context 用来发广播
+	 */
+	public void closeBackButton(Context context) {
+		Intent intent = new Intent("com.system.action.back");
+		intent.putExtra("OPERATION", 0); //1 open; 0 close
+		context.sendBroadcast(intent);
 	}
 }

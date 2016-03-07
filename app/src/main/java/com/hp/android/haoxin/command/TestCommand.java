@@ -152,7 +152,7 @@ public void showExceptionDialog(final int resId, final Context context){
 				return;
 			}
 			final CustomDialog exceptiondDialog = CustomDialog.createExceptionDialog(context, resId);
-			exceptiondDialog.setCancelBtnVisibilty(View.VISIBLE);
+			exceptiondDialog.setCancelBtnVisibilty(View.GONE);
 			mCommand.call.workFinish(false);
 
 	        //按返回键时

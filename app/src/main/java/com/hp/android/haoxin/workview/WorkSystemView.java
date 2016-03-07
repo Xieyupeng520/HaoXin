@@ -33,6 +33,7 @@ public class WorkSystemView extends WorkBaseView implements OnClickListener, OnC
 			add(new Integer(R.id.btn_system_bliulu));
 			add(new Integer(R.id.btn_system_chenzhong));
 			add(new Integer(R.id.btn_system_tianchong));
+			add(new Integer(R.id.btn_system_centrifugal));
 
 			add(new Integer(R.id.rb_moshi_1));
 			add(new Integer(R.id.rb_moshi_2));

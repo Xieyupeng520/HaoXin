@@ -12,6 +12,7 @@
                 android:layout_height="300dp"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
+                android:layout_marginTop="40dp"
                 android:paddingTop="@dimen/about_bottom"
                 android:paddingBottom="@dimen/about_bottom">
                 <TextView

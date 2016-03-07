@@ -195,7 +195,20 @@ public class WorkCleanView extends WorkBaseView{
 			setSlidingMenuSCroll(false);
 		}
 		mCancelButton.setEnabled(true);
+
+		resetMessageInfo(); //重置显示信息
+
 		start();
+	}
+
+	/**
+	 * 重置显示的信息
+	 * 为了解决问题：在主界面上，点击“START”按键，进行染色操作，界面进度状态首先会先显示上一次然后操作的最后一个进度状态信息
+	 */
+	protected void resetMessageInfo() {
+		mProgress.setProgress(0);
+		mProgressText.setText(null);
+		mDiskListener.setProgressText(null, null);
 	}
 	
 	protected void start(){

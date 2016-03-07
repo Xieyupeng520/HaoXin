@@ -159,6 +159,11 @@ public class CustomDialog {
 		exceptionDialog.setCancelBtnVisibilty(View.GONE);
 		return exceptionDialog;
 	}
+
+	/**
+	 * 设置取消按钮是否可见，默认可见
+	 * @param visibilty View.VISIBLE & View.GONE
+	 */
 	public void setCancelBtnVisibilty(int visibilty) {
 		mBtnCancel.setVisibility(visibilty);
 	}

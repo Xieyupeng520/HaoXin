@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBackImpl;
+import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.global.GlobalState;
 import com.hp.android.haoxin.slidingmenu.MainMenuFragment;
@@ -31,6 +32,9 @@ public class MainActivity extends FragmentActivity {
 		setContentView(mSlidingMenu,new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
 		init();
 		OnReadDeviceDataCallBackImpl.getInstance().setContext(this); //设置读取设备回调的上下文
+
+		// FIXME: 16/3/7 调试用，用于关闭“返回”悬浮框，正常情况下屏蔽
+		CommandBridge.getInstance().closeBackButton(this);
 	}
 
 	private void init() {

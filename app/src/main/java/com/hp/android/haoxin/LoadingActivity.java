@@ -26,10 +26,14 @@ public class LoadingActivity extends BaseActivity{
 
 		//初始化系统状态
 		Global.initSystemState(HaoXinApplication.getAppContext());
-		
+
 		CommandBridge command = CommandBridge.getInstance();
 		command.appSetLoadingLinstener(new LoadingListener());
 		command.linkLoadingStart(this);
+
+
+		// FIXME: 16/3/7 调试用，用于调出“返回”悬浮框，正常情况下屏蔽
+		command.openBackButton(this);
 	}
 	
 	public class LoadingListener{
@@ -61,4 +65,5 @@ public class LoadingActivity extends BaseActivity{
 			Global.saveDatas(LoadingActivity.this);
 		}
 	}
+
 }

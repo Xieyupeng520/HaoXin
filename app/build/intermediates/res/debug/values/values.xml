@@ -264,7 +264,7 @@
     <string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string>
     <string name="PROGRESS_AURAMINE_O">金胺 O</string>
     <string name="PROGRESS_CENTRIFUGAL">正在细胞离心</string>
-    <string name="PROGRESS_CLEAN_PLUS">正在流路清洗</string>
+    <string name="PROGRESS_CLEAN_PLUS">正在清洗</string>
     <string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string>
     <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
     <string name="PROGRESS_STONE_CARBONATE">石碳酸复红</string>
@@ -285,7 +285,7 @@
     <string name="clean_jet">正在喷射：</string>
     <string name="crystal_violet">结晶紫</string>
     <string name="d">D</string>
-    <string name="dialog_msg_cancel_centrifugal">是否取消离心</string>
+    <string name="dialog_msg_cancel_centrifugal">是否取消细胞离心</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string>
     <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
     <string name="dialog_msg_cancel_liulu">是否取消B-流路检测</string>
@@ -322,7 +322,7 @@
     <string name="iodine">碘酒</string>
     <string name="month_and_day">%1$s月%2$s日</string>
     <string name="pm">下午</string>
-    <string name="progress_clean_flow_path">正在流路清洗</string>
+    <string name="progress_clean_flow_path">正在清洗</string>
     <string name="progress_dry">正在甩干</string>
     <string name="progress_fill">正在填充</string>
     <string name="progress_heat">正在加热</string>
@@ -335,7 +335,7 @@
     <string name="site_jiejing">结晶紫调整</string>
     <string name="site_ranse">染色厚度设置</string>
     <string name="step">STEP</string>
-    <string name="succ_centrifugal">离心结束</string>
+    <string name="succ_centrifugal">细胞离心结束</string>
     <string name="succ_chengzhong">称重校验结束</string>
     <string name="succ_fill">填充流路结束</string>
     <string name="succ_liulu">B-流路检测结束</string>

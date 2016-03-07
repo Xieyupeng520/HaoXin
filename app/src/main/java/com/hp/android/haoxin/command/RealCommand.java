@@ -171,7 +171,8 @@ public class RealCommand extends TestCommand {
             return false;
         }
         String text = mContext.getResources().getString(R.string.waiting);
-        final String show = String.format(text + "(%ss)", String.valueOf(countDownTime));
+//        final String show = String.format(text + "(%ss)", String.valueOf(countDownTime)); //Wating...（几秒）
+        final String show = text;
 
         runOnUiThread(new Runnable() {
             @Override
@@ -269,7 +270,7 @@ public class RealCommand extends TestCommand {
             System.exit(0); //在未显示出dialog之前按back键，如果不用这句执行退出程序，线程还是会继续运行
         }
 
-        connectFailedDialog.setCancelBtnVisibilty(View.VISIBLE);
+        connectFailedDialog.setCancelBtnVisibilty(View.GONE);
         //按返回键时
         connectFailedDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
