@@ -9,11 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
         
-    <Button 
+    <Button
         android:id="@+id/main_menu_btn"
-        style="@style/layout_wrap"
+        android:layout_width="22px"
+        android:layout_height="40px"
         android:layout_marginLeft="@dimen/work_arrow_margin_left"
         android:layout_gravity="center_vertical"
-        android:background="@drawable/arrownav"/>
+        android:background="@drawable/arrownav"
+        />
 
 </FrameLayout>

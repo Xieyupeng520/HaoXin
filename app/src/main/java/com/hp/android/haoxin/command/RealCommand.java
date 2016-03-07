@@ -23,6 +23,7 @@ import com.hp.android.haoxin.global.Response;
 import com.hp.android.haoxin.test.TestCmd;
 import com.hp.android.haoxin.utils.FomatTool;
 import com.hp.android.haoxin.widgets.CustomDialog;
+import com.hp.android.haoxin.workview.RBListener;
 import com.hp.android.haoxin.workview.ViewController;
 import com.hx.domain.ModeDetectBean;
 import com.hx.domain.ParameterBean;
@@ -131,7 +132,7 @@ public class RealCommand extends TestCommand {
 
     protected void showProgressDialog(int resId, Context context) {
         if (context == null) {
-            Log.e("RealCommand", "showProgressDialog context is null");
+            Log.e("RealCommand", "showProgressDialog error: context is null");
         }
         dismissProgressDialog();//先把之前的dismiss掉
         String text = null;
@@ -150,9 +151,38 @@ public class RealCommand extends TestCommand {
     protected void dismissProgressDialog() {
         if (progressDialog != null) {
             progressDialog.dismiss();
+            Log.v("dismiss", "dismiss后的progressDialog = " + progressDialog);
+            progressDialog = null;
         }
     }
 
+    /**
+     * 倒计时显示，如果时间为0，则progressDialog自动消失
+     * @param countDownTime 倒计时间
+     * @return true表示正常执行，false表示有错误情况，比如progressDialog为null，或者倒计时为0等
+     */
+    protected boolean countDownDialog(int countDownTime) {
+        if (null == progressDialog) {
+            Log.v(TAG, "countDownDialog: progressDialog is null!");
+            return false;
+        }
+        if (0 == countDownTime) {
+            dismissProgressDialog();
+            return false;
+        }
+        String text = mContext.getResources().getString(R.string.waiting);
+        final String show = String.format(text + "(%ss)", String.valueOf(countDownTime));
+
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                if (progressDialog != null) {
+                    progressDialog.setMessage(show);
+                }
+            }
+        });
+        return true;
+    }
     /***********************************************\
      *                                             *
      *                 参数设置                     *
@@ -517,6 +547,31 @@ public class RealCommand extends TestCommand {
         // FIXME: 15/10/14 测试称重校验
 //        Test.testLiuLuProgress();
     }
+
+    private Runnable countDownThread = new Runnable() {
+        @Override
+        public void run() {
+            int countDownTime = 10;
+
+            while (countDownTime >= 0) {
+                boolean flag = countDownDialog(countDownTime);
+
+                if (!flag) { //如果执行倒计时的函数返回false，则跳出循环不需要继续执行倒计时了
+                    return;
+                }
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                countDownTime--;
+
+            }
+
+        }
+    };
 	@Override
 	/**
 	 * 系统维护模块，模式、流量检测值发生改变时触发
@@ -529,8 +584,10 @@ public class RealCommand extends TestCommand {
 //        if (!getViewController().checkConnect(false)) {
 //            return;
 //        }
-        if (type == 1) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
+        if (type == RBListener.TYPE_LIU_LIANG) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
             showProgressDialog(0, context);
+
+            new Thread(countDownThread).start();
         }
 		super.systemJianCeChange(type, key, keyMode, context);
         Global.setState(GlobalState.CHECK_ABCDE); //FIXME:并没有区分式模式检测还是流量检测，后面也一样

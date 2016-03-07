@@ -7,56 +7,48 @@
     <FrameLayout 
         style="@style/layout_vertical"
         android:layout_width="match_parent"
-        android:layout_weight="2"/>
+        android:layout_weight="2.5"/>
     
     
-    <LinearLayout 
+    <LinearLayout
         style="@style/layout_vertical"
       	android:layout_width="match_parent"
       	android:layout_weight="5"
       	android:orientation="horizontal">
     
-        <FrameLayout 
-        style="@style/layout_horizontal"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
-    
-<LinearLayout
-	style="@style/layout_horizontal"
-    android:layout_height="match_parent"
-    android:layout_weight="5"
-    android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/layout_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:layout_marginLeft="161px"
+            >
 	
-    <LinearLayout
-        style="@style/layout_horizontal"
-    	android:layout_height="match_parent"
-    	android:layout_weight="4"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        ><!--android:layout_marginRight="@dimen/home_content_margin_right"-->
-        
+            <LinearLayout
+                android:layout_width="316px"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+            ><!--android:layout_marginRight="@dimen/home_content_margin_right"-->
 
         
-        <FrameLayout 
-            style="@style/layout_vertical_full"
-            android:layout_weight="0.3"/>
-        
-        <ImageView 
+             <ImageView
             style="@style/layout_vertical"
-    		android:layout_width="match_parent"
+    		android:layout_width="wrap_content"
     		android:layout_weight="0.6"
     		android:scaleType="fitCenter"
             android:src="@drawable/index_button_arrow"/>
         
-        <FrameLayout 
-            style="@style/layout_vertical"
-    		android:layout_width="match_parent"
+            <FrameLayout
+            android:layout_height="0dp"
+    		android:layout_width="wrap_content"
     		android:layout_weight="6"
             android:layout_marginTop="@dimen/home_slide_button_margin_top">
             
-            <ImageView 
+            <ImageView
                 android:id="@+id/rote_home_v"
-            	android:layout_width="match_parent"
+            	android:layout_width="wrap_content"
             	android:layout_height="wrap_content"
             	android:scaleType="fitCenter"
             	android:clickable="true"
@@ -74,12 +66,12 @@
                android:background="@drawable/selector_home_button_top"/>
         </FrameLayout>
 
-        <LinearLayout
-            style="@style/layout_vertical"
-            android:layout_width="match_parent"
-            android:layout_weight="1.5"
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal|bottom"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="50px">
 
             <TextView
                 android:id="@+id/tv_home_slide_title"
@@ -99,24 +91,25 @@
                 android:text="09"/>
         </LinearLayout>
 
-        <FrameLayout 
+            <FrameLayout
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
     		android:layout_weight="2.5"/>
-    </LinearLayout>
-    <LinearLayout 
-            style="@style/layout_horizontal"
-    		android:layout_height="match_parent"
-    		android:layout_weight="6"
-            android:paddingTop="@dimen/home_info_marging_top"
-            android:layout_marginLeft="@dimen/home_content_margin_left"
-            android:orientation="vertical">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:paddingTop="@dimen/home_info_marging_top"
+                android:layout_marginLeft="@dimen/home_content_margin_left"
+                android:orientation="vertical"
+                >
             
             <TextView 
                 android:id="@+id/tv_home_info_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/home_info_title_margin_left"
+                android:paddingLeft="@dimen/home_info_title_margin_left"
                 android:textColor="@color/home_info"
                 android:textSize="@dimen/home_info_title_font"
                 android:text="@string/home_info_title"/>
@@ -126,7 +119,7 @@
                 android:layout_width="200dp"
                 android:layout_marginTop="@dimen/home_info_content_margin_top"
                 android:paddingTop="10dp"
-                android:layout_gravity="right"
+                android:layout_gravity="left"
                 android:background="@drawable/index_table"
                 android:orientation="vertical">
                 
@@ -159,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
-                        android:textColor="@color/home_info"
+                        android:textColor="@color/home_slide_num"
                         android:textSize="@dimen/home_info_content_item_num_font"
                         android:text="3"/>
                     <View
@@ -195,7 +188,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
-                        android:textColor="@color/home_info"
+                        android:textColor="@color/home_slide_num"
                         android:textSize="@dimen/home_info_content_item_num_font"
                         android:text="2"/>
                     <View 
@@ -231,7 +224,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
-                        android:textColor="@color/home_info"
+                        android:textColor="@color/home_slide_num"
                         android:textSize="@dimen/home_info_content_item_num_font"
                         android:text="1"/>
                     <View 
@@ -266,7 +259,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="3"
                         android:gravity="center_horizontal"
-                        android:textColor="@color/home_info"
+                        android:textColor="@color/home_slide_num"
                         android:textSize="@dimen/home_info_content_item_name_font"
                         android:text="1"/>
                     <View 
@@ -277,9 +270,6 @@
             </LinearLayout>
         </LinearLayout>
         </LinearLayout>
-        <FrameLayout 
-        style="@style/layout_horizontal"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
-</LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>

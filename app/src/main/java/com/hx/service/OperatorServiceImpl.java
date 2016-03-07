@@ -206,4 +206,23 @@ public class OperatorServiceImpl implements IOperatorService {
 		mOs.write(mProtocol.createCytocentrifugationPackets(data));
 	}
 
+	/**
+	 * 发送工程师报文到下位机
+	 * @param a a泵参数数据 1:100
+	 * @param b b泵参数数据 
+	 * @param c c泵参数数据 
+	 * @param d d泵参数数据 
+	 * @param e e泵参数数据 
+	 * @param speed 离心转速 0:1500转，1：2000转
+	 * @throws IOException
+	 */
+	@Override
+	public void sendEngineerPackets(byte a, byte b, byte c, byte d, byte e, byte speed) throws IOException {
+		if (null == mOs || null == mProtocol) {
+			System.out.println("[ERR][OperatorServiceImpl]:[sendSWVerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
+			return;
+		}
+		mOs.write(mProtocol.createEngineerPackets(a, b, c, d, e, speed));		
+	}
+
 }

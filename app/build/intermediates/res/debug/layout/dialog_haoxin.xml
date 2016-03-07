@@ -19,8 +19,7 @@
             android:layout_marginBottom="@dimen/dialog_extra_msg_margin_b"
             android:text="@string/exception_exception"
             android:textSize="@dimen/dialog_extra_text_size"
-            android:textColor="@color/dialog_extra_msg_exception"
-            android:visibility="gone"/>
+            android:visibility="gone"/><!--android:textColor="@color/dialog_extra_msg_exception"-->
         <TextView 
             android:id="@+id/dialog_msg"
             android:layout_width="wrap_content"
@@ -34,10 +33,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dialog_hint_msg_margin_t"
-            android:textColor="@color/dialog_extra_msg_exception"
             android:textSize="@dimen/dialog_hint_text_size"
             android:text="@string/dialog_msg_hint_liulutianchong"
-            android:visibility="gone"/>
+            android:visibility="gone"/><!--android:textColor="@color/dialog_extra_msg_exception"-->
         <LinearLayout 
             android:id="@+id/dialog_btn_linear"
             android:layout_width="wrap_content"

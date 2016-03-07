@@ -117,4 +117,17 @@ public interface IOperatorService {
 	 * @throws IOException
 	 */
 	void sendCytocentrifugationPackets(byte data) throws IOException;
+
+	/**
+	 * 发送工程师报文到下位机
+	 * @param a a泵参数数据 1:100 
+	 * @param b b泵参数数据 
+	 * @param c c泵参数数据 
+	 * @param d d泵参数数据 
+	 * @param e e泵参数数据 
+	 * @param speed 离心转速 0:1500转，1：2000转
+	 * @throws IOException
+	 */
+	void sendEngineerPackets(byte a, byte b, byte c, byte d, byte e, byte speed) throws IOException;
+
 }

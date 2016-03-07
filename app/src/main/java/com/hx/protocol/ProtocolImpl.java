@@ -398,4 +398,27 @@ public class ProtocolImpl implements IProtocol {
 	public byte[] getOpProgress(byte[] packets) {
 		return parseData(packets, this.DEV_OP_PROGRESS_DATA_LEN);
 	}
+	
+	/**
+	 * 生成工程师报文
+	 * @param a a泵参数数据 
+	 * @param b b泵参数数据 
+	 * @param c c泵参数数据 
+	 * @param d d泵参数数据 
+	 * @param e e泵参数数据 
+	 * @param speed 离心转速
+	 * @return 工程师报文
+	 */
+	@Override
+	public byte[] createEngineerPackets(byte a, byte b, byte c, byte d, byte e, byte speed) {
+		byte[] packets = {0x55, (byte)0xAA, (byte)0x0D, (byte)0x06, 0, 0, 0, 0, 0, 0, 0, (byte)0xFF};
+		packets[4] = a;
+		packets[5] = b;
+		packets[6] = c;
+		packets[7] = d;
+		packets[8] = e;
+		packets[9] = speed;
+		packets[10] = Crc.calcCRC(packets, packets.length);
+		return packets;		
+	}
 }

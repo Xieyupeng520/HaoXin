@@ -74,14 +74,14 @@ public class CustomDialog {
 		mExtraMsgView.setVisibility(View.VISIBLE); //先设置可见（默认不可见）
 		mExtraMsgView.setText(resId);
 		//设置颜色
-		switch (resId) {
-			case EXTRA_MSG_EXCEPTION:
-				mExtraMsgView.setTextColor(mContext.getResources().getColor(R.color.dialog_extra_msg_exception));
-				break;
-			case EXTRA_MSG_HINT:
-				mExtraMsgView.setTextColor(mContext.getResources().getColor(R.color.dialog_extra_msg_hint));
-				break;
-		}
+//		switch (resId) {
+//			case EXTRA_MSG_EXCEPTION:
+//				mExtraMsgView.setTextColor(mContext.getResources().getColor(R.color.dialog_extra_msg_exception));
+//				break;
+//			case EXTRA_MSG_HINT:
+//				mExtraMsgView.setTextColor(mContext.getResources().getColor(R.color.dialog_extra_msg_hint));
+//				break;
+//		}
 	}
 	/**
 	 * 设置额外信息 见{@link #mHintMsgView}

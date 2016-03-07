@@ -185,4 +185,16 @@ public interface IProtocol {
 	 * @return 细胞离心报文
 	 */
 	byte[] createCytocentrifugationPackets(byte data);
+
+	/**
+	 * 生成工程师报文
+	 * @param a a泵参数数据 
+	 * @param b b泵参数数据 
+	 * @param c c泵参数数据 
+	 * @param d d泵参数数据 
+	 * @param e e泵参数数据 
+	 * @param speed 离心转速
+	 * @return 工程师报文
+	 */
+	byte[] createEngineerPackets(byte a, byte b, byte c, byte d, byte e, byte speed);
 }

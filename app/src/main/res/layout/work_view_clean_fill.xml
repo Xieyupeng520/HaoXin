@@ -6,7 +6,7 @@
 
     <FrameLayout
         style="@style/layout_vertical_full"
-        android:layout_weight="3" />
+        android:layout_weight="4" />
     
    <RelativeLayout
         style="@style/layout_vertical_full"

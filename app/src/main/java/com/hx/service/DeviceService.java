@@ -20,7 +20,9 @@ public class DeviceService {
 		if (instance == null) {
 			/* Read serial port parameters */
 			//SharedPreferences sp = getSharedPreferences("android_serialport_api.sample_preferences", MODE_PRIVATE);
-			String path = "/dev/ttyMT1";//sp.getString("DEVICE", "");ttyMT3
+			//String path = "/dev/ttyMT1";//sp.getString("DEVICE", "");ttyMT3
+			String path = "/dev/ttyMT3";
+
 			int baudrate = 115200;//Integer.decode(sp.getString("BAUDRATE", "-1"));
 
 			/* Check parameters */

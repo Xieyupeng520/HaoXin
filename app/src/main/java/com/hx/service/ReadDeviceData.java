@@ -1,17 +1,15 @@
 package com.hx.service;
 
 
-import android.util.Log;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.InvalidParameterException;
+import java.util.Vector;
 
 import com.hp.android.haoxin.callback.OnConnectedCallBack;
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBack;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hx.protocol.IComDevice;
-import com.hx.protocol.IProtocol;
 import com.hx.protocol.ProtocolImpl;
 import com.hx.protocol.ProtocolType;
 
@@ -19,11 +17,10 @@ public class ReadDeviceData extends Thread {
 
 	private InputStream mIs = null;
 	private static int DATA_MAX_LEN = 64;
-	private IProtocol mProtocol = null;
 	private IShakeHandsService shakeHandsServiceImpl = null; 
 	private OnReadDeviceDataCallBack mCallBack = null;
 	private OnConnectedCallBack connListener = null;
-	private ConnectErrService mConnectErrService = null;
+	public static Vector<Buffer_C> buffer = new Vector<Buffer_C>();
 
 	private CommandBridge commandBridge = CommandBridge.getInstance();
 
@@ -33,7 +30,6 @@ public class ReadDeviceData extends Thread {
 
 	public void setConnListener(OnConnectedCallBack connListener) {
 		this.connListener = connListener;
-		mConnectErrService.setConnListener(connListener);
 	}
 
 	public ReadDeviceData(IComDevice comDevice) {
@@ -41,8 +37,6 @@ public class ReadDeviceData extends Thread {
 			System.out.println("[ERR][ReadDeviceData]:comDevice=NULL");
 			return;
 		}
-		//初始化协议
-		mProtocol = new ProtocolImpl();
 		
 		try {
 			//初始化握手协议
@@ -55,55 +49,8 @@ public class ReadDeviceData extends Thread {
 		}
 
 		mIs = comDevice.getInputStream();
-		//初始化握手异常通知
-		mConnectErrService = new ConnectErrService();
 	}
 
-	/**
-	 * 解析收到的数据
-	 * @param buffer 缓存数据
-	 * @param size 数据长度
-	 */
-	private void parseData(byte[] buffer, int size) {
-		Log.d("ReadDeviceData","---parseData---");
-		byte []data = null;
-		ProtocolType code = null;
-		if (buffer == null) {
-			System.out.println("[parseData]:read buffer is null.");
-			return;
-		}
-		if (mProtocol.isHWVerRespPackets(buffer, size)) {
-			data = mProtocol.getHWVersion(buffer);
-			code = ProtocolType.HW_VERSION;
-		} else if (mProtocol.isSWVerRespPackets(buffer, size)) {
-			data = mProtocol.getSWVersion(buffer);
-			code = ProtocolType.SW_VERSION;
-		} else if (mProtocol.isDevStatusPackets(buffer, size)) {
-			data = mProtocol.getDevStatus(buffer);
-			code = ProtocolType.RPT_DEV_STATUS;
-		} else if (mProtocol.isDevExceptPackets(buffer, size)) {
-			data = mProtocol.getDevExcept(buffer);
-			code = ProtocolType.RPT_DEV_EXCEPTION;
-		} else if (mProtocol.isOpProgressPackets(buffer, size)) {
-			data = mProtocol.getOpProgress(buffer);
-			code = ProtocolType.RPT_OP_PROGRESS;
-		} else if(mProtocol.isOpStatusPackets(buffer, size)) {
-			data = mProtocol.getOpStatus(buffer);
-			code = ProtocolType.RPT_OP_RESPONSE;
-		} else if (shakeHandsServiceImpl.isShakeHandsResp(buffer)) {
-			//RealCommand.showToast("onConnected(true)");
-			mConnectErrService.setCount(0);
-			//dataRec(1, (byte)1);
-			connListener.onConnected(true);
-			return;
-		}
-
-		if (data != null) {
-			commandBridge.showToast("onReadDeviceData(" + byte2HexString(data, size) + ", " + code + ")");
-			//dataRec(1, data);
-			mCallBack.onReadDeviceData(data, code);
-		}
-	}
 	
 	/**
 	 * 对数组buf清零
@@ -169,9 +116,12 @@ public class ReadDeviceData extends Thread {
 			exitSys(5000);
 			return;
 		}
-
-		//启动通信异常检测服务
-		mConnectErrService.start();
+		
+		ParseData pd = new ParseData();
+		pd.setCallBack(mCallBack);
+		pd.setConnListener(connListener);
+		pd.createShakeHand(shakeHandsServiceImpl);
+		pd.start();
 		
 		byte[] buffer = new byte[DATA_MAX_LEN];
 		do {
@@ -181,6 +131,7 @@ public class ReadDeviceData extends Thread {
 			int i = 0;
 			buffer[i] = readByteDataByWait();
 			if (buffer[i] != ProtocolType.PK_HEAD_1.code()) {
+				commandBridge.showToast("read head1 error data="+ buffer[i]);
 				continue;
 			}
 			
@@ -188,6 +139,7 @@ public class ReadDeviceData extends Thread {
 			i++;
 			buffer[i] = readByteDataByWait();
 			if (buffer[i] != ProtocolType.PK_HEAD_2.code()) {
+				commandBridge.showToast("read head2 error data="+ buffer[i]);
 				continue;
 			}
 
@@ -213,7 +165,27 @@ public class ReadDeviceData extends Thread {
 
 			size +=  i;
 			commandBridge.showToast("read data= "+ byte2HexString(buffer, size) + ",size="+size);
-			parseData(buffer, size);
+			Buffer_C dest = new Buffer_C();
+			dest.setSize(size);
+			dest.setBuffer(buffer);
+			this.buffer.add(dest);
 		} while(true);
+	}
+		
+	class Buffer_C {
+		byte [] buffer = new byte[DATA_MAX_LEN];
+		int size;
+		public byte[] getBuffer() {
+			return buffer;
+		}
+		public void setBuffer(byte[] buffer) {
+			System.arraycopy(buffer, 0, this.buffer, 0, DATA_MAX_LEN);
+		}
+		public int getSize() {
+			return size;
+		}
+		public void setSize(int size) {
+			this.size = size;
+		}
 	}
 }
