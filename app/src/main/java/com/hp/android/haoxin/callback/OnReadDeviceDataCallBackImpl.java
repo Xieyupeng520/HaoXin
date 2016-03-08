@@ -7,6 +7,7 @@ import com.hp.android.haoxin.R;
 import com.hp.android.haoxin.command.CommandBridge;
 import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.global.GlobalException;
+import com.hp.android.haoxin.widgets.CustomDialog;
 import com.hx.protocol.ProtocolType;
 
 /**
@@ -74,11 +75,13 @@ public class OnReadDeviceDataCallBackImpl implements OnReadDeviceDataCallBack {
     		id = R.string.exception_heating_failure;
     	} else if(exception.isGlassCardException()) {
     		id = R.string.exception_detect_glass_position_failure;
+            commandBridge.showDialogWithType(id, mContext, CustomDialog.CustomDialogType.CustomDialogTypeHint);
+            return;
     	} else if(exception.isWeighException()) {
     		id = R.string.exception_weighing;
     	}
     	if (id != 0) {
-            commandBridge.showExceptionDialog(id, mContext);
+            commandBridge.showDialogWithType(id, mContext, CustomDialog.CustomDialogType.CustomDialogTypeException);
     	}
     }
     

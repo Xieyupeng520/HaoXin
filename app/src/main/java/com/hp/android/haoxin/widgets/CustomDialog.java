@@ -10,6 +10,12 @@ import android.widget.TextView;
 import com.hp.android.haoxin.R;
 
 public class CustomDialog {
+
+	public enum CustomDialogType {
+		CustomDialogTypeException,
+		CustomDialogTypeHint
+	}
+
 	Context mContext;
 	android.app.AlertDialog mAlertDialog;
 	TextView mTitleView;
@@ -147,6 +153,31 @@ public class CustomDialog {
 	public void setOnCancelListener(DialogInterface.OnCancelListener onCancelListener) {
 		mAlertDialog.setOnCancelListener(onCancelListener);
 	}
+
+	/**
+	 * 设置取消按钮是否可见，默认可见
+	 * @param visibilty View.VISIBLE & View.GONE
+	 */
+	public void setCancelBtnVisibilty(int visibilty) {
+		mBtnCancel.setVisibility(visibilty);
+	}
+
+	/**
+	 * 根据类型创建提示框
+	 * @param context 上下文
+	 * @param msgResId 提示资源id
+	 * @param type 提示框类型
+	 * @return
+	 */
+	public static CustomDialog createDialogByType(Context context, int msgResId, CustomDialogType type) {
+		switch (type) {
+			case CustomDialogTypeException:
+				return createExceptionDialog(context, msgResId);
+			case CustomDialogTypeHint:
+			default:
+				return createHintDialog(context, msgResId);
+		}
+	}
 	/**
 	 * 创建自定义异常提示框
 	 * @param context 上下文
@@ -160,13 +191,6 @@ public class CustomDialog {
 		return exceptionDialog;
 	}
 
-	/**
-	 * 设置取消按钮是否可见，默认可见
-	 * @param visibilty View.VISIBLE & View.GONE
-	 */
-	public void setCancelBtnVisibilty(int visibilty) {
-		mBtnCancel.setVisibility(visibilty);
-	}
 	/**
 	 * 创建自定义提示框
 	 * @param context 上下文

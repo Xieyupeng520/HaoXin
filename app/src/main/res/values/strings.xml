@@ -25,7 +25,7 @@
     <string name="waiting">Waiting...</string>
     <!-- exception -->
     <string name="exception_hint">【提示】</string>
-    <string name="exception_exception">【异常】</string>
+    <string name="exception_exception">【警告】</string>
     <string name="exception_init_not_connected">设备初始化失败，请重新启动</string>
     <string name="exception_not_comm_actived">系统通信链路中断，请重新启动</string>
     <string name="exception_of_electric_speed">电机转速异常，请联系技术人员</string>

@@ -7,6 +7,7 @@ import android.util.Log;
 import com.hp.android.haoxin.LoadingActivity.LoadingListener;
 import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.global.GlobalState;
+import com.hp.android.haoxin.widgets.CustomDialog;
 import com.hp.android.haoxin.workview.ViewController;
 import com.hp.android.haoxin.workview.WorkBaseView;
 import com.hp.android.haoxin.workview.WorkCleanView;
@@ -54,9 +55,9 @@ public class CommandBridge {
 			mInterface.showToast(text);
 		}
 	}
-	public void showExceptionDialog(int resId, Context context) {
+	public void showDialogWithType(int resId, Context context, CustomDialog.CustomDialogType type) {
 		if (mInterface != null) {
-			mInterface.showExceptionDialog(resId, context);
+			mInterface.showDialogWithType(resId, context, type);
 		}
 	}
 

@@ -3,6 +3,8 @@ package com.hp.android.haoxin.command;
 import android.app.ProgressDialog;
 import android.content.Context;
 
+import com.hp.android.haoxin.widgets.CustomDialog;
+
 public interface CommandInterface {
 	
 	void usbOTGinit();
@@ -13,12 +15,12 @@ public interface CommandInterface {
 
 
 	/**
-	 * 显示异常对话框
+	 * 显示提示对话框
 	 * @param resId 显示资源id
 	 * @param context 显示dialog需要的上下文
+	 * @param type dialog类型
 	 */
-	void showExceptionDialog(final int resId, final Context context);
-
+	void showDialogWithType(final int resId, final Context context, CustomDialog.CustomDialogType type);
 	/**
 	 * 重置系统状态
 	 */

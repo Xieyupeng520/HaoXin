@@ -127,57 +127,52 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 	
 	
 
-public void showToast(final String text){
-	//LogoActivity.handler.post(new Runnable() {
-	runOnUiThread(new Runnable() {
-		@Override
-		public void run() {
-			Toast.makeText(mContext, text, Toast.LENGTH_SHORT).show();
-		}
-	});
-
-}
-
-/**
- * 显示异常对话框
- * @param resId 显示资源id
- */
-public void showExceptionDialog(final int resId, final Context context){
-	//LogoActivity.handler.post(new Runnable() {
-	runOnUiThread(new Runnable() {
-		@Override
-		public void run() {
-			if (context == null) {
-				Log.e("TestCommand", "showExceptionDialog --- context is null!");
-				return;
+	public void showToast(final String text){
+		//LogoActivity.handler.post(new Runnable() {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				Toast.makeText(mContext, text, Toast.LENGTH_SHORT).show();
 			}
-			final CustomDialog exceptiondDialog = CustomDialog.createExceptionDialog(context, resId);
-			exceptiondDialog.setCancelBtnVisibilty(View.GONE);
-			mCommand.call.workFinish(false);
+		});
 
-	        //按返回键时
-			exceptiondDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-	            @Override
-	            public void onCancel(DialogInterface dialogInterface) {
-					exceptiondDialog.dismiss();
-	            }
-	        });
-			exceptiondDialog.setPositiveListener(new View.OnClickListener() {
-	            @Override
-	            public void onClick(View view) {
-	            	exceptiondDialog.dismiss();
-	            }
-	        });
-			exceptiondDialog.setNegativeListener(new View.OnClickListener() {
-	            @Override
-	            public void onClick(View view) {
-	            	exceptiondDialog.dismiss();
-	            }
-	        });
-		}
-	});
-}
+	}
 
+
+	public void showDialogWithType(final int resId, final Context context, final CustomDialog.CustomDialogType type) {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				if (context == null) {
+					Log.e("TestCommand", "showHintDialog --- context is null!");
+					return;
+				}
+				final CustomDialog dialog = CustomDialog.createDialogByType(context, resId, type);
+				dialog.setCancelBtnVisibilty(View.GONE);
+				mCommand.call.workFinish(false);
+
+				//按返回键时
+				dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+					@Override
+					public void onCancel(DialogInterface dialogInterface) {
+						dialog.dismiss();
+					}
+				});
+				dialog.setPositiveListener(new View.OnClickListener() {
+					@Override
+					public void onClick(View view) {
+						dialog.dismiss();
+					}
+				});
+				dialog.setNegativeListener(new View.OnClickListener() {
+					@Override
+					public void onClick(View view) {
+						dialog.dismiss();
+					}
+				});
+			}
+		});
+	}
 
 	@Override
 	public void loadingStart(Context context) {

@@ -298,7 +298,7 @@
     <string name="e">E</string>
     <string name="etc">...</string>
     <string name="exception_detect_glass_position_failure">未检测到载玻盘，请放入载玻盘</string>
-    <string name="exception_exception">【异常】</string>
+    <string name="exception_exception">【警告】</string>
     <string name="exception_heating_failure">设备加热失效</string>
     <string name="exception_hint">【提示】</string>
     <string name="exception_init_not_connected">设备初始化失败，请重新启动</string>
