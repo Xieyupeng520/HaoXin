@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_df.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_df.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_a.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_a.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_cw.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_cw.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_a_fade_in.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_a_fade_in.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_bw.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_bw.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_exit.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_exit.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_e.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_e.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_enter.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_enter.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_dr.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_dr.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activivity_fade_in.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\activivity_fade_in.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_b.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_b.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_aw.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_aw.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_c.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_c.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_fade_out.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\activity_fade_out.xml"
+    }
+]

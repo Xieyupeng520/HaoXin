@@ -12,19 +12,19 @@ public class ProtocolImpl implements IProtocol {
 	public final static int PROTOCOL_HEAD_LEN = 4;
 
 	//软件硬件版本数据长度
-	public final static int VER_DATA_LEN = 6;
+	private final static int VER_DATA_LEN = 6;
 
 	//设备系统状态数据长度
-	public final static int DEV_STATUS_DATA_LEN = 20;
+	private final static int DEV_STATUS_DATA_LEN = 20;
 
 	//异常事件数据长度
-	public final static int DEV_EXCEPTION_DATA_LEN = 4;
+	private final static int DEV_EXCEPTION_DATA_LEN = 4;
 
 	//操作回应数据长度
-	public final static int DEV_OP_RESP_DATA_LEN = 1;
+	private final static int DEV_OP_RESP_DATA_LEN = 1;
 
 	//操作进度数据长度
-	public final static int DEV_OP_PROGRESS_DATA_LEN = 3;
+	private final static int DEV_OP_PROGRESS_DATA_LEN = 3;
 	/**
 	 * 查询下位机硬件报文
 	 * @return 下位机硬件版本查询报文
@@ -56,7 +56,7 @@ public class ProtocolImpl implements IProtocol {
 	 */
 	@Override
 	public byte[] getHWVersion(byte[] respPackets) {
-		return parseData(respPackets, this.VER_DATA_LEN);
+		return parseData(respPackets, VER_DATA_LEN);
 	}
 
 	/**
@@ -117,16 +117,17 @@ public class ProtocolImpl implements IProtocol {
 	 */
 	@Override
 	public byte[] getSWVersion(byte[] respPackets) {
-		return parseData(respPackets, this.VER_DATA_LEN);
+		return parseData(respPackets, VER_DATA_LEN);
 	}
 
 	/**
 	 * 分析版本数据，并返回版本数据
 	 * @param packets 回应报文
-	 * @return 版本数据
+	 * @param dataLen 报文长度
+	 * @return 报文数据
 	 */
 	private byte[] parseData(byte[] respPackets, int dataLen) {
-		if (null == respPackets) {
+		if (null == respPackets || respPackets.length < (PROTOCOL_HEAD_LEN + dataLen)) {
 			return null;
 		}
 
@@ -186,7 +187,7 @@ public class ProtocolImpl implements IProtocol {
 	 */
 	@Override
 	public byte[] getDevStatus(byte[] respPackets) {
-		return parseData(respPackets, this.DEV_STATUS_DATA_LEN);
+		return parseData(respPackets, DEV_STATUS_DATA_LEN);
 	}
 
 	/**
@@ -386,17 +387,22 @@ public class ProtocolImpl implements IProtocol {
 
 	@Override
 	public byte[] getDevExcept(byte[] packets) {
-		return parseData(packets, this.DEV_EXCEPTION_DATA_LEN);
+		return parseData(packets, DEV_EXCEPTION_DATA_LEN);
 	}
 
 	@Override
 	public byte[] getOpStatus(byte[] packets) {
-		return parseData(packets, this.DEV_OP_RESP_DATA_LEN);
+		return parseData(packets, DEV_OP_RESP_DATA_LEN);
 	}
 
+	/**
+	 * 获取操作进度报文
+	 * @param packets 输入的报文
+	 * @return 去除头部数据，留下报文体
+	 */
 	@Override
 	public byte[] getOpProgress(byte[] packets) {
-		return parseData(packets, this.DEV_OP_PROGRESS_DATA_LEN);
+		return parseData(packets, DEV_OP_PROGRESS_DATA_LEN);
 	}
 	
 	/**

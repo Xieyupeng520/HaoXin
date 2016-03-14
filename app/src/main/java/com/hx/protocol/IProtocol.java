@@ -145,11 +145,11 @@ public interface IProtocol {
 	/**
 	 * 生成流量检测操作报文
 	 * @param data 参数数据
-	0：按键 A
-	1：按键 B
-	2：按键 C
-	3：按键 D
-	4：按键 E
+		0：按键 A
+		1：按键 B
+		2：按键 C
+		3：按键 D
+		4：按键 E
 	 * @return 流量检测报文
 	 */
 	public byte[] createFlowPackets(byte data);
@@ -157,10 +157,10 @@ public interface IProtocol {
 	/**
 	 * 生成B流路检测操作报文
 	 * @param data 参数数据 
-	0 ：退出当前操作，同时 UI 返回上一级页面
-	1：STEP1：B 流路 500ML 去离子水检测
-	2：STEP2：B 流路 200ML 清洗剂检测
-	3：STEP3：B 液填充检测
+		0 ：退出当前操作，同时 UI 返回上一级页面
+		1：STEP1：B 流路 500ML 去离子水检测
+		2：STEP2：B 流路 200ML 清洗剂检测
+		3：STEP3：B 液填充检测
 	 * @return B流路检测报文
 	 */
 	public byte[] createBPassPackets(byte data);
@@ -180,8 +180,8 @@ public interface IProtocol {
 	/**
 	 * 生成细胞离心报文
 	 * @param data 参数数据 
-	0 ：细胞离心
-	1 ：取消
+		0 ：细胞离心
+		1 ：取消
 	 * @return 细胞离心报文
 	 */
 	byte[] createCytocentrifugationPackets(byte data);

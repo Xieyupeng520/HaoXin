@@ -87,7 +87,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 				mIsHit = true;
 				save();
 				ViewController.getInstance().changeView(ViewController.VIEW_HOME);
-				ViewController.getInstance().setMenuSelect(0);
+				ViewController.getInstance().setMenuSelect(ViewController.VIEW_HOME);
 			}
 		});
 		
@@ -95,7 +95,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 			public void onClick(View v) {
 				mIsHit = true;
 				ViewController.getInstance().changeView(ViewController.VIEW_HOME);
-				ViewController.getInstance().setMenuSelect(0);
+				ViewController.getInstance().setMenuSelect(ViewController.VIEW_HOME);
 			}
 		});
 		

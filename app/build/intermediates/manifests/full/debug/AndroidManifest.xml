@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
     <!--
      <supports-screens android:largeScreens="true"
           android:normalScreens="true"
@@ -30,7 +30,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
-        </activity> <!-- LogoActivity -->
+        </activity>
+ <!-- LogoActivity -->
 
         <activity
             android:name="com.hp.android.haoxin.LoadingActivity"

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slid_work_frame.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\slid_work_frame.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_button_list.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\site_button_list.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_liu_cheng.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_liu_cheng.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slid_menu_frame.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\slid_menu_frame.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_view_item.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\menu_view_item.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_button_item.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\site_button_item.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_about.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_about.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_base.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_base.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_site.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_site.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_view_bg.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\menu_view_bg.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_logo.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\activity_logo.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_engineer.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_engineer.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_clean_fill.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_clean_fill.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_haoxin.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\dialog_haoxin.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_liu_cheng.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\item_liu_cheng.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_home.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_home.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_system.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_system.xml"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_view_success.xml",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\layout\\work_view_success.xml"
+    }
+]

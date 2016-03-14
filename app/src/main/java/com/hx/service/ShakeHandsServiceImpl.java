@@ -30,9 +30,7 @@ public class ShakeHandsServiceImpl extends Thread implements IShakeHandsService 
 			System.out.println("[ShakeHandsServiceImpl]:[sendShakeHands]:mOs="+mOs+", mShakeHands="+mShakeHands);
 			return;
 		}
-		//if (os != null) {
 		this.mOs.write(mShakeHands.getShakeHands());
-		//}
 	}
 
 	/**
@@ -50,11 +48,8 @@ public class ShakeHandsServiceImpl extends Thread implements IShakeHandsService 
 
 	@Override
 	public void run () {
-		//int i = 0;
 		while(true) {
-			//i++;
 			try {
-				//if (i <= 3)
 				sendShakeHands();
 			} catch (IOException e) {
 				e.printStackTrace();

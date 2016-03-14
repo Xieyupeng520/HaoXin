@@ -94,7 +94,17 @@ public interface CommandInterface {
 	 * @param weigh 称重使能选择（00：关闭 01：启动）
 	 */
 	void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh);
-	
+	/**
+	 * 工程师菜单
+	 * @param aPump A泵占空比（1-100）
+	 * @param bPump B泵占空比（1-100）
+	 * @param cPump C泵占空比（1-100）
+	 * @param dPump D泵占空比（1-100）
+	 * @param ePump E泵占空比（1-100）
+	 * @param cellCentrifugalSpeed  细胞离心速率（1500/2000）
+	 */
+	public void engineerChanged(int aPump, int bPump, int cPump, int dPump, int ePump, int cellCentrifugalSpeed);
+
 	/**
 	 * 通知硬件开始染色，染色开始时触发
 	 */

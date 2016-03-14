@@ -1,0 +1,3596 @@
+[
+    {
+        "outputFile": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 19,
+                    "endOffset": 231
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 236,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 398,
+                    "endLine": 19,
+                    "endColumn": 19,
+                    "endOffset": 595
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 600,
+                    "endLine": 23,
+                    "endColumn": 19,
+                    "endOffset": 729
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 7124,
+                        "endLine": 192,
+                        "endColumn": 19,
+                        "endOffset": 7253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 734,
+                    "endLine": 30,
+                    "endColumn": 19,
+                    "endOffset": 950
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 955,
+                    "endLine": 37,
+                    "endColumn": 19,
+                    "endOffset": 1134
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1139,
+                    "endLine": 41,
+                    "endColumn": 19,
+                    "endOffset": 1249
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1254,
+                    "endLine": 46,
+                    "endColumn": 19,
+                    "endOffset": 1382
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1387,
+                    "endLine": 51,
+                    "endColumn": 19,
+                    "endOffset": 1517
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 1522,
+                    "endLine": 56,
+                    "endColumn": 19,
+                    "endOffset": 1650
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 1655,
+                    "endLine": 67,
+                    "endColumn": 19,
+                    "endOffset": 1928
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endLine": 72,
+                    "endColumn": 19,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 2059,
+                    "endColumn": 44,
+                    "endOffset": 2099
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 2104,
+                    "endColumn": 49,
+                    "endOffset": 2149
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 2154,
+                    "endColumn": 51,
+                    "endOffset": 2201
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 2206,
+                    "endColumn": 52,
+                    "endOffset": 2254
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 2259,
+                    "endColumn": 53,
+                    "endOffset": 2308
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 2313,
+                    "endColumn": 55,
+                    "endOffset": 2364
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 2369,
+                    "endColumn": 60,
+                    "endOffset": 2425
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 2430,
+                    "endColumn": 55,
+                    "endOffset": 2481
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 2486,
+                    "endColumn": 44,
+                    "endOffset": 2526
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 2531,
+                    "endColumn": 43,
+                    "endOffset": 2570
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 2575,
+                    "endColumn": 48,
+                    "endOffset": 2619
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 2624,
+                    "endColumn": 50,
+                    "endOffset": 2670
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 2675,
+                    "endColumn": 54,
+                    "endOffset": 2725
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 2730,
+                    "endColumn": 56,
+                    "endOffset": 2782
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 2787,
+                    "endColumn": 56,
+                    "endOffset": 2839
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 2844,
+                    "endColumn": 52,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 54,
+                    "endOffset": 2947
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 2952,
+                    "endColumn": 48,
+                    "endOffset": 2996
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3001,
+                    "endColumn": 45,
+                    "endOffset": 3042
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3047,
+                    "endColumn": 55,
+                    "endOffset": 3098
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3103,
+                    "endColumn": 57,
+                    "endOffset": 3156
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3161,
+                    "endColumn": 48,
+                    "endOffset": 3205
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\color.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3375,
+                    "endColumn": 46,
+                    "endOffset": 3417
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3422,
+                    "endColumn": 51,
+                    "endOffset": 3469
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3474,
+                    "endColumn": 51,
+                    "endOffset": 3521
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3526,
+                    "endColumn": 51,
+                    "endOffset": 3573
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 3578,
+                    "endColumn": 50,
+                    "endOffset": 3624
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 3629,
+                    "endColumn": 50,
+                    "endOffset": 3675
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 3680,
+                    "endColumn": 49,
+                    "endOffset": 3725
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 3730,
+                    "endColumn": 49,
+                    "endOffset": 3775
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 3780,
+                    "endColumn": 56,
+                    "endOffset": 3832
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 3837,
+                    "endColumn": 63,
+                    "endOffset": 3896
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 3901,
+                    "endColumn": 56,
+                    "endOffset": 3953
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 3958,
+                    "endColumn": 54,
+                    "endOffset": 4008
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4013,
+                    "endColumn": 55,
+                    "endOffset": 4064
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4069,
+                    "endColumn": 51,
+                    "endOffset": 4116
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4121,
+                    "endColumn": 55,
+                    "endOffset": 4172
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4177,
+                    "endColumn": 56,
+                    "endOffset": 4229
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4234,
+                    "endColumn": 61,
+                    "endOffset": 4291
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4296,
+                    "endColumn": 52,
+                    "endOffset": 4344
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4349,
+                    "endColumn": 58,
+                    "endOffset": 4403
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4408,
+                    "endColumn": 59,
+                    "endOffset": 4463
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4468,
+                    "endColumn": 61,
+                    "endOffset": 4525
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4530,
+                    "endColumn": 53,
+                    "endOffset": 4579
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 4584,
+                    "endColumn": 51,
+                    "endOffset": 4631
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 4636,
+                    "endColumn": 46,
+                    "endOffset": 4678
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 4683,
+                    "endColumn": 43,
+                    "endOffset": 4722
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 4727,
+                    "endColumn": 50,
+                    "endOffset": 4773
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 4778,
+                    "endColumn": 50,
+                    "endOffset": 4824
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 4829,
+                    "endColumn": 43,
+                    "endOffset": 4868
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 4873,
+                    "endColumn": 57,
+                    "endOffset": 4926
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 4931,
+                    "endColumn": 56,
+                    "endOffset": 4983
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 4988,
+                    "endColumn": 53,
+                    "endOffset": 5037
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5042,
+                    "endColumn": 40,
+                    "endOffset": 5078
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5083,
+                    "endColumn": 54,
+                    "endOffset": 5133
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5138,
+                    "endColumn": 52,
+                    "endOffset": 5186
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5191,
+                    "endColumn": 46,
+                    "endOffset": 5233
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5238,
+                    "endColumn": 50,
+                    "endOffset": 5284
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5289,
+                    "endColumn": 40,
+                    "endOffset": 5325
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5330,
+                    "endColumn": 54,
+                    "endOffset": 5380
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5385,
+                    "endColumn": 56,
+                    "endOffset": 5437
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5442,
+                    "endColumn": 60,
+                    "endOffset": 5498
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 5503,
+                    "endColumn": 65,
+                    "endOffset": 5564
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 5569,
+                    "endColumn": 66,
+                    "endOffset": 5631
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 5636,
+                    "endColumn": 63,
+                    "endOffset": 5695
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 5700,
+                    "endColumn": 62,
+                    "endOffset": 5758
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 5763,
+                    "endColumn": 58,
+                    "endOffset": 5817
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 5822,
+                    "endColumn": 55,
+                    "endOffset": 5873
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 5878,
+                    "endColumn": 53,
+                    "endOffset": 5927
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 5932,
+                    "endColumn": 52,
+                    "endOffset": 5980
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 5985,
+                    "endColumn": 51,
+                    "endOffset": 6032
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6037,
+                    "endColumn": 59,
+                    "endOffset": 6092
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6097,
+                    "endColumn": 54,
+                    "endOffset": 6147
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6152,
+                    "endColumn": 53,
+                    "endOffset": 6201
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6206,
+                    "endColumn": 59,
+                    "endOffset": 6261
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6266,
+                    "endColumn": 56,
+                    "endOffset": 6318
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6323,
+                    "endColumn": 58,
+                    "endOffset": 6377
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6382,
+                    "endColumn": 56,
+                    "endOffset": 6434
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6439,
+                    "endColumn": 52,
+                    "endOffset": 6487
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 6492,
+                    "endColumn": 53,
+                    "endOffset": 6541
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 6546,
+                    "endColumn": 60,
+                    "endOffset": 6602
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 6607,
+                    "endColumn": 52,
+                    "endOffset": 6655
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 6660,
+                    "endColumn": 55,
+                    "endOffset": 6711
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 6716,
+                    "endColumn": 50,
+                    "endOffset": 6762
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 6767,
+                    "endColumn": 51,
+                    "endOffset": 6814
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 6819,
+                    "endColumn": 46,
+                    "endOffset": 6861
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 6866,
+                    "endColumn": 53,
+                    "endOffset": 6915
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 6920,
+                    "endColumn": 46,
+                    "endOffset": 6962
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 6967,
+                    "endColumn": 57,
+                    "endOffset": 7020
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 7025,
+                    "endColumn": 52,
+                    "endOffset": 7073
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 7078,
+                    "endColumn": 46,
+                    "endOffset": 7120
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 7125,
+                    "endColumn": 54,
+                    "endOffset": 7175
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 7180,
+                    "endColumn": 59,
+                    "endOffset": 7235
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 7240,
+                    "endColumn": 47,
+                    "endOffset": 7283
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 7288,
+                    "endColumn": 47,
+                    "endOffset": 7331
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 7336,
+                    "endColumn": 48,
+                    "endOffset": 7380
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 7385,
+                    "endColumn": 49,
+                    "endOffset": 7430
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 7435,
+                    "endColumn": 49,
+                    "endOffset": 7480
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 7485,
+                    "endColumn": 53,
+                    "endOffset": 7534
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 7539,
+                    "endColumn": 60,
+                    "endOffset": 7595
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 7600,
+                    "endColumn": 57,
+                    "endOffset": 7653
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 7658,
+                    "endColumn": 57,
+                    "endOffset": 7711
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 7716,
+                    "endColumn": 57,
+                    "endOffset": 7769
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 7774,
+                    "endColumn": 58,
+                    "endOffset": 7828
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 7833,
+                    "endColumn": 58,
+                    "endOffset": 7887
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 7892,
+                    "endColumn": 61,
+                    "endOffset": 7949
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 7954,
+                    "endColumn": 55,
+                    "endOffset": 8005
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 8010,
+                    "endColumn": 50,
+                    "endOffset": 8056
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 8061,
+                    "endColumn": 50,
+                    "endOffset": 8107
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 8112,
+                    "endColumn": 47,
+                    "endOffset": 8155
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 8160,
+                    "endColumn": 52,
+                    "endOffset": 8208
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 8213,
+                    "endColumn": 55,
+                    "endOffset": 8264
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 8269,
+                    "endColumn": 61,
+                    "endOffset": 8326
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 8331,
+                    "endColumn": 52,
+                    "endOffset": 8379
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 8384,
+                    "endColumn": 47,
+                    "endOffset": 8427
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens_menu_dialog.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 8432,
+                    "endColumn": 39,
+                    "endOffset": 8467
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 8472,
+                    "endColumn": 51,
+                    "endOffset": 8519
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 8524,
+                    "endColumn": 54,
+                    "endOffset": 8574
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 8579,
+                    "endColumn": 54,
+                    "endOffset": 8629
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 8634,
+                    "endColumn": 51,
+                    "endOffset": 8681
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 8686,
+                    "endColumn": 52,
+                    "endOffset": 8734
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 8739,
+                    "endColumn": 51,
+                    "endOffset": 8786
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 8791,
+                    "endColumn": 61,
+                    "endOffset": 8848
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 8853,
+                    "endColumn": 48,
+                    "endOffset": 8897
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 8902,
+                    "endColumn": 52,
+                    "endOffset": 8950
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 8955,
+                    "endColumn": 48,
+                    "endOffset": 8999
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 9004,
+                    "endColumn": 54,
+                    "endOffset": 9054
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 9059,
+                    "endColumn": 42,
+                    "endOffset": 9097
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 9102,
+                    "endColumn": 51,
+                    "endOffset": 9149
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 9154,
+                    "endColumn": 55,
+                    "endOffset": 9205
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 9210,
+                    "endColumn": 50,
+                    "endOffset": 9256
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 9261,
+                    "endColumn": 49,
+                    "endOffset": 9306
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 9311,
+                    "endColumn": 47,
+                    "endOffset": 9354
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 9359,
+                    "endColumn": 47,
+                    "endOffset": 9402
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 9407,
+                    "endColumn": 48,
+                    "endOffset": 9451
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 9456,
+                    "endColumn": 47,
+                    "endOffset": 9499
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 9504,
+                    "endColumn": 48,
+                    "endOffset": 9548
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 9553,
+                    "endColumn": 47,
+                    "endOffset": 9596
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 9601,
+                    "endColumn": 48,
+                    "endOffset": 9645
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 9650,
+                    "endColumn": 48,
+                    "endOffset": 9694
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 9699,
+                    "endColumn": 48,
+                    "endOffset": 9743
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 9748,
+                    "endColumn": 48,
+                    "endOffset": 9792
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 9797,
+                    "endColumn": 48,
+                    "endOffset": 9841
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 9846,
+                    "endColumn": 47,
+                    "endOffset": 9889
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 9894,
+                    "endColumn": 56,
+                    "endOffset": 9946
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 9951,
+                    "endColumn": 53,
+                    "endOffset": 10000
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 10005,
+                    "endColumn": 51,
+                    "endOffset": 10052
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 10057,
+                    "endColumn": 55,
+                    "endOffset": 10108
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 10113,
+                    "endColumn": 53,
+                    "endOffset": 10162
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 10167,
+                    "endColumn": 51,
+                    "endOffset": 10214
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 10219,
+                    "endColumn": 51,
+                    "endOffset": 10266
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 10271,
+                    "endColumn": 50,
+                    "endOffset": 10317
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 10322,
+                    "endColumn": 51,
+                    "endOffset": 10369
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 10374,
+                    "endColumn": 47,
+                    "endOffset": 10417
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 10422,
+                    "endColumn": 49,
+                    "endOffset": 10467
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 10472,
+                    "endColumn": 48,
+                    "endOffset": 10516
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 10521,
+                    "endColumn": 53,
+                    "endOffset": 10570
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 10575,
+                    "endColumn": 47,
+                    "endOffset": 10618
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 10623,
+                    "endColumn": 52,
+                    "endOffset": 10671
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 10676,
+                    "endColumn": 50,
+                    "endOffset": 10722
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 10727,
+                    "endColumn": 55,
+                    "endOffset": 10778
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 10783,
+                    "endColumn": 49,
+                    "endOffset": 10828
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 10833,
+                    "endColumn": 56,
+                    "endOffset": 10885
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 10890,
+                    "endColumn": 50,
+                    "endOffset": 10936
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 10941,
+                    "endColumn": 55,
+                    "endOffset": 10992
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 10997,
+                    "endColumn": 57,
+                    "endOffset": 11050
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 11055,
+                    "endColumn": 56,
+                    "endOffset": 11107
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 11112,
+                    "endColumn": 56,
+                    "endOffset": 11164
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 11169,
+                    "endColumn": 56,
+                    "endOffset": 11221
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 11226,
+                    "endColumn": 56,
+                    "endOffset": 11278
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 11283,
+                    "endColumn": 57,
+                    "endOffset": 11336
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 11341,
+                    "endColumn": 54,
+                    "endOffset": 11391
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 11396,
+                    "endColumn": 56,
+                    "endOffset": 11448
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 11453,
+                    "endColumn": 39,
+                    "endOffset": 11488
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 11493,
+                    "endColumn": 40,
+                    "endOffset": 11529
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\integers.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 11534,
+                    "endColumn": 54,
+                    "endOffset": 11584
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 11589,
+                    "endColumn": 52,
+                    "endOffset": 11637
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 11642,
+                    "endColumn": 55,
+                    "endOffset": 11693
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 11698,
+                    "endColumn": 52,
+                    "endOffset": 11746
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 11751,
+                    "endColumn": 56,
+                    "endOffset": 11803
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 11808,
+                    "endColumn": 54,
+                    "endOffset": 11858
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 11863,
+                    "endColumn": 58,
+                    "endOffset": 11917
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 11922,
+                    "endColumn": 31,
+                    "endOffset": 11949
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 11954,
+                    "endColumn": 40,
+                    "endOffset": 11990
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5146,
+                        "endColumn": 40,
+                        "endOffset": 5182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 11995,
+                    "endColumn": 52,
+                    "endOffset": 12043
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 12048,
+                    "endColumn": 46,
+                    "endOffset": 12090
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 12095,
+                    "endColumn": 33,
+                    "endOffset": 12124
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 12129,
+                    "endColumn": 47,
+                    "endOffset": 12172
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 12177,
+                    "endColumn": 31,
+                    "endOffset": 12204
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 12209,
+                    "endColumn": 40,
+                    "endOffset": 12245
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5187,
+                        "endColumn": 40,
+                        "endOffset": 5223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 12250,
+                    "endColumn": 53,
+                    "endOffset": 12299
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 12304,
+                    "endColumn": 39,
+                    "endOffset": 12339
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 12344,
+                    "endColumn": 39,
+                    "endOffset": 12379
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 12384,
+                    "endColumn": 40,
+                    "endOffset": 12420
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 12425,
+                    "endColumn": 43,
+                    "endOffset": 12464
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 12469,
+                    "endColumn": 51,
+                    "endOffset": 12516
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 12521,
+                    "endColumn": 49,
+                    "endOffset": 12566
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 12571,
+                    "endColumn": 31,
+                    "endOffset": 12598
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 12603,
+                    "endColumn": 40,
+                    "endOffset": 12639
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5228,
+                        "endColumn": 40,
+                        "endOffset": 5264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 12644,
+                    "endColumn": 57,
+                    "endOffset": 12697
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5351,
+                        "endColumn": 57,
+                        "endOffset": 5404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 12702,
+                    "endColumn": 43,
+                    "endOffset": 12741
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 12746,
+                    "endColumn": 46,
+                    "endOffset": 12788
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 12793,
+                    "endColumn": 31,
+                    "endOffset": 12820
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 12825,
+                    "endColumn": 40,
+                    "endOffset": 12861
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5269,
+                        "endColumn": 40,
+                        "endOffset": 5305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 12866,
+                    "endColumn": 66,
+                    "endOffset": 12928
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 12933,
+                    "endColumn": 65,
+                    "endOffset": 12994
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 12999,
+                    "endColumn": 60,
+                    "endOffset": 13055
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 13060,
+                    "endColumn": 62,
+                    "endOffset": 13118
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 13123,
+                    "endColumn": 58,
+                    "endOffset": 13177
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 13182,
+                    "endColumn": 62,
+                    "endOffset": 13240
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 13245,
+                    "endColumn": 63,
+                    "endOffset": 13304
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 13309,
+                    "endColumn": 86,
+                    "endOffset": 13391
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 13396,
+                    "endColumn": 73,
+                    "endOffset": 13465
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 13470,
+                    "endColumn": 63,
+                    "endOffset": 13529
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 13534,
+                    "endColumn": 31,
+                    "endOffset": 13561
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 13566,
+                    "endColumn": 40,
+                    "endOffset": 13602
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5310,
+                        "endColumn": 40,
+                        "endOffset": 5346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 13607,
+                    "endColumn": 35,
+                    "endOffset": 13638
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 13643,
+                    "endColumn": 82,
+                    "endOffset": 13721
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 13726,
+                    "endColumn": 52,
+                    "endOffset": 13774
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 13779,
+                    "endColumn": 60,
+                    "endOffset": 13835
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 13840,
+                    "endColumn": 47,
+                    "endOffset": 13883
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 13888,
+                    "endColumn": 70,
+                    "endOffset": 13954
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 13959,
+                    "endColumn": 69,
+                    "endOffset": 14024
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 14029,
+                    "endColumn": 70,
+                    "endOffset": 14095
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 14100,
+                    "endColumn": 71,
+                    "endOffset": 14167
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 14172,
+                    "endColumn": 67,
+                    "endOffset": 14235
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 14240,
+                    "endColumn": 82,
+                    "endOffset": 14318
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 14323,
+                    "endColumn": 79,
+                    "endOffset": 14398
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 14403,
+                    "endColumn": 77,
+                    "endOffset": 14476
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 14481,
+                    "endColumn": 78,
+                    "endOffset": 14555
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 14560,
+                    "endColumn": 53,
+                    "endOffset": 14609
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 14614,
+                    "endColumn": 44,
+                    "endOffset": 14654
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 14659,
+                    "endColumn": 48,
+                    "endOffset": 14703
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 14708,
+                    "endColumn": 51,
+                    "endOffset": 14755
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 14760,
+                    "endColumn": 49,
+                    "endOffset": 14805
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 14810,
+                    "endColumn": 48,
+                    "endOffset": 14854
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 14859,
+                    "endColumn": 49,
+                    "endOffset": 14904
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 14909,
+                    "endColumn": 50,
+                    "endOffset": 14955
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 14960,
+                    "endColumn": 44,
+                    "endOffset": 15000
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 15005,
+                    "endColumn": 37,
+                    "endOffset": 15038
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 15043,
+                    "endColumn": 52,
+                    "endOffset": 15091
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 15096,
+                    "endColumn": 33,
+                    "endOffset": 15125
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 15130,
+                    "endColumn": 57,
+                    "endOffset": 15183
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 15188,
+                    "endColumn": 45,
+                    "endOffset": 15229
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 15234,
+                    "endColumn": 46,
+                    "endOffset": 15276
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 15281,
+                    "endColumn": 46,
+                    "endOffset": 15323
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 15328,
+                    "endColumn": 44,
+                    "endOffset": 15368
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 15373,
+                    "endColumn": 38,
+                    "endOffset": 15407
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 15412,
+                    "endColumn": 49,
+                    "endOffset": 15457
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 15462,
+                    "endColumn": 49,
+                    "endOffset": 15507
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 15512,
+                    "endColumn": 45,
+                    "endOffset": 15553
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 15558,
+                    "endColumn": 46,
+                    "endOffset": 15600
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 15605,
+                    "endColumn": 46,
+                    "endOffset": 15647
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 15652,
+                    "endColumn": 45,
+                    "endOffset": 15693
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 15698,
+                    "endColumn": 37,
+                    "endOffset": 15731
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 15736,
+                    "endColumn": 51,
+                    "endOffset": 15783
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 15788,
+                    "endColumn": 50,
+                    "endOffset": 15834
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 15839,
+                    "endColumn": 44,
+                    "endOffset": 15879
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 15884,
+                    "endColumn": 47,
+                    "endOffset": 15927
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 15932,
+                    "endColumn": 50,
+                    "endOffset": 15978
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 15983,
+                    "endColumn": 44,
+                    "endOffset": 16023
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 16028,
+                    "endColumn": 43,
+                    "endOffset": 16067
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 16072,
+                    "endColumn": 42,
+                    "endOffset": 16110
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 16115,
+                    "endColumn": 48,
+                    "endOffset": 16159
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 16164,
+                    "endColumn": 50,
+                    "endOffset": 16210
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 16215,
+                    "endColumn": 48,
+                    "endOffset": 16259
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 16264,
+                    "endColumn": 45,
+                    "endOffset": 16305
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 16310,
+                    "endColumn": 49,
+                    "endOffset": 16355
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 16360,
+                    "endColumn": 46,
+                    "endOffset": 16402
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 16407,
+                    "endColumn": 36,
+                    "endOffset": 16439
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 16444,
+                    "endLine": 350,
+                    "endColumn": 12,
+                    "endOffset": 16730
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 16735,
+                    "endLine": 353,
+                    "endColumn": 12,
+                    "endOffset": 16890
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 16895,
+                    "endLine": 360,
+                    "endColumn": 9,
+                    "endOffset": 17205
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 17210,
+                    "endLine": 369,
+                    "endColumn": 12,
+                    "endOffset": 17717
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 17722,
+                    "endLine": 373,
+                    "endColumn": 12,
+                    "endOffset": 17982
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 17987,
+                    "endLine": 377,
+                    "endColumn": 10,
+                    "endOffset": 18147
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 18152,
+                    "endLine": 380,
+                    "endColumn": 10,
+                    "endOffset": 18269
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 18274,
+                    "endLine": 384,
+                    "endColumn": 10,
+                    "endOffset": 18457
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 18462,
+                    "endLine": 387,
+                    "endColumn": 10,
+                    "endOffset": 18578
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 18583,
+                    "endLine": 391,
+                    "endColumn": 10,
+                    "endOffset": 18760
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 18765,
+                    "endLine": 395,
+                    "endColumn": 10,
+                    "endOffset": 18925
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

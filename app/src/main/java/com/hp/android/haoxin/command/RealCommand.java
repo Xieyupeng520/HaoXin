@@ -193,7 +193,7 @@ public class RealCommand extends TestCommand {
     public void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
         //打印数据到屏幕
         super.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
-        Log.d("RealCommand", "虚拟硬件接收到：玻片数("+glassCount+") 染色("+dyeingThickness+") 固定("+alcoholFix+") 结晶("+crystalViolet+") 碘酒("+iodine+") 称重("+weigh+")");
+        Log.d("RealCommand", "虚拟硬件接收到：玻片数(" + glassCount + ") 染色(" + dyeingThickness + ") 固定(" + alcoholFix + ") 结晶(" + crystalViolet + ") 碘酒(" + iodine + ") 称重(" + weigh + ")");
         //封装数据
         ParameterBean parameterBean = new ParameterBean();
         parameterBean.setGalssCount(FomatTool.int2byte(glassCount));
@@ -208,6 +208,25 @@ public class RealCommand extends TestCommand {
         OperatorServiceImpl operatorService = new OperatorServiceImpl(serialPort);
         try {
             operatorService.sendParameterPackets(parameterBean);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    /***********************************************\
+     *                                             *
+     *                工程师菜单                   *
+     *                                             *
+     ***********************************************/
+    @Override
+    public void engineerChanged(int aPump, int bPump, int cPump, int dPump, int ePump, int cellCentrifugalSpeed) {
+        Log.d("RealCommand", "虚拟硬件接收到：A(" + aPump + ") B(" + bPump + ") C(" + cPump + ") D(" + dPump + ") E(" + ePump + ") S(" + cellCentrifugalSpeed + ")");
+        //连接设备
+        IComDevice serialPort = getSeriaPort();
+        //实现业务
+        OperatorServiceImpl operatorService = new OperatorServiceImpl(serialPort);
+
+        try {
+            operatorService.sendEngineerPackets((byte) aPump, (byte) bPump, (byte) cPump, (byte) dPump, (byte) ePump, (byte) cellCentrifugalSpeed);
         } catch (IOException e) {
             e.printStackTrace();
         }

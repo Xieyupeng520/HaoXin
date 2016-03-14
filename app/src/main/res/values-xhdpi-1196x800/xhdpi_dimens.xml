@@ -93,7 +93,9 @@
   <dimen name="site_btn_list_corner">8dp</dimen>
   <dimen name="site_btn_list_padding">0dp</dimen>
   <dimen name="site_btn_list_divier_h">0.40dp</dimen>
-  
+
+  <!-- engineer -->
+  <dimen name="engineer_item_title_margin_t">10dp</dimen>
   <!-- system -->
   <dimen name="system_btn_back_margin_r">14dp</dimen>
   <dimen name="system_btn_back_font">17dp</dimen>

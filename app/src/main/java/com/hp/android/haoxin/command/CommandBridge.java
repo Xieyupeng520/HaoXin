@@ -108,7 +108,22 @@ public class CommandBridge {
 		if (mInterface != null)
 		mInterface.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
 	}
-	
+
+	/**
+	 * 工程师菜单
+	 * @param aPump A泵占空比（1-100）
+	 * @param bPump B泵占空比（1-100）
+	 * @param cPump C泵占空比（1-100）
+	 * @param dPump D泵占空比（1-100）
+	 * @param ePump E泵占空比（1-100）
+	 * @param cellCentrifugalSpeed  细胞离心速率（1500/2000）
+	 */
+	public void linkEngineerDatas(int aPump, int bPump, int cPump, int dPump, int ePump, int cellCentrifugalSpeed) {
+		if (mInterface != null) {
+			mInterface.engineerChanged(aPump, bPump, cPump, dPump, ePump, cellCentrifugalSpeed);
+		}
+	}
+
 	/**
 	 * 系统维护，流量、模式检测选项值改变
 	 * @param type 检测类型：1表示流量检测，0表示模式检测

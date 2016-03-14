@@ -9,14 +9,14 @@
         style="@style/layout_vertical"
         android:layout_width="match_parent"
         android:layout_weight="2.5"/>
-    
-    
+
+
     <LinearLayout
         style="@style/layout_vertical"
       	android:layout_width="match_parent"
       	android:layout_weight="5"
       	android:orientation="horizontal">
-    
+
 
         <LinearLayout
             style="@style/layout_horizontal"
@@ -25,7 +25,7 @@
             android:orientation="horizontal"
             android:layout_marginLeft="161px"
             >
-	
+
             <LinearLayout
                 android:layout_width="316px"
                 android:layout_height="match_parent"
@@ -33,7 +33,30 @@
                 android:orientation="vertical"
             ><!--android:layout_marginRight="@dimen/home_content_margin_right"-->
 
-        
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|bottom"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50px">
+
+                    <TextView
+                        android:id="@+id/tv_home_slide_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/home_slide_title"
+                        android:textSize="@dimen/home_slide_title_font"
+                        android:text="@string/home_slide_title"/>
+
+                    <TextView
+                        android:id="@+id/tv_home_slide_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/home_slide_number_margin_left"
+                        android:textColor="@color/home_slide_num"
+                        android:textSize="@dimen/home_slide_number_font"
+                        android:text="09"/>
+                </LinearLayout>
              <ImageView
             style="@style/layout_vertical"
     		android:layout_width="wrap_content"
@@ -69,30 +92,7 @@
                android:alpha="1"/>
         </FrameLayout>
 
-            <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal|bottom"
-            android:orientation="horizontal"
-            android:layout_marginTop="50px">
 
-            <TextView
-                android:id="@+id/tv_home_slide_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/home_slide_title"
-                android:textSize="@dimen/home_slide_title_font"
-                android:text="@string/home_slide_title"/>
-
-            <TextView
-                android:id="@+id/tv_home_slide_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/home_slide_number_margin_left"
-                android:textColor="@color/home_slide_num"
-                android:textSize="@dimen/home_slide_number_font"
-                android:text="09"/>
-        </LinearLayout>
 
             <FrameLayout
             style="@style/layout_vertical"

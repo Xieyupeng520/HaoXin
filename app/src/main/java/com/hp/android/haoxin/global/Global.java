@@ -20,6 +20,12 @@ public class Global {
 	public static final String DATA_GUDING_NAME        = "guding";
 	public static final String DATA_CHENGZHOGN_NAME    = "chengzhong";
 
+	public static final String DATA_A_PUMP =  "apump";
+	public static final String DATA_B_PUMP =  "bpump";
+	public static final String DATA_C_PUMP =  "cpump";
+	public static final String DATA_D_PUMP =  "dpump";
+	public static final String DATA_E_PUMP =  "epump";
+	public static final String DATA_CELL_CENTRIFUGAL_SPEED =  "cell_centrifugal_speed";
 
 	/**
 	 * 载玻片的最小和最大值
@@ -38,6 +44,16 @@ public class Global {
 	public static int mChengZhong;
 
 	/**
+	 * 工程师菜单
+	 */
+	public static int mAPump;
+	public static int mBPump;
+	public static int mCPump;
+	public static int mDPump;
+	public static int mEPump;
+	public static int mCellCentrifugalSpeed;
+
+	/**
 	 * 软硬件版本
 	 */
 	public static byte[] HW_VERSION;
@@ -50,6 +66,7 @@ public class Global {
 	 * APP程序状态（比如启动中等...）
 	 */
 	private static GlobalState mState = GlobalState.NONE;
+
 
 	/**
 	 * 初始化Global参数
@@ -70,6 +87,13 @@ public class Global {
 		mDianJiuLev    = sp.getInt(DATA_DIANJIU_NAME, 1);
 		mGuDingQDState = sp.getInt(DATA_GUDING_NAME, 0);
 		mChengZhong    = sp.getInt(DATA_CHENGZHOGN_NAME, 1);
+
+		mAPump = sp.getInt(DATA_A_PUMP, 13);
+		mBPump = sp.getInt(DATA_B_PUMP, 13);
+		mCPump = sp.getInt(DATA_C_PUMP, 13);
+		mDPump = sp.getInt(DATA_D_PUMP, 13);
+		mEPump = sp.getInt(DATA_E_PUMP, 13);
+		mCellCentrifugalSpeed = sp.getInt(DATA_CELL_CENTRIFUGAL_SPEED, 1);
 	}
 
 	/**
@@ -105,12 +129,38 @@ public class Global {
 		sendDataToDevice();
 	}
 
+	public static void saveEngineerDatas(int aPump, int bPump, int cPump, int dPump, int ePump, int cellCentrifugalSpeed, Context context) {
+		mAPump = aPump;
+		mBPump = bPump;
+		mCPump = cPump;
+		mDPump = dPump;
+		mEPump = ePump;
+		mCellCentrifugalSpeed = cellCentrifugalSpeed;
+
+		SharedPreferences sp = getSharePreferences(context);
+		Editor edit = sp.edit();
+
+
+		edit.putInt(DATA_A_PUMP, mAPump);
+		edit.putInt(DATA_B_PUMP, mBPump);
+		edit.putInt(DATA_C_PUMP, mCPump);
+		edit.putInt(DATA_D_PUMP, mDPump);
+		edit.putInt(DATA_E_PUMP, mEPump);
+		edit.putInt(DATA_CELL_CENTRIFUGAL_SPEED, mCellCentrifugalSpeed);
+		edit.commit();
+
+		sendEngineerDataToDevice();
+	}
 	/**
 	 * 发送参数数据到下位机
 	 */
 	public static void sendDataToDevice() {
 		CommandBridge.getInstance().linkSiteDates(mZaiBoPianNum, mRanSeHouDu, mGuDingQDState, mJieJingZiLev, mDianJiuLev, mChengZhong);
 	}
+	public static void sendEngineerDataToDevice() {
+		CommandBridge.getInstance().linkEngineerDatas(mAPump + 1, mBPump + 1, mCPump + 1, mDPump + 1, mEPump + 1, mCellCentrifugalSpeed);
+	}
+
 	private static SharedPreferences getSharePreferences(Context context){
 		return context.getSharedPreferences("custom_data", Context.MODE_PRIVATE);
 	}

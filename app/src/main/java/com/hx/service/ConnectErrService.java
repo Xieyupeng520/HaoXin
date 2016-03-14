@@ -18,6 +18,9 @@ public class ConnectErrService extends Thread {
 		this.connListener = connListener;
 	}
 	
+	/**
+	 * 检查握手协议是否断链
+	 */
 	@Override
 	public void run () {
 		while (true) {
@@ -30,7 +33,9 @@ public class ConnectErrService extends Thread {
 			
 			mCount++;
 			if (mCount == RETRY_MAX) {
-				connListener.onConnected(false);
+				if (connListener != null) {
+					connListener.onConnected(false);
+				}
 				mCount = 0;
 			}
 		}

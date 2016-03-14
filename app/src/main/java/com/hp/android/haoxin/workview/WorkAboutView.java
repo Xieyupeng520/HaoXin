@@ -3,6 +3,10 @@ package com.hp.android.haoxin.workview;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.TextView;
 
 import com.hp.android.haoxin.R;
@@ -48,6 +52,24 @@ public class WorkAboutView extends WorkBaseView{
 			((TextView) findViewById(R.id.hw_version_text)).setText(getResources().getString(R.string.hw_version) + new String(Global.HW_VERSION));
 			((TextView) findViewById(R.id.fw_version_text)).setText(getResources().getString(R.string.fw_version) + new String(Global.SW_VERSION)); //固件版本
 		}
+
+		findViewById(R.id.sw_version_text).setOnTouchListener(new OnTouchListener() {
+			long waitTime = 2000;
+			long touchTime = 0;
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				if(event.getAction() == KeyEvent.ACTION_DOWN) {
+					long currentTime = System.currentTimeMillis();
+					if((currentTime-touchTime) >= waitTime) {
+						Log.d("wait", "再按一次进入工程师菜单");
+						touchTime = currentTime;
+					}else {
+						ViewController.getInstance().changeView(ViewController.VIEW_ENGINEER);
+					}
+				}
+				return false;
+			}
+		});
 	}
 
 	@Override

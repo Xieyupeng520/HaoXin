@@ -129,9 +129,9 @@ public class OperatorServiceImpl implements IOperatorService {
 	 * 发送B流路检测报文到下位机
 	 * @param data B流路类型：
 	 *  0 ：退出当前操作，同时 UI 返回上一级页面 
-	1：STEP1: B 流路 500ML 去离子水检测
-	2：STEP2：B 流路 200ML 清洗剂检测
-	3：STEP3：B 液填充检测
+		1：STEP1: B 流路 500ML 去离子水检测
+		2：STEP2：B 流路 200ML 清洗剂检测
+		3：STEP3：B 液填充检测
 	 * @throws IOException
 	 */
 	@Override
@@ -147,10 +147,10 @@ public class OperatorServiceImpl implements IOperatorService {
 	 * 发送称重报文到下位机
 	 * @param data 称重参数
 	 * 0 ：退出当前操作，同时 UI 返回上一级页面 
-	1 ：STEP1：非常重要，请仔细阅读,请严格按照提示步骤操作！
-	2 ：STEP2：请确定载玻盘移除
-	3 ：STEP3：请将每个瓶子放入 50mL 试剂
-	4 ：STEP4：定标正在进行中，请等待 5S
+		1 ：STEP1：非常重要，请仔细阅读,请严格按照提示步骤操作！
+		2 ：STEP2：请确定载玻盘移除
+		3 ：STEP3：请将每个瓶子放入 50mL 试剂
+		4 ：STEP4：定标正在进行中，请等待 5S
 	 * @throws IOException
 	 */
 	@Override
@@ -168,7 +168,7 @@ public class OperatorServiceImpl implements IOperatorService {
 	 */
 	public void sendHWVerPackets() throws IOException {
 		if (null == mOs || null == mProtocol) {
-			System.out.println("[ERR][OperatorServiceImpl]:[sendSWVerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
+			System.out.println("[ERR][OperatorServiceImpl]:[sendHWVerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
 			return;
 		}
 		mOs.write(mProtocol.createHWVerPackets());
@@ -200,7 +200,7 @@ public class OperatorServiceImpl implements IOperatorService {
 	@Override
 	public void sendCytocentrifugationPackets(byte data) throws IOException {
 		if (null == mOs || null == mProtocol) {
-			System.out.println("[ERR][OperatorServiceImpl]:[sendSWVerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
+			System.out.println("[ERR][OperatorServiceImpl]:[sendCytocentrifugationPackets]:mOs="+mOs+", mProtocol="+mProtocol);
 			return;
 		}
 		mOs.write(mProtocol.createCytocentrifugationPackets(data));
@@ -219,10 +219,9 @@ public class OperatorServiceImpl implements IOperatorService {
 	@Override
 	public void sendEngineerPackets(byte a, byte b, byte c, byte d, byte e, byte speed) throws IOException {
 		if (null == mOs || null == mProtocol) {
-			System.out.println("[ERR][OperatorServiceImpl]:[sendSWVerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
+			System.out.println("[ERR][OperatorServiceImpl]:[sendEngineerPackets]:mOs="+mOs+", mProtocol="+mProtocol);
 			return;
 		}
 		mOs.write(mProtocol.createEngineerPackets(a, b, c, d, e, speed));		
 	}
-
 }

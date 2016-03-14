@@ -1,13 +1,14 @@
 package com.hx.service;
 
+import java.util.Vector;
+
 import android.util.Log;
 import com.hp.android.haoxin.callback.OnConnectedCallBack;
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBack;
-import com.hp.android.haoxin.command.CommandBridge;
 import com.hx.protocol.IProtocol;
 import com.hx.protocol.ProtocolImpl;
 import com.hx.protocol.ProtocolType;
-import com.hx.service.ReadDeviceData.Buffer_C;
+import com.hx.service.ReadDeviceData.DataBuffer;
 /**
  * 处理数据线程
  * @author qp.wang
@@ -20,8 +21,6 @@ public class ParseData extends Thread {
 	private OnReadDeviceDataCallBack mCallBack = null;
 	private OnConnectedCallBack connListener = null;
 	private ConnectErrService mConnectErrService = null;
-
-	private CommandBridge commandBridge = CommandBridge.getInstance();
 
 	public void setCallBack(OnReadDeviceDataCallBack callBack) {
 		this.mCallBack = callBack;
@@ -88,7 +87,6 @@ public class ParseData extends Thread {
 		}
 
 		if (data != null) {
-			commandBridge.showToast("onReadDeviceData(" + byte2HexString(data, size) + ", " + code + ")");
 			mCallBack.onReadDeviceData(data, code);
 		}
 	}
@@ -102,11 +100,22 @@ public class ParseData extends Thread {
 		mProtocol = new ProtocolImpl();
 		//启动通信异常检测服务
 		mConnectErrService.start();
+		Vector<DataBuffer> dataBuffer = ReadDeviceData.buffer;
 		do {
-			if (ReadDeviceData.buffer != null && !ReadDeviceData.buffer.isEmpty()) {
-				Buffer_C buffer = (Buffer_C)ReadDeviceData.buffer.get(0);
-				parseData(buffer.getBuffer(), buffer.getSize());
-				ReadDeviceData.buffer.remove(0);
+			if (dataBuffer != null && !dataBuffer.isEmpty()) {
+				DataBuffer buffer = dataBuffer.get(0);
+				if (buffer != null) {
+					parseData(buffer.getBuffer(), buffer.getBuffer().length);
+					dataBuffer.remove(0);
+				} else {
+					Log.e("ParseData", "buffer is null");
+				}
+			} else {
+				try {
+					Thread.sleep(10);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
 			}
 		} while(true);
 	}

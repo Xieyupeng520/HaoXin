@@ -20,7 +20,7 @@ public class ReadDeviceData extends Thread {
 	private IShakeHandsService shakeHandsServiceImpl = null; 
 	private OnReadDeviceDataCallBack mCallBack = null;
 	private OnConnectedCallBack connListener = null;
-	public static Vector<Buffer_C> buffer = new Vector<Buffer_C>();
+	public static Vector<DataBuffer> buffer = new Vector<DataBuffer>();
 
 	private CommandBridge commandBridge = CommandBridge.getInstance();
 
@@ -60,20 +60,6 @@ public class ReadDeviceData extends Thread {
 		for (int i=0; buf != null && i < buf.length; i++) {
 			buf[i] = 0;
 		}
-	}
-	
-	/**
-	 * 将buf指定长度size转换成16进制字符串
-	 * @param buf 
-	 * @param size
-	 * @return
-	 */
-	private String byte2HexString(byte[] buf, int size) {
-		StringBuffer sb = new StringBuffer();
-		for (int i=0; i<buf.length && i <size; i++) {
-			sb.append(Integer.toHexString(buf[i] & 0xFF)).append(" ");
-		}
-		return sb.toString().toUpperCase();
 	}
 	
 	/**
@@ -131,7 +117,7 @@ public class ReadDeviceData extends Thread {
 			int i = 0;
 			buffer[i] = readByteDataByWait();
 			if (buffer[i] != ProtocolType.PK_HEAD_1.code()) {
-				commandBridge.showToast("read head1 error data="+ buffer[i]);
+//				commandBridge.showToast("read head1 error data="+ buffer[i]);
 				continue;
 			}
 			
@@ -139,7 +125,7 @@ public class ReadDeviceData extends Thread {
 			i++;
 			buffer[i] = readByteDataByWait();
 			if (buffer[i] != ProtocolType.PK_HEAD_2.code()) {
-				commandBridge.showToast("read head2 error data="+ buffer[i]);
+//				commandBridge.showToast("read head2 error data="+ buffer[i]);
 				continue;
 			}
 
@@ -152,7 +138,6 @@ public class ReadDeviceData extends Thread {
 			buffer[i] = readByteDataByWait();
 			int size = buffer[i];
 			if (size > (DATA_MAX_LEN - 4)) {
-				commandBridge.showToast("read dlc data="+ size + ", is too long...");
 				continue;
 			}
 			
@@ -164,28 +149,25 @@ public class ReadDeviceData extends Thread {
 			}
 
 			size +=  i;
-			commandBridge.showToast("read data= "+ byte2HexString(buffer, size) + ",size="+size);
-			Buffer_C dest = new Buffer_C();
-			dest.setSize(size);
+			DataBuffer dest = new DataBuffer(size);
 			dest.setBuffer(buffer);
 			this.buffer.add(dest);
 		} while(true);
 	}
 		
-	class Buffer_C {
-		byte [] buffer = new byte[DATA_MAX_LEN];
-		int size;
+	class DataBuffer {
+		//数据缓存
+		private byte [] buffer = null;
+
+		public DataBuffer(int size) {
+			this.buffer = new byte[size];
+		}
+		
 		public byte[] getBuffer() {
 			return buffer;
 		}
 		public void setBuffer(byte[] buffer) {
-			System.arraycopy(buffer, 0, this.buffer, 0, DATA_MAX_LEN);
-		}
-		public int getSize() {
-			return size;
-		}
-		public void setSize(int size) {
-			this.size = size;
+			System.arraycopy(buffer, 0, this.buffer, 0, this.buffer.length);
 		}
 	}
 }

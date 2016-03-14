@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icons.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-hdpi\\icons.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scroll_point.9.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-hdpi\\scroll_point.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scroll.9.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-hdpi\\scroll.9.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scrollbar.9.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-hdpi\\scrollbar.9.png"
+    }
+]

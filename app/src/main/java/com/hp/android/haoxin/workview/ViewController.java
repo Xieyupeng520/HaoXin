@@ -28,6 +28,7 @@ public class ViewController {
 	public static final int VIEW_SYSTEM_FILL = 7;
 	public static final int VIEW_RANSE = 8;
 	public static final int VIEW_CENTRIFUGAL = 9;
+	public static final int VIEW_ENGINEER = 10;
 
 	
 	private static ViewController mController;
@@ -211,6 +212,9 @@ public class ViewController {
 				break;//return view;
 			case VIEW_CENTRIFUGAL:
 				view = new WorkCentrifugalView(mContext);
+				break;
+			case VIEW_ENGINEER:
+				view = new WorkEngineerView(mContext);
 				break;
 			default:
 				break;

@@ -114,6 +114,14 @@
     <string name="hw_version">硬件版本：</string>
     <string name="fw_version">固件版本：</string>
 
+    <!-- engineer -->
+    <string name="a_pump">A泵占空比</string>
+    <string name="b_pump">B泵占空比</string>
+    <string name="c_pump">C泵占空比</string>
+    <string name="d_pump">D泵占空比</string>
+    <string name="e_pump">E泵占空比</string>
+    <string name="cell_centrifugal_speed">细胞离心转速</string>
+    
     <string-array name="loading_msgs">
         <item>获取版本信息...</item>
         <item>初始化系统参数...</item>
@@ -177,5 +185,10 @@
     <string-array name="site_btn_chengzhongs">
         <item>关闭</item>
         <item>启动</item>
+    </string-array>
+
+    <string-array name="engineer_btn_cell_centrifugal_speed">
+        <item>1500</item>
+        <item>2000</item>
     </string-array>
 </resources>
