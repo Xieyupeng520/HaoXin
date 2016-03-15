@@ -19,6 +19,7 @@ public class Global {
 	public static final String DATA_DIANJIU_NAME       = "dianjiu";
 	public static final String DATA_GUDING_NAME        = "guding";
 	public static final String DATA_CHENGZHOGN_NAME    = "chengzhong";
+	public static final String DATA_HEAT_NAME 		   = "jiare";
 
 	public static final String DATA_A_PUMP =  "apump";
 	public static final String DATA_B_PUMP =  "bpump";
@@ -42,6 +43,7 @@ public class Global {
 	public static int mDianJiuLev;
 	public static int mGuDingQDState;
 	public static int mChengZhong;
+	public static int mHeat;
 
 	/**
 	 * 工程师菜单
@@ -87,6 +89,7 @@ public class Global {
 		mDianJiuLev    = sp.getInt(DATA_DIANJIU_NAME, 1);
 		mGuDingQDState = sp.getInt(DATA_GUDING_NAME, 0);
 		mChengZhong    = sp.getInt(DATA_CHENGZHOGN_NAME, 1);
+		mHeat		   = sp.getInt(DATA_HEAT_NAME, 0);
 
 		mAPump = sp.getInt(DATA_A_PUMP, 13);
 		mBPump = sp.getInt(DATA_B_PUMP, 13);
@@ -123,6 +126,7 @@ public class Global {
 		edit.putInt(DATA_DIANJIU_NAME, mDianJiuLev);
 		edit.putInt(DATA_GUDING_NAME, mGuDingQDState);
 		edit.putInt(DATA_CHENGZHOGN_NAME, mChengZhong);
+		edit.putInt(DATA_HEAT_NAME, mHeat);
 		edit.commit();
 
 		//2.发送数据请求到设备
@@ -155,7 +159,7 @@ public class Global {
 	 * 发送参数数据到下位机
 	 */
 	public static void sendDataToDevice() {
-		CommandBridge.getInstance().linkSiteDates(mZaiBoPianNum, mRanSeHouDu, mGuDingQDState, mJieJingZiLev, mDianJiuLev, mChengZhong);
+		CommandBridge.getInstance().linkSiteDatas(mZaiBoPianNum, mRanSeHouDu, mGuDingQDState, mJieJingZiLev, mDianJiuLev, mChengZhong, mHeat);
 	}
 	public static void sendEngineerDataToDevice() {
 		CommandBridge.getInstance().linkEngineerDatas(mAPump + 1, mBPump + 1, mCPump + 1, mDPump + 1, mEPump + 1, mCellCentrifugalSpeed);

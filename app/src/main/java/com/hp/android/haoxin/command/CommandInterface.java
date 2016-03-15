@@ -92,8 +92,11 @@ public interface CommandInterface {
 	 * @param crystalViolet 结晶紫选择（00：高 01：中 02：低）
 	 * @param iodine 碘酒选择（00：关闭 01：普通 02：高效）
 	 * @param weigh 称重使能选择（00：关闭 01：启动）
+	 * @param heat  加热选择（00：关闭 01：启动）
 	 */
+	void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh, int heat);
 	void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh);
+
 	/**
 	 * 工程师菜单
 	 * @param aPump A泵占空比（1-100）

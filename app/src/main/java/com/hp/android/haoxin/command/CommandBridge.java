@@ -103,8 +103,13 @@ public class CommandBridge {
 	 * @param crystalViolet 结晶紫选择（00：高 01：中 02：低）
 	 * @param iodine 碘酒选择（00：关闭 01：普通 02：高效）
 	 * @param weigh 称重使能选择（00：关闭 01：启动）
+	 * @param heat  加热选择（00：关闭 01：启动）
 	 */
-	public void linkSiteDates(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
+	public void linkSiteDatas(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh, int heat) {
+		if (mInterface != null)
+			mInterface.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh, heat);
+	}
+	public void linkSiteDatas(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
 		if (mInterface != null)
 		mInterface.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
 	}

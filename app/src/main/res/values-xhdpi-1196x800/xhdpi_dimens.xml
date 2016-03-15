@@ -23,7 +23,7 @@
   <dimen name="work_child_margin_top">12dp</dimen>
   <dimen name="home_slide_button_margin_top">2px</dimen>
   <dimen name="home_slide_title_font">30px</dimen>
-  <dimen name="home_slide_number_font">30px</dimen>
+  <dimen name="home_slide_number_font">42px</dimen>
   <dimen name="home_slide_number_margin_left">28px</dimen>
   <dimen name="home_content_margin_lr">128dp</dimen>
   <dimen name="home_content_margin_right">46dp</dimen>
@@ -40,7 +40,7 @@
   <dimen name="home_slide_arrow_width">17dp</dimen>
   <dimen name="home_slide_arrow_height">16dp</dimen>
   <dimen name="home_slide_button_bottom_wh">191dp</dimen>
-  <dimen name="home_slide_button_top_wh">90dp</dimen>
+  <dimen name="home_slide_button_top_wh">110dp</dimen>
   <dimen name="home_info_content_width">209dp</dimen>
   <dimen name="home_info_content_height">152dp</dimen>
   <dimen name="home_info_item_margin_t">1dp</dimen>
@@ -78,7 +78,7 @@
   <dimen name="spout_df_margin_r">32dp</dimen>
   <dimen name="diak_spout_margin_l">-64dp</dimen>
   <dimen name="site_content_margin_lr">192dp</dimen>
-  <dimen name="site_item_title_margin_t">12dp</dimen>
+  <dimen name="site_item_title_margin_t">10dp</dimen>
   <dimen name="site_item_h">29dp</dimen>
   <dimen name="site_item_title_font">16dp</dimen>
   <dimen name="site_btn_littlearrows_margin_r">14dp</dimen>

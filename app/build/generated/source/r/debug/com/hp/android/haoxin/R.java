@@ -34,9 +34,10 @@ public final class R {
         public static final int site_btn_chengzhongs=0x7f070006;
         public static final int site_btn_dianjius=0x7f070007;
         public static final int site_btn_gudnigs=0x7f070008;
-        public static final int site_btn_jiejings=0x7f070009;
-        public static final int site_btn_ranses=0x7f07000a;
-        public static final int site_grade=0x7f07000b;
+        public static final int site_btn_heat=0x7f070009;
+        public static final int site_btn_jiejings=0x7f07000a;
+        public static final int site_btn_ranses=0x7f07000b;
+        public static final int site_grade=0x7f07000c;
     }
     public static final class attr {
         /** <p>Must be an integer value, such as "<code>100</code>".
@@ -356,7 +357,7 @@ containing a value of this type.
         public static final int weigh_title=0x7f020076;
     }
     public static final class id {
-        public static final int action_settings=0x7f0c006d;
+        public static final int action_settings=0x7f0c0070;
         public static final int btn_back=0x7f0c004f;
         public static final int btn_cancel=0x7f0c003e;
         public static final int btn_dialog_cancel=0x7f0c0009;
@@ -374,16 +375,18 @@ containing a value of this type.
         public static final int btn_site_dianjiutiaozheng_text=0x7f0c0057;
         public static final int btn_site_gudingqidong=0x7f0c0034;
         public static final int btn_site_gudingqidong_text=0x7f0c0053;
+        public static final int btn_site_heat=0x7f0c005b;
+        public static final int btn_site_heat_text=0x7f0c005c;
         public static final int btn_site_jiejingzi=0x7f0c0036;
         public static final int btn_site_jiejingzi_text=0x7f0c0055;
         public static final int btn_site_ransehoudu=0x7f0c0032;
         public static final int btn_site_ransehoudu_text=0x7f0c0051;
         public static final int btn_sure=0x7f0c003d;
-        public static final int btn_system_back=0x7f0c006c;
-        public static final int btn_system_bliulu=0x7f0c0068;
-        public static final int btn_system_centrifugal=0x7f0c006b;
-        public static final int btn_system_chenzhong=0x7f0c006a;
-        public static final int btn_system_tianchong=0x7f0c0069;
+        public static final int btn_system_back=0x7f0c006f;
+        public static final int btn_system_bliulu=0x7f0c006b;
+        public static final int btn_system_centrifugal=0x7f0c006e;
+        public static final int btn_system_chenzhong=0x7f0c006d;
+        public static final int btn_system_tianchong=0x7f0c006c;
         public static final int clean_btn_cancel=0x7f0c0031;
         public static final int dcv_disk_mark=0x7f0c0025;
         public static final int dialog_btn_linear=0x7f0c0008;
@@ -423,18 +426,18 @@ containing a value of this type.
         public static final int pb_liu_cheng=0x7f0c004d;
         public static final int progress_clean=0x7f0c0030;
         public static final int progress_loading=0x7f0c0002;
-        public static final int rb_liuliang_1=0x7f0c0063;
-        public static final int rb_liuliang_2=0x7f0c0064;
-        public static final int rb_liuliang_3=0x7f0c0065;
-        public static final int rb_liuliang_4=0x7f0c0066;
-        public static final int rb_liuliang_5=0x7f0c0067;
-        public static final int rb_moshi_1=0x7f0c005d;
-        public static final int rb_moshi_2=0x7f0c005e;
-        public static final int rb_moshi_3=0x7f0c005f;
-        public static final int rb_moshi_4=0x7f0c0060;
-        public static final int rb_moshi_5=0x7f0c0061;
-        public static final int rg_system_liuliang=0x7f0c0062;
-        public static final int rg_system_moshi=0x7f0c005c;
+        public static final int rb_liuliang_1=0x7f0c0066;
+        public static final int rb_liuliang_2=0x7f0c0067;
+        public static final int rb_liuliang_3=0x7f0c0068;
+        public static final int rb_liuliang_4=0x7f0c0069;
+        public static final int rb_liuliang_5=0x7f0c006a;
+        public static final int rb_moshi_1=0x7f0c0060;
+        public static final int rb_moshi_2=0x7f0c0061;
+        public static final int rb_moshi_3=0x7f0c0062;
+        public static final int rb_moshi_4=0x7f0c0063;
+        public static final int rb_moshi_5=0x7f0c0064;
+        public static final int rg_system_liuliang=0x7f0c0065;
+        public static final int rg_system_moshi=0x7f0c005f;
         public static final int rote_home_v=0x7f0c0041;
         public static final int sw_version_text=0x7f0c001a;
         public static final int tv_btn_list_text=0x7f0c0013;
@@ -459,10 +462,11 @@ containing a value of this type.
         public static final int tv_site_chenzhongqidong_title=0x7f0c0058;
         public static final int tv_site_dianjiutiaozheng_title=0x7f0c0056;
         public static final int tv_site_gudingqidong_title=0x7f0c0052;
+        public static final int tv_site_heat_title=0x7f0c005a;
         public static final int tv_site_jiejingzi_title=0x7f0c0054;
         public static final int tv_site_ransehoudu_title=0x7f0c0050;
-        public static final int tv_succ_msg=0x7f0c005a;
-        public static final int tv_succ_next=0x7f0c005b;
+        public static final int tv_succ_msg=0x7f0c005d;
+        public static final int tv_succ_next=0x7f0c005e;
         public static final int v_list_sign=0x7f0c000d;
         public static final int work_base_container_frame=0x7f0c0022;
         public static final int work_frame=0x7f0c0017;
@@ -583,24 +587,25 @@ containing a value of this type.
         public static final int site_chenzhogn=0x7f0a004a;
         public static final int site_dianjiu=0x7f0a004b;
         public static final int site_guding=0x7f0a004c;
-        public static final int site_jiejing=0x7f0a004d;
-        public static final int site_ranse=0x7f0a004e;
-        public static final int step=0x7f0a004f;
-        public static final int succ_centrifugal=0x7f0a0050;
-        public static final int succ_chengzhong=0x7f0a0051;
-        public static final int succ_fill=0x7f0a0052;
-        public static final int succ_liulu=0x7f0a0053;
-        public static final int succ_ranse=0x7f0a0054;
-        public static final int sw_version=0x7f0a0055;
-        public static final int switch_close=0x7f0a0056;
-        public static final int switch_open=0x7f0a0057;
-        public static final int system_bliulu=0x7f0a0058;
-        public static final int system_chengzhong=0x7f0a0059;
-        public static final int system_liuliang=0x7f0a005a;
-        public static final int system_moshi=0x7f0a005b;
-        public static final int system_tianchong=0x7f0a005c;
-        public static final int waiting=0x7f0a005d;
-        public static final int week=0x7f0a005e;
+        public static final int site_heat=0x7f0a004d;
+        public static final int site_jiejing=0x7f0a004e;
+        public static final int site_ranse=0x7f0a004f;
+        public static final int step=0x7f0a0050;
+        public static final int succ_centrifugal=0x7f0a0051;
+        public static final int succ_chengzhong=0x7f0a0052;
+        public static final int succ_fill=0x7f0a0053;
+        public static final int succ_liulu=0x7f0a0054;
+        public static final int succ_ranse=0x7f0a0055;
+        public static final int sw_version=0x7f0a0056;
+        public static final int switch_close=0x7f0a0057;
+        public static final int switch_open=0x7f0a0058;
+        public static final int system_bliulu=0x7f0a0059;
+        public static final int system_chengzhong=0x7f0a005a;
+        public static final int system_liuliang=0x7f0a005b;
+        public static final int system_moshi=0x7f0a005c;
+        public static final int system_tianchong=0x7f0a005d;
+        public static final int waiting=0x7f0a005e;
+        public static final int week=0x7f0a005f;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

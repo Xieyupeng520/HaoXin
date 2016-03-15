@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        style="@style/layout_vertical_full"
+        android:layout_weight="3.0"/>
+
+    <LinearLayout
+        style="@style/layout_vertical_full"
+        android:layout_weight="6"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            style="@style/layout_horizontal_full"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            style="@style/layout_horizontal_full"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!-- A泵 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/a_pump"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:id="@+id/btn_site_ransehoudu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true" >
+
+                    <Button
+                        android:id="@+id/btn_engineer_a_pump"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- B泵 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/engineer_item_title_margin_t"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/b_pump"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:id="@+id/btn_site_gudingqidong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true" >
+
+                    <Button
+                        android:id="@+id/btn_engineer_b_pump"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- C泵 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/engineer_item_title_margin_t"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/c_pump"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:id="@+id/btn_site_jiejingzi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true" >
+
+                    <Button
+                        android:id="@+id/btn_engineer_c_pump"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- D泵 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/engineer_item_title_margin_t"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/d_pump"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:id="@+id/btn_site_dianjiutiaozheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true" >
+
+                    <Button
+                        android:id="@+id/btn_engineer_d_pump"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- E泵 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/engineer_item_title_margin_t"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/e_pump"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true" >
+
+                    <Button
+                        android:id="@+id/btn_engineer_e_pump"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- 细胞离心转速-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/engineer_item_title_margin_t"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cell_centrifugal_speed"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/site_item_title_font" />
+
+                <FrameLayout
+                    android:id="@+id/btn_site_chenzhongqidong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true">
+
+                    <Button
+                        android:id="@+id/btn_engineer_cell_centrifugal_speed"
+                        android:tag="btntxt"
+                        android:layout_width="@dimen/site_btn_list_item_w"
+                        android:layout_height="@dimen/site_btn_list_item_h"
+                        android:background="@drawable/selector_button_oval"
+                        android:clickable="false"
+                        android:textColor="@drawable/selector_button_oval_text"
+                        android:textSize="@dimen/site_item_title_font" />
+
+                    <View
+                        android:layout_width="@dimen/site_littlearrows_w"
+                        android:layout_height="@dimen/site_littlearrows_h"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="@dimen/site_btn_littlearrows_margin_r"
+                        android:background="@drawable/selector_littlearrows"
+                        android:clickable="false" />
+                </FrameLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            style="@style/layout_horizontal_full"
+            android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout_vertical_full"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom|right"
+        android:gravity="bottom|right"
+        android:visibility="visible"
+        android:layout_marginRight="100dp">
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="@dimen/button_normal_width"
+            android:layout_height="@dimen/button_normal_height"
+            android:background="@drawable/selector_button_normal"
+            android:text="@string/button_normal_sure"
+            android:textColor="@color/btn_normal" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/button_normal_width"
+            android:layout_height="@dimen/button_normal_height"
+            android:layout_marginLeft="@dimen/site_btn_margin_middle"
+            android:layout_marginRight="@dimen/site_btn_margin_r"
+            android:background="@drawable/selector_button_normal"
+            android:text="@string/button_normal_cancel"
+            android:textColor="@color/btn_normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -41,6 +41,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 	private int mTempJiejing; //结晶紫
 	private int mTempDianjiu; //碘酒
 	private int mTempChengzhong; //称重
+	private int mHeat;	//加热
 	
 	public WorkSiteView(Context context) {
 		super(context);
@@ -63,6 +64,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		Tool.setTextType(this, R.id.tv_site_jiejingzi_title, Constant.FONT_TYPE_FANGZ);
 		Tool.setTextType(this, R.id.tv_site_dianjiutiaozheng_title, Constant.FONT_TYPE_FANGZ);
 		Tool.setTextType(this, R.id.tv_site_chenzhongqidong_title, Constant.FONT_TYPE_FANGZ);
+		Tool.setTextType(this, R.id.tv_site_heat_title, Constant.FONT_TYPE_FANGZ);
 
 		mRanSeText = Tool.setTextType(this, R.id.btn_site_ransehoudu_text, Constant.FONT_TYPE_FANGZ);
 		mGuDingText = Tool.setTextType(this, R.id.btn_site_gudingqidong_text, Constant.FONT_TYPE_FANGZ);
@@ -76,6 +78,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		findViewById(R.id.btn_site_jiejingzi_text).setOnClickListener(listener);
 		findViewById(R.id.btn_site_dianjiutiaozheng_text).setOnClickListener(listener);
 		findViewById(R.id.btn_site_chenzhongqidong_text).setOnClickListener(listener);
+		findViewById(R.id.btn_site_heat_text).setOnClickListener(listener);
 
 
 		Button sure = (Button) Tool.setTextType(this, R.id.btn_sure, Constant.FONT_TYPE_FANGZ);
@@ -138,6 +141,7 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		Global.mJieJingZiLev = mTempJiejing;
 		Global.mDianJiuLev = mTempDianjiu;
 		Global.mChengZhong = mTempChengzhong;
+		Global.mHeat = mHeat;
 		
 		Global.saveDatas(getContext());
 	}
@@ -223,6 +227,9 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 			case R.id.btn_site_chenzhongqidong_text:
 				id = R.array.site_btn_chengzhongs;
 				break;
+			case R.id.btn_site_heat_text:
+				id = R.array.site_btn_heat;
+				break;
 			default:
 				id = R.array.site_btn_jiejings;
 				break;
@@ -237,6 +244,11 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 			if (mPopupWindow.isShowing()) {
 				mPopupWindow.dismiss();
 			} else {
+				if (R.id.btn_site_heat_text == view.getId()) {
+					mPopupWindow.setHeight(130);
+				} else {
+					mPopupWindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+				}
 				mPopupWindow.showAsDropDown(view);
 			}
 		}
@@ -311,6 +323,12 @@ public class WorkSiteView extends WorkBaseView implements OnItemClickListener{
 		case R.id.btn_site_chenzhongqidong_text:
 			if(option != mTempChengzhong){
 				mTempChengzhong = option;
+				mIsChange = true;
+			}
+			break;
+		case R.id.btn_site_heat_text:
+			if(option != mHeat){
+				mHeat = option;
 				mIsChange = true;
 			}
 			break;

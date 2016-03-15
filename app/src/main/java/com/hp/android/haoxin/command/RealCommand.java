@@ -190,10 +190,9 @@ public class RealCommand extends TestCommand {
      *                                             *
      ***********************************************/
     @Override
-    public void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
-        //打印数据到屏幕
-        super.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
-        Log.d("RealCommand", "虚拟硬件接收到：玻片数(" + glassCount + ") 染色(" + dyeingThickness + ") 固定(" + alcoholFix + ") 结晶(" + crystalViolet + ") 碘酒(" + iodine + ") 称重(" + weigh + ")");
+    public void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh, int heat) {
+        Log.d("RealCommand", "虚拟硬件接收到：玻片数(" + glassCount + ") 染色(" + dyeingThickness + ") 固定(" + alcoholFix
+                + ") 结晶(" + crystalViolet + ") 碘酒(" + iodine + ") 称重(" + weigh + ")" + " 加热（" + heat + "）");
         //封装数据
         ParameterBean parameterBean = new ParameterBean();
         parameterBean.setGalssCount(FomatTool.int2byte(glassCount));
@@ -202,6 +201,8 @@ public class RealCommand extends TestCommand {
         parameterBean.setCrystalViolet(FomatTool.int2byte(crystalViolet));
         parameterBean.setIodine(FomatTool.int2byte(iodine));
         parameterBean.setWeigh(FomatTool.int2byte(weigh));
+        parameterBean.setHeating(FomatTool.int2byte(heat));
+
         //连接设备
         IComDevice serialPort = getSeriaPort();
         //实现业务
@@ -211,6 +212,10 @@ public class RealCommand extends TestCommand {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    @Override
+    public void siteChanged(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
+        siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh, 0);
     }
     /***********************************************\
      *                                             *

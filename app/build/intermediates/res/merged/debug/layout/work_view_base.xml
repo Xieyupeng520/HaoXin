@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+    
+
+    <LinearLayout 
+        style="@style/layout_full"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+	            android:id="@+id/main_head_title_img"
+	            style="@style/layout_vertical"
+	            android:layout_weight="1.3"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/index_title"
+                android:layout_marginTop="@dimen/work_head_title_margin_top"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/work_head_time_margin_top"
+            android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom">
+            
+            <TextView 
+                android:id="@+id/main_head_time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/work_head_time_font"
+                android:textColor="@color/work_base_time"
+                android:includeFontPadding="false"
+                android:text="14:00"/>
+            
+            <TextView
+                android:id="@+id/main_head_day_txt"
+              	android:layout_width="wrap_content"
+              	android:layout_height="wrap_content"
+              	android:layout_marginLeft="@dimen/work_head_day_margin_left"
+              	android:includeFontPadding="false"
+              	android:textSize="@dimen/work_head_day_font"
+              	android:textColor="@color/work_base_time"
+              	android:text="上午"/>
+            
+        </LinearLayout>
+        
+         <LinearLayout 
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/work_head_date_margin_top"
+            android:gravity="center_horizontal|bottom">
+            
+            
+            <TextView 
+                android:id="@+id/main_head_date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/work_head_date_font"
+                android:textColor="@color/work_base_time"
+                android:includeFontPadding="false"
+                android:text="五月四日"/>
+            
+            <TextView
+                android:id="@+id/main_head_week_txt"
+              	android:layout_width="wrap_content"
+              	android:layout_height="wrap_content"
+              	android:layout_marginLeft="@dimen/work_head_week_margin_left"
+              	android:includeFontPadding="false"
+              	android:textSize="@dimen/work_head_date_font"
+              	android:textColor="@color/work_base_time"
+              	android:text="周三"/>
+        </LinearLayout>
+        </LinearLayout>
+     <View 
+        style="@style/layout_vertical"
+        android:layout_weight="14.5"/> 
+    </LinearLayout>
+
+     <FrameLayout
+         android:id="@+id/work_base_container_frame"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+     </FrameLayout>
+
+</FrameLayout>
