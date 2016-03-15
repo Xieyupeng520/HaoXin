@@ -140,6 +140,10 @@
         "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\disk_spout2.png"
     },
     {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\index_button_top_center.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\index_button_top_center.png"
+    },
+    {
         "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\load.png",
         "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\load.png"
     },
@@ -246,6 +250,10 @@
     {
         "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\index_button_top_touch.png",
         "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\index_button_top_touch.png"
+    },
+    {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\index_button_top_touch_center.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\index_button_top_touch_center.png"
     },
     {
         "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\spout_b_1_1.png",
