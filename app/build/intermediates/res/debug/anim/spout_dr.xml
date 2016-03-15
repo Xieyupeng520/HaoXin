@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/spout_dr_1" android:duration="100"></item>  
     <item android:drawable="@drawable/spout_dr_2" android:duration="100"></item>  
 </animation-list>  
-<!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/anim/spout_dr.xml -->
+<!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/anim/spout_dr.xml -->
