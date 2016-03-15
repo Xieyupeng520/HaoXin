@@ -240,6 +240,18 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                     call.workStartSpout(SpoutView.DF, true);
                     call.workStartSpout(SpoutView.DR, true);
                     break;
+                case Response.Progress.PROGRESS_JETTING_KMNO4:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_KMNO4);
+                    call.workStartSpout(SpoutView.C, true);
+                    break;
+                case Response.Progress.PROGRESS_JETTING_RHODAMINE:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_RHODAMINE);
+                    call.workStartSpout(SpoutView.A, true);
+                    break;
+                case Response.Progress.PROGRESS_JETTING_FIRST_DYE:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_FIRST_DYE);
+                    call.workStartSpout(SpoutView.A, true);
+                    break;
             }
             lastProgressResponse = data[1];
         }

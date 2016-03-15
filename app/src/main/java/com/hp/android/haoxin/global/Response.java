@@ -86,6 +86,11 @@ public class Response {
         public static final byte PROGRESS_CENTRIFUGAL = 0x0F;       //正在细胞离心(动画:不喷射)**
 
         public static final byte PROGRESS_CLEAN_PLUS = 0x10;        //正在清洗(动画:A、B、C、D、E、Df 和 Dr 同时喷)
+
+        //抗酸版本新增
+        public static final byte PROGRESS_JETTING_KMNO4 = 0x11;     //正在喷射：高锰酸钾（动画：C 喷射  紫色）
+        public static final byte PROGRESS_JETTING_RHODAMINE = 0x12; //正在喷射：金胺 O-罗丹明 B（ 动画： A 喷射   橙黄色）
+        public static final byte PROGRESS_JETTING_FIRST_DYE = 0x13; //正在喷射：初染液（动画： A 喷射   橙黄色）
     }
 
     /**

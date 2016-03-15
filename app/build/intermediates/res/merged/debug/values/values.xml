@@ -256,6 +256,9 @@
     <string name="PROGRESS_AURAMINE_O">金胺 O</string>
     <string name="PROGRESS_CENTRIFUGAL">正在细胞离心</string>
     <string name="PROGRESS_CLEAN_PLUS">正在清洗</string>
+    <string name="PROGRESS_JETTING_FIRST_DYE">初染液</string>
+    <string name="PROGRESS_JETTING_KMNO4">高锰酸钾</string>
+    <string name="PROGRESS_JETTING_RHODAMINE">金胺 O-罗丹明 B</string>
     <string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string>
     <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
     <string name="PROGRESS_STONE_CARBONATE">石碳酸复红</string>

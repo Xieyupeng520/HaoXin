@@ -2324,44 +2324,65 @@
                     "startLine": 258,
                     "startColumn": 4,
                     "startOffset": 11882,
-                    "endColumn": 56,
-                    "endOffset": 11934
+                    "endColumn": 58,
+                    "endOffset": 11936
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3802,
+                        "endColumn": 58,
+                        "endOffset": 3856
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 11939,
-                    "endColumn": 54,
-                    "endOffset": 11989
+                    "startOffset": 11941,
+                    "endColumn": 55,
+                    "endOffset": 11992
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3678,
+                        "endColumn": 55,
+                        "endOffset": 3729
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 11994,
-                    "endColumn": 58,
-                    "endOffset": 12048
+                    "startOffset": 11997,
+                    "endColumn": 65,
+                    "endOffset": 12058
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3735,
+                        "endColumn": 65,
+                        "endOffset": 3796
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 12053,
-                    "endColumn": 31,
-                    "endOffset": 12080
+                    "startOffset": 12063,
+                    "endColumn": 56,
+                    "endOffset": 12115
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2371,9 +2392,9 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 12085,
-                    "endColumn": 40,
-                    "endOffset": 12121
+                    "startOffset": 12120,
+                    "endColumn": 54,
+                    "endOffset": 12170
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2383,9 +2404,9 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 12126,
-                    "endColumn": 52,
-                    "endOffset": 12174
+                    "startOffset": 12175,
+                    "endColumn": 58,
+                    "endOffset": 12229
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2395,9 +2416,9 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 12179,
-                    "endColumn": 46,
-                    "endOffset": 12221
+                    "startOffset": 12234,
+                    "endColumn": 31,
+                    "endOffset": 12261
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2407,9 +2428,9 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 12226,
-                    "endColumn": 33,
-                    "endOffset": 12255
+                    "startOffset": 12266,
+                    "endColumn": 40,
+                    "endOffset": 12302
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2419,9 +2440,9 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 12260,
-                    "endColumn": 47,
-                    "endOffset": 12303
+                    "startOffset": 12307,
+                    "endColumn": 52,
+                    "endOffset": 12355
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2431,9 +2452,9 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 12308,
-                    "endColumn": 31,
-                    "endOffset": 12335
+                    "startOffset": 12360,
+                    "endColumn": 46,
+                    "endOffset": 12402
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2443,9 +2464,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 12340,
-                    "endColumn": 40,
-                    "endOffset": 12376
+                    "startOffset": 12407,
+                    "endColumn": 33,
+                    "endOffset": 12436
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2455,9 +2476,9 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 12381,
-                    "endColumn": 53,
-                    "endOffset": 12430
+                    "startOffset": 12441,
+                    "endColumn": 47,
+                    "endOffset": 12484
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2467,9 +2488,9 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 12435,
-                    "endColumn": 39,
-                    "endOffset": 12470
+                    "startOffset": 12489,
+                    "endColumn": 31,
+                    "endOffset": 12516
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2479,9 +2500,9 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 12475,
-                    "endColumn": 39,
-                    "endOffset": 12510
+                    "startOffset": 12521,
+                    "endColumn": 40,
+                    "endOffset": 12557
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2491,9 +2512,9 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 12515,
-                    "endColumn": 40,
-                    "endOffset": 12551
+                    "startOffset": 12562,
+                    "endColumn": 53,
+                    "endOffset": 12611
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2503,9 +2524,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 12556,
-                    "endColumn": 43,
-                    "endOffset": 12595
+                    "startOffset": 12616,
+                    "endColumn": 39,
+                    "endOffset": 12651
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2515,9 +2536,9 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 12600,
-                    "endColumn": 51,
-                    "endOffset": 12647
+                    "startOffset": 12656,
+                    "endColumn": 39,
+                    "endOffset": 12691
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2527,9 +2548,9 @@
                 "to": {
                     "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 12652,
-                    "endColumn": 49,
-                    "endOffset": 12697
+                    "startOffset": 12696,
+                    "endColumn": 40,
+                    "endOffset": 12732
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2539,9 +2560,9 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 12702,
-                    "endColumn": 31,
-                    "endOffset": 12729
+                    "startOffset": 12737,
+                    "endColumn": 43,
+                    "endOffset": 12776
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2551,9 +2572,9 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 12734,
-                    "endColumn": 40,
-                    "endOffset": 12770
+                    "startOffset": 12781,
+                    "endColumn": 51,
+                    "endOffset": 12828
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2563,9 +2584,9 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 12775,
-                    "endColumn": 57,
-                    "endOffset": 12828
+                    "startOffset": 12833,
+                    "endColumn": 49,
+                    "endOffset": 12878
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2575,9 +2596,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 12833,
-                    "endColumn": 43,
-                    "endOffset": 12872
+                    "startOffset": 12883,
+                    "endColumn": 31,
+                    "endOffset": 12910
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2587,9 +2608,9 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 12877,
-                    "endColumn": 46,
-                    "endOffset": 12919
+                    "startOffset": 12915,
+                    "endColumn": 40,
+                    "endOffset": 12951
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2599,9 +2620,9 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 12924,
-                    "endColumn": 31,
-                    "endOffset": 12951
+                    "startOffset": 12956,
+                    "endColumn": 57,
+                    "endOffset": 13009
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2611,9 +2632,9 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 12956,
-                    "endColumn": 40,
-                    "endOffset": 12992
+                    "startOffset": 13014,
+                    "endColumn": 43,
+                    "endOffset": 13053
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2623,9 +2644,9 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 12997,
-                    "endColumn": 66,
-                    "endOffset": 13059
+                    "startOffset": 13058,
+                    "endColumn": 46,
+                    "endOffset": 13100
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2635,9 +2656,9 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 13064,
-                    "endColumn": 65,
-                    "endOffset": 13125
+                    "startOffset": 13105,
+                    "endColumn": 31,
+                    "endOffset": 13132
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2647,9 +2668,9 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 13130,
-                    "endColumn": 60,
-                    "endOffset": 13186
+                    "startOffset": 13137,
+                    "endColumn": 40,
+                    "endOffset": 13173
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2659,9 +2680,9 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 13191,
-                    "endColumn": 62,
-                    "endOffset": 13249
+                    "startOffset": 13178,
+                    "endColumn": 66,
+                    "endOffset": 13240
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2671,9 +2692,9 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 13254,
-                    "endColumn": 58,
-                    "endOffset": 13308
+                    "startOffset": 13245,
+                    "endColumn": 65,
+                    "endOffset": 13306
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2683,9 +2704,9 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 13313,
-                    "endColumn": 62,
-                    "endOffset": 13371
+                    "startOffset": 13311,
+                    "endColumn": 60,
+                    "endOffset": 13367
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2695,9 +2716,9 @@
                 "to": {
                     "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 13376,
-                    "endColumn": 63,
-                    "endOffset": 13435
+                    "startOffset": 13372,
+                    "endColumn": 62,
+                    "endOffset": 13430
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2707,9 +2728,9 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 13440,
-                    "endColumn": 86,
-                    "endOffset": 13522
+                    "startOffset": 13435,
+                    "endColumn": 58,
+                    "endOffset": 13489
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2719,9 +2740,9 @@
                 "to": {
                     "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 13527,
-                    "endColumn": 73,
-                    "endOffset": 13596
+                    "startOffset": 13494,
+                    "endColumn": 62,
+                    "endOffset": 13552
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2731,9 +2752,9 @@
                 "to": {
                     "startLine": 292,
                     "startColumn": 4,
-                    "startOffset": 13601,
+                    "startOffset": 13557,
                     "endColumn": 63,
-                    "endOffset": 13660
+                    "endOffset": 13616
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2743,9 +2764,9 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 13665,
-                    "endColumn": 31,
-                    "endOffset": 13692
+                    "startOffset": 13621,
+                    "endColumn": 86,
+                    "endOffset": 13703
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2755,9 +2776,9 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 13697,
-                    "endColumn": 40,
-                    "endOffset": 13733
+                    "startOffset": 13708,
+                    "endColumn": 73,
+                    "endOffset": 13777
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2767,9 +2788,9 @@
                 "to": {
                     "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 13738,
-                    "endColumn": 35,
-                    "endOffset": 13769
+                    "startOffset": 13782,
+                    "endColumn": 63,
+                    "endOffset": 13841
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2779,9 +2800,9 @@
                 "to": {
                     "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 13774,
-                    "endColumn": 82,
-                    "endOffset": 13852
+                    "startOffset": 13846,
+                    "endColumn": 31,
+                    "endOffset": 13873
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2791,9 +2812,9 @@
                 "to": {
                     "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 13857,
-                    "endColumn": 52,
-                    "endOffset": 13905
+                    "startOffset": 13878,
+                    "endColumn": 40,
+                    "endOffset": 13914
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2803,9 +2824,9 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 13910,
-                    "endColumn": 60,
-                    "endOffset": 13966
+                    "startOffset": 13919,
+                    "endColumn": 35,
+                    "endOffset": 13950
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2815,9 +2836,9 @@
                 "to": {
                     "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 13971,
-                    "endColumn": 47,
-                    "endOffset": 14014
+                    "startOffset": 13955,
+                    "endColumn": 82,
+                    "endOffset": 14033
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2827,9 +2848,9 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 14019,
-                    "endColumn": 70,
-                    "endOffset": 14085
+                    "startOffset": 14038,
+                    "endColumn": 52,
+                    "endOffset": 14086
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2839,9 +2860,9 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 14090,
-                    "endColumn": 69,
-                    "endOffset": 14155
+                    "startOffset": 14091,
+                    "endColumn": 60,
+                    "endOffset": 14147
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2851,9 +2872,9 @@
                 "to": {
                     "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 14160,
-                    "endColumn": 70,
-                    "endOffset": 14226
+                    "startOffset": 14152,
+                    "endColumn": 47,
+                    "endOffset": 14195
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2863,9 +2884,9 @@
                 "to": {
                     "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 14231,
-                    "endColumn": 71,
-                    "endOffset": 14298
+                    "startOffset": 14200,
+                    "endColumn": 70,
+                    "endOffset": 14266
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2875,9 +2896,9 @@
                 "to": {
                     "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 14303,
-                    "endColumn": 67,
-                    "endOffset": 14366
+                    "startOffset": 14271,
+                    "endColumn": 69,
+                    "endOffset": 14336
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2887,9 +2908,9 @@
                 "to": {
                     "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 14371,
-                    "endColumn": 82,
-                    "endOffset": 14449
+                    "startOffset": 14341,
+                    "endColumn": 70,
+                    "endOffset": 14407
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2899,9 +2920,9 @@
                 "to": {
                     "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 14454,
-                    "endColumn": 79,
-                    "endOffset": 14529
+                    "startOffset": 14412,
+                    "endColumn": 71,
+                    "endOffset": 14479
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2911,9 +2932,9 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 14534,
-                    "endColumn": 77,
-                    "endOffset": 14607
+                    "startOffset": 14484,
+                    "endColumn": 67,
+                    "endOffset": 14547
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2923,9 +2944,9 @@
                 "to": {
                     "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 14612,
-                    "endColumn": 78,
-                    "endOffset": 14686
+                    "startOffset": 14552,
+                    "endColumn": 82,
+                    "endOffset": 14630
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2935,9 +2956,9 @@
                 "to": {
                     "startLine": 309,
                     "startColumn": 4,
-                    "startOffset": 14691,
-                    "endColumn": 53,
-                    "endOffset": 14740
+                    "startOffset": 14635,
+                    "endColumn": 79,
+                    "endOffset": 14710
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2947,9 +2968,9 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 14745,
-                    "endColumn": 44,
-                    "endOffset": 14785
+                    "startOffset": 14715,
+                    "endColumn": 77,
+                    "endOffset": 14788
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2959,28 +2980,21 @@
                 "to": {
                     "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 14790,
-                    "endColumn": 50,
-                    "endOffset": 14836
+                    "startOffset": 14793,
+                    "endColumn": 78,
+                    "endOffset": 14867
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 57,
-                        "startColumn": 4,
-                        "startOffset": 3032,
-                        "endColumn": 50,
-                        "endOffset": 3078
-                    }
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 14841,
-                    "endColumn": 51,
-                    "endOffset": 14888
+                    "startOffset": 14872,
+                    "endColumn": 53,
+                    "endOffset": 14921
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -2990,28 +3004,21 @@
                 "to": {
                     "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 14893,
-                    "endColumn": 50,
-                    "endOffset": 14939
+                    "startOffset": 14926,
+                    "endColumn": 44,
+                    "endOffset": 14966
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2980,
-                        "endColumn": 50,
-                        "endOffset": 3026
-                    }
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 14944,
-                    "endColumn": 48,
-                    "endOffset": 14988
+                    "startOffset": 14971,
+                    "endColumn": 50,
+                    "endOffset": 15017
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3021,9 +3028,9 @@
                 "to": {
                     "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 14993,
-                    "endColumn": 49,
-                    "endOffset": 15038
+                    "startOffset": 15022,
+                    "endColumn": 51,
+                    "endOffset": 15069
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3033,9 +3040,9 @@
                 "to": {
                     "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 15043,
+                    "startOffset": 15074,
                     "endColumn": 50,
-                    "endOffset": 15089
+                    "endOffset": 15120
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3045,9 +3052,9 @@
                 "to": {
                     "startLine": 317,
                     "startColumn": 4,
-                    "startOffset": 15094,
-                    "endColumn": 44,
-                    "endOffset": 15134
+                    "startOffset": 15125,
+                    "endColumn": 48,
+                    "endOffset": 15169
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3057,9 +3064,9 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 15139,
-                    "endColumn": 37,
-                    "endOffset": 15172
+                    "startOffset": 15174,
+                    "endColumn": 49,
+                    "endOffset": 15219
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3069,9 +3076,9 @@
                 "to": {
                     "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 15177,
-                    "endColumn": 52,
-                    "endOffset": 15225
+                    "startOffset": 15224,
+                    "endColumn": 50,
+                    "endOffset": 15270
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3081,9 +3088,9 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 15230,
-                    "endColumn": 33,
-                    "endOffset": 15259
+                    "startOffset": 15275,
+                    "endColumn": 44,
+                    "endOffset": 15315
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3093,9 +3100,9 @@
                 "to": {
                     "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 15264,
-                    "endColumn": 57,
-                    "endOffset": 15317
+                    "startOffset": 15320,
+                    "endColumn": 37,
+                    "endOffset": 15353
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3105,9 +3112,9 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 15322,
-                    "endColumn": 45,
-                    "endOffset": 15363
+                    "startOffset": 15358,
+                    "endColumn": 52,
+                    "endOffset": 15406
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3117,9 +3124,9 @@
                 "to": {
                     "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 15368,
-                    "endColumn": 46,
-                    "endOffset": 15410
+                    "startOffset": 15411,
+                    "endColumn": 33,
+                    "endOffset": 15440
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3129,9 +3136,9 @@
                 "to": {
                     "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 15415,
-                    "endColumn": 46,
-                    "endOffset": 15457
+                    "startOffset": 15445,
+                    "endColumn": 57,
+                    "endOffset": 15498
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3141,9 +3148,9 @@
                 "to": {
                     "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 15462,
-                    "endColumn": 44,
-                    "endOffset": 15502
+                    "startOffset": 15503,
+                    "endColumn": 45,
+                    "endOffset": 15544
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3153,9 +3160,9 @@
                 "to": {
                     "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 15507,
-                    "endColumn": 38,
-                    "endOffset": 15541
+                    "startOffset": 15549,
+                    "endColumn": 46,
+                    "endOffset": 15591
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3165,9 +3172,9 @@
                 "to": {
                     "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 15546,
-                    "endColumn": 49,
-                    "endOffset": 15591
+                    "startOffset": 15596,
+                    "endColumn": 46,
+                    "endOffset": 15638
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3177,9 +3184,9 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 15596,
-                    "endColumn": 49,
-                    "endOffset": 15641
+                    "startOffset": 15643,
+                    "endColumn": 44,
+                    "endOffset": 15683
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3189,9 +3196,9 @@
                 "to": {
                     "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 15646,
-                    "endColumn": 45,
-                    "endOffset": 15687
+                    "startOffset": 15688,
+                    "endColumn": 38,
+                    "endOffset": 15722
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3201,9 +3208,9 @@
                 "to": {
                     "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 15692,
-                    "endColumn": 46,
-                    "endOffset": 15734
+                    "startOffset": 15727,
+                    "endColumn": 49,
+                    "endOffset": 15772
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3213,9 +3220,9 @@
                 "to": {
                     "startLine": 331,
                     "startColumn": 4,
-                    "startOffset": 15739,
-                    "endColumn": 42,
-                    "endOffset": 15777
+                    "startOffset": 15777,
+                    "endColumn": 49,
+                    "endOffset": 15822
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3225,9 +3232,9 @@
                 "to": {
                     "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 15782,
+                    "startOffset": 15827,
                     "endColumn": 45,
-                    "endOffset": 15823
+                    "endOffset": 15868
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3237,9 +3244,9 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 15828,
-                    "endColumn": 45,
-                    "endOffset": 15869
+                    "startOffset": 15873,
+                    "endColumn": 46,
+                    "endOffset": 15915
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3249,9 +3256,9 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 15874,
-                    "endColumn": 37,
-                    "endOffset": 15907
+                    "startOffset": 15920,
+                    "endColumn": 42,
+                    "endOffset": 15958
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3261,9 +3268,9 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 15912,
-                    "endColumn": 51,
-                    "endOffset": 15959
+                    "startOffset": 15963,
+                    "endColumn": 45,
+                    "endOffset": 16004
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3273,9 +3280,9 @@
                 "to": {
                     "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 15964,
-                    "endColumn": 50,
-                    "endOffset": 16010
+                    "startOffset": 16009,
+                    "endColumn": 45,
+                    "endOffset": 16050
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3285,9 +3292,9 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 16015,
-                    "endColumn": 44,
-                    "endOffset": 16055
+                    "startOffset": 16055,
+                    "endColumn": 37,
+                    "endOffset": 16088
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3297,9 +3304,9 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 16060,
-                    "endColumn": 47,
-                    "endOffset": 16103
+                    "startOffset": 16093,
+                    "endColumn": 51,
+                    "endOffset": 16140
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3309,9 +3316,9 @@
                 "to": {
                     "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 16108,
+                    "startOffset": 16145,
                     "endColumn": 50,
-                    "endOffset": 16154
+                    "endOffset": 16191
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3321,9 +3328,9 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 16159,
+                    "startOffset": 16196,
                     "endColumn": 44,
-                    "endOffset": 16199
+                    "endOffset": 16236
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3333,9 +3340,9 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 16204,
-                    "endColumn": 43,
-                    "endOffset": 16243
+                    "startOffset": 16241,
+                    "endColumn": 47,
+                    "endOffset": 16284
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3345,9 +3352,9 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 16248,
-                    "endColumn": 42,
-                    "endOffset": 16286
+                    "startOffset": 16289,
+                    "endColumn": 50,
+                    "endOffset": 16335
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3357,9 +3364,9 @@
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 16291,
-                    "endColumn": 48,
-                    "endOffset": 16335
+                    "startOffset": 16340,
+                    "endColumn": 44,
+                    "endOffset": 16380
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3369,9 +3376,9 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 16340,
-                    "endColumn": 50,
-                    "endOffset": 16386
+                    "startOffset": 16385,
+                    "endColumn": 43,
+                    "endOffset": 16424
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3381,9 +3388,9 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 16391,
-                    "endColumn": 48,
-                    "endOffset": 16435
+                    "startOffset": 16429,
+                    "endColumn": 42,
+                    "endOffset": 16467
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3393,9 +3400,9 @@
                 "to": {
                     "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 16440,
-                    "endColumn": 45,
-                    "endOffset": 16481
+                    "startOffset": 16472,
+                    "endColumn": 48,
+                    "endOffset": 16516
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3405,9 +3412,9 @@
                 "to": {
                     "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 16486,
-                    "endColumn": 49,
-                    "endOffset": 16531
+                    "startOffset": 16521,
+                    "endColumn": 50,
+                    "endOffset": 16567
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3417,9 +3424,9 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 16536,
-                    "endColumn": 46,
-                    "endOffset": 16578
+                    "startOffset": 16572,
+                    "endColumn": 48,
+                    "endOffset": 16616
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3429,9 +3436,9 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 16583,
-                    "endColumn": 36,
-                    "endOffset": 16615
+                    "startOffset": 16621,
+                    "endColumn": 45,
+                    "endOffset": 16662
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
@@ -3441,23 +3448,46 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 16620,
-                    "endLine": 356,
-                    "endColumn": 12,
-                    "endOffset": 16906
+                    "startOffset": 16667,
+                    "endColumn": 49,
+                    "endOffset": 16712
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 357,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 16911,
+                    "startOffset": 16717,
+                    "endColumn": 46,
+                    "endOffset": 16759
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 16764,
+                    "endColumn": 36,
+                    "endOffset": 16796
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 16801,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 17066
+                    "endOffset": 17087
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3467,10 +3497,23 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 17071,
-                    "endLine": 366,
+                    "startOffset": 17092,
+                    "endLine": 362,
+                    "endColumn": 12,
+                    "endOffset": 17247
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 17252,
+                    "endLine": 369,
                     "endColumn": 9,
-                    "endOffset": 17381
+                    "endOffset": 17562
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3478,12 +3521,12 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 17386,
-                    "endLine": 375,
+                    "startOffset": 17567,
+                    "endLine": 378,
                     "endColumn": 12,
-                    "endOffset": 17893
+                    "endOffset": 18074
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3491,12 +3534,12 @@
             },
             {
                 "to": {
-                    "startLine": 376,
+                    "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 17898,
-                    "endLine": 379,
+                    "startOffset": 18079,
+                    "endLine": 382,
                     "endColumn": 12,
-                    "endOffset": 18158
+                    "endOffset": 18339
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3504,25 +3547,12 @@
             },
             {
                 "to": {
-                    "startLine": 380,
+                    "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 18163,
-                    "endLine": 383,
-                    "endColumn": 10,
-                    "endOffset": 18323
-                },
-                "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 384,
-                    "startColumn": 4,
-                    "startOffset": 18328,
+                    "startOffset": 18344,
                     "endLine": 386,
                     "endColumn": 10,
-                    "endOffset": 18445
+                    "endOffset": 18504
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3532,10 +3562,10 @@
                 "to": {
                     "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 18450,
-                    "endLine": 390,
+                    "startOffset": 18509,
+                    "endLine": 389,
                     "endColumn": 10,
-                    "endOffset": 18633
+                    "endOffset": 18626
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3543,12 +3573,12 @@
             },
             {
                 "to": {
-                    "startLine": 391,
+                    "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 18638,
+                    "startOffset": 18631,
                     "endLine": 393,
                     "endColumn": 10,
-                    "endOffset": 18754
+                    "endOffset": 18814
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3558,10 +3588,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 18759,
-                    "endLine": 397,
+                    "startOffset": 18819,
+                    "endLine": 396,
                     "endColumn": 10,
-                    "endOffset": 18936
+                    "endOffset": 18935
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
@@ -3569,12 +3599,25 @@
             },
             {
                 "to": {
-                    "startLine": 398,
+                    "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 18941,
-                    "endLine": 401,
+                    "startOffset": 18940,
+                    "endLine": 400,
                     "endColumn": 10,
-                    "endOffset": 19101
+                    "endOffset": 19117
+                },
+                "from": {
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 19122,
+                    "endLine": 404,
+                    "endColumn": 10,
+                    "endOffset": 19282
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml"

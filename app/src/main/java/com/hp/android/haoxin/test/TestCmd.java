@@ -64,19 +64,19 @@ public class TestCmd {
             public void run() {
                 progress += 4;
                 if (progress < 20) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_CLEAN_PLUS, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_JETTING_KMNO4, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 40) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_CENTRIFUGAL, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_JETTING_RHODAMINE, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 60) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_FILL, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_JETTING_FIRST_DYE, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 80) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_WAIT, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_SAFFRON, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 100) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_DRY, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_CRYSTAL_VIOLET, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress == 100){
                     testFinish();
