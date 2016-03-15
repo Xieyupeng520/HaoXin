@@ -84,8 +84,6 @@
                android:id="@+id/btn_home_start"
                android:layout_width="@dimen/home_slide_button_top_wh"
                android:layout_height="@dimen/home_slide_button_top_wh"
-               android:paddingLeft="1dp"
-               android:paddingTop="1dp"
                android:layout_gravity="center"
                android:clickable="true"
                android:background="@drawable/selector_home_button_top"
