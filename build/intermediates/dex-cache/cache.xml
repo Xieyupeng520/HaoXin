@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/libs/usb-serial-for-android-v010.jar"
+        jar="D:\StudioProjects\HaoXin\app\libs\usb-serial-for-android-v010.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
-        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-9715801b4f3ab2f6a2df0140d2bc068d11ba8f1d.jar" />
+        <dex dex="D:\StudioProjects\HaoXin\app\build\intermediates\pre-dexed\debug\usb-serial-for-android-v010-25782082349947e2345473407063b026daf31e5c.jar" />
     </item>
     <item
-        jar="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/libs/usb-serial-for-android-v010-src.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="eead8afcc7674573ced1de1782e372c1d1e0a52e">
-        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-src-08af61a50383175290cdd71da32181f5a1c7a361.jar" />
-    </item>
-    <item
-        jar="/Users/AZZ/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="E:\Android-SDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7f03eb010f0c053671d8803c451d00edb3f9d7d6.jar" />
+        <dex dex="D:\StudioProjects\HaoXin\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-300ba6e7bd80c352a229d2c27e59123e9913ba84.jar" />
+    </item>
+    <item
+        jar="D:\StudioProjects\HaoXin\app\libs\usb-serial-for-android-v010-src.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eead8afcc7674573ced1de1782e372c1d1e0a52e">
+        <dex dex="D:\StudioProjects\HaoXin\app\build\intermediates\pre-dexed\debug\usb-serial-for-android-v010-src-36ac9383508f24288817f2e985c5f4cc23124dee.jar" />
     </item>
 
 </items>

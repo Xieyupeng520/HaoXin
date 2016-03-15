@@ -1,77 +1,75 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from AndroidManifest.xml:2:1
 	package
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:5:5
 	android:versionCode
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 	xmlns:android
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from AndroidManifest.xml:2:11
 uses-sdk
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from AndroidManifest.xml:7:5
 	android:targetSdkVersion
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
-		INJECTED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
 application
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:17:5-43:19
+ADDED from AndroidManifest.xml:17:5
 	android:label
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from AndroidManifest.xml:21:9
 	android:allowBackup
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from AndroidManifest.xml:19:9
 	android:icon
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:20:9-39
+		ADDED from AndroidManifest.xml:20:9
 	android:theme
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:22:9-67
+		ADDED from AndroidManifest.xml:22:9
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:18:9-42
+		ADDED from AndroidManifest.xml:18:9
 activity#com.hp.android.haoxin.LogoActivity
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:23:9-32:20
+ADDED from AndroidManifest.xml:23:9
 	android:screenOrientation
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:26:13-57
+		ADDED from AndroidManifest.xml:26:13
 	android:configChanges
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:25:13-63
+		ADDED from AndroidManifest.xml:25:13
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from AndroidManifest.xml:24:13
 intent-filter#android.intent.action.MAIN+android.intent.category.HOME+android.intent.category.LAUNCHER
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from AndroidManifest.xml:27:13
 action#android.intent.action.MAIN
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from AndroidManifest.xml:28:17
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from AndroidManifest.xml:28:25
 category#android.intent.category.LAUNCHER
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from AndroidManifest.xml:29:17
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from AndroidManifest.xml:29:27
 category#android.intent.category.HOME
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:30:17-73
+ADDED from AndroidManifest.xml:30:17
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:30:27-70
+		ADDED from AndroidManifest.xml:30:27
 activity#com.hp.android.haoxin.LoadingActivity
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:34:9-37:59
+ADDED from AndroidManifest.xml:34:9
 	android:screenOrientation
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:37:13-57
+		ADDED from AndroidManifest.xml:37:13
 	android:configChanges
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:36:13-63
+		ADDED from AndroidManifest.xml:36:13
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from AndroidManifest.xml:35:13
 activity#com.hp.android.haoxin.MainActivity
-ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:38:9-42:15
+ADDED from AndroidManifest.xml:38:9
 	android:screenOrientation
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:41:13-57
+		ADDED from AndroidManifest.xml:41:13
 	android:configChanges
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:40:13-63
+		ADDED from AndroidManifest.xml:40:13
 	android:name
-		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from AndroidManifest.xml:39:13

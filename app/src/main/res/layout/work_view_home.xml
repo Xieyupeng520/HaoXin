@@ -27,7 +27,7 @@
             >
 
             <LinearLayout
-                android:layout_width="316px"
+                android:layout_width="356px"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|bottom"
                     android:orientation="horizontal"
-                    android:layout_marginTop="50px">
+                    android:layout_marginBottom="20px">
 
                     <TextView
                         android:id="@+id/tv_home_slide_title"
@@ -97,7 +97,7 @@
             <FrameLayout
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
-    		android:layout_weight="2.5"/>
+    		android:layout_weight="2"/>
             </LinearLayout>
 
             <LinearLayout

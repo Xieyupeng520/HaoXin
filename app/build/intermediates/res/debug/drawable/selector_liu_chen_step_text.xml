@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="@color/liu_chen_step_done" android:state_selected="true"/>
     <item android:color="@color/liu_chen_step_undone"/>
-</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_text.xml -->
+</selector><!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_text.xml -->

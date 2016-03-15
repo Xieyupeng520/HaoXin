@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
+    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">18sp</dimen>
     <dimen name="button_back_margin_b">12dp</dimen>
@@ -25,6 +25,25 @@
     <dimen name="clean_fill_progress_padding_tlr">3dp</dimen>
     <dimen name="clean_fill_progress_w">672dp</dimen>
     <dimen name="diak_spout_margin_l">-64dp</dimen>
+    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1196x800/dimens_menu_dialog.xml -->
+    <eat-comment/>
+    <dimen name="dialog_btn_font">18sp</dimen>
+    <dimen name="dialog_btn_h">31dp</dimen>
+    <dimen name="dialog_btn_margin_b">10dp</dimen>
+    <dimen name="dialog_btn_margin_l">22dp</dimen>
+    <dimen name="dialog_btn_w">95dp</dimen>
+    <dimen name="dialog_extra_msg_margin_b">-42dp</dimen>
+    <dimen name="dialog_extra_msg_margin_t">18dp</dimen>
+    <dimen name="dialog_extra_text_size">20sp</dimen>
+    <dimen name="dialog_h">139dp</dimen>
+    <dimen name="dialog_hint_msg_margin_t">5dp</dimen>
+    <dimen name="dialog_hint_text_size">12sp</dimen>
+    <dimen name="dialog_msg_font">16sp</dimen>
+    <dimen name="dialog_msg_margin_t">48dp</dimen>
+    <dimen name="dialog_w">250dp</dimen>
+    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
+    <eat-comment/>
+    <dimen name="engineer_item_title_margin_t">10dp</dimen>
     <dimen name="home_content_margin_left">181px</dimen>
     <dimen name="home_content_margin_lr">128dp</dimen>
     <dimen name="home_content_margin_right">46dp</dimen>
@@ -48,7 +67,7 @@
     <dimen name="home_slide_button_margin_top">2px</dimen>
     <dimen name="home_slide_button_top_wh">90dp</dimen>
     <dimen name="home_slide_button_wh">90dp</dimen>
-    <dimen name="home_slide_number_font">30px</dimen>
+    <dimen name="home_slide_number_font">42px</dimen>
     <dimen name="home_slide_number_margin_left">28px</dimen>
     <dimen name="home_slide_title_font">30px</dimen>
     <dimen name="home_work_diskcircle_wh">186dp</dimen>
@@ -79,6 +98,15 @@
     <dimen name="liu_chen_progress_w">18dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
+    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1196x800/dimens_menu_dialog.xml -->
+    <eat-comment/>
+    <dimen name="main_menu_item_height">80dp</dimen>
+    <dimen name="main_menu_item_text_font">26px</dimen>
+    <dimen name="main_menu_item_text_margin_top">49dp</dimen>
+    <dimen name="main_menu_item_width">84dp</dimen>
+    <dimen name="main_menu_width">84dp</dimen>
+    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml -->
+    <eat-comment/>
     <dimen name="radio_wh">35dp</dimen>
     <dimen name="site_btn_list_corner">8dp</dimen>
     <dimen name="site_btn_list_divier_h">0.40dp</dimen>
