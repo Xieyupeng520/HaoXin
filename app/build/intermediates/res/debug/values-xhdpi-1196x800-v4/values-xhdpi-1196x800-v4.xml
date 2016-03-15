@@ -46,7 +46,7 @@
     <dimen name="home_slide_button_bottom_wh">191dp</dimen>
     <dimen name="home_slide_button_margin_t">1dp</dimen>
     <dimen name="home_slide_button_margin_top">2px</dimen>
-    <dimen name="home_slide_button_top_wh">90dp</dimen>
+    <dimen name="home_slide_button_top_wh">110dp</dimen>
     <dimen name="home_slide_button_wh">90dp</dimen>
     <dimen name="home_slide_number_font">30px</dimen>
     <dimen name="home_slide_number_margin_left">28px</dimen>

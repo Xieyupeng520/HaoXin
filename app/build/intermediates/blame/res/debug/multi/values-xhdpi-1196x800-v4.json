@@ -11,7 +11,14 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 2,
+                        "startOffset": 6838,
+                        "endColumn": 44,
+                        "endOffset": 6880
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 149
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 257,
+                        "endColumn": 49,
+                        "endOffset": 304
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 106,
+                        "endColumn": 49,
+                        "endOffset": 153
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 253
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 102
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 207,
+                        "endColumn": 48,
+                        "endOffset": 253
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 355
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 157,
+                        "endColumn": 48,
+                        "endOffset": 203
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 405
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 2,
+                        "startOffset": 3227,
+                        "endColumn": 47,
+                        "endOffset": 3272
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 455
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 2,
+                        "startOffset": 3178,
+                        "endColumn": 47,
+                        "endOffset": 3223
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 512
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 2,
+                        "startOffset": 3122,
+                        "endColumn": 54,
+                        "endOffset": 3174
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 576
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 2,
+                        "startOffset": 3003,
+                        "endColumn": 61,
+                        "endOffset": 3062
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 633
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 2,
+                        "startOffset": 3066,
+                        "endColumn": 54,
+                        "endOffset": 3118
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 2,
+                        "startOffset": 2563,
+                        "endColumn": 52,
+                        "endOffset": 2613
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 744
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 2,
+                        "startOffset": 2508,
+                        "endColumn": 53,
+                        "endOffset": 2559
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 2,
+                        "startOffset": 2728,
+                        "endColumn": 49,
+                        "endOffset": 2775
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 852
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 2,
+                        "startOffset": 2617,
+                        "endColumn": 53,
+                        "endOffset": 2668
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 909
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 2,
+                        "startOffset": 2672,
+                        "endColumn": 54,
+                        "endOffset": 2724
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 971
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 2,
+                        "startOffset": 2779,
+                        "endColumn": 59,
+                        "endOffset": 2836
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1024
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 2,
+                        "startOffset": 2893,
+                        "endColumn": 50,
+                        "endOffset": 2941
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 1083
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 2,
+                        "startOffset": 2945,
+                        "endColumn": 56,
+                        "endOffset": 2999
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 1143
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 2,
+                        "startOffset": 3337,
+                        "endColumn": 57,
+                        "endOffset": 3392
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 1205
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 2,
+                        "startOffset": 3276,
+                        "endColumn": 59,
+                        "endOffset": 3333
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 1259
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 2,
+                        "startOffset": 2840,
+                        "endColumn": 51,
+                        "endOffset": 2889
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 1311
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 2,
+                        "startOffset": 4021,
+                        "endColumn": 49,
+                        "endOffset": 4068
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 1358
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 46,
+                        "endOffset": 777
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 1402
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 618,
+                        "endColumn": 43,
+                        "endOffset": 657
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 1453
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 923,
+                        "endColumn": 50,
+                        "endOffset": 969
+                    }
                 }
             },
             {
@@ -323,7 +505,14 @@
                     "endOffset": 1504
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 795,
+                        "endColumn": 50,
+                        "endOffset": 841
+                    }
                 }
             },
             {
@@ -335,7 +524,14 @@
                     "endOffset": 1548
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 560,
+                        "endColumn": 43,
+                        "endOffset": 599
+                    }
                 }
             },
             {
@@ -347,7 +543,14 @@
                     "endOffset": 1606
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1057,
+                        "endColumn": 57,
+                        "endOffset": 1110
+                    }
                 }
             },
             {
@@ -359,7 +562,14 @@
                     "endOffset": 1663
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 56,
+                        "endOffset": 1039
+                    }
                 }
             },
             {
@@ -371,7 +581,14 @@
                     "endOffset": 1717
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1128,
+                        "endColumn": 53,
+                        "endOffset": 1177
+                    }
                 }
             },
             {
@@ -383,7 +600,14 @@
                     "endOffset": 1758
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 505,
+                        "endColumn": 40,
+                        "endOffset": 541
+                    }
                 }
             },
             {
@@ -395,7 +619,14 @@
                     "endOffset": 1813
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1182,
+                        "endColumn": 54,
+                        "endOffset": 1232
+                    }
                 }
             },
             {
@@ -407,7 +638,14 @@
                     "endOffset": 1866
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1237,
+                        "endColumn": 52,
+                        "endOffset": 1285
+                    }
                 }
             },
             {
@@ -419,7 +657,14 @@
                     "endOffset": 1913
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 46,
+                        "endOffset": 717
+                    }
                 }
             },
             {
@@ -431,7 +676,14 @@
                     "endOffset": 1964
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 859,
+                        "endColumn": 50,
+                        "endOffset": 905
+                    }
                 }
             },
             {
@@ -443,7 +695,14 @@
                     "endOffset": 2005
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 450,
+                        "endColumn": 40,
+                        "endOffset": 486
+                    }
                 }
             },
             {
@@ -459,9 +718,9 @@
                     "position": {
                         "startLine": 97,
                         "startColumn": 2,
-                        "startOffset": 4819,
+                        "startOffset": 4917,
                         "endColumn": 57,
-                        "endOffset": 4874
+                        "endOffset": 4972
                     }
                 }
             },
@@ -474,7 +733,14 @@
                     "endOffset": 2122
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1372,
+                        "endColumn": 54,
+                        "endOffset": 1424
+                    }
                 }
             },
             {
@@ -486,7 +752,14 @@
                     "endOffset": 2177
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1262,
+                        "endColumn": 52,
+                        "endOffset": 1312
+                    }
                 }
             },
             {
@@ -498,7 +771,14 @@
                     "endOffset": 2234
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 2,
+                        "startOffset": 1316,
+                        "endColumn": 54,
+                        "endOffset": 1368
+                    }
                 }
             },
             {
@@ -510,7 +790,14 @@
                     "endOffset": 2291
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 2,
+                        "startOffset": 2240,
+                        "endColumn": 54,
+                        "endOffset": 2292
+                    }
                 }
             },
             {
@@ -522,7 +809,14 @@
                     "endOffset": 2352
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1647,
+                        "endColumn": 58,
+                        "endOffset": 1703
+                    }
                 }
             },
             {
@@ -534,7 +828,14 @@
                     "endOffset": 2418
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1707,
+                        "endColumn": 63,
+                        "endOffset": 1768
+                    }
                 }
             },
             {
@@ -546,7 +847,14 @@
                     "endOffset": 2485
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 2,
+                        "startOffset": 1772,
+                        "endColumn": 64,
+                        "endOffset": 1834
+                    }
                 }
             },
             {
@@ -558,7 +866,14 @@
                     "endOffset": 2549
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1838,
+                        "endColumn": 61,
+                        "endOffset": 1897
+                    }
                 }
             },
             {
@@ -570,7 +885,14 @@
                     "endOffset": 2612
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 1901,
+                        "endColumn": 60,
+                        "endOffset": 1959
+                    }
                 }
             },
             {
@@ -582,7 +904,14 @@
                     "endOffset": 2672
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 2,
+                        "startOffset": 1588,
+                        "endColumn": 57,
+                        "endOffset": 1643
+                    }
                 }
             },
             {
@@ -594,7 +923,14 @@
                     "endOffset": 2728
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 2,
+                        "startOffset": 2185,
+                        "endColumn": 53,
+                        "endOffset": 2236
+                    }
                 }
             },
             {
@@ -606,7 +942,14 @@
                     "endOffset": 2781
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 2,
+                        "startOffset": 2349,
+                        "endColumn": 50,
+                        "endOffset": 2397
+                    }
                 }
             },
             {
@@ -618,7 +961,14 @@
                     "endOffset": 2835
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 2,
+                        "startOffset": 2296,
+                        "endColumn": 51,
+                        "endOffset": 2345
+                    }
                 }
             },
             {
@@ -630,7 +980,14 @@
                     "endOffset": 2888
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 2,
+                        "startOffset": 1428,
+                        "endColumn": 50,
+                        "endOffset": 1476
+                    }
                 }
             },
             {
@@ -642,7 +999,14 @@
                     "endOffset": 2940
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1480,
+                        "endColumn": 49,
+                        "endOffset": 1527
+                    }
                 }
             },
             {
@@ -654,7 +1018,14 @@
                     "endOffset": 2998
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1531,
+                        "endColumn": 55,
+                        "endOffset": 1584
+                    }
                 }
             },
             {
@@ -666,7 +1037,14 @@
                     "endOffset": 3053
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 2016,
+                        "endColumn": 52,
+                        "endOffset": 2066
+                    }
                 }
             },
             {
@@ -678,7 +1056,14 @@
                     "endOffset": 3107
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 1963,
+                        "endColumn": 51,
+                        "endOffset": 2012
+                    }
                 }
             },
             {
@@ -690,7 +1075,14 @@
                     "endOffset": 3167
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 2070,
+                        "endColumn": 57,
+                        "endOffset": 2125
+                    }
                 }
             },
             {
@@ -702,7 +1094,14 @@
                     "endOffset": 3224
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 2,
+                        "startOffset": 2401,
+                        "endColumn": 54,
+                        "endOffset": 2453
+                    }
                 }
             },
             {
@@ -714,7 +1113,14 @@
                     "endOffset": 3283
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 1039,
+                        "endColumn": 56,
+                        "endOffset": 1093
+                    }
                 }
             },
             {
@@ -722,1091 +1128,1728 @@
                     "startLine": 61,
                     "startColumn": 4,
                     "startOffset": 3288,
-                    "endColumn": 55,
-                    "endOffset": 3339
+                    "endColumn": 56,
+                    "endOffset": 3340
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 2,
+                        "startOffset": 2129,
+                        "endColumn": 54,
+                        "endOffset": 2181
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 3344,
+                    "startOffset": 3345,
                     "endColumn": 51,
-                    "endOffset": 3391
+                    "endOffset": 3392
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 2,
+                        "startOffset": 2457,
+                        "endColumn": 49,
+                        "endOffset": 2504
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 3396,
+                    "startOffset": 3397,
                     "endColumn": 53,
-                    "endOffset": 3445
+                    "endOffset": 3446
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1149,
+                        "endColumn": 51,
+                        "endOffset": 1198
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 3450,
+                    "startOffset": 3451,
                     "endColumn": 60,
-                    "endOffset": 3506
+                    "endOffset": 3507
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 2,
+                        "startOffset": 1202,
+                        "endColumn": 58,
+                        "endOffset": 1258
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 3511,
+                    "startOffset": 3512,
                     "endColumn": 52,
-                    "endOffset": 3559
+                    "endOffset": 3560
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1097,
+                        "endColumn": 50,
+                        "endOffset": 1145
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3564,
+                    "startOffset": 3565,
                     "endColumn": 55,
-                    "endOffset": 3615
+                    "endOffset": 3616
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 2,
+                        "startOffset": 3396,
+                        "endColumn": 53,
+                        "endOffset": 3447
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 3620,
+                    "startOffset": 3621,
                     "endColumn": 50,
-                    "endOffset": 3666
+                    "endOffset": 3667
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 2,
+                        "startOffset": 6614,
+                        "endColumn": 48,
+                        "endOffset": 6660
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 3671,
+                    "startOffset": 3672,
                     "endColumn": 50,
-                    "endOffset": 3717
+                    "endOffset": 3718
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 2,
+                        "startOffset": 6564,
+                        "endColumn": 48,
+                        "endOffset": 6610
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 3722,
+                    "startOffset": 3723,
                     "endColumn": 46,
-                    "endOffset": 3764
+                    "endOffset": 3765
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 2,
+                        "startOffset": 6363,
+                        "endColumn": 44,
+                        "endOffset": 6405
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 3769,
+                    "startOffset": 3770,
                     "endColumn": 53,
-                    "endOffset": 3818
+                    "endOffset": 3819
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 2,
+                        "startOffset": 6409,
+                        "endColumn": 51,
+                        "endOffset": 6458
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 3823,
+                    "startOffset": 3824,
                     "endColumn": 46,
-                    "endOffset": 3865
+                    "endOffset": 3866
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 2,
+                        "startOffset": 6317,
+                        "endColumn": 44,
+                        "endOffset": 6359
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 3870,
+                    "startOffset": 3871,
                     "endColumn": 57,
-                    "endOffset": 3923
+                    "endOffset": 3924
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 2,
+                        "startOffset": 6260,
+                        "endColumn": 55,
+                        "endOffset": 6313
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 3928,
+                    "startOffset": 3929,
                     "endColumn": 52,
-                    "endOffset": 3976
+                    "endOffset": 3977
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 2,
+                        "startOffset": 6002,
+                        "endColumn": 50,
+                        "endOffset": 6050
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 3981,
+                    "startOffset": 3982,
                     "endColumn": 46,
-                    "endOffset": 4023
+                    "endOffset": 4024
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 2,
+                        "startOffset": 6101,
+                        "endColumn": 44,
+                        "endOffset": 6143
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 4028,
+                    "startOffset": 4029,
                     "endColumn": 54,
-                    "endOffset": 4078
+                    "endOffset": 4079
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 2,
+                        "startOffset": 6147,
+                        "endColumn": 52,
+                        "endOffset": 6197
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 4083,
+                    "startOffset": 4084,
                     "endColumn": 59,
-                    "endOffset": 4138
+                    "endOffset": 4139
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 2,
+                        "startOffset": 6201,
+                        "endColumn": 57,
+                        "endOffset": 6256
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 4143,
+                    "startOffset": 4144,
                     "endColumn": 47,
-                    "endOffset": 4186
+                    "endOffset": 4187
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 2,
+                        "startOffset": 5955,
+                        "endColumn": 45,
+                        "endOffset": 5998
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 4191,
+                    "startOffset": 4192,
                     "endColumn": 47,
-                    "endOffset": 4234
+                    "endOffset": 4235
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 2,
+                        "startOffset": 6054,
+                        "endColumn": 45,
+                        "endOffset": 6097
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 4239,
+                    "startOffset": 4240,
                     "endColumn": 48,
-                    "endOffset": 4283
+                    "endOffset": 4284
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 2,
+                        "startOffset": 5907,
+                        "endColumn": 46,
+                        "endOffset": 5951
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 4288,
+                    "startOffset": 4289,
                     "endColumn": 48,
-                    "endOffset": 4332
+                    "endOffset": 4333
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 2,
+                        "startOffset": 5859,
+                        "endColumn": 46,
+                        "endOffset": 5903
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 4337,
+                    "startOffset": 4338,
                     "endColumn": 49,
-                    "endOffset": 4382
+                    "endOffset": 4383
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 2,
+                        "startOffset": 6515,
+                        "endColumn": 47,
+                        "endOffset": 6560
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 4387,
+                    "startOffset": 4388,
                     "endColumn": 53,
-                    "endOffset": 4436
+                    "endOffset": 4437
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 2,
+                        "startOffset": 6462,
+                        "endColumn": 51,
+                        "endOffset": 6511
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 4441,
+                    "startOffset": 4442,
                     "endColumn": 60,
-                    "endOffset": 4497
+                    "endOffset": 4498
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 2,
+                        "startOffset": 6778,
+                        "endColumn": 58,
+                        "endOffset": 6834
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 4502,
+                    "startOffset": 4503,
                     "endColumn": 57,
-                    "endOffset": 4555
+                    "endOffset": 4556
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 2,
+                        "startOffset": 6664,
+                        "endColumn": 55,
+                        "endOffset": 6717
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 4560,
+                    "startOffset": 4561,
                     "endColumn": 56,
-                    "endOffset": 4612
+                    "endOffset": 4613
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 2,
+                        "startOffset": 5571,
+                        "endColumn": 54,
+                        "endOffset": 5623
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 4617,
+                    "startOffset": 4618,
                     "endColumn": 57,
-                    "endOffset": 4670
+                    "endOffset": 4671
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 2,
+                        "startOffset": 6721,
+                        "endColumn": 55,
+                        "endOffset": 6774
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 4675,
+                    "startOffset": 4676,
                     "endColumn": 58,
-                    "endOffset": 4729
+                    "endOffset": 4730
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 2,
+                        "startOffset": 5801,
+                        "endColumn": 56,
+                        "endOffset": 5855
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 4734,
+                    "startOffset": 4735,
                     "endColumn": 58,
-                    "endOffset": 4788
+                    "endOffset": 4789
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 2,
+                        "startOffset": 5682,
+                        "endColumn": 56,
+                        "endOffset": 5736
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 4793,
+                    "startOffset": 4794,
                     "endColumn": 61,
-                    "endOffset": 4850
+                    "endOffset": 4851
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 2,
+                        "startOffset": 5740,
+                        "endColumn": 59,
+                        "endOffset": 5797
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 4855,
+                    "startOffset": 4856,
                     "endColumn": 55,
-                    "endOffset": 4906
+                    "endOffset": 4907
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 2,
+                        "startOffset": 5627,
+                        "endColumn": 53,
+                        "endOffset": 5678
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 4911,
+                    "startOffset": 4912,
                     "endColumn": 50,
-                    "endOffset": 4957
+                    "endOffset": 4958
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 2,
+                        "startOffset": 5521,
+                        "endColumn": 48,
+                        "endOffset": 5567
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 4962,
+                    "startOffset": 4963,
                     "endColumn": 50,
-                    "endOffset": 5008
+                    "endOffset": 5009
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 308,
+                        "endColumn": 48,
+                        "endOffset": 354
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 5013,
+                    "startOffset": 5014,
                     "endColumn": 47,
-                    "endOffset": 5056
+                    "endOffset": 5057
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 2,
+                        "startOffset": 358,
+                        "endColumn": 45,
+                        "endOffset": 401
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 5061,
+                    "startOffset": 5062,
                     "endColumn": 52,
-                    "endOffset": 5109
+                    "endOffset": 5110
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 205,
+                        "endColumn": 52,
+                        "endOffset": 253
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 5114,
+                    "startOffset": 5115,
                     "endColumn": 55,
-                    "endOffset": 5165
+                    "endOffset": 5166
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 272,
+                        "endColumn": 55,
+                        "endOffset": 323
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 5170,
+                    "startOffset": 5171,
                     "endColumn": 61,
-                    "endOffset": 5227
+                    "endOffset": 5228
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 350,
+                        "endColumn": 61,
+                        "endOffset": 407
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 5232,
+                    "startOffset": 5233,
                     "endColumn": 51,
-                    "endOffset": 5279
+                    "endOffset": 5280
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 51,
+                        "endOffset": 186
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 5284,
+                    "startOffset": 5285,
                     "endColumn": 46,
-                    "endOffset": 5326
+                    "endOffset": 5327
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\dimens_menu_dialog.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 78,
+                        "endColumn": 46,
+                        "endOffset": 120
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 5331,
+                    "startOffset": 5332,
                     "endColumn": 39,
-                    "endOffset": 5366
+                    "endOffset": 5367
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 2,
+                        "startOffset": 6993,
+                        "endColumn": 37,
+                        "endOffset": 7028
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 5371,
+                    "startOffset": 5372,
                     "endColumn": 50,
-                    "endOffset": 5417
+                    "endOffset": 5418
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 2,
+                        "startOffset": 4738,
+                        "endColumn": 48,
+                        "endOffset": 4784
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 5422,
+                    "startOffset": 5423,
                     "endColumn": 55,
-                    "endOffset": 5473
+                    "endOffset": 5474
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 2,
+                        "startOffset": 4839,
+                        "endColumn": 53,
+                        "endOffset": 4890
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 5478,
+                    "startOffset": 5479,
                     "endColumn": 54,
-                    "endOffset": 5528
+                    "endOffset": 5529
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 2,
+                        "startOffset": 4684,
+                        "endColumn": 52,
+                        "endOffset": 4734
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 5533,
+                    "startOffset": 5534,
                     "endColumn": 51,
-                    "endOffset": 5580
+                    "endOffset": 5581
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 2,
+                        "startOffset": 4633,
+                        "endColumn": 49,
+                        "endOffset": 4680
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 5585,
+                    "startOffset": 5586,
                     "endColumn": 52,
-                    "endOffset": 5633
+                    "endOffset": 5634
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 2,
+                        "startOffset": 4581,
+                        "endColumn": 50,
+                        "endOffset": 4629
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 5638,
+                    "startOffset": 5639,
                     "endColumn": 51,
-                    "endOffset": 5685
+                    "endOffset": 5686
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 2,
+                        "startOffset": 4788,
+                        "endColumn": 49,
+                        "endOffset": 4835
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 5690,
+                    "startOffset": 5691,
                     "endColumn": 61,
-                    "endOffset": 5747
+                    "endOffset": 5748
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 2,
+                        "startOffset": 4274,
+                        "endColumn": 59,
+                        "endOffset": 4331
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 5752,
+                    "startOffset": 5753,
                     "endColumn": 48,
-                    "endOffset": 5796
+                    "endOffset": 5797
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 2,
+                        "startOffset": 4383,
+                        "endColumn": 46,
+                        "endOffset": 4427
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 5801,
+                    "startOffset": 5802,
                     "endColumn": 52,
-                    "endOffset": 5849
+                    "endOffset": 5850
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 2,
+                        "startOffset": 4431,
+                        "endColumn": 50,
+                        "endOffset": 4479
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 5854,
+                    "startOffset": 5855,
                     "endColumn": 48,
-                    "endOffset": 5898
+                    "endOffset": 5899
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 2,
+                        "startOffset": 4335,
+                        "endColumn": 46,
+                        "endOffset": 4379
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 5903,
+                    "startOffset": 5904,
                     "endColumn": 54,
-                    "endOffset": 5953
+                    "endOffset": 5954
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 2,
+                        "startOffset": 4072,
+                        "endColumn": 52,
+                        "endOffset": 4122
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 5958,
+                    "startOffset": 5959,
                     "endColumn": 42,
-                    "endOffset": 5996
+                    "endOffset": 5997
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 2,
+                        "startOffset": 4181,
+                        "endColumn": 40,
+                        "endOffset": 4219
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 112,
                     "startColumn": 4,
-                    "startOffset": 6001,
+                    "startOffset": 6002,
                     "endColumn": 51,
-                    "endOffset": 6048
+                    "endOffset": 6049
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 2,
+                        "startOffset": 4223,
+                        "endColumn": 49,
+                        "endOffset": 4270
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 113,
                     "startColumn": 4,
-                    "startOffset": 6053,
+                    "startOffset": 6054,
                     "endColumn": 55,
-                    "endOffset": 6104
+                    "endOffset": 6105
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 2,
+                        "startOffset": 4126,
+                        "endColumn": 53,
+                        "endOffset": 4177
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 114,
                     "startColumn": 4,
-                    "startOffset": 6109,
+                    "startOffset": 6110,
                     "endColumn": 49,
-                    "endOffset": 6154
+                    "endOffset": 6155
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 2,
+                        "startOffset": 4532,
+                        "endColumn": 47,
+                        "endOffset": 4577
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 115,
                     "startColumn": 4,
-                    "startOffset": 6159,
+                    "startOffset": 6160,
                     "endColumn": 49,
-                    "endOffset": 6204
+                    "endOffset": 6205
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 2,
+                        "startOffset": 4483,
+                        "endColumn": 47,
+                        "endOffset": 4528
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 116,
                     "startColumn": 4,
-                    "startOffset": 6209,
+                    "startOffset": 6210,
                     "endColumn": 47,
-                    "endOffset": 6252
+                    "endOffset": 6253
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 2,
+                        "startOffset": 3831,
+                        "endColumn": 45,
+                        "endOffset": 3874
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 6257,
+                    "startOffset": 6258,
                     "endColumn": 47,
-                    "endOffset": 6300
+                    "endOffset": 6301
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 2,
+                        "startOffset": 3878,
+                        "endColumn": 45,
+                        "endOffset": 3921
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 6305,
+                    "startOffset": 6306,
                     "endColumn": 47,
-                    "endOffset": 6348
+                    "endOffset": 6349
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 2,
+                        "startOffset": 3737,
+                        "endColumn": 45,
+                        "endOffset": 3780
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 6353,
+                    "startOffset": 6354,
                     "endColumn": 47,
-                    "endOffset": 6396
+                    "endOffset": 6397
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 2,
+                        "startOffset": 3784,
+                        "endColumn": 45,
+                        "endOffset": 3827
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 6401,
+                    "startOffset": 6402,
                     "endColumn": 48,
-                    "endOffset": 6445
+                    "endOffset": 6446
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 2,
+                        "startOffset": 3642,
+                        "endColumn": 46,
+                        "endOffset": 3686
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 6450,
+                    "startOffset": 6451,
                     "endColumn": 47,
-                    "endOffset": 6493
+                    "endOffset": 6494
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 2,
+                        "startOffset": 3690,
+                        "endColumn": 45,
+                        "endOffset": 3733
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 6498,
+                    "startOffset": 6499,
                     "endColumn": 48,
-                    "endOffset": 6542
+                    "endOffset": 6543
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 2,
+                        "startOffset": 3925,
+                        "endColumn": 46,
+                        "endOffset": 3969
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 6547,
+                    "startOffset": 6548,
                     "endColumn": 48,
-                    "endOffset": 6591
+                    "endOffset": 6592
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 2,
+                        "startOffset": 3973,
+                        "endColumn": 46,
+                        "endOffset": 4017
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 6596,
+                    "startOffset": 6597,
                     "endColumn": 48,
-                    "endOffset": 6640
+                    "endOffset": 6641
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 2,
+                        "startOffset": 3499,
+                        "endColumn": 46,
+                        "endOffset": 3543
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 6645,
+                    "startOffset": 6646,
                     "endColumn": 48,
-                    "endOffset": 6689
+                    "endOffset": 6690
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 2,
+                        "startOffset": 3451,
+                        "endColumn": 46,
+                        "endOffset": 3495
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 6694,
+                    "startOffset": 6695,
                     "endColumn": 48,
-                    "endOffset": 6738
+                    "endOffset": 6739
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 2,
+                        "startOffset": 3547,
+                        "endColumn": 46,
+                        "endOffset": 3591
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 6743,
+                    "startOffset": 6744,
                     "endColumn": 47,
-                    "endOffset": 6786
+                    "endOffset": 6787
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 2,
+                        "startOffset": 3595,
+                        "endColumn": 45,
+                        "endOffset": 3638
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 6791,
+                    "startOffset": 6792,
                     "endColumn": 56,
-                    "endOffset": 6843
+                    "endOffset": 6844
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 2,
+                        "startOffset": 6937,
+                        "endColumn": 54,
+                        "endOffset": 6989
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 6848,
+                    "startOffset": 6849,
                     "endColumn": 53,
-                    "endOffset": 6897
+                    "endOffset": 6898
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 2,
+                        "startOffset": 6884,
+                        "endColumn": 51,
+                        "endOffset": 6933
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 6902,
+                    "startOffset": 6903,
                     "endColumn": 51,
-                    "endOffset": 6949
+                    "endOffset": 6950
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 2,
+                        "startOffset": 5050,
+                        "endColumn": 49,
+                        "endOffset": 5097
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 6954,
+                    "startOffset": 6955,
                     "endColumn": 55,
-                    "endOffset": 7005
+                    "endOffset": 7006
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 2,
+                        "startOffset": 4995,
+                        "endColumn": 53,
+                        "endOffset": 5046
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 7010,
+                    "startOffset": 7011,
                     "endColumn": 53,
-                    "endOffset": 7059
+                    "endOffset": 7060
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 2,
+                        "startOffset": 5349,
+                        "endColumn": 51,
+                        "endOffset": 5398
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 7064,
+                    "startOffset": 7065,
                     "endColumn": 51,
-                    "endOffset": 7111
+                    "endOffset": 7112
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 2,
+                        "startOffset": 5197,
+                        "endColumn": 49,
+                        "endOffset": 5244
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 7116,
+                    "startOffset": 7117,
                     "endColumn": 51,
-                    "endOffset": 7163
+                    "endOffset": 7164
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 2,
+                        "startOffset": 5402,
+                        "endColumn": 49,
+                        "endOffset": 5449
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 7168,
+                    "startOffset": 7169,
                     "endColumn": 50,
-                    "endOffset": 7214
+                    "endOffset": 7215
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 2,
+                        "startOffset": 5248,
+                        "endColumn": 48,
+                        "endOffset": 5294
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 7219,
+                    "startOffset": 7220,
                     "endColumn": 51,
-                    "endOffset": 7266
+                    "endOffset": 7267
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 2,
+                        "startOffset": 5298,
+                        "endColumn": 49,
+                        "endOffset": 5345
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 7271,
+                    "startOffset": 7272,
                     "endColumn": 47,
-                    "endOffset": 7314
+                    "endOffset": 7315
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 2,
+                        "startOffset": 5101,
+                        "endColumn": 45,
+                        "endOffset": 5144
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 7319,
+                    "startOffset": 7320,
                     "endColumn": 64,
-                    "endOffset": 7379
+                    "endOffset": 7380
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 2,
+                        "startOffset": 5453,
+                        "endColumn": 62,
+                        "endOffset": 5513
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 7384,
+                    "startOffset": 7385,
                     "endColumn": 49,
-                    "endOffset": 7429
+                    "endOffset": 7430
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 2,
+                        "startOffset": 5148,
+                        "endColumn": 47,
+                        "endOffset": 5193
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 7434,
+                    "startOffset": 7435,
                     "endColumn": 48,
-                    "endOffset": 7478
+                    "endOffset": 7479
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 2,
+                        "startOffset": 887,
+                        "endColumn": 46,
+                        "endOffset": 931
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 7483,
+                    "startOffset": 7484,
                     "endColumn": 52,
-                    "endOffset": 7531
+                    "endOffset": 7532
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 2,
+                        "startOffset": 935,
+                        "endColumn": 50,
+                        "endOffset": 983
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 7536,
+                    "startOffset": 7537,
                     "endColumn": 47,
-                    "endOffset": 7579
+                    "endOffset": 7580
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 840,
+                        "endColumn": 45,
+                        "endOffset": 883
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 7584,
+                    "startOffset": 7585,
                     "endColumn": 52,
-                    "endOffset": 7632
+                    "endOffset": 7633
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 987,
+                        "endColumn": 50,
+                        "endOffset": 1035
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 7637,
+                    "startOffset": 7638,
                     "endColumn": 50,
-                    "endOffset": 7683
+                    "endOffset": 7684
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 2,
+                        "startOffset": 731,
+                        "endColumn": 48,
+                        "endOffset": 777
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 7688,
+                    "startOffset": 7689,
                     "endColumn": 56,
-                    "endOffset": 7740
+                    "endOffset": 7741
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 2,
+                        "startOffset": 675,
+                        "endColumn": 54,
+                        "endOffset": 727
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 7745,
+                    "startOffset": 7746,
                     "endColumn": 49,
-                    "endOffset": 7790
+                    "endOffset": 7791
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 2,
+                        "startOffset": 626,
+                        "endColumn": 47,
+                        "endOffset": 671
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 7795,
+                    "startOffset": 7796,
                     "endColumn": 56,
-                    "endOffset": 7847
+                    "endOffset": 7848
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 2,
+                        "startOffset": 570,
+                        "endColumn": 54,
+                        "endOffset": 622
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 7852,
+                    "startOffset": 7853,
                     "endColumn": 50,
-                    "endOffset": 7898
+                    "endOffset": 7899
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 2,
+                        "startOffset": 520,
+                        "endColumn": 48,
+                        "endOffset": 566
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 7903,
+                    "startOffset": 7904,
                     "endColumn": 56,
-                    "endOffset": 7955
+                    "endOffset": 7956
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 2,
+                        "startOffset": 464,
+                        "endColumn": 54,
+                        "endOffset": 516
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 7960,
+                    "startOffset": 7961,
                     "endColumn": 57,
-                    "endOffset": 8013
+                    "endOffset": 8014
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 2,
+                        "startOffset": 407,
+                        "endColumn": 55,
+                        "endOffset": 460
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 8018,
+                    "startOffset": 8019,
                     "endColumn": 57,
-                    "endOffset": 8071
+                    "endOffset": 8072
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml"
+                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-xhdpi-1196x800\\xhdpi_dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 2,
+                        "startOffset": 781,
+                        "endColumn": 55,
+                        "endOffset": 834
+                    }
                 }
             }
         ]
