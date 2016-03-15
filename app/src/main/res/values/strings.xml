@@ -54,8 +54,8 @@
     <string name="home_slide_title">载玻片数量</string>
     <string name="home_info_title">当前设置：</string>
     <string name="home_info_ranse">染色厚度</string>
-    <string name="home_info_jiejing">结晶紫</string>
-    <string name="home_info_dianjiu">碘酒</string>
+    <string name="home_info_jiejing">亚甲基蓝</string>
+    <string name="home_info_dianjiu">酸性酒精</string>
     <string name="home_info_guding">固定启动终止</string>
     
     <!-- clean progress -->

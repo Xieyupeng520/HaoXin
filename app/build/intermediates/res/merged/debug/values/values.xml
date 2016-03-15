@@ -309,9 +309,9 @@
     <string name="exception_top_cover_opened_filling">上盖被打开，请关闭上盖重新开始</string>
     <string name="exception_weighing">设备称重异常</string>
     <string name="fw_version">固件版本：</string>
-    <string name="home_info_dianjiu">碘酒</string>
+    <string name="home_info_dianjiu">酸性酒精</string>
     <string name="home_info_guding">固定启动终止</string>
-    <string name="home_info_jiejing">结晶紫</string>
+    <string name="home_info_jiejing">亚甲基蓝</string>
     <string name="home_info_ranse">染色厚度</string>
     <string name="home_info_title">当前设置：</string>
     <string name="home_slide_title">载玻片数量</string>
