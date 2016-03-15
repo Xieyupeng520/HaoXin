@@ -129,12 +129,12 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 
 	public void showToast(final String text){
 		//LogoActivity.handler.post(new Runnable() {
-		runOnUiThread(new Runnable() {
-			@Override
-			public void run() {
-				Toast.makeText(mContext, text, Toast.LENGTH_SHORT).show();
-			}
-		});
+//		runOnUiThread(new Runnable() {
+//			@Override
+//			public void run() {
+//				Toast.makeText(mContext, text, Toast.LENGTH_SHORT).show();
+//			}
+//		});
 
 	}
 
