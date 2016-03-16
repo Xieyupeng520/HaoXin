@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.hoho.android.usbserial.driver.UsbSerialDriver;
 import com.hoho.android.usbserial.driver.UsbSerialProber;
 import com.hp.android.haoxin.HaoXinApplication;
+import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.widgets.CustomDialog;
 
 
@@ -231,7 +232,7 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 		final String des[] = {"番红","固定","结晶紫","碘酒",""};
 		final int colors[] = {0xffffffff,0xffcc00ff,0xffff9933,0xff0000ff,0xffffffff};
 
-		mCommand.call.workStartRotate(false);
+		mCommand.call.workStartRotate(Global.SPEED_NORMAL);
 		
 		final Handler updateDyeHandler = new Handler();
 		new Handler().post(new Runnable() {
@@ -243,7 +244,7 @@ public abstract class TestCommand extends Activity implements CommandInterface{
 				t++;
 				if(t == -1){
 					showToast("离心");
-					mCommand.call.workStartRotate(true);
+					mCommand.call.workStartRotate(Global.SPEED_CENTRIFUGAL);
 				}
 				
 				if(t >=0 && t < 5){

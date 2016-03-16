@@ -203,12 +203,12 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                     break;
                 case Response.Progress.PROGRESS_DRY:
                     call.workSetProgressText(R.string.progress_dry, R.string.etc);
-                    call.workStartRotate(true);
-                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
+                    call.workStartRotate(Global.SPEED_DRY);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 1000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_WAIT:
                     call.workSetProgressText(R.string.progress_wait, R.string.etc);
-                    call.workStartRotate(false);
+                    call.workStartRotate(Global.SPEED_NORMAL);
                     call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_HEAT:
@@ -242,8 +242,8 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
                     break;
                 case Response.Progress.PROGRESS_CENTRIFUGAL:
                     call.workSetProgressText(R.string.PROGRESS_CENTRIFUGAL, R.string.etc);
-                    call.workStartRotate(false);
-                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
+                    call.workStartRotate(Global.SPEED_CENTRIFUGAL);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 500, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_CLEAN_PLUS:
                     call.workSetProgressText(R.string.PROGRESS_CLEAN_PLUS, R.string.etc);

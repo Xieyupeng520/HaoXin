@@ -359,8 +359,6 @@ public class RealCommand extends TestCommand {
         if (!checkWork(context, TAG_DYE)) {
             return;
         }
-		mCommand.call.workStartRotate(false);
-		mCommand.call.workStartDiskColorAnimation(0xffffffff, 5000, 0, 180);
 		Global.setState(GlobalState.DYE);
         if (Global.getSystemStateBean().isStatDevFilled()) { //流路已经被填充
             try {
@@ -444,12 +442,12 @@ public class RealCommand extends TestCommand {
     public void fillStart(Context context) {
         //FIXME: 纠错验证
         Log.d(TAG, "开始填充前-当前状态：" + Global.getState());
-        if (GlobalState.CLEAN != Global.getState() //从清洗跳转过来不用再进行判断
-                && GlobalState.DYE != Global.getState()) { //从染色跳转过来不用再进行判断
-            if (!checkWork(context, TAG_FILL)) {
-                return;
-            }
-        }
+//        if (GlobalState.CLEAN != Global.getState() //从清洗跳转过来不用再进行判断
+//                && GlobalState.DYE != Global.getState()) { //从染色跳转过来不用再进行判断
+//            if (!checkWork(context, TAG_FILL)) {
+//                return;
+//            }
+//        }
 
         showToast("开始填充");
         try {
@@ -468,7 +466,7 @@ public class RealCommand extends TestCommand {
                     getOperatorService().sendFillPackets((byte) 0);
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
-//                    Test.testClean();
+                    Test.testClean();
 //                    Test.testDisposeException();
                 }
             } catch (IOException e) {
