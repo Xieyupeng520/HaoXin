@@ -48,7 +48,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17d484b3-c5be-4335-8b33-3837d2df5e97" name="Default" comment="2015.02.28 - UI调整">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/CommandBridge$Call.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/CommandBridge$Call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/CommandBridge.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/CommandBridge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/global/Global.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/global/Global.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/slidingmenu/MainMenuFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/slidingmenu/MainMenuFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$integer.class" />
@@ -57,11 +61,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/RealCommand.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/command/RealCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/global/Response$Exception.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/global/Response$Exception.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/widgets/SpoutView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/widgets/SpoutView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/test/TestCmd$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/test/TestCmd$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCentrifugalView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCentrifugalView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkChengView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkChengView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$WorkDiskListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView$WorkDiskListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkCleanView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkDyeView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkDyeView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkEngineerView$BtnsAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkEngineerView$BtnsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkEngineerView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkEngineerView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkFillView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkFillView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkHomeView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkHomeView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkSiteView$BtnsAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkSiteView$BtnsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkSiteView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hp/android/haoxin/workview/WorkSiteView.class" />
@@ -76,9 +94,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/hp/android/haoxin/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/hp/android/haoxin/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/hp/android/haoxin/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/hp/android/haoxin/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/SpoutView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/SpoutView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/menu_view_bg.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/menu_view_bg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
@@ -86,8 +113,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/selector_home_button_top.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/selector_home_button_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/slid_menu_frame.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/slid_menu_frame.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/slid_work_frame.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/slid_work_frame.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml" />
@@ -104,8 +129,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-xxhdpi-v4/values-xxhdpi-v4.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-xxhdpi-v4/values-xxhdpi-v4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/work_view_home.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/work_view_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/work_view_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/work_view_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/work_view_clean_fill.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/work_view_clean_fill.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/work_view_clean_fill.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/work_view_clean_fill.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0e4d9488-565f-49d2-8681-d93e630ec637" name="Failed commit: Default" comment="2015.02.28 - 系统维护的流量监测-Waiting界面10S超时处理" />
@@ -162,77 +187,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandBridge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
-              <folding>
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RealCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="192" column="131" selection-start-line="192" selection-start-column="127" selection-end-line="192" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCmd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="114" selection-start-line="69" selection-start-column="114" selection-end-line="69" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="work_view_home.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/work_view_home.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.066667">
-              <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
-              <folding>
-                <element signature="e#8093#8120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selector_home_button_top.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2275449">
-              <caret line="2" column="94" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+              <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -242,7 +197,37 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="252" column="59" selection-start-line="252" selection-start-column="59" selection-end-line="252" selection-end-column="59" />
+              <caret line="206" column="99" selection-start-line="206" selection-start-column="99" selection-end-line="206" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandBridge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="376" column="42" selection-start-line="376" selection-start-column="42" selection-end-line="376" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkCleanView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiskCircleView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/DiskCircleView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -252,8 +237,30 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="56" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="56" />
+              <caret line="93" column="92" selection-start-line="93" selection-start-column="92" selection-end-line="93" selection-end-column="92" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpoutView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/SpoutView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="213" column="45" selection-start-line="213" selection-start-column="28" selection-end-line="213" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67670685">
+              <caret line="349" column="67" selection-start-line="349" selection-start-column="67" selection-end-line="349" selection-end-column="67" />
+              <folding>
+                <element signature="e#22751#22786#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1431,7 +1438,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4369919883000" />
-        <entry key="D:\StudioProjects\HaoXin" value="4373910752264" />
+        <entry key="D:\StudioProjects\HaoXin" value="4373912109888" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1797,7 +1804,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/utils/Tool.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/RBListener.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_clean_fill.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_haoxin.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkBaseView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/slidingmenu/MainMenuFragment.java" />
@@ -1808,7 +1814,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkSystemView.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkFillView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_about.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CustomDialogType.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceDataCallBackImpl.java" />
@@ -1820,19 +1825,22 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkEngineerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_engineer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandInterface.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_site.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkSiteView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/TestCommand.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/SpoutView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/work_view_clean_fill.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java" />
       </list>
     </option>
   </component>
@@ -1906,8 +1914,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1920,20 +1932,68 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoxin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaoXin" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="haoxin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HaoXin" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_serialport_api" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2185,7 +2245,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.4908397" order="6" side_tool="false" content_ui="tabs" />
@@ -2196,8 +2256,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.665529" sideWeight="0.7954199" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.665529" sideWeight="0.7954199" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7201365" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.49389312" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9334471" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
@@ -2205,9 +2264,9 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32526475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32526475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2217,6 +2276,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.49694657" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2278,95 +2338,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/slid_work_frame.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.111111">
-          <caret line="305" column="25" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/index_button_top_touch.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/index_button_bottom.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/CustomDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7169811">
-          <caret line="207" column="47" selection-start-line="207" selection-start-column="47" selection-end-line="207" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceDataCallBackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_littlearrows.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/setting_title.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/utils/FomatTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47802198">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_button_site_list_item_top.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88736266">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/work_view_about.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2454,13 +2425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Android-SDK/sources/android-19/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1956912">
-          <caret line="12494" column="75" selection-start-line="12494" selection-start-column="67" selection-end-line="12494" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Android-SDK/sources/android-19/android/view/ViewGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33213645">
@@ -2535,19 +2499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
-          <folding>
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-xhdpi-1196x800/xhdpi_dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67671233">
@@ -2598,14 +2549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/TestCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2621,50 +2564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="252" column="59" selection-start-line="252" selection-start-column="59" selection-end-line="252" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="192" column="131" selection-start-line="192" selection-start-column="127" selection-end-line="192" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hx/protocol/ProtocolType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45421904">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="56" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="114" selection-start-line="69" selection-start-column="114" selection-end-line="69" selection-end-column="114" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2673,24 +2576,168 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10233393">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/work_view_home.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.066667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_bw_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_cw_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_bw_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_b_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_aw_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_aw_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_a_orange_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/spout/spout_b_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/Android-SDK/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33213645">
+          <caret line="12426" column="19" selection-start-line="12426" selection-start-column="19" selection-end-line="12426" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/disk.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/work_view_clean_fill.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10246679">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/DiskCircleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="92" selection-start-line="93" selection-start-column="92" selection-end-line="93" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/CommandBridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="376" column="42" selection-start-line="376" selection-start-column="42" selection-end-line="376" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/workview/WorkCleanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="56" selection-start-line="88" selection-start-column="56" selection-end-line="88" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/widgets/SpoutView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="213" column="45" selection-start-line="213" selection-start-column="28" selection-end-line="213" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/callback/OnReadDeviceOptionCallBackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="99" selection-start-line="206" selection-start-column="99" selection-end-line="206" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/global/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/test/TestCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33213645">
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding>
-            <element signature="e#8093#8120#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_home_button_top.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hp/android/haoxin/command/RealCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2275449">
-          <caret line="2" column="94" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
-          <folding />
+        <state vertical-scroll-proportion="0.67670685">
+          <caret line="349" column="67" selection-start-line="349" selection-start-column="67" selection-end-line="349" selection-end-column="67" />
+          <folding>
+            <element signature="e#22751#22786#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

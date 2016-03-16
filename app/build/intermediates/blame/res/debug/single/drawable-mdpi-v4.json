@@ -164,6 +164,10 @@
         "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\sp_c.png"
     },
     {
+        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\disk_center.png",
+        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\disk_center.png"
+    },
+    {
         "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\spout_a.png",
         "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable-mdpi\\spout_a.png"
     },

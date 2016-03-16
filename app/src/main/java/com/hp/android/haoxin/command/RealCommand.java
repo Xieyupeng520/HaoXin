@@ -348,7 +348,7 @@ public class RealCommand extends TestCommand {
                 t++;
                 if (t < 5) {
                     mCommand.call.loadingSetStep(t);//加载开始一步，调用一次该方法，t为步数
-                    updateUpdateHandler.postDelayed(this, 1800 + random.nextInt(5) * 100);
+                    updateUpdateHandler.postDelayed(this, 1000 + random.nextInt(5) * 100);
                 }
             }
         });
@@ -376,7 +376,7 @@ public class RealCommand extends TestCommand {
                 e.printStackTrace();
             }
             // FIXME: 15/8/30 测试染色报文
-            Test.testClean();
+//            Test.testClean();
         } else { //询问是否进行流路填充
             mCommand.call.requestDevFill();
         }
@@ -389,7 +389,7 @@ public class RealCommand extends TestCommand {
             getOperatorService().sendDyeingPackets(Instruction.Dye.CANCEL_DYE);
 
             // FIXME: 15/11/4 测试取消染色
-            Test.testCancel();
+//            Test.testCancel();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -421,7 +421,7 @@ public class RealCommand extends TestCommand {
         // FIXME: 15/8/30 测试清洗报文
 //        Test.testClean();
 //        Test.testDisposeException();
-        Test.testFinish();
+//        Test.testFinish();
 	}
 
 
@@ -433,7 +433,7 @@ public class RealCommand extends TestCommand {
             getOperatorService().sendClearPackets((byte) 1);
 
             // FIXME: 15/11/4 测试取消清洗
-            Test.testCancel();
+//            Test.testCancel();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -464,7 +464,7 @@ public class RealCommand extends TestCommand {
                     getOperatorService().sendDyeingPackets((byte) 2);
 
                     // FIXME: 15/11/4 测试从染色界面跳转过来的填充完成
-                    Test.testFinish();
+//                    Test.testFinish();
                 } else  if (GlobalState.CLEAN == Global.getState()) {
                     Global.setState(GlobalState.FILL_FROM_CLEAN);
                     getOperatorService().sendClearPackets((byte) 2);
@@ -473,7 +473,7 @@ public class RealCommand extends TestCommand {
                     getOperatorService().sendFillPackets((byte) 0);
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
-                    Test.testClean();
+//                    Test.testClean();
 //                    Test.testDisposeException();
                 }
             } catch (IOException e) {
@@ -556,9 +556,9 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/10/14 测试流路检测
-        if (step > 0) {
-            Test.testLiuLuProgress();
-        }
+//        if (step > 0) {
+//            Test.testLiuLuProgress();
+//        }
     }
     @Override
     public void weighNext(int step) {
@@ -606,9 +606,9 @@ public class RealCommand extends TestCommand {
 	 */
 	public void systemJianCeChange(byte type, byte key, byte keyMode, Context context) {
         // FIXME:检测连接(如果被关闭要打开）
-//        if (!getViewController().checkConnect(false)) {
-//            return;
-//        }
+        if (!getViewController().checkConnect(false)) {
+            return;
+        }
         if (type == RBListener.TYPE_LIU_LIANG) { //流量检测显示进度圈圈（模式检测无需显示进度圈圈）
             showProgressDialog(0, context);
 
@@ -654,11 +654,11 @@ public class RealCommand extends TestCommand {
      */
     private boolean checkWork(Context context, int which) {
         // FIXME: 15/9/26 门打开异常-测试-若被注释需要打开
-//    	if (!Global.getSystemStateBean().isDoorClosed()) {
-//            Log.e(TAG, "门打开，异常。");
-//            workFailed(context, R.string.exception_top_cover_opened, which);
-//            return false;
-//        }
+    	if (!Global.getSystemStateBean().isDoorClosed()) {
+            Log.e(TAG, "门打开，异常。");
+            workFailed(context, R.string.exception_top_cover_opened, which);
+            return false;
+        }
         Log.d(TAG, "门关闭，正常。");
         if (which == TAG_CENTRIFUGAL) { //离心不需要判断试剂
             return true;

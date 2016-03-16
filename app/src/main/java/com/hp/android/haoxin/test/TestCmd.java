@@ -73,10 +73,10 @@ public class TestCmd {
                     byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_JETTING_FIRST_DYE, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 80) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_SAFFRON, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_STONE_CARBONATE, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress < 100) {
-                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_CRYSTAL_VIOLET, (byte) progress};
+                    byte[] data = new byte[]{0x00, Response.Progress.PROGRESS_METHYLENE_BLUE, (byte) progress};
                     getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 } else if (progress == 100){
                     testFinish();

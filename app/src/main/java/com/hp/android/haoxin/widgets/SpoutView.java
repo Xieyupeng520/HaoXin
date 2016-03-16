@@ -5,6 +5,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PaintFlagsDrawFilter;
 import android.graphics.Point;
@@ -12,6 +13,7 @@ import android.graphics.Rect;
 import android.view.View;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 public class SpoutView extends View {
 	public static final int DF = 0;
@@ -205,32 +207,83 @@ public class SpoutView extends View {
 		initAnims(animPaths);
 		invalidate();
 	}
-	
+	public static HashMap aColorMap = new HashMap();
+	public static HashMap bColorMap = new HashMap();
+	public static HashMap cColorMap = new HashMap();
+
+	public static final int TRANSPARENT_COLOR = Color.TRANSPARENT;
+	public static final int RED_COLOR = 0xff0022;
+	public static final int ORANGE_COLOR = 0xff8300;
+	public static final int WHITE_COLOR = 0xffffff;
+	public static final int PURPLE_COLOR = 0x8d4baa;
+	public static final int BLUE_COLOR = 0x4058a5;
+
+	public static final String RED = "red";
+	public static final String ORANGE = "orange";
+	public static final String WHITE = "white";
+	public static final String PURPLE = "purple";
+	public static final String BLUE = "blue";
+	static {
+		aColorMap.put(RED, new String[]{"spout/spout_a_red_1.png","spout/spout_a_red_2.png"});
+		aColorMap.put(ORANGE, new String[]{"spout/spout_a_orange_1.png","spout/spout_a_orange_2.png"});
+		aColorMap.put(WHITE, new String[]{"spout/spout_aw_1.png","spout/spout_aw_2.png"});
+
+		bColorMap.put(ORANGE, new String[]{"spout/spout_b_1.png", "spout/spout_b_2.png"});
+		bColorMap.put(WHITE, new String[]{"spout/spout_bw_1.png","spout/spout_bw_2.png"});
+
+		cColorMap.put(PURPLE, new String[]{"spout/spout_c_1.png","spout/spout_c_2.png"});
+		cColorMap.put(BLUE, new String[]{"spout/spout_c_blue_1.png", "spout/spout_c_blue_2.png"});
+		cColorMap.put(WHITE, new String[]{"spout/spout_cw_1.png", "spout/spout_cw_2.png"});
+	}
+
+	/**
+	 * 初始化动画素材路径
+	 * @param id ABC
+	 * @param color SpoutView.RED...
+	 */
+	public void initAnimPathsById(int id, String color) {
+		switch (id) {
+			case A:
+				animPaths = (String[])aColorMap.get(color);
+				break;
+			case B:
+				animPaths = (String[])bColorMap.get(color);
+				break;
+			case C:
+				animPaths = (String[])cColorMap.get(color);
+				break;
+			default:
+				return;
+		}
+		initAnims(animPaths);
+	}
 	public void initAnimPathsById(int id, boolean isClean){
 		switch (id) {
-		case 1:
+		case A:
 			if(isClean){
 				animPaths = new String[]{"spout/spout_aw_1.png","spout/spout_aw_2.png"};
 			}else{
 				animPaths = new String[]{"spout/spout_a_1.png","spout/spout_a_2.png"};
 			}
 			break;
-		case 2:
+		case B:
 			if(isClean){
 				animPaths = new String[]{"spout/spout_bw_1.png","spout/spout_bw_2.png"};
 			}else{
 				animPaths = new String[]{"spout/spout_b_1.png","spout/spout_b_2.png"};
 			}
 			break;
-		case 3:
-		default:
+		case C:
 			if(isClean){
 				animPaths = new String[]{"spout/spout_cw_1.png","spout/spout_cw_2.png"};
 			}else{
 				animPaths = new String[]{"spout/spout_c_1.png","spout/spout_c_2.png"};
 			}
 			break;
+		default:
+			return;
 		}
+		initAnims(animPaths);
 	}
 	
 	public void initAnims(String[] anims){

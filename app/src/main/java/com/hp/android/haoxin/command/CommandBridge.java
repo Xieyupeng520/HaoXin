@@ -345,12 +345,21 @@ public class CommandBridge {
 		 * @param isClean 是否为清洗阶段，因为A、B、C三个喷头在清洗和填充阶段喷射效果不一样。·
 		 *                true为喷出白色效果，false为其他颜色
 		 */
-		public void workStartSpout(int index, boolean isClean){//int color,
+		public void workStartSpout(int index, boolean isClean){ //int color,
 			if(getCurrentCleanView() != null){
 				getCurrentCleanView().getListener().startSpout(index, isClean);
 			}
 		}
-		
+		/**
+		 * 设置圆盘（染色、清洗、填充）模块，碰头喷射
+		 * @param index 喷头的编号，从下往上依次为0-5
+		 * @param color see SpoutView.RED...
+		 */
+		public void workStartSpout(int index, String color){
+			if(getCurrentCleanView() != null){
+				getCurrentCleanView().getListener().startSpout(index, color);
+			}
+		}
 		
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块中盘子上的色块颜色

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
@@ -296,7 +297,7 @@ public class WorkCleanView extends WorkBaseView{
 		public void setProgress(int progress){
 			Log.d("WorkCleanView","setProgress = " + progress);
 			mProgress.setProgress(progress);
-			mProgressText.setText(progress+"%");
+			mProgressText.setText(progress + "%");
 			if(progress == 100){
 				mCancelButton.setEnabled(false);
 			}
@@ -341,23 +342,16 @@ public class WorkCleanView extends WorkBaseView{
 		}
 		
 		public void startSpout(int index,boolean isClean){
-			//public void startSpout(int color,int index,boolean isClean){
-			//int id = getIdByIndex(index);
 			startRotate(false);
-			
-//			ImageView spout = (ImageView) findViewById(id);
-//			spout.setVisibility(View.VISIBLE);
 			getSpoutById(index).showAnim(true);
-			
-			if(index > 0 && index < 6){
-//				int srcid = getIdType(isClean, index);
-//				if(srcid != -1)spout.setImageResource(srcid);
-				getSpoutById(index).initAnimPathsById(index, isClean);
-//				getSpoutById(index).changeColor(index, isClean);
-			}
 
-			//setSpoutAnimation(spout);
-			//spout.startAnimation(AnimationUtils.loadAnimation(getContext(), getAnimIdByIndex(index)));
+			getSpoutById(index).initAnimPathsById(index, isClean);
+		}
+		public void startSpout(int index,String color){
+			startRotate(false);
+			getSpoutById(index).showAnim(true);
+
+			getSpoutById(index).initAnimPathsById(index, color);
 		}
 		
 		public void stopSpout(int index){
