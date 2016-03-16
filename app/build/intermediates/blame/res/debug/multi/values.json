@@ -16,10 +16,10 @@
                     "position": {
                         "startLine": 108,
                         "startColumn": 4,
-                        "startOffset": 5122,
+                        "startOffset": 5126,
                         "endLine": 114,
                         "endColumn": 19,
-                        "endOffset": 5304
+                        "endOffset": 5308
                     }
                 }
             },
@@ -37,10 +37,10 @@
                     "position": {
                         "startLine": 150,
                         "startColumn": 4,
-                        "startOffset": 6336,
+                        "startOffset": 6340,
                         "endLine": 154,
                         "endColumn": 19,
-                        "endOffset": 6497
+                        "endOffset": 6501
                     }
                 }
             },
@@ -58,10 +58,10 @@
                     "position": {
                         "startLine": 155,
                         "startColumn": 4,
-                        "startOffset": 6503,
+                        "startOffset": 6507,
                         "endLine": 160,
                         "endColumn": 19,
-                        "endOffset": 6705
+                        "endOffset": 6709
                     }
                 }
             },
@@ -79,10 +79,10 @@
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
-                        "startOffset": 7679,
+                        "startOffset": 7683,
                         "endLine": 201,
                         "endColumn": 19,
-                        "endOffset": 7811
+                        "endOffset": 7815
                     }
                 }
             },
@@ -100,10 +100,10 @@
                     "position": {
                         "startLine": 128,
                         "startColumn": 4,
-                        "startOffset": 5768,
+                        "startOffset": 5772,
                         "endLine": 134,
                         "endColumn": 19,
-                        "endOffset": 5990
+                        "endOffset": 5994
                     }
                 }
             },
@@ -121,10 +121,10 @@
                     "position": {
                         "startLine": 136,
                         "startColumn": 4,
-                        "startOffset": 6002,
+                        "startOffset": 6006,
                         "endLine": 142,
                         "endColumn": 19,
-                        "endOffset": 6187
+                        "endOffset": 6191
                     }
                 }
             },
@@ -142,10 +142,10 @@
                     "position": {
                         "startLine": 189,
                         "startColumn": 4,
-                        "startOffset": 7446,
+                        "startOffset": 7450,
                         "endLine": 192,
                         "endColumn": 19,
-                        "endOffset": 7559
+                        "endOffset": 7563
                     }
                 }
             },
@@ -163,10 +163,10 @@
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
-                        "startOffset": 7308,
+                        "startOffset": 7312,
                         "endLine": 188,
                         "endColumn": 19,
-                        "endOffset": 7440
+                        "endOffset": 7444
                     }
                 }
             },
@@ -184,10 +184,10 @@
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
-                        "startOffset": 7006,
+                        "startOffset": 7010,
                         "endLine": 177,
                         "endColumn": 19,
-                        "endOffset": 7140
+                        "endOffset": 7144
                     }
                 }
             },
@@ -205,10 +205,10 @@
                     "position": {
                         "startLine": 193,
                         "startColumn": 4,
-                        "startOffset": 7565,
+                        "startOffset": 7569,
                         "endLine": 196,
                         "endColumn": 19,
-                        "endOffset": 7671
+                        "endOffset": 7675
                     }
                 }
             },
@@ -226,10 +226,10 @@
                     "position": {
                         "startLine": 178,
                         "startColumn": 4,
-                        "startOffset": 7146,
+                        "startOffset": 7150,
                         "endLine": 183,
                         "endColumn": 19,
-                        "endOffset": 7302
+                        "endOffset": 7306
                     }
                 }
             },
@@ -247,10 +247,10 @@
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
-                        "startOffset": 6717,
+                        "startOffset": 6721,
                         "endLine": 172,
                         "endColumn": 19,
-                        "endOffset": 7000
+                        "endOffset": 7004
                     }
                 }
             },
@@ -268,10 +268,10 @@
                     "position": {
                         "startLine": 144,
                         "startColumn": 4,
-                        "startOffset": 6199,
+                        "startOffset": 6203,
                         "endLine": 148,
                         "endColumn": 19,
-                        "endOffset": 6324
+                        "endOffset": 6328
                     }
                 }
             },
@@ -3803,9 +3803,9 @@
                     "position": {
                         "startLine": 95,
                         "startColumn": 4,
-                        "startOffset": 4639,
+                        "startOffset": 4643,
                         "endColumn": 31,
-                        "endOffset": 4666
+                        "endOffset": 4670
                     }
                 }
             },
@@ -3822,9 +3822,9 @@
                     "position": {
                         "startLine": 121,
                         "startColumn": 4,
-                        "startOffset": 5493,
+                        "startOffset": 5497,
                         "endColumn": 40,
-                        "endOffset": 5529
+                        "endOffset": 5533
                     }
                 }
             },
@@ -3917,9 +3917,9 @@
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
-                        "startOffset": 4672,
+                        "startOffset": 4676,
                         "endColumn": 31,
-                        "endOffset": 4699
+                        "endOffset": 4703
                     }
                 }
             },
@@ -3936,9 +3936,9 @@
                     "position": {
                         "startLine": 122,
                         "startColumn": 4,
-                        "startOffset": 5535,
+                        "startOffset": 5539,
                         "endColumn": 40,
-                        "endOffset": 5571
+                        "endOffset": 5575
                     }
                 }
             },
@@ -4088,9 +4088,9 @@
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
-                        "startOffset": 4705,
+                        "startOffset": 4709,
                         "endColumn": 31,
-                        "endOffset": 4732
+                        "endOffset": 4736
                     }
                 }
             },
@@ -4107,9 +4107,9 @@
                     "position": {
                         "startLine": 123,
                         "startColumn": 4,
-                        "startOffset": 5577,
+                        "startOffset": 5581,
                         "endColumn": 40,
-                        "endOffset": 5613
+                        "endOffset": 5617
                     }
                 }
             },
@@ -4126,9 +4126,9 @@
                     "position": {
                         "startLine": 126,
                         "startColumn": 4,
-                        "startOffset": 5703,
+                        "startOffset": 5707,
                         "endColumn": 57,
-                        "endOffset": 5756
+                        "endOffset": 5760
                     }
                 }
             },
@@ -4183,9 +4183,9 @@
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
-                        "startOffset": 4738,
+                        "startOffset": 4742,
                         "endColumn": 31,
-                        "endOffset": 4765
+                        "endOffset": 4769
                     }
                 }
             },
@@ -4202,9 +4202,9 @@
                     "position": {
                         "startLine": 124,
                         "startColumn": 4,
-                        "startOffset": 5619,
+                        "startOffset": 5623,
                         "endColumn": 40,
-                        "endOffset": 5655
+                        "endOffset": 5659
                     }
                 }
             },
@@ -4411,9 +4411,9 @@
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
-                        "startOffset": 4771,
+                        "startOffset": 4775,
                         "endColumn": 31,
-                        "endOffset": 4798
+                        "endOffset": 4802
                     }
                 }
             },
@@ -4430,9 +4430,9 @@
                     "position": {
                         "startLine": 125,
                         "startColumn": 4,
-                        "startOffset": 5661,
+                        "startOffset": 5665,
                         "endColumn": 40,
-                        "endOffset": 5697
+                        "endOffset": 5701
                     }
                 }
             },
@@ -4734,9 +4734,9 @@
                     "position": {
                         "startLine": 118,
                         "startColumn": 4,
-                        "startOffset": 5422,
+                        "startOffset": 5426,
                         "endColumn": 44,
-                        "endOffset": 5462
+                        "endOffset": 5466
                     }
                 }
             },
@@ -4867,9 +4867,9 @@
                     "position": {
                         "startLine": 117,
                         "startColumn": 4,
-                        "startOffset": 5376,
+                        "startOffset": 5380,
                         "endColumn": 44,
-                        "endOffset": 5416
+                        "endOffset": 5420
                     }
                 }
             },
@@ -5057,9 +5057,9 @@
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
-                        "startOffset": 4521,
+                        "startOffset": 4525,
                         "endColumn": 49,
-                        "endOffset": 4566
+                        "endOffset": 4570
                     }
                 }
             },
@@ -5076,9 +5076,9 @@
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
-                        "startOffset": 4470,
+                        "startOffset": 4474,
                         "endColumn": 49,
-                        "endOffset": 4515
+                        "endOffset": 4519
                     }
                 }
             },
@@ -5087,17 +5087,17 @@
                     "startLine": 332,
                     "startColumn": 4,
                     "startOffset": 15827,
-                    "endColumn": 45,
-                    "endOffset": 15868
+                    "endColumn": 47,
+                    "endOffset": 15870
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
-                        "startOffset": 4423,
-                        "endColumn": 45,
-                        "endOffset": 4464
+                        "startOffset": 4425,
+                        "endColumn": 47,
+                        "endOffset": 4468
                     }
                 }
             },
@@ -5105,9 +5105,9 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 15873,
+                    "startOffset": 15875,
                     "endColumn": 46,
-                    "endOffset": 15915
+                    "endOffset": 15917
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5124,18 +5124,18 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 15920,
+                    "startOffset": 15922,
                     "endColumn": 42,
-                    "endOffset": 15958
+                    "endOffset": 15960
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
-                        "startOffset": 4572,
+                        "startOffset": 4576,
                         "endColumn": 42,
-                        "endOffset": 4610
+                        "endOffset": 4614
                     }
                 }
             },
@@ -5143,9 +5143,9 @@
                 "to": {
                     "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 15963,
-                    "endColumn": 45,
-                    "endOffset": 16004
+                    "startOffset": 15965,
+                    "endColumn": 47,
+                    "endOffset": 16008
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5153,8 +5153,8 @@
                         "startLine": 88,
                         "startColumn": 4,
                         "startOffset": 4376,
-                        "endColumn": 45,
-                        "endOffset": 4417
+                        "endColumn": 47,
+                        "endOffset": 4419
                     }
                 }
             },
@@ -5162,9 +5162,9 @@
                 "to": {
                     "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 16009,
+                    "startOffset": 16013,
                     "endColumn": 45,
-                    "endOffset": 16050
+                    "endOffset": 16054
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5181,18 +5181,18 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 16055,
+                    "startOffset": 16059,
                     "endColumn": 37,
-                    "endOffset": 16088
+                    "endOffset": 16092
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
-                        "startOffset": 5083,
+                        "startOffset": 5087,
                         "endColumn": 37,
-                        "endOffset": 5116
+                        "endOffset": 5120
                     }
                 }
             },
@@ -5200,9 +5200,9 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 16093,
+                    "startOffset": 16097,
                     "endColumn": 51,
-                    "endOffset": 16140
+                    "endOffset": 16144
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5219,9 +5219,9 @@
                 "to": {
                     "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 16145,
+                    "startOffset": 16149,
                     "endColumn": 50,
-                    "endOffset": 16191
+                    "endOffset": 16195
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5238,9 +5238,9 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 16196,
+                    "startOffset": 16200,
                     "endColumn": 44,
-                    "endOffset": 16236
+                    "endOffset": 16240
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5257,9 +5257,9 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 16241,
+                    "startOffset": 16245,
                     "endColumn": 47,
-                    "endOffset": 16284
+                    "endOffset": 16288
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5276,9 +5276,9 @@
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 16289,
+                    "startOffset": 16293,
                     "endColumn": 50,
-                    "endOffset": 16335
+                    "endOffset": 16339
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5295,18 +5295,18 @@
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 16340,
+                    "startOffset": 16344,
                     "endColumn": 44,
-                    "endOffset": 16380
+                    "endOffset": 16384
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 4,
-                        "startOffset": 5330,
+                        "startOffset": 5334,
                         "endColumn": 44,
-                        "endOffset": 5370
+                        "endOffset": 5374
                     }
                 }
             },
@@ -5314,9 +5314,9 @@
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 16385,
+                    "startOffset": 16389,
                     "endColumn": 43,
-                    "endOffset": 16424
+                    "endOffset": 16428
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5333,9 +5333,9 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 16429,
+                    "startOffset": 16433,
                     "endColumn": 42,
-                    "endOffset": 16467
+                    "endOffset": 16471
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5352,18 +5352,18 @@
                 "to": {
                     "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 16472,
+                    "startOffset": 16476,
                     "endColumn": 48,
-                    "endOffset": 16516
+                    "endOffset": 16520
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
-                        "startOffset": 4901,
+                        "startOffset": 4905,
                         "endColumn": 48,
-                        "endOffset": 4945
+                        "endOffset": 4949
                     }
                 }
             },
@@ -5371,18 +5371,18 @@
                 "to": {
                     "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 16521,
+                    "startOffset": 16525,
                     "endColumn": 50,
-                    "endOffset": 16567
+                    "endOffset": 16571
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 4,
-                        "startOffset": 4951,
+                        "startOffset": 4955,
                         "endColumn": 50,
-                        "endOffset": 4997
+                        "endOffset": 5001
                     }
                 }
             },
@@ -5390,18 +5390,18 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 16572,
+                    "startOffset": 16576,
                     "endColumn": 48,
-                    "endOffset": 16616
+                    "endOffset": 16620
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
-                        "startOffset": 4851,
+                        "startOffset": 4855,
                         "endColumn": 48,
-                        "endOffset": 4895
+                        "endOffset": 4899
                     }
                 }
             },
@@ -5409,18 +5409,18 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 16621,
+                    "startOffset": 16625,
                     "endColumn": 45,
-                    "endOffset": 16662
+                    "endOffset": 16666
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
-                        "startOffset": 4804,
+                        "startOffset": 4808,
                         "endColumn": 45,
-                        "endOffset": 4845
+                        "endOffset": 4849
                     }
                 }
             },
@@ -5428,18 +5428,18 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 16667,
+                    "startOffset": 16671,
                     "endColumn": 49,
-                    "endOffset": 16712
+                    "endOffset": 16716
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
-                        "startOffset": 5003,
+                        "startOffset": 5007,
                         "endColumn": 49,
-                        "endOffset": 5048
+                        "endOffset": 5052
                     }
                 }
             },
@@ -5447,9 +5447,9 @@
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 16717,
+                    "startOffset": 16721,
                     "endColumn": 46,
-                    "endOffset": 16759
+                    "endOffset": 16763
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5466,9 +5466,9 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 16764,
+                    "startOffset": 16768,
                     "endColumn": 36,
-                    "endOffset": 16796
+                    "endOffset": 16800
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\strings.xml",
@@ -5485,10 +5485,10 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 16801,
+                    "startOffset": 16805,
                     "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 17087
+                    "endOffset": 17091
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5506,10 +5506,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 17092,
+                    "startOffset": 17096,
                     "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 17247
+                    "endOffset": 17251
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5527,10 +5527,10 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 17252,
+                    "startOffset": 17256,
                     "endLine": 369,
                     "endColumn": 9,
-                    "endOffset": 17562
+                    "endOffset": 17566
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5548,10 +5548,10 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 17567,
+                    "startOffset": 17571,
                     "endLine": 378,
                     "endColumn": 12,
-                    "endOffset": 18074
+                    "endOffset": 18078
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5569,10 +5569,10 @@
                 "to": {
                     "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 18079,
+                    "startOffset": 18083,
                     "endLine": 382,
                     "endColumn": 12,
-                    "endOffset": 18339
+                    "endOffset": 18343
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5590,10 +5590,10 @@
                 "to": {
                     "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 18344,
+                    "startOffset": 18348,
                     "endLine": 386,
                     "endColumn": 10,
-                    "endOffset": 18504
+                    "endOffset": 18508
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5611,10 +5611,10 @@
                 "to": {
                     "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 18509,
+                    "startOffset": 18513,
                     "endLine": 389,
                     "endColumn": 10,
-                    "endOffset": 18626
+                    "endOffset": 18630
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5632,10 +5632,10 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 18631,
+                    "startOffset": 18635,
                     "endLine": 393,
                     "endColumn": 10,
-                    "endOffset": 18814
+                    "endOffset": 18818
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5653,10 +5653,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 18819,
+                    "startOffset": 18823,
                     "endLine": 396,
                     "endColumn": 10,
-                    "endOffset": 18935
+                    "endOffset": 18939
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5674,10 +5674,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 18940,
+                    "startOffset": 18944,
                     "endLine": 400,
                     "endColumn": 10,
-                    "endOffset": 19117
+                    "endOffset": 19121
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",
@@ -5695,10 +5695,10 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 19122,
+                    "startOffset": 19126,
                     "endLine": 404,
                     "endColumn": 10,
-                    "endOffset": 19282
+                    "endOffset": 19286
                 },
                 "from": {
                     "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values\\styles.xml",

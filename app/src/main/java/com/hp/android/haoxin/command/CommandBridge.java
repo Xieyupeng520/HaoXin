@@ -292,14 +292,14 @@ public class CommandBridge {
 				getCurrentDyeView().onRequest();
 			}
 		}
-		
+
 		/**
 		 * 圆盘（染色、清洗、填充）模块，设置盘子转动
-		 * @param isOffCenter 是否为离心转动。true为空转，false为离心
+		 * @param duration 转盘周期
 		 */
-		public void workStartRotate(boolean isOffCenter) {
+		public void workStartRotate(int duration) {
 			if(getCurrentCleanView() != null){
-				getCurrentCleanView().getListener().startRotate(isOffCenter);
+				getCurrentCleanView().getListener().startRotate(duration);
 			}
 		}
 		

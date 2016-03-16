@@ -364,8 +364,6 @@ public class RealCommand extends TestCommand {
         if (!checkWork(context, TAG_DYE)) {
             return;
         }
-		mCommand.call.workStartRotate(false);
-		mCommand.call.workStartDiskColorAnimation(0xffffffff, 5000, 0, 180);
 		Global.setState(GlobalState.DYE);
         if (Global.getSystemStateBean().isStatDevFilled()) { //流路已经被填充
             try {

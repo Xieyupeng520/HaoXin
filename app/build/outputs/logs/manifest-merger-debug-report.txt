@@ -45,7 +45,7 @@ ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:23:9-32:20
 		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:25:13-63
 	android:name
 		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:24:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#android.intent.action.MAIN+android.intent.category.HOME+android.intent.category.LAUNCHER
 ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
 ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:28:17-69
@@ -55,6 +55,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:29:27-74
+category#android.intent.category.HOME
+ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:30:17-73
+	android:name
+		ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:30:27-70
 activity#com.hp.android.haoxin.LoadingActivity
 ADDED from D:\StudioProjects\HaoXin\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:screenOrientation

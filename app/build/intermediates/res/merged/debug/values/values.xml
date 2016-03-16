@@ -330,10 +330,10 @@
     <string name="saffron">番红</string>
     <string name="site_centrifugal">细胞离心</string>
     <string name="site_chenzhogn">称重启动终止</string>
-    <string name="site_dianjiu">酸性酒精</string>
+    <string name="site_dianjiu">酸性酒精调整</string>
     <string name="site_guding">固定启动终止</string>
     <string name="site_heat">加热选择</string>
-    <string name="site_jiejing">亚甲基蓝</string>
+    <string name="site_jiejing">亚甲基蓝调整</string>
     <string name="site_ranse">染色厚度设置</string>
     <string name="step">STEP</string>
     <string name="succ_centrifugal">细胞离心结束</string>

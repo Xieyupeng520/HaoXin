@@ -314,25 +314,19 @@ public class WorkCleanView extends WorkBaseView{
 		}
 		/**
 		 * 圆盘（染色、清洗、填充）模块，开始盘子转动
-		 * @param isoffCenter 是否为离心转动。true为空转，false为离心
+		 * @param duration 转盘周期
 		 */
-		public void startRotate(boolean isoffCenter){
+		public void startRotate(int duration){
 			if(!isDiskRotate){
-				int durlay = isoffCenter ? 1500 : 3000;
 				RotateAnimation animation = new RotateAnimation(0f, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-				animation.setDuration(durlay);
+				animation.setDuration(duration);
 				animation.setRepeatCount(Animation.INFINITE);
 				animation.setInterpolator(new LinearInterpolator());
 				animation.setFillAfter(true);
 				mDiskView.startAnimation(animation);
 				isDiskRotate = true;
 			}else {
-				int curdy = (int)mDiskView.getAnimation().getDuration();
-				if(isoffCenter && curdy != 1500){
-					mDiskView.getAnimation().setDuration(1500);
-				}else if(!isoffCenter && curdy != 3000){
-					mDiskView.getAnimation().setDuration(3000);
-				}
+				mDiskView.getAnimation().setDuration(duration);
 			}
 		}
 		
@@ -342,13 +336,13 @@ public class WorkCleanView extends WorkBaseView{
 		}
 		
 		public void startSpout(int index,boolean isClean){
-			startRotate(false);
+			startRotate(Global.SPEED_NORMAL);
 			getSpoutById(index).showAnim(true);
 
 			getSpoutById(index).initAnimPathsById(index, isClean);
 		}
 		public void startSpout(int index,String color){
-			startRotate(false);
+			startRotate(Global.SPEED_NORMAL);
 			getSpoutById(index).showAnim(true);
 
 			getSpoutById(index).initAnimPathsById(index, color);

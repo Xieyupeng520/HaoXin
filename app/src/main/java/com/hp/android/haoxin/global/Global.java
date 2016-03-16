@@ -12,6 +12,12 @@ import com.hp.android.haoxin.command.CommandBridge;
  * 全局（应用公用）变量
  */
 public class Global {
+	/**
+	 * 转盘速度
+	 */
+	public static final int SPEED_NORMAL = 3000;		//正常
+	public static final int SPEED_DRY = 1500;			//甩干
+	public static final int SPEED_CENTRIFUGAL = 600;	//离心
 
 	public static final String DATA_ZAIBOPIAN_NAME     = "zaibopian";
 	public static final String DATA_RANSE_NAME         = "ranse";
