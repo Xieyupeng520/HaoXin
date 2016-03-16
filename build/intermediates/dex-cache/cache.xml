@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="E:\Android-SDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\StudioProjects\HaoXin\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_300ba6e7bd80c352a229d2c27e59123e9913ba84.jar" />
+    </item>
+    <item
+        jar="D:\StudioProjects\HaoXin\app\libs\usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="D:\StudioProjects\HaoXin\app\build\intermediates\pre-dexed\debug\usb-serial-for-android-v010_25782082349947e2345473407063b026daf31e5c.jar" />
+    </item>
+
+</items>
