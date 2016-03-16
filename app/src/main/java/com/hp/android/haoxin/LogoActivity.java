@@ -9,8 +9,6 @@ import com.hp.android.haoxin.global.Global;
 import com.hp.android.haoxin.utils.Tool;
 
 public class LogoActivity extends BaseActivity{
-	// FIXME: 15/8/30 handler
-	public static final Handler handler = new Handler();
 	@Override
 	protected void initContainer() {
 		mContainerResId = R.layout.activity_logo;
