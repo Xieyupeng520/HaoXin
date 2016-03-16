@@ -17,18 +17,18 @@ import com.hp.android.haoxin.workview.WorkLiuView;
 public class CommandBridge {
 
 	private static CommandBridge mInstance;
-	
+
 	/**
 	 * 程序发送数据到硬件的接口，需要用户自己实现
 	 */
 	private CommandInterface mInterface;
-	
+
 	/**
 	 * 硬件发送指令到程序的回调，不同的指令需要用户调用里面不同的方法
 	 */
 	public Call call;
 
-	
+
 	private LoadingListener mLoadingListener;
 
 	private CommandBridge() {}
@@ -92,7 +92,7 @@ public class CommandBridge {
 	 */
 	public void linkSiteDates(int ranse, int guding, int jiejing, int dianjiu,int chengzhong) {
 		if (mInterface != null)
-		mInterface.siteDates(ranse + 1, guding, jiejing, dianjiu, chengzhong);
+			mInterface.siteDates(ranse + 1, guding, jiejing, dianjiu, chengzhong);
 	}
 
 	/**
@@ -104,9 +104,9 @@ public class CommandBridge {
 	 * @param iodine 碘酒选择（00：关闭 01：普通 02：高效）
 	 * @param weigh 称重使能选择（00：关闭 01：启动）
 	 */
-	public void linkSiteDates(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
+	public void linkSiteDatas(int glassCount, int dyeingThickness, int alcoholFix, int crystalViolet, int iodine, int weigh) {
 		if (mInterface != null)
-		mInterface.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
+			mInterface.siteChanged(glassCount, dyeingThickness, alcoholFix, crystalViolet, iodine, weigh);
 	}
 
 	/**
@@ -133,7 +133,7 @@ public class CommandBridge {
 	 */
 	public void linkJianCeChange(byte type, byte key, byte keyMode, Context context) {
 		if (mInterface != null)
-		mInterface.systemJianCeChange(type, key, keyMode, context);
+			mInterface.systemJianCeChange(type, key, keyMode, context);
 	}
 
 	/**
@@ -146,12 +146,12 @@ public class CommandBridge {
 	}
 	/**
 	 * 染色开始前，传递设置的载玻片数到硬件
-	 * 
+	 *
 	 * @param number 载玻片数目
 	 */
 	public void linkSetZaiBoPian(int number) {
 		if (mInterface != null)
-		mInterface.dyeSetZaiBoPian(number);
+			mInterface.dyeSetZaiBoPian(number);
 	}
 
 	/**
@@ -190,8 +190,8 @@ public class CommandBridge {
 		if (mInterface != null)
 			mInterface.chengzhongCancel(step);
 	}
-	
-	
+
+
 	/**
 	 * 开始染色，通知硬件染色开始
 	 */
@@ -199,8 +199,8 @@ public class CommandBridge {
 		if (mInterface != null)
 			mInterface.dyeStart(context);
 	}
-	
-	
+
+
 	/**
 	 * 开始清洗，通知硬件清洗开始
 	 */
@@ -208,8 +208,8 @@ public class CommandBridge {
 		if (mInterface != null)
 			mInterface.cleanStart(context);
 	}
-	
-	
+
+
 	/**
 	 * 开始填充，通知硬件填充开始
 	 */
@@ -217,17 +217,17 @@ public class CommandBridge {
 		if (mInterface != null)
 			mInterface.fillStart(context);
 	}
-	
+
 	public void linkDyeCancel(){
 		if (mInterface != null)
 			mInterface.dyeCancel();
 	}
-	
+
 	public void linkCleanCancel(){
 		if (mInterface != null)
 			mInterface.cleanCancel();
 	}
-	
+
 	public void linkFillCancel(){
 		if (mInterface != null)
 			mInterface.fillCancel();
@@ -247,9 +247,9 @@ public class CommandBridge {
 			mInterface.centrifugalCancel();
 	}
 
-	
-	
-	
+
+
+
 	//=========================================================================================
 	/**
 	 *里面含有硬件往程序发送指令时需要调用到的方法
@@ -263,7 +263,7 @@ public class CommandBridge {
 			if (mLoadingListener == null)return;
 			mLoadingListener.updateLoadingStep(index);
 		}
-		
+
 		/**
 		 * 初始化参数，将硬件的参数传入到程序，使得硬件软件数据一致
 		 * @param zaibopian  载玻片数量：1-12 (分别对应不同载玻片数量)
@@ -274,7 +274,7 @@ public class CommandBridge {
 		 * @param chengzhong 称重启动终止：0,1(0为关闭，1为开启)
 		 */
 		public void loadingInitDatas(int zaibopian,int ranse,int guding,
-				int jiejing,int dianjiu,int chengzhong){
+									 int jiejing,int dianjiu,int chengzhong){
 			if (mLoadingListener == null)return;
 			mLoadingListener.initDatas(zaibopian, ranse - 1, guding, jiejing, dianjiu, chengzhong);
 		}
@@ -287,7 +287,7 @@ public class CommandBridge {
 				getCurrentDyeView().onRequest();
 			}
 		}
-		
+
 		/**
 		 * 圆盘（染色、清洗、填充）模块，设置盘子转动
 		 * @param isOffCenter 是否为离心转动。true为空转，false为离心
@@ -297,7 +297,7 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().startRotate(isOffCenter);
 			}
 		}
-		
+
 		/**
 		 * 圆盘（染色、清洗、填充）模块，停止盘子转动
 		 */
@@ -306,8 +306,8 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().stopRotate();
 			}
 		}
-		
-		
+
+
 		/**
 		 * 圆盘（染色、清洗、填充）模块，设置进度条值
 		 * @param progress 当前进度值
@@ -317,7 +317,7 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().setProgress(progress);
 			}
 		}
-		
+
 		/**
 		 * 圆盘（染色、清洗、填充）模块，设置当前进度信息
 		 * @param title 当前操作标题
@@ -333,20 +333,29 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().setProgressText(title, des);
 			}
 		}
-		
+
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块，碰头喷射
 		 * @param index 喷头的编号，从下往上依次为0-5
 		 * @param isClean 是否为清洗阶段，因为A、B、C三个喷头在清洗和填充阶段喷射效果不一样。·
 		 *                true为喷出白色效果，false为其他颜色
 		 */
-		public void workStartSpout(int index, boolean isClean){//int color,
+		public void workStartSpout(int index, boolean isClean){ //int color,
 			if(getCurrentCleanView() != null){
 				getCurrentCleanView().getListener().startSpout(index, isClean);
 			}
 		}
-		
-		
+		/**
+		 * 设置圆盘（染色、清洗、填充）模块，碰头喷射
+		 * @param index 喷头的编号，从下往上依次为0-5
+		 * @param color see SpoutView.RED...
+		 */
+		public void workStartSpout(int index, String color){
+			if(getCurrentCleanView() != null){
+				getCurrentCleanView().getListener().startSpout(index, color);
+			}
+		}
+
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块中盘子上的色块颜色
 		 * @param color 盘子上的颜色，16进制，格式为argb（例如：0xff00bb99)
@@ -356,7 +365,7 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().setDiskMarkColor(color);
 			}
 		}
-		
+
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块中盘子上的色块颜色
 		 * @param color 盘子上的颜色，16进制，格式为argb（例如：0xff00bb99）
@@ -369,7 +378,7 @@ public class CommandBridge {
 				getCurrentCleanView().getListener().setDiskMarkColor(color, duration, fromAlpha, toAlpha);
 			}
 		}
-		
+
 		/**
 		 * 设置圆盘（染色、清洗、填充）模块，喷头停止喷射
 		 * @param index 要停止喷射喷头的编号，从下往上依次为0-5

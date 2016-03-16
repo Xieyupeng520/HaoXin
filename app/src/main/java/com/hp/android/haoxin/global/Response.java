@@ -67,25 +67,33 @@ public class Response {
      */
     public static class Progress {
         public static final byte PROGRESS_NONE      = 0x00;         //无
-        public static final byte PROGRESS_SAFFRON   = 0x01;         //正在喷射:番红(动画:A 喷射)
-        public static final byte PROGRESS_ALCOHOL   = 0x02;         //酒精固定(动画:E 喷射)
-        public static final byte PROGRESS_IODINE    = 0x03;         //正在喷射:碘酒(动画:B 喷射)
-        public static final byte PROGRESS_CRYSTAL_VIOLET   = 0x04;  //正在喷射:结晶紫(动画:C 喷射)
+        public static final byte PROGRESS_SAFFRON   = 0x01;         //正在喷射:番红(动画:A 喷射)    红色
+        public static final byte PROGRESS_ALCOHOL   = 0x02;         //酒精固定(动画:E 喷射)         白色
+        public static final byte PROGRESS_IODINE    = 0x03;         //正在喷射:碘酒(动画:B 喷射)    橙黄色
+        public static final byte PROGRESS_CRYSTAL_VIOLET   = 0x04;  //正在喷射:结晶紫(动画:C 喷射)  紫色
 
-        public static final byte PROGRESS_CLEAN = 0x05;             //正在清洗(动画:Df,Dr 同时喷)
-        public static final byte PROGRESS_FILL = 0x06;              //正在填充(动画:Da,Db,Dc 同时喷)
+        public static final byte PROGRESS_CLEAN = 0x05;             //正在清洗(动画:Df,Dr 同时喷)   白色
+        public static final byte PROGRESS_FILL = 0x06;              //正在填充(动画:A,B,C 同时喷)
+        // 革兰氏：A液 红色  B液：橙黄色   C液：紫色
+        // 抗酸：A液 红色  B液：白色  C液：蓝色
+        // 荧光：A液 橙黄色  B液：白色  C液：紫色）
         public static final byte PROGRESS_DRY = 0x07;               //正在甩干(动画:不喷射)
         public static final byte PROGRESS_WAIT = 0x08;              //等待(动画:不喷射)
         public static final byte PROGRESS_HEAT = 0x09;              //正在加热(动画:不喷射)
-        public static final byte PROGRESS_STONE_CARBONATE = 0x0A;   //石碳酸复红(动画:A 喷射)
-        public static final byte PROGRESS_ACID_ALCOHOL = 0x0B;      //正在喷射:酸性酒精(动画:B 喷射)
-        public static final byte PROGRESS_METHYLENE_BLUE = 0x0C;    //正在喷射:亚甲基蓝(动画:C 喷射)
-        public static final byte PROGRESS_RHODAMINE_B = 0x0D;       //正在喷射:罗丹明 B(动画:A 喷射)
-        public static final byte PROGRESS_AURAMINE_O= 0x0E;         //正在喷射:金胺 O(动画:A 喷射)
+        public static final byte PROGRESS_STONE_CARBONATE = 0x0A;   //石碳酸复红(动画:A 喷射)       红色
+        public static final byte PROGRESS_ACID_ALCOHOL = 0x0B;      //正在喷射:酸性酒精(动画:B 喷射)白色
+        public static final byte PROGRESS_METHYLENE_BLUE = 0x0C;    //正在喷射:亚甲基蓝(动画:C 喷射)蓝色
+        public static final byte PROGRESS_RHODAMINE_B = 0x0D;       //正在喷射:罗丹明 B(动画:A 喷射)橙黄色
+        public static final byte PROGRESS_AURAMINE_O= 0x0E;         //正在喷射:金胺 O(动画:A 喷射)  橙黄色
 
         public static final byte PROGRESS_CENTRIFUGAL = 0x0F;       //正在细胞离心(动画:不喷射)**
 
-        public static final byte PROGRESS_CLEAN_PLUS = 0x10;        //正在清洗(动画:A、B、C、D、E、Df 和 Dr 同时喷)
+        public static final byte PROGRESS_CLEAN_PLUS = 0x10;        //正在清洗(动画:A、B、C、E、Df 和 Dr 同时喷) 所有喷嘴都是白色
+
+        //抗酸版本新增
+        public static final byte PROGRESS_JETTING_KMNO4 = 0x11;     //正在喷射：高锰酸钾（动画：C 喷射  紫色）
+        public static final byte PROGRESS_JETTING_RHODAMINE = 0x12; //正在喷射：金胺 O-罗丹明 B（ 动画： A 喷射   橙黄色）
+        public static final byte PROGRESS_JETTING_FIRST_DYE = 0x13; //正在喷射：初染液（动画： A 喷射   橙黄色）
     }
 
     /**

@@ -155,7 +155,7 @@ public class Global {
 	 * 发送参数数据到下位机
 	 */
 	public static void sendDataToDevice() {
-		CommandBridge.getInstance().linkSiteDates(mZaiBoPianNum, mRanSeHouDu, mGuDingQDState, mJieJingZiLev, mDianJiuLev, mChengZhong);
+		CommandBridge.getInstance().linkSiteDatas(mZaiBoPianNum, mRanSeHouDu, mGuDingQDState, mJieJingZiLev, mDianJiuLev, mChengZhong);
 	}
 	public static void sendEngineerDataToDevice() {
 		CommandBridge.getInstance().linkEngineerDatas(mAPump + 1, mBPump + 1, mCPump + 1, mDPump + 1, mEPump + 1, mCellCentrifugalSpeed);

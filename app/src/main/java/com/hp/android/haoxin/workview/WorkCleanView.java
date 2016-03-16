@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
@@ -34,22 +35,22 @@ public class WorkCleanView extends WorkBaseView{
 	}
 
 	ViewController controller = ViewController.getInstance();
-	
+
 	private ImageView mDiskView;
 	private DiskCircleView mDiskMark;
 	private ProgressBar mProgress;
-	
+
 	private TextView mTitleText;
 	private TextView mDesText;
 	private TextView mProgressText;
-	
+
 	private Button mCancelButton;
-	
+
 	protected WorkDiskListener mDiskListener;
-	
+
 	private int mCenterX;
 	private int mCenterY;
-	
+
 	private FrameLayout mContainerFrame;
 	private SpoutView mSpoutDF;
 	private SpoutView mSpoutA;
@@ -57,7 +58,7 @@ public class WorkCleanView extends WorkBaseView{
 	private SpoutView mSpoutC;
 	private SpoutView mSpoutE;
 	private SpoutView mSpoutDR;
-	
+
 	@Override
 	public void initContainerId() {
 		mContainerId = R.layout.work_view_clean_fill;
@@ -66,7 +67,7 @@ public class WorkCleanView extends WorkBaseView{
 	/*public void initData(){
 		getTitleId(R.drawable.clean_title);
 	}*/
-	
+
 	@Override
 	public int getTitleId() {
 		return R.drawable.clean_title;
@@ -81,9 +82,9 @@ public class WorkCleanView extends WorkBaseView{
 		mTitleText = Tool.setTextType(this, R.id.tv_clean_fill_title, Constant.FONT_TYPE_FANGZ);
 		mDesText = Tool.setTextType(this, R.id.tv_clean_des, Constant.FONT_TYPE_FANGZ);
 		mProgressText = Tool.setTextType(this, R.id.tv_clean_dial, Constant.FONT_TYPE_HELVE);
-		
+
 		mContainerFrame = (FrameLayout) findViewById(R.id.img_disk_container);
-		
+
 		mProgress = (ProgressBar) findViewById(R.id.progress_clean);
 		mDiskView = (ImageView) findViewById(R.id.img_disk);
 		mDiskMark = (DiskCircleView) findViewById(R.id.dcv_disk_mark);
@@ -107,29 +108,29 @@ public class WorkCleanView extends WorkBaseView{
 				});
 			}
 		});
-		
+
 		setListener();
-		
+
 		mSpoutDF = new SpoutView(getContext(), 0);
 		mSpoutA = new SpoutView(getContext(), 1);
 		mSpoutB = new SpoutView(getContext(), 2);
 		mSpoutC = new SpoutView(getContext(), 3);
 		mSpoutE = new SpoutView(getContext(), 4);
 		mSpoutDR = new SpoutView(getContext(), 5);
-		
+
 		mDiskView.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
 			@SuppressWarnings("deprecation")
 			public void onGlobalLayout() {
 				mCenterX = mDiskView.getLeft()+mDiskView.getWidth()/2;
 				mCenterY = mDiskView.getTop()+mDiskView.getHeight()/2;
-				
+
 				float h = mDiskView.getDrawable().getBounds().height();
 				Matrix m = mDiskView.getImageMatrix();
 				float[] values = new float[10];
 				m.getValues(values);
-				
+
 				float scale = values[4];
-				
+
 				scale = h/331.f*scale;
 				float tmp = Math.min(mDiskView.getWidth(), mDiskView.getHeight());
 				scale = tmp/331.f;
@@ -140,38 +141,38 @@ public class WorkCleanView extends WorkBaseView{
 				String ids[] = {"spout/spout_df_1.png","spout/spout_df_2.png"};
 				mSpoutDF.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_df.png", ids);
 				mContainerFrame.addView(mSpoutDF);
-				
+
 				ids = new String[]{"spout/spout_a_1.png","spout/spout_a_2.png"};
 				mSpoutA.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_a.png", ids);
 				mContainerFrame.addView(mSpoutA);
-				
+
 				ids = new String[]{"spout/spout_b_1.png","spout/spout_b_2.png"};
 				mSpoutB.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_b.png", ids);
 				mContainerFrame.addView(mSpoutB);
-				
+
 				ids = new String[]{"spout/spout_c_1.png","spout/spout_c_2.png"};
 				mSpoutC.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_c.png", ids);
 				mContainerFrame.addView(mSpoutC);
-				
+
 				ids = new String[]{"spout/spout_e_1.png","spout/spout_e_2.png"};
 				mSpoutE.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_e.png", ids);
 				mContainerFrame.addView(mSpoutE);
-				
+
 				ids = new String[]{"spout/spout_dr_1.png","spout/spout_dr_2.png"};
 				mSpoutDR.initView(mCenterX,mCenterY,mDiskView.getHeight()/2,scale,"spout/sp_dr1.png", ids);
 				mContainerFrame.addView(mSpoutDR);
 			}
 		});
 	}
-	
+
 	public void setListener(){
 		mDiskListener = new WorkDiskListener();
 	}
-	
+
 	public WorkDiskListener getListener(){
 		return mDiskListener;
 	}
-	
+
 	protected int getCancelMsgId(){
 		return R.string.dialog_msg_cancel_clean;
 	}
@@ -183,11 +184,11 @@ public class WorkCleanView extends WorkBaseView{
 		controller.changeView(ViewController.VIEW_HOME);
 		controller.getMenuFragment().setSelected(0);
 	}
-	
+
 	@Override
 	protected void onAttachedToWindow() {
 		super.onAttachedToWindow();
-		
+
 		if(isSlidMenuViewShow()){
 			setSlidMenuViewShow();
 		}
@@ -210,15 +211,15 @@ public class WorkCleanView extends WorkBaseView{
 		mProgressText.setText(null);
 		mDiskListener.setProgressText(null, null);
 	}
-	
+
 	protected void start(){
 		CommandBridge.getInstance().linkCleanStart(getContext());
 	}
-	
+
 	protected void cancel(){
 		CommandBridge.getInstance().linkCleanCancel();
 	}
-	
+
 	protected void finished(){
 		dismissCancelDialog();
 		//填充对话框
@@ -271,9 +272,9 @@ public class WorkCleanView extends WorkBaseView{
 		super.onDetachedFromWindow();
 		mDiskListener.stopAll();
 	}
-	
+
 	public class WorkDiskListener{
-		
+
 		//private ArrayList<View> mWorkSpoutArray;
 		//private DiskCircleView mColorMarkView;
 		private boolean isDiskRotate = false;
@@ -285,23 +286,23 @@ public class WorkCleanView extends WorkBaseView{
 		public void setDiskMarkColor(int color){
 			mDiskMark.setColor(color);
 		}
-		
+
 		public void setDiskMarkColor (int color,int duration,float fromAlpha,float toAlpha){
 			mDiskMark.setColor(color);
 			if(duration != 0){
 				mDiskMark.startAnimation(duration, fromAlpha, toAlpha);
 			}
 		}
-		
+
 		public void setProgress(int progress){
 			Log.d("WorkCleanView","setProgress = " + progress);
 			mProgress.setProgress(progress);
-			mProgressText.setText(progress+"%");
+			mProgressText.setText(progress + "%");
 			if(progress == 100){
 				mCancelButton.setEnabled(false);
 			}
 		}
-		
+
 		public void setProgressText(String title,String des){
 			mTitleText.setText(title);
 			mDesText.setText(des);
@@ -334,38 +335,31 @@ public class WorkCleanView extends WorkBaseView{
 				}
 			}
 		}
-		
+
 		public void stopRotate(){
 			isDiskRotate = false;
 			mDiskView.clearAnimation();
 		}
-		
-		public void startSpout(int index,boolean isClean){
-			//public void startSpout(int color,int index,boolean isClean){
-			//int id = getIdByIndex(index);
-			startRotate(false);
-			
-//			ImageView spout = (ImageView) findViewById(id);
-//			spout.setVisibility(View.VISIBLE);
-			getSpoutById(index).showAnim(true);
-			
-			if(index > 0 && index < 6){
-//				int srcid = getIdType(isClean, index);
-//				if(srcid != -1)spout.setImageResource(srcid);
-				getSpoutById(index).initAnimPathsById(index, isClean);
-//				getSpoutById(index).changeColor(index, isClean);
-			}
 
-			//setSpoutAnimation(spout);
-			//spout.startAnimation(AnimationUtils.loadAnimation(getContext(), getAnimIdByIndex(index)));
+		public void startSpout(int index,boolean isClean){
+			startRotate(false);
+			getSpoutById(index).showAnim(true);
+
+			getSpoutById(index).initAnimPathsById(index, isClean);
 		}
-		
+		public void startSpout(int index,String color){
+			startRotate(false);
+			getSpoutById(index).showAnim(true);
+
+			getSpoutById(index).initAnimPathsById(index, color);
+		}
+
 		public void stopSpout(int index){
 			getSpoutById(index).showAnim(false);
 			//int id = getIdByIndex(index);
 			//findViewById(id).setVisibility(View.GONE);
 		}
-		
+
 		public void stopAll(){
 			for(int i = 0; i < 6; i++){
 				//findViewById(getIdByIndex(i)).setVisibility(View.GONE);
@@ -389,22 +383,22 @@ public class WorkCleanView extends WorkBaseView{
 
 	private SpoutView getSpoutById(int id){
 		switch (id) {
-		case SpoutView.DF:
-			return mSpoutDF;
-		case SpoutView.A:
-			return mSpoutA;
-		case SpoutView.B:
-			return mSpoutB;
-		case SpoutView.C:
-			return mSpoutC;
-		case SpoutView.E:
-			return mSpoutE;
-		case SpoutView.DR:
-		default:
-			return  mSpoutDR;
+			case SpoutView.DF:
+				return mSpoutDF;
+			case SpoutView.A:
+				return mSpoutA;
+			case SpoutView.B:
+				return mSpoutB;
+			case SpoutView.C:
+				return mSpoutC;
+			case SpoutView.E:
+				return mSpoutE;
+			case SpoutView.DR:
+			default:
+				return  mSpoutDR;
 		}
 	}
-	
+
 //	private int getIdByIndex(int index){
 //		switch (index) {
 //		case 0:
@@ -423,22 +417,22 @@ public class WorkCleanView extends WorkBaseView{
 //			return  R.id.img_spout_a;
 //		}
 //	}
-	
+
 	@SuppressWarnings("unused")
 	private int getIdType(boolean isClean,int index){
 		int id = -1;
 		switch (index) {
-		case 1:
-			id = isClean ? R.anim.spout_aw:R.anim.spout_a;
-			break;
-		case 2:
-			id = isClean ? R.anim.spout_bw:R.anim.spout_b;
-			break;
-		case 3:
-			id = isClean ? R.anim.spout_cw:R.anim.spout_c;
-			break;
-		default:
-			break;
+			case 1:
+				id = isClean ? R.anim.spout_aw:R.anim.spout_a;
+				break;
+			case 2:
+				id = isClean ? R.anim.spout_bw:R.anim.spout_b;
+				break;
+			case 3:
+				id = isClean ? R.anim.spout_cw:R.anim.spout_c;
+				break;
+			default:
+				break;
 		}
 		return id;
 	}

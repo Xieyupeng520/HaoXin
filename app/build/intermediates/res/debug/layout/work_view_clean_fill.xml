@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
             android:layout_gravity="center"
-            android:src="@drawable/disk"
+            android:src="@drawable/disk_center"
             />
         <com.hp.android.haoxin.widgets.DiskCircleView 
             android:id="@+id/dcv_disk_mark"

@@ -167,78 +167,108 @@ public class OnReadDeviceOptionCallBackImpl implements OnReadDeviceDataCallBack 
     private void setProgress(byte[] data) {
         if (lastProgressResponse != data[1]) { //和上一次命令不一样时（否则相同参数动画不连贯）
             call.workStopAllSpout();
-            call.workStartDiskColorAnimation(colors[data[1] % 5], 2000, 0, 180); //颜色渐变
             switch (data[1]) {
                 case Response.Progress.PROGRESS_SAFFRON:
                     call.workSetProgressText(R.string.clean_jet, R.string.saffron);
-                    call.workStartSpout(SpoutView.A, false);
+                    call.workStartSpout(SpoutView.A, SpoutView.RED);
+                    call.workStartDiskColorAnimation(SpoutView.RED_COLOR, 2000, 0, 180); //红色
                     break;
                 case Response.Progress.PROGRESS_ALCOHOL:
                     call.workSetProgressText(R.string.clean_jet, R.string.alcohol_fixed);
-                    call.workStartSpout(SpoutView.E, false);
+                    call.workStartSpout(SpoutView.E, SpoutView.WHITE);
+                    call.workStartDiskColorAnimation(SpoutView.WHITE_COLOR, 2000, 0, 180); //白色
                     break;
                 case Response.Progress.PROGRESS_IODINE:
                     call.workSetProgressText(R.string.clean_jet, R.string.iodine);
-                    call.workStartSpout(SpoutView.B, false);
+                    call.workStartSpout(SpoutView.B, SpoutView.ORANGE);
+                    call.workStartDiskColorAnimation(SpoutView.ORANGE_COLOR, 2000, 0, 180); //橙色
                     break;
                 case Response.Progress.PROGRESS_CRYSTAL_VIOLET:
                     call.workSetProgressText(R.string.clean_jet, R.string.crystal_violet);
-                    call.workStartSpout(SpoutView.C, false);
+                    call.workStartSpout(SpoutView.C, SpoutView.PURPLE);
+                    call.workStartDiskColorAnimation(SpoutView.PURPLE_COLOR, 2000, 0, 180); //紫色
                     break;
                 case Response.Progress.PROGRESS_CLEAN:
                     call.workSetProgressText(R.string.progress_clean_flow_path, R.string.etc);
-                    call.workStartSpout(SpoutView.DF, true);
-                    call.workStartSpout(SpoutView.DR, true);
+                    call.workStartSpout(SpoutView.DF, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.DR, SpoutView.WHITE);
+                    call.workStartDiskColorAnimation(SpoutView.WHITE_COLOR, 2000, 0, 180); //白色
                     break;
                 case Response.Progress.PROGRESS_FILL:
                     call.workSetProgressText(R.string.progress_fill, R.string.etc);
-                    call.workStartSpout(SpoutView.A, false);
-                    call.workStartSpout(SpoutView.B, false);
-                    call.workStartSpout(SpoutView.C, false);
+                    call.workStartSpout(SpoutView.A, SpoutView.RED);
+                    call.workStartSpout(SpoutView.B, SpoutView.ORANGE);
+                    call.workStartSpout(SpoutView.C, SpoutView.PURPLE);
+                    call.workStartDiskColorAnimation(SpoutView.PURPLE_COLOR, 2000, 0, 180); //灰黑色
                     break;
                 case Response.Progress.PROGRESS_DRY:
                     call.workSetProgressText(R.string.progress_dry, R.string.etc);
                     call.workStartRotate(true);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_WAIT:
                     call.workSetProgressText(R.string.progress_wait, R.string.etc);
                     call.workStartRotate(false);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_HEAT:
                     call.workSetProgressText(R.string.progress_heat, R.string.etc);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_STONE_CARBONATE:
                     call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_STONE_CARBONATE);
-                    call.workStartSpout(SpoutView.A, false);
+                    call.workStartSpout(SpoutView.A, SpoutView.RED);
+                    call.workStartDiskColorAnimation(SpoutView.RED_COLOR, 2000, 0, 180); //红色
                     break;
                 case Response.Progress.PROGRESS_ACID_ALCOHOL:
                     call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_ACID_ALCOHOL);
-                    call.workStartSpout(SpoutView.B, false);
+                    call.workStartSpout(SpoutView.B, SpoutView.WHITE);
+                    call.workStartDiskColorAnimation(SpoutView.WHITE_COLOR, 2000, 0, 180); //白色
                     break;
                 case Response.Progress.PROGRESS_METHYLENE_BLUE:
                     call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_METHYLENE_BLUE);
-                    call.workStartSpout(SpoutView.C, false);
+                    call.workStartSpout(SpoutView.C, SpoutView.BLUE);
+                    call.workStartDiskColorAnimation(SpoutView.BLUE_COLOR, 2000, 0, 180); //蓝色
                     break;
                 case Response.Progress.PROGRESS_RHODAMINE_B:
                     call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_RHODAMINE_B);
-                    call.workStartSpout(SpoutView.A, false);
+                    call.workStartSpout(SpoutView.A, SpoutView.ORANGE);
+                    call.workStartDiskColorAnimation(SpoutView.ORANGE_COLOR, 2000, 0, 180); //橙色
                     break;
                 case Response.Progress.PROGRESS_AURAMINE_O:
                     call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_AURAMINE_O);
-                    call.workStartSpout(SpoutView.A, false);
+                    call.workStartSpout(SpoutView.A, SpoutView.ORANGE);
+                    call.workStartDiskColorAnimation(SpoutView.ORANGE_COLOR, 2000, 0, 180); //橙色
                     break;
                 case Response.Progress.PROGRESS_CENTRIFUGAL:
                     call.workSetProgressText(R.string.PROGRESS_CENTRIFUGAL, R.string.etc);
                     call.workStartRotate(false);
+                    call.workStartDiskColorAnimation(SpoutView.TRANSPARENT_COLOR, 2000, 0, 0); //透明
                     break;
                 case Response.Progress.PROGRESS_CLEAN_PLUS:
                     call.workSetProgressText(R.string.PROGRESS_CLEAN_PLUS, R.string.etc);
-                    call.workStartSpout(SpoutView.A, true);
-                    call.workStartSpout(SpoutView.B, true);
-                    call.workStartSpout(SpoutView.C, true);
-                    call.workStartSpout(SpoutView.E, true);
-                    call.workStartSpout(SpoutView.DF, true);
-                    call.workStartSpout(SpoutView.DR, true);
+                    call.workStartSpout(SpoutView.A, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.B, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.C, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.E, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.DF, SpoutView.WHITE);
+                    call.workStartSpout(SpoutView.DR, SpoutView.WHITE);
+                    call.workStartDiskColorAnimation(SpoutView.WHITE_COLOR, 2000, 0, 180); //白色
+                    break;
+                case Response.Progress.PROGRESS_JETTING_KMNO4:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_KMNO4);
+                    call.workStartSpout(SpoutView.C, SpoutView.PURPLE);
+                    call.workStartDiskColorAnimation(SpoutView.PURPLE_COLOR, 2000, 0, 180); //颜色渐变
+                    break;
+                case Response.Progress.PROGRESS_JETTING_RHODAMINE:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_RHODAMINE);
+                    call.workStartSpout(SpoutView.A, SpoutView.ORANGE);
+                    call.workStartDiskColorAnimation(SpoutView.ORANGE_COLOR, 2000, 0, 180); //颜色渐变
+                    break;
+                case Response.Progress.PROGRESS_JETTING_FIRST_DYE:
+                    call.workSetProgressText(R.string.clean_jet, R.string.PROGRESS_JETTING_FIRST_DYE);
+                    call.workStartSpout(SpoutView.A, SpoutView.ORANGE);
+                    call.workStartDiskColorAnimation(SpoutView.ORANGE_COLOR, 2000, 0, 180); //颜色渐变
                     break;
             }
             lastProgressResponse = data[1];

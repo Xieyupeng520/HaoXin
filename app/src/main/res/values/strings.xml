@@ -54,10 +54,10 @@
     <string name="home_slide_title">载玻片数量</string>
     <string name="home_info_title">当前设置：</string>
     <string name="home_info_ranse">染色厚度</string>
-    <string name="home_info_jiejing">结晶紫</string>
-    <string name="home_info_dianjiu">碘酒</string>
+    <string name="home_info_jiejing">亚甲基蓝</string>
+    <string name="home_info_dianjiu">酸性酒精</string>
     <string name="home_info_guding">固定启动终止</string>
-    
+
     <!-- clean progress -->
     <string name="clean_jet">正在喷射：</string>
 
@@ -70,6 +70,9 @@
     <string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string>
     <string name="PROGRESS_RHODAMINE_B">罗丹明 B</string>
     <string name="PROGRESS_AURAMINE_O">金胺 O</string>
+    <string name="PROGRESS_JETTING_KMNO4">高锰酸钾</string>
+    <string name="PROGRESS_JETTING_RHODAMINE">金胺 O-罗丹明 B</string>
+    <string name="PROGRESS_JETTING_FIRST_DYE">初染液</string>
 
     <string name="progress_clean_flow_path">正在清洗</string>
     <string name="progress_fill">正在填充</string>
@@ -83,10 +86,11 @@
     <!-- site -->
     <string name="site_ranse">染色厚度设置</string>
     <string name="site_guding">固定启动终止</string>
-    <string name="site_jiejing">结晶紫调整</string>
-    <string name="site_dianjiu">碘酒调整</string>
+    <string name="site_jiejing">亚甲基蓝</string>
+    <string name="site_dianjiu">酸性酒精</string>
     <string name="site_chenzhogn">称重启动终止</string>
     <string name="site_centrifugal">细胞离心</string>
+    <string name="site_heat">加热选择</string>
 
     <!-- system -->
     <string name="a">A</string>
@@ -99,7 +103,7 @@
     <string name="system_bliulu">B-流路检测</string>
     <string name="system_chengzhong">称重校验</string>
     <string name="system_tianchong">填充流路</string>
-    
+
     <!-- liu_chen -->
     <string name="step">STEP</string>
     <string-array name="STEP">
@@ -121,7 +125,7 @@
     <string name="d_pump">D泵占空比</string>
     <string name="e_pump">E泵占空比</string>
     <string name="cell_centrifugal_speed">细胞离心转速</string>
-    
+
     <string-array name="loading_msgs">
         <item>获取版本信息...</item>
         <item>初始化系统参数...</item>
@@ -129,7 +133,7 @@
         <item>设备初始化完成，即将进入主页面。</item>
         <item>进入主页面。</item>
     </string-array>
-    
+
     <string-array name="menu_names">
         <item>主界面</item>
         <item>流路清洗</item>
@@ -137,13 +141,13 @@
         <item>系统维护</item>
         <item>关于</item>
     </string-array>
-    
+
     <string-array name="site_grade">
         <item>低</item>
         <item>中</item>
         <item>高</item>
     </string-array>
-    
+
     <string-array name="bliulu_steps">
         <item>请在B流路放500ML去离子水</item>
         <item>请在B流路放入200ML清洗剂</item>
@@ -155,7 +159,7 @@
         <item>请给每个容器内注入50ML试剂</item>
         <item>启动称重校验，大概需要5秒</item>
     </string-array>
-    
+
     <string-array name="site_btn_ranses">
         <item>01</item>
         <item>02</item>
@@ -176,6 +180,7 @@
         <item>高</item>
         <item>中</item>
         <item>低</item>
+        <item>H</item>
     </string-array>
     <string-array name="site_btn_dianjius">
         <item>高</item>
@@ -183,6 +188,10 @@
         <item>低</item>
     </string-array>
     <string-array name="site_btn_chengzhongs">
+        <item>关闭</item>
+        <item>启动</item>
+    </string-array>
+    <string-array name="site_btn_heat">
         <item>关闭</item>
         <item>启动</item>
     </string-array>
