@@ -48,7 +48,7 @@ public class WorkEngineerView extends WorkBaseView implements OnItemClickListene
 
 	@Override
 	public int getTitleId() {
-		return R.drawable.setting_title;
+		return R.drawable.engineer_title;
 	}
 
 	@Override

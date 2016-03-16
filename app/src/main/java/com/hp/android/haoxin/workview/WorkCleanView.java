@@ -318,9 +318,8 @@ public class WorkCleanView extends WorkBaseView{
 		 */
 		public void startRotate(int duration){
 			if(!isDiskRotate){
-				int durlay = duration;
 				RotateAnimation animation = new RotateAnimation(0f, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-				animation.setDuration(durlay);
+				animation.setDuration(duration);
 				animation.setRepeatCount(Animation.INFINITE);
 				animation.setInterpolator(new LinearInterpolator());
 				animation.setFillAfter(true);
