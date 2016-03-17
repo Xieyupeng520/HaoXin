@@ -32,7 +32,7 @@ public class ParameterBean {
 	private byte filling = 0;
 
 	//染色选择（00：抗酸 01：罗丹明 B  02：金胺 O）：上位机暂时不用
-	private byte dyeing = 0;
+	private byte dyeing = 1; //荧光版本此位为1
 
 	//NC（预留，待扩展）
 	private byte reserve = 0;
