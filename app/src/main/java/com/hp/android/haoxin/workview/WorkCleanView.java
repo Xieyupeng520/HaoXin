@@ -325,14 +325,11 @@ public class WorkCleanView extends WorkBaseView{
 				animation.setInterpolator(new LinearInterpolator());
 				animation.start();
 				isDiskRotate = true;
-			}else {
-				mDiskView.getAnimation().setDuration(duration);
 			}
 		}
 
 		public void stopRotate(){
 			isDiskRotate = false;
-			mDiskView.clearAnimation();
 		}
 
 		public void startSpout(int index,boolean isClean){
