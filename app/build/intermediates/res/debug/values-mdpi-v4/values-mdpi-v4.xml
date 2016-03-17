@@ -3,6 +3,7 @@
     <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-mdpi/mdpi_dimens.xml -->
     <eat-comment/>
     <dimen name="about_bottom">80dp</dimen>
+    <dimen name="about_left">160dp</dimen>
     <dimen name="about_text_font">18sp</dimen>
     <dimen name="button_back_margin_b">5dp</dimen>
     <dimen name="button_normal_height">43dp</dimen>

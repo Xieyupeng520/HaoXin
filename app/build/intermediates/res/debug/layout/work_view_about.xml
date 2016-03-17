@@ -7,43 +7,46 @@
     <RelativeLayout
         style="@style/layout_full"
         android:gravity="center"
->
-            <LinearLayout
-                android:layout_height="300dp"
+        >
+        <LinearLayout
+            android:layout_height="300dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:paddingTop="@dimen/about_bottom"
+            android:paddingBottom="@dimen/about_bottom"
+            android:paddingLeft="@dimen/about_left"
+            android:paddingRight="@dimen/about_left"
+            >
+            <TextView
+                android:id="@+id/sw_version_text"
                 android:layout_width="match_parent"
-                android:orientation="vertical"
-                android:layout_marginTop="40dp"
-                android:paddingTop="@dimen/about_bottom"
-                android:paddingBottom="@dimen/about_bottom">
-                <TextView
-                    android:id="@+id/sw_version_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textColor="@color/home_info"
-                    android:textSize="@dimen/about_text_font"
-                    android:text="@string/sw_version"
-                    android:gravity="center_horizontal"/>
-                <TextView
-                    android:id="@+id/hw_version_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textColor="@color/home_info"
-                    android:textSize="@dimen/about_text_font"
-                    android:text="@string/hw_version"
-                    android:gravity="center_horizontal"/>
-                <TextView
-                    android:id="@+id/fw_version_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textColor="@color/home_info"
-                    android:textSize="@dimen/about_text_font"
-                    android:text="@string/fw_version"
-                    android:gravity="center_horizontal"/>
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/about_text_font"
+                android:text="@string/sw_version"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/hw_version_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/about_text_font"
+                android:text="@string/hw_version"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/fw_version_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/home_info"
+                android:textSize="@dimen/about_text_font"
+                android:text="@string/fw_version"
+                android:gravity="start"/>
 
-            </LinearLayout>
+        </LinearLayout>
 
     </RelativeLayout>
 

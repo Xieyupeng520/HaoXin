@@ -83,8 +83,9 @@ containing a value of this type.
     }
     public static final class dimen {
         public static final int about_bottom=0x7f05007c;
+        public static final int about_left=0x7f05007d;
         public static final int about_text_font=0x7f050000;
-        public static final int activity_horizontal_margin=0x7f05007d;
+        public static final int activity_horizontal_margin=0x7f05007e;
         public static final int button_back_margin_b=0x7f050001;
         public static final int button_normal_height=0x7f050002;
         public static final int button_normal_width=0x7f050003;
@@ -107,24 +108,24 @@ containing a value of this type.
         public static final int clean_fill_progress_padding_tlr=0x7f050014;
         public static final int clean_fill_progress_w=0x7f050015;
         public static final int diak_spout_margin_l=0x7f050016;
-        public static final int dialog_btn_font=0x7f05007e;
-        public static final int dialog_btn_h=0x7f05007f;
-        public static final int dialog_btn_margin_b=0x7f050080;
-        public static final int dialog_btn_margin_l=0x7f050081;
-        public static final int dialog_btn_w=0x7f050082;
-        public static final int dialog_extra_msg_margin_b=0x7f050083;
-        public static final int dialog_extra_msg_margin_t=0x7f050084;
-        public static final int dialog_extra_text_size=0x7f050085;
-        public static final int dialog_h=0x7f050086;
-        public static final int dialog_hint_msg_margin_t=0x7f050087;
-        public static final int dialog_hint_text_size=0x7f050088;
-        public static final int dialog_msg_font=0x7f050089;
-        public static final int dialog_msg_margin_t=0x7f05008a;
-        public static final int dialog_w=0x7f05008b;
-        public static final int engineer_item_title_margin_t=0x7f05008c;
-        public static final int home_content_margin_left=0x7f05008d;
+        public static final int dialog_btn_font=0x7f05007f;
+        public static final int dialog_btn_h=0x7f050080;
+        public static final int dialog_btn_margin_b=0x7f050081;
+        public static final int dialog_btn_margin_l=0x7f050082;
+        public static final int dialog_btn_w=0x7f050083;
+        public static final int dialog_extra_msg_margin_b=0x7f050084;
+        public static final int dialog_extra_msg_margin_t=0x7f050085;
+        public static final int dialog_extra_text_size=0x7f050086;
+        public static final int dialog_h=0x7f050087;
+        public static final int dialog_hint_msg_margin_t=0x7f050088;
+        public static final int dialog_hint_text_size=0x7f050089;
+        public static final int dialog_msg_font=0x7f05008a;
+        public static final int dialog_msg_margin_t=0x7f05008b;
+        public static final int dialog_w=0x7f05008c;
+        public static final int engineer_item_title_margin_t=0x7f05008d;
+        public static final int home_content_margin_left=0x7f05008e;
         public static final int home_content_margin_lr=0x7f050017;
-        public static final int home_content_margin_right=0x7f05008e;
+        public static final int home_content_margin_right=0x7f05008f;
         public static final int home_info_content_height=0x7f050018;
         public static final int home_info_content_item_height=0x7f050019;
         public static final int home_info_content_item_margin_left=0x7f05001a;
@@ -133,7 +134,7 @@ containing a value of this type.
         public static final int home_info_content_item_num_font=0x7f05001d;
         public static final int home_info_content_margin_top=0x7f05001e;
         public static final int home_info_content_width=0x7f05001f;
-        public static final int home_info_item_height=0x7f05008f;
+        public static final int home_info_item_height=0x7f050090;
         public static final int home_info_item_margin_t=0x7f050020;
         public static final int home_info_marging_top=0x7f050021;
         public static final int home_info_title_font=0x7f050022;
@@ -176,12 +177,12 @@ containing a value of this type.
         public static final int liu_chen_progress_w=0x7f050047;
         public static final int loading_dregee_font=0x7f050048;
         public static final int loading_msg_font=0x7f050049;
-        public static final int main_menu_item_height=0x7f050090;
-        public static final int main_menu_item_text_font=0x7f050091;
-        public static final int main_menu_item_text_margin_top=0x7f050092;
-        public static final int main_menu_item_width=0x7f050093;
-        public static final int main_menu_width=0x7f050094;
-        public static final int radio_wh=0x7f050095;
+        public static final int main_menu_item_height=0x7f050091;
+        public static final int main_menu_item_text_font=0x7f050092;
+        public static final int main_menu_item_text_margin_top=0x7f050093;
+        public static final int main_menu_item_width=0x7f050094;
+        public static final int main_menu_width=0x7f050095;
+        public static final int radio_wh=0x7f050096;
         public static final int site_btn_list_corner=0x7f05004a;
         public static final int site_btn_list_divier_h=0x7f05004b;
         public static final int site_btn_list_item_font=0x7f05004c;
@@ -220,7 +221,7 @@ containing a value of this type.
         public static final int system_btn_space_rl=0x7f05006d;
         public static final int system_item_space_tb=0x7f05006e;
         public static final int system_margin_l=0x7f05006f;
-        public static final int system_space_between_text_button=0x7f050096;
+        public static final int system_space_between_text_button=0x7f050097;
         public static final int system_titile_font=0x7f050070;
         public static final int work_arrow_height=0x7f050071;
         public static final int work_arrow_margin_left=0x7f050072;
@@ -232,7 +233,7 @@ containing a value of this type.
         public static final int work_head_day_margin_left=0x7f050078;
         public static final int work_head_time_font=0x7f050079;
         public static final int work_head_time_margin_top=0x7f05007a;
-        public static final int work_head_title_margin_top=0x7f050097;
+        public static final int work_head_title_margin_top=0x7f050098;
         public static final int work_head_week_margin_left=0x7f05007b;
     }
     public static final class drawable {
