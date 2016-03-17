@@ -1,5 +1,6 @@
 package com.hp.android.haoxin.workview;
 
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Matrix;
@@ -318,21 +319,17 @@ public class WorkCleanView extends WorkBaseView{
 		 */
 		public void startRotate(int duration){
 			if(!isDiskRotate){
-				RotateAnimation animation = new RotateAnimation(0f, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+				ObjectAnimator animation = ObjectAnimator.ofFloat(mDiskView, "rotation", 0f, 360f);
 				animation.setDuration(duration);
 				animation.setRepeatCount(Animation.INFINITE);
 				animation.setInterpolator(new LinearInterpolator());
-				animation.setFillAfter(true);
-				mDiskView.startAnimation(animation);
+				animation.start();
 				isDiskRotate = true;
-			}else {
-				mDiskView.getAnimation().setDuration(duration);
 			}
 		}
 		
 		public void stopRotate(){
 			isDiskRotate = false;
-			mDiskView.clearAnimation();
 		}
 		
 		public void startSpout(int index,boolean isClean){

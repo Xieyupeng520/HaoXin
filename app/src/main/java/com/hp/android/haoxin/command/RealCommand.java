@@ -471,7 +471,7 @@ public class RealCommand extends TestCommand {
                     getOperatorService().sendFillPackets((byte) 0);
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
-                    Test.testClean();
+//                    Test.testClean();
 //                    Test.testDisposeException();
                 }
             } catch (IOException e) {
