@@ -47,8 +47,6 @@ public class CheckReagentStateBean {
         }
         //逐个检查ABCDE试剂是否充足
         for (int i = index; i < hasCheckedReagent.length; i++) {
-
-//            index++; //指针自增1
 //
 //            if (hasCheckedReagent[i]) { //如果当前试剂已经检查过，就跳到下一试剂
 //                Log.d("CheckReagentStateBean", "当前试剂（"+getReagentString(i)+"）已经检查过，检查下一试剂");
@@ -59,6 +57,7 @@ public class CheckReagentStateBean {
 
             if (Global.getSystemStateBean().isReagentEnough(i)) {
                 Log.i("CheckReagentStateBean", getReagentString(i) + "试剂充足");
+                index++; //指针自增1
                 continue;
             } else {
                 setErrorReagent(i);
