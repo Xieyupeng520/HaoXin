@@ -49,7 +49,7 @@
     </string-array><string name="dialog_msg_cancel_ranse">是否取消染色</string><string name="PROGRESS_AURAMINE_O">金胺 O</string><string name="PROGRESS_JETTING_FIRST_DYE">初染液</string><string name="site_guding">固定启动终止</string><string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string><string-array name="engineer_btn_cell_centrifugal_speed">
         <item>1500</item>
         <item>2000</item>
-    </string-array><string name="progress_heat">正在加热</string><string name="home_info_guding">固定启动终止</string><string name="switch_open">开启</string><string name="home_info_jiejing">亚甲基蓝</string><string-array name="site_btn_heat">
+    </string-array><string name="progress_heat">正在加热</string><string name="home_info_guding">固定启动终止</string><string name="switch_open">开启</string><string name="home_info_jiejing">高锰酸钾</string><string-array name="site_btn_heat">
         <item>关闭</item>
         <item>启动</item>
     </string-array><string name="exception_top_cover_opened_filling">上盖被打开，请关闭上盖重新开始</string><string name="d_pump">D泵占空比</string><string name="sw_version">软件版本：</string><string name="PROGRESS_RHODAMINE_B">罗丹明 B</string><string name="home_info_ranse">染色厚度</string><string-array name="site_btn_chengzhongs">
@@ -65,7 +65,7 @@
         <item>第三步：</item>
         <item>第四步：</item>
         <item>第五步：</item>
-    </string-array><string name="a_pump">A泵占空比</string><string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string><string name="dialog_msg_cancel_tianchong">是否取消填充</string><string name="button_normal_sure">确认</string><string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string><string name="succ_liulu">B-流路检测结束</string><string name="home_info_dianjiu">酸性酒精</string><string name="crystal_violet">结晶紫</string><string name="action_settings">Settings</string><string name="succ_centrifugal">细胞离心结束</string><string name="site_jiejing">亚甲基蓝调整</string><string name="exception_not_comm_actived">系统通信链路中断，请重新启动</string><string name="iodine">碘酒</string><string name="succ_ranse">染色结束，请拿出载玻片</string><string name="button_normal_cancel">取消</string></file><file path="D:\StudioProjects\HaoXin\app\src\main\res\values\styles.xml" qualifiers=""><style name="layout_horizontal_full" parent="layout_full">  
+    </string-array><string name="a_pump">A泵占空比</string><string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string><string name="dialog_msg_cancel_tianchong">是否取消填充</string><string name="button_normal_sure">确认</string><string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string><string name="succ_liulu">B-流路检测结束</string><string name="home_info_dianjiu">酸性酒精</string><string name="crystal_violet">结晶紫</string><string name="action_settings">Settings</string><string name="succ_centrifugal">细胞离心结束</string><string name="site_jiejing">高锰酸钾调整</string><string name="exception_not_comm_actived">系统通信链路中断，请重新启动</string><string name="iodine">碘酒</string><string name="succ_ranse">染色结束，请拿出载玻片</string><string name="button_normal_cancel">取消</string></file><file path="D:\StudioProjects\HaoXin\app\src\main\res\values\styles.xml" qualifiers=""><style name="layout_horizontal_full" parent="layout_full">  
     <item name="android:layout_height">match_parent</item>  
     <item name="android:layout_width">0dp</item>  
   </style><style name="SysRadio">

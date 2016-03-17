@@ -314,7 +314,7 @@
     <string name="fw_version">固件版本：</string>
     <string name="home_info_dianjiu">酸性酒精</string>
     <string name="home_info_guding">固定启动终止</string>
-    <string name="home_info_jiejing">亚甲基蓝</string>
+    <string name="home_info_jiejing">高锰酸钾</string>
     <string name="home_info_ranse">染色厚度</string>
     <string name="home_info_title">当前设置：</string>
     <string name="home_slide_title">载玻片数量</string>
@@ -333,7 +333,7 @@
     <string name="site_dianjiu">酸性酒精调整</string>
     <string name="site_guding">固定启动终止</string>
     <string name="site_heat">加热选择</string>
-    <string name="site_jiejing">亚甲基蓝调整</string>
+    <string name="site_jiejing">高锰酸钾调整</string>
     <string name="site_ranse">染色厚度设置</string>
     <string name="step">STEP</string>
     <string name="succ_centrifugal">细胞离心结束</string>
