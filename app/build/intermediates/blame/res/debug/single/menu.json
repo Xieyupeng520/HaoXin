@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/menu/main.xml"
     }
 ]

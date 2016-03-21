@@ -34,7 +34,7 @@ public class MainActivity extends FragmentActivity {
 		OnReadDeviceDataCallBackImpl.getInstance().setContext(this); //设置读取设备回调的上下文
 
 		// FIXME: 16/3/7 调试用，用于关闭“返回”悬浮框，正常情况下屏蔽
-		CommandBridge.getInstance().closeBackButton(this);
+//		CommandBridge.getInstance().closeBackButton(this);
 	}
 
 	private void init() {
