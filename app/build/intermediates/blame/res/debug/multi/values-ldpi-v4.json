@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\values-ldpi-v4\\values-ldpi-v4.xml",
+        "outputFile": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/values-ldpi-v4/values-ldpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 123,
                         "startColumn": 2,
@@ -30,7 +30,7 @@
                     "endOffset": 148
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 2,
@@ -49,7 +49,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 2,
@@ -68,7 +68,7 @@
                     "endOffset": 251
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 2,
@@ -87,7 +87,7 @@
                     "endOffset": 302
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 2,
@@ -106,7 +106,7 @@
                     "endOffset": 352
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
@@ -125,7 +125,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 2,
@@ -144,7 +144,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 2,
@@ -163,7 +163,7 @@
                     "endOffset": 507
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 2,
@@ -182,7 +182,7 @@
                     "endOffset": 570
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 2,
@@ -201,7 +201,7 @@
                     "endOffset": 626
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 2,
@@ -220,7 +220,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 2,
@@ -239,7 +239,7 @@
                     "endOffset": 735
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 2,
@@ -258,7 +258,7 @@
                     "endOffset": 786
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 2,
@@ -277,7 +277,7 @@
                     "endOffset": 841
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 2,
@@ -296,7 +296,7 @@
                     "endOffset": 897
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 2,
@@ -315,7 +315,7 @@
                     "endOffset": 958
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 2,
@@ -334,7 +334,7 @@
                     "endOffset": 1010
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 2,
@@ -353,7 +353,7 @@
                     "endOffset": 1069
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 2,
@@ -372,7 +372,7 @@
                     "endOffset": 1129
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 2,
@@ -391,7 +391,7 @@
                     "endOffset": 1191
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 2,
@@ -410,7 +410,7 @@
                     "endOffset": 1245
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 2,
@@ -429,7 +429,7 @@
                     "endOffset": 1297
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 2,
@@ -448,7 +448,7 @@
                     "endOffset": 1351
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 2,
@@ -467,7 +467,7 @@
                     "endOffset": 1407
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 2,
@@ -486,7 +486,7 @@
                     "endOffset": 1468
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 2,
@@ -505,7 +505,7 @@
                     "endOffset": 1534
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 2,
@@ -524,7 +524,7 @@
                     "endOffset": 1601
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 2,
@@ -543,7 +543,7 @@
                     "endOffset": 1664
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 2,
@@ -562,7 +562,7 @@
                     "endOffset": 1726
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 2,
@@ -581,7 +581,7 @@
                     "endOffset": 1785
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 2,
@@ -600,7 +600,7 @@
                     "endOffset": 1840
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 2,
@@ -619,7 +619,7 @@
                     "endOffset": 1894
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
@@ -638,7 +638,7 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 2,
@@ -657,7 +657,7 @@
                     "endOffset": 1998
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 2,
@@ -676,7 +676,7 @@
                     "endOffset": 2057
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 2,
@@ -695,7 +695,7 @@
                     "endOffset": 2111
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,
@@ -714,7 +714,7 @@
                     "endOffset": 2164
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 2,
@@ -733,7 +733,7 @@
                     "endOffset": 2223
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 2,
@@ -752,7 +752,7 @@
                     "endOffset": 2280
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
@@ -771,7 +771,7 @@
                     "endOffset": 2339
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 2,
@@ -790,7 +790,7 @@
                     "endOffset": 2395
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
@@ -809,7 +809,7 @@
                     "endOffset": 2447
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 2,
@@ -828,7 +828,7 @@
                     "endOffset": 2501
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 2,
@@ -847,7 +847,7 @@
                     "endOffset": 2561
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 2,
@@ -866,7 +866,7 @@
                     "endOffset": 2613
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 2,
@@ -885,7 +885,7 @@
                     "endOffset": 2668
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 2,
@@ -904,7 +904,7 @@
                     "endOffset": 2719
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 119,
                         "startColumn": 2,
@@ -923,7 +923,7 @@
                     "endOffset": 2770
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 2,
@@ -942,7 +942,7 @@
                     "endOffset": 2816
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 2,
@@ -961,7 +961,7 @@
                     "endOffset": 2869
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 2,
@@ -980,7 +980,7 @@
                     "endOffset": 2915
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 2,
@@ -999,7 +999,7 @@
                     "endOffset": 2972
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 112,
                         "startColumn": 2,
@@ -1018,7 +1018,7 @@
                     "endOffset": 3025
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 2,
@@ -1037,7 +1037,7 @@
                     "endOffset": 3072
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 2,
@@ -1056,7 +1056,7 @@
                     "endOffset": 3126
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 2,
@@ -1075,7 +1075,7 @@
                     "endOffset": 3185
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 2,
@@ -1094,7 +1094,7 @@
                     "endOffset": 3233
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 106,
                         "startColumn": 2,
@@ -1113,7 +1113,7 @@
                     "endOffset": 3280
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 108,
                         "startColumn": 2,
@@ -1132,7 +1132,7 @@
                     "endOffset": 3329
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 2,
@@ -1151,7 +1151,7 @@
                     "endOffset": 3378
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 2,
@@ -1170,7 +1170,7 @@
                     "endOffset": 3427
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 117,
                         "startColumn": 2,
@@ -1189,7 +1189,7 @@
                     "endOffset": 3481
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 2,
@@ -1208,7 +1208,7 @@
                     "endOffset": 3542
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 122,
                         "startColumn": 2,
@@ -1227,7 +1227,7 @@
                     "endOffset": 3600
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 120,
                         "startColumn": 2,
@@ -1246,7 +1246,7 @@
                     "endOffset": 3657
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 2,
@@ -1265,7 +1265,7 @@
                     "endOffset": 3714
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 121,
                         "startColumn": 2,
@@ -1284,7 +1284,7 @@
                     "endOffset": 3773
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 2,
@@ -1303,7 +1303,7 @@
                     "endOffset": 3831
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 2,
@@ -1322,7 +1322,7 @@
                     "endOffset": 3893
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 2,
@@ -1341,7 +1341,7 @@
                     "endOffset": 3949
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 2,
@@ -1360,7 +1360,7 @@
                     "endOffset": 3999
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 2,
@@ -1379,7 +1379,7 @@
                     "endOffset": 4050
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 2,
@@ -1398,7 +1398,7 @@
                     "endOffset": 4097
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 2,
@@ -1417,7 +1417,7 @@
                     "endOffset": 4148
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 2,
@@ -1436,7 +1436,7 @@
                     "endOffset": 4204
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 2,
@@ -1455,7 +1455,7 @@
                     "endOffset": 4258
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 2,
@@ -1474,7 +1474,7 @@
                     "endOffset": 4310
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 2,
@@ -1493,7 +1493,7 @@
                     "endOffset": 4362
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 2,
@@ -1512,7 +1512,7 @@
                     "endOffset": 4414
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 2,
@@ -1531,7 +1531,7 @@
                     "endOffset": 4475
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 2,
@@ -1550,7 +1550,7 @@
                     "endOffset": 4523
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 2,
@@ -1569,7 +1569,7 @@
                     "endOffset": 4576
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 2,
@@ -1588,7 +1588,7 @@
                     "endOffset": 4624
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 2,
@@ -1607,7 +1607,7 @@
                     "endOffset": 4678
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 2,
@@ -1626,7 +1626,7 @@
                     "endOffset": 4720
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 2,
@@ -1645,7 +1645,7 @@
                     "endOffset": 4771
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 2,
@@ -1664,7 +1664,7 @@
                     "endOffset": 4826
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 2,
@@ -1683,7 +1683,7 @@
                     "endOffset": 4876
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 2,
@@ -1702,7 +1702,7 @@
                     "endOffset": 4926
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 2,
@@ -1721,7 +1721,7 @@
                     "endOffset": 4974
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 2,
@@ -1740,7 +1740,7 @@
                     "endOffset": 5022
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 2,
@@ -1759,7 +1759,7 @@
                     "endOffset": 5070
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 2,
@@ -1778,7 +1778,7 @@
                     "endOffset": 5118
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 2,
@@ -1797,7 +1797,7 @@
                     "endOffset": 5166
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 2,
@@ -1816,7 +1816,7 @@
                     "endOffset": 5214
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 2,
@@ -1835,7 +1835,7 @@
                     "endOffset": 5263
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 2,
@@ -1854,7 +1854,7 @@
                     "endOffset": 5312
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 2,
@@ -1873,7 +1873,7 @@
                     "endOffset": 5361
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 2,
@@ -1892,7 +1892,7 @@
                     "endOffset": 5410
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 2,
@@ -1911,7 +1911,7 @@
                     "endOffset": 5458
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 2,
@@ -1930,7 +1930,7 @@
                     "endOffset": 5506
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 2,
@@ -1949,7 +1949,7 @@
                     "endOffset": 5563
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 125,
                         "startColumn": 2,
@@ -1968,7 +1968,7 @@
                     "endOffset": 5617
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 124,
                         "startColumn": 2,
@@ -1987,7 +1987,7 @@
                     "endOffset": 5668
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 2,
@@ -2006,7 +2006,7 @@
                     "endOffset": 5723
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 2,
@@ -2025,7 +2025,7 @@
                     "endOffset": 5776
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 2,
@@ -2044,7 +2044,7 @@
                     "endOffset": 5827
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 2,
@@ -2063,7 +2063,7 @@
                     "endOffset": 5878
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 2,
@@ -2082,7 +2082,7 @@
                     "endOffset": 5928
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 2,
@@ -2101,7 +2101,7 @@
                     "endOffset": 5979
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 2,
@@ -2120,7 +2120,7 @@
                     "endOffset": 6026
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 2,
@@ -2139,7 +2139,7 @@
                     "endOffset": 6076
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 2,
@@ -2158,7 +2158,7 @@
                     "endOffset": 6124
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 2,
@@ -2177,7 +2177,7 @@
                     "endOffset": 6177
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 2,
@@ -2196,7 +2196,7 @@
                     "endOffset": 6224
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 2,
@@ -2215,7 +2215,7 @@
                     "endOffset": 6276
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 2,
@@ -2234,7 +2234,7 @@
                     "endOffset": 6326
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 2,
@@ -2253,7 +2253,7 @@
                     "endOffset": 6382
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 2,
@@ -2272,7 +2272,7 @@
                     "endOffset": 6431
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 2,
@@ -2291,7 +2291,7 @@
                     "endOffset": 6487
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 2,
@@ -2310,7 +2310,7 @@
                     "endOffset": 6537
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 2,
@@ -2329,7 +2329,7 @@
                     "endOffset": 6593
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 2,
@@ -2348,7 +2348,7 @@
                     "endOffset": 6650
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-ldpi\\ldpi_dimens.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-ldpi/ldpi_dimens.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 2,

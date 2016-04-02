@@ -28,19 +28,21 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.HOME" />
+                <!-- <category android:name="android.intent.category.HOME" /> -->
             </intent-filter>
-        </activity>
- <!-- LogoActivity -->
+        </activity> <!-- LogoActivity -->
 
         <activity
             android:name="com.hp.android.haoxin.LoadingActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="reverseLandscape" />
+            android:screenOrientation="reverseLandscape" >
+        </activity>
         <activity
             android:name="com.hp.android.haoxin.MainActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="reverseLandscape" />
+            android:launchMode="singleTask"
+            android:screenOrientation="reverseLandscape" >
+        </activity>
     </application>
 
 </manifest>

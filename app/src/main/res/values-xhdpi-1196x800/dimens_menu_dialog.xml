@@ -3,9 +3,9 @@
     <!-- main_menu -->
     <dimen name="main_menu_width">84dp</dimen><!-- 138px -->
     <dimen name="main_menu_item_width">84dp</dimen><!-- 138px -->
-    <dimen name="main_menu_item_height">80dp</dimen><!-- 100px -->
+    <dimen name="main_menu_item_height">61dp</dimen><!-- 100px -->
     <dimen name="main_menu_item_text_font">26px</dimen><!-- 14px 10dp 7sp -->
-    <dimen name="main_menu_item_text_margin_top">49dp</dimen><!-- 65px -->
+    <dimen name="main_menu_item_text_margin_top">38dp</dimen><!-- 65px -->
     
     <!-- dialog -->
     <dimen name="dialog_w">250dp</dimen><!-- 404px -->

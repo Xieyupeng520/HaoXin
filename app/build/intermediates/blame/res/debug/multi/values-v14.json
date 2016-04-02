@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values-v14/styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

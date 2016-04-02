@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/index_button_top_touch" android:state_pressed="true"/>
-    <item android:drawable="@drawable/index_button_top" />
-</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/drawable/selector_home_button_top.xml -->

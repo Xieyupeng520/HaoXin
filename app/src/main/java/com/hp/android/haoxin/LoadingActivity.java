@@ -33,7 +33,7 @@ public class LoadingActivity extends BaseActivity{
 
 
 		// FIXME: 16/3/7 调试用，用于调出“返回”悬浮框，正常情况下屏蔽
-//		command.openBackButton(this);
+		command.openBackButton(this);
 	}
 	
 	public class LoadingListener{

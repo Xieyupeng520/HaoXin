@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/work_frame"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
-<!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/layout/slid_work_frame.xml -->
