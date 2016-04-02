@@ -117,6 +117,8 @@
     <string name="sw_version">软件版本：</string>
     <string name="hw_version">硬件版本：</string>
     <string name="fw_version">固件版本：</string>
+    <string name="date_time">日期和时间</string>
+    <string name="screen_sleep_time">屏幕休眠时间</string>
 
     <!-- engineer -->
     <string name="a_pump">A泵占空比</string>
@@ -199,5 +201,15 @@
     <string-array name="engineer_btn_cell_centrifugal_speed">
         <item>1500</item>
         <item>2000</item>
+    </string-array>
+
+    <string-array name="screen_sleep_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
     </string-array>
 </resources>

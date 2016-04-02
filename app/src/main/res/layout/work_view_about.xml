@@ -55,7 +55,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/about_text_font"
                         android:textColor="@color/home_info"
-                        android:text="日期和时间"/>
+                        android:text="@string/date_time"/>
                     <Button android:id="@+id/date_and_time_btn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -74,12 +74,12 @@
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/about_text_font"
                         android:textColor="@color/home_info"
-                        android:text="屏幕休眠时间"/>
+                        android:text="@string/screen_sleep_time"/>
                     <Button android:id="@+id/screen_sleep_time_btn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/about_text_font"
-                        android:text="闲置一分钟   >"
+                        android:text="1分钟   >"
                         android:background="@android:color/transparent"
                         android:textColor="@color/home_info"
                         android:layout_alignParentRight="true"/>

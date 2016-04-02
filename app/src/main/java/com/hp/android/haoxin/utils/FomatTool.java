@@ -40,7 +40,11 @@ public class FomatTool {
      */
     public static String formatDateTime(Date date) {
         Calendar calender = Calendar.getInstance();
-        calender.setTime(date);
+        if (date == null) {
+            calender.setTimeInMillis(System.currentTimeMillis());
+        } else {
+            calender.setTime(date);
+        }
         SimpleDateFormat df = new SimpleDateFormat("yyyy/MM/dd HH:mm");
         String time = df.format(calender.getTime());
 

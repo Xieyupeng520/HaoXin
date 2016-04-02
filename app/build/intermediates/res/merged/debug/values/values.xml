@@ -36,6 +36,15 @@
         <item>系统维护</item>
         <item>关于</item>
     </string-array>
+    <string-array name="screen_sleep_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+    </string-array>
     <string-array name="site_btn_chengzhongs">
         <item>关闭</item>
         <item>启动</item>
@@ -301,6 +310,7 @@
     <string name="crystal_violet">结晶紫</string>
     <string name="d">D</string>
     <string name="d_pump">D泵占空比</string>
+    <string name="date_time">日期和时间</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消细胞离心</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string>
     <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
@@ -353,6 +363,7 @@
     <string name="progress_heat">正在加热</string>
     <string name="progress_wait">等待</string>
     <string name="saffron">番红</string>
+    <string name="screen_sleep_time">屏幕休眠时间</string>
     <string name="site_centrifugal">细胞离心</string>
     <string name="site_chenzhogn">称重启动终止</string>
     <string name="site_dianjiu">酸性酒精调整</string>
