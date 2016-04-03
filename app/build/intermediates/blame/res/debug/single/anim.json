@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_enter.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_enter.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_fade_out.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\activity_fade_out.xml"
+    },
+    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_df.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_df.xml"
     },
@@ -8,44 +16,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_bw.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_cw.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_cw.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_a.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_a.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/btn_list_enter.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/btn_list_enter.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_cw.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_cw.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_b.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_b.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/activity_fade_out.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/activity_fade_out.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_e.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_e.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_bw.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_bw.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_c.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_c.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_enter.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_enter.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_dr.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_dr.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_a_fade_in.xml",
@@ -56,8 +32,36 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_df.xml"
     },
     {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/btn_list_enter.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/btn_list_enter.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_cw.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_cw.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_dr.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_dr.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/activity_fade_out.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/activity_fade_out.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_a.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_a.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_dr.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_dr.xml"
+    },
+    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_c.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_c.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_b.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_b.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_e.xml",
@@ -68,32 +72,32 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_a.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_exit.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_exit.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_aw.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_aw.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_fade_out.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\activity_fade_out.xml"
-    },
-    {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_dr.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_dr.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/slide_out_bottom.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/anim/slide_out_bottom.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_b.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_b.xml"
     },
     {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_aw.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_aw.xml"
+    },
+    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/spout_a_fade_in.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/spout_a_fade_in.xml"
     },
     {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_e.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_e.xml"
+    },
+    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/activivity_fade_in.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/activivity_fade_in.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/anim/slide_in_bottom.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/anim/slide_in_bottom.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activivity_fade_in.xml",
@@ -108,7 +112,11 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/anim/btn_list_exit.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_bw.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_bw.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spout_cw.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\spout_cw.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\btn_list_exit.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\anim\\btn_list_exit.xml"
     }
 ]

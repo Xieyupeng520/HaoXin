@@ -36,6 +36,15 @@
         <item>系统维护</item>
         <item>关于</item>
     </string-array>
+    <string-array name="screen_sleep_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+    </string-array>
     <string-array name="site_btn_chengzhongs">
         <item>关闭</item>
         <item>启动</item>
@@ -76,6 +85,8 @@
         <item>中</item>
         <item>高</item>
     </string-array>
+    <bool name="pickerview_customTextSize">false</bool>
+    <color name="bgColor_overlay">#60000000</color>
     <color name="btn_normal">#e8e8e8</color>
     <color name="btn_oval_noraml">#000000</color>
     <color name="btn_oval_selected">#ffffff</color>
@@ -97,8 +108,16 @@
     <color name="loading_msg">#b7b7b7</color>
     <color name="menu_item_name_normal">#ffffff</color>
     <color name="menu_item_name_selected">#2ed1b6</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
     <color name="work_base_time">#e8e8e8</color>
     <declare-styleable name="ScaleViewRatio"><attr format="integer" name="scale_ratio_width"/><attr format="integer" name="scale_ratio_height"/></declare-styleable>
+    <declare-styleable name="wheelview"><attr name="gravity"><enum name="center" value="17"/><enum name="left" value="3"/><enum name="right" value="5"/></attr><attr format="dimension" name="textSize"/><attr format="color" name="textColorOut"/><attr format="color" name="textColorCenter"/><attr format="color" name="dividerColor"/></declare-styleable>
     <dimen name="about_text_font">22sp</dimen>
     <dimen name="button_back_margin_b">15dp</dimen>
     <dimen name="button_normal_height">43dp</dimen>
@@ -192,6 +211,12 @@
     <dimen name="main_menu_item_text_margin_top">49dp</dimen>
     <dimen name="main_menu_item_width">104dp</dimen>
     <dimen name="main_menu_width">104dp</dimen>
+    <dimen name="pickerview_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
     <dimen name="radio_wh">50dp</dimen>
     <dimen name="site_btn_list_corner">10dp</dimen>
     <dimen name="site_btn_list_divier_h">0.5dp</dimen>
@@ -243,6 +268,7 @@
     <dimen name="work_head_time_font">19sp</dimen>
     <dimen name="work_head_time_margin_top">8dp</dimen>
     <dimen name="work_head_week_margin_left">11dp</dimen>
+    <integer name="animation_default_duration">300</integer>
     <integer name="stat_a_reagent_init_data">0</integer>
     <integer name="stat_b_reagent_init_data">0</integer>
     <integer name="stat_c_reagent_init_data">0</integer>
@@ -284,6 +310,7 @@
     <string name="crystal_violet">结晶紫</string>
     <string name="d">D</string>
     <string name="d_pump">D泵占空比</string>
+    <string name="date_time">日期和时间</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消细胞离心</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string>
     <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
@@ -321,6 +348,14 @@
     <string name="hw_version">硬件版本：</string>
     <string name="iodine">碘酒</string>
     <string name="month_and_day">%1$s月%2$s日</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
     <string name="pm">下午</string>
     <string name="progress_clean_flow_path">正在清洗</string>
     <string name="progress_dry">正在甩干</string>
@@ -328,6 +363,7 @@
     <string name="progress_heat">正在加热</string>
     <string name="progress_wait">等待</string>
     <string name="saffron">番红</string>
+    <string name="screen_sleep_time">屏幕休眠时间</string>
     <string name="site_centrifugal">细胞离心</string>
     <string name="site_chenzhogn">称重启动终止</string>
     <string name="site_dianjiu">酸性酒精调整</string>

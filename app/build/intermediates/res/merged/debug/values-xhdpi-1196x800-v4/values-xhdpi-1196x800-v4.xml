@@ -92,9 +92,9 @@
     <dimen name="liu_chen_progress_w">18dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
-    <dimen name="main_menu_item_height">80dp</dimen>
+    <dimen name="main_menu_item_height">61dp</dimen>
     <dimen name="main_menu_item_text_font">26px</dimen>
-    <dimen name="main_menu_item_text_margin_top">49dp</dimen>
+    <dimen name="main_menu_item_text_margin_top">38dp</dimen>
     <dimen name="main_menu_item_width">84dp</dimen>
     <dimen name="main_menu_width">84dp</dimen>
     <dimen name="radio_wh">35dp</dimen>

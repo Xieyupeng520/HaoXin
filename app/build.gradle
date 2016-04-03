@@ -27,6 +27,7 @@ dependencies {
     compile 'com.android.support:support-v4:19.1.0'
     compile files('libs/usb-serial-for-android-v010-src.jar')
     compile files('libs/usb-serial-for-android-v010.jar')
+    compile 'com.bigkoo:pickerview:2.0.8'
 }
 
 
