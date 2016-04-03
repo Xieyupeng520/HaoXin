@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/include_pickerview_topbar.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/layout/include_pickerview_topbar.xml"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/menu_view_bg.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/menu_view_bg.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/include_pickerview_topbar.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/layout/include_pickerview_topbar.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/activity_base.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/activity_base.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/activity_logo.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/activity_logo.xml"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/activity_logo.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/activity_logo.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/item_liu_cheng.xml",
@@ -56,12 +56,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_success.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/work_view_clean_fill.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_clean_fill.xml"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/pickerview_options.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/layout/pickerview_options.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/work_view_clean_fill.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_clean_fill.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/activity_loading.xml",
@@ -80,12 +80,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_about.xml"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/work_view_engineer.xml",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_engineer.xml"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/site_button_item.xml",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/site_button_item.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/work_view_engineer.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/layout/work_view_engineer.xml"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/layout/site_button_list.xml",

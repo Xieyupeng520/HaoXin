@@ -8,12 +8,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_b_1.png"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_c_2.png",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_c_2.png"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_a_2.png",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_a_2.png"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_c_2.png",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_c_2.png"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_a_red_1.png",
@@ -40,12 +40,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_c_blue_1.png"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_aw_1.png",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_aw_1.png"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_e_2.png",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_e_2.png"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_aw_1.png",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_aw_1.png"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_c_blue_2.png",
@@ -56,12 +56,12 @@
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_bw_2.png"
     },
     {
-        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_a_orange_2.png",
-        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_a_orange_2.png"
-    },
-    {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_bw_1.png",
         "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_bw_1.png"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_a_orange_2.png",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable-xhdpi/spout_a_orange_2.png"
     },
     {
         "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spout_a_orange_1.png",
