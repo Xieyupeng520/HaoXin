@@ -8,12 +8,7 @@
         android:minSdkVersion="13"
         android:targetSdkVersion="16" />
 
-    <!-- <supports-screens android:largeScreens="true"
-          android:normalScreens="true"
-          android:smallScreens="true"
-          android:anyDensity="true" /> -->
-    
-    <!-- android:name=".HaoXinApplication" -->
+
     <application
         android:name=".HaoXinApplication"
         android:allowBackup="true"
@@ -27,7 +22,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!--<category android:name="android.intent.category.HOME" />-->
+                <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity><!-- LogoActivity -->
         
