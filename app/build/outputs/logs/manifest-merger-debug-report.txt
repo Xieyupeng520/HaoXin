@@ -46,7 +46,7 @@ ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/ma
 		ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:19:13-63
 	android:name
 		ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:18:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#android.intent.action.MAIN+android.intent.category.HOME+android.intent.category.LAUNCHER
 ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
 ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:22:17-69
@@ -56,6 +56,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:23:27-74
+category#android.intent.category.HOME
+ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:24:17-73
+	android:name
+		ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:24:27-70
 activity#com.hp.android.haoxin.LoadingActivity
 ADDED from /Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/AndroidManifest.xml:28:9-31:59
 	android:screenOrientation
