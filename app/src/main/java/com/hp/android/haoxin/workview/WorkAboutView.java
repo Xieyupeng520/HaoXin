@@ -2,6 +2,7 @@ package com.hp.android.haoxin.workview;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
@@ -135,6 +136,7 @@ public class WorkAboutView extends WorkBaseView{
 	}
 
 	private void initScreenSleepTime() {
+		final Button sleepTimeBtn = ((Button) findViewById(R.id.screen_sleep_time_btn));
 		final OptionsPickerView pickerView = new OptionsPickerView(getContext());
 		ArrayList<String> optionsItems = new ArrayList<String>();
 
@@ -147,6 +149,7 @@ public class WorkAboutView extends WorkBaseView{
 		pickerView.setTitle(getContext().getString(R.string.screen_sleep_time));
 		pickerView.setOnoptionsSelectListener(new OptionsPickerView.OnOptionsSelectListener() {
 			int[] second = {15, 30, 60, 120, 300, 600, 1800}; //以秒来单位,120就是两分钟 有下面几挡：15秒，30秒，1、2、5、10、30分钟
+
 			@Override
 			public void onOptionsSelect(int option1, int option2, int option3) {
 				//1.给系统设置
@@ -155,16 +158,49 @@ public class WorkAboutView extends WorkBaseView{
 				getContext().sendBroadcast(intent);
 
 				//2.显示设置
-				((Button) findViewById(R.id.screen_sleep_time_btn)).setText(array[option1] + "   >");
+				sleepTimeBtn.setText(array[option1] + "   >");
+
+				//3.本地数据保存一份
+				saveSleepTimeSharedPreferences(option1);
 			}
 		});
 
-		findViewById(R.id.screen_sleep_time_btn).setOnClickListener(new OnClickListener() {
+		sleepTimeBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				pickerView.show();
 			}
 		});
+
+		//设置默认显示
+		int defaultSleepTimeIndex = readSleepTimeSharedPreferences();
+		Log.d("sleepTimeIndex", "defaultSleepTimeIndex = " + defaultSleepTimeIndex);
+		if (defaultSleepTimeIndex == -1) { //如果没有数据，则设置默认为半小时
+			Intent intent = new Intent("APP_BL_SETTING");
+			intent.putExtra("seconds", 1800);
+			getContext().sendBroadcast(intent);
+
+			defaultSleepTimeIndex = array.length - 1; //1800的下标
+		}
+		sleepTimeBtn.setText(array[defaultSleepTimeIndex] + "   >");
+		pickerView.setSelectOptions(defaultSleepTimeIndex); //默认选中
+
+	}
+
+	/**
+	 * 保存相关设置
+	 */
+	public void saveSleepTimeSharedPreferences(int indexOfSleepTime) {
+		SharedPreferences.Editor mEditor = getContext().getSharedPreferences("config", Context.MODE_PRIVATE).edit();
+		mEditor.putInt("screen_sleep_time", indexOfSleepTime);
+		mEditor.commit();
+	}
+	/**
+	 * 读取相关设置
+	 */
+	public int readSleepTimeSharedPreferences() {
+		SharedPreferences mSharedPreferences = getContext().getSharedPreferences("config", Context.MODE_PRIVATE);
+		return mSharedPreferences.getInt("screen_sleep_time", -1);
 	}
 	@Override
 	public int getTitleId() {
