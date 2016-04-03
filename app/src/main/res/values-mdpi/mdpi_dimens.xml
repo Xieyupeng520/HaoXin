@@ -122,8 +122,9 @@
   <dimen name="liu_chen_progress_margin_t">5dp</dimen>
   <dimen name="liu_chen_progress_bar_margin_t">1dp</dimen>
   <dimen name="about_text_font">18sp</dimen>
-  <dimen name="about_bottom">80dp</dimen>
-  <dimen name="about_left">160dp</dimen>
+  <dimen name="about_top">80dp</dimen>
+  <dimen name="about_bottom">50dp</dimen>
+  <dimen name="about_left">130dp</dimen>
   <dimen name="success_info_head_font">15sp</dimen>
   <dimen name="success_info_content_font">15sp</dimen>
 </resources>

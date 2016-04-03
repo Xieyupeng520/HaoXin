@@ -56,7 +56,7 @@
 
         <View 
             style="@style/layout_vertical_full"
-            android:layout_weight="2.8"/>
+            android:layout_weight="4.0"/>
         
         <LinearLayout
             style="@style/layout_vertical"
@@ -120,4 +120,4 @@
 
     
 
-</FrameLayout><!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/layout/work_view_liu_cheng.xml -->
+</FrameLayout><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/layout/work_view_liu_cheng.xml -->

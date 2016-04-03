@@ -25,6 +25,7 @@ public class Global {
 	public static final String DATA_DIANJIU_NAME       = "dianjiu";
 	public static final String DATA_GUDING_NAME        = "guding";
 	public static final String DATA_CHENGZHOGN_NAME    = "chengzhong";
+	public static final String DATA_HEAT_NAME 		   = "jiare";
 
 	public static final String DATA_A_PUMP =  "apump";
 	public static final String DATA_B_PUMP =  "bpump";
@@ -48,6 +49,7 @@ public class Global {
 	public static int mDianJiuLev;
 	public static int mGuDingQDState;
 	public static int mChengZhong;
+	public static int mHeat;
 
 	/**
 	 * 工程师菜单
@@ -94,11 +96,11 @@ public class Global {
 		mGuDingQDState = sp.getInt(DATA_GUDING_NAME, 0);
 		mChengZhong    = sp.getInt(DATA_CHENGZHOGN_NAME, 1);
 
-		mAPump = sp.getInt(DATA_A_PUMP, 13);
-		mBPump = sp.getInt(DATA_B_PUMP, 13);
-		mCPump = sp.getInt(DATA_C_PUMP, 13);
-		mDPump = sp.getInt(DATA_D_PUMP, 13);
-		mEPump = sp.getInt(DATA_E_PUMP, 13);
+		mAPump = sp.getInt(DATA_A_PUMP, 12);
+		mBPump = sp.getInt(DATA_B_PUMP, 12);
+		mCPump = sp.getInt(DATA_C_PUMP, 12);
+		mDPump = sp.getInt(DATA_D_PUMP, 12);
+		mEPump = sp.getInt(DATA_E_PUMP, 12);
 		mCellCentrifugalSpeed = sp.getInt(DATA_CELL_CENTRIFUGAL_SPEED, 1);
 	}
 

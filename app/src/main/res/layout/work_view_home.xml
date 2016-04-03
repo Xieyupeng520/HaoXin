@@ -95,7 +95,7 @@
             <FrameLayout
             style="@style/layout_vertical"
     		android:layout_width="match_parent"
-    		android:layout_weight="2"/>
+    		android:layout_weight="1.5"/>
             </LinearLayout>
 
             <LinearLayout

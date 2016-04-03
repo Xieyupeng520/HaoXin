@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/oval_button_touch" android:state_pressed="true"/>
     <item android:drawable="@drawable/oval_button" />
-</selector><!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/drawable/selector_button_oval.xml -->
+</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/drawable/selector_button_oval.xml -->

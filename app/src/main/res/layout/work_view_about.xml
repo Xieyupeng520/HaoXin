@@ -2,51 +2,89 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    >
 
     <RelativeLayout
         style="@style/layout_full"
         android:gravity="center"
-        >
-        <LinearLayout
-            android:layout_height="300dp"
-            android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_marginTop="40dp"
-            android:paddingTop="@dimen/about_bottom"
-            android:paddingBottom="@dimen/about_bottom"
-            android:paddingLeft="@dimen/about_left"
-            android:paddingRight="@dimen/about_left"
-            >
-            <TextView
-                android:id="@+id/sw_version_text"
+>
+            <LinearLayout
+                android:layout_height="300dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/about_text_font"
-                android:text="@string/sw_version"
-                android:gravity="start"/>
-            <TextView
-                android:id="@+id/hw_version_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/about_text_font"
-                android:text="@string/hw_version"
-                android:gravity="start"/>
-            <TextView
-                android:id="@+id/fw_version_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/home_info"
-                android:textSize="@dimen/about_text_font"
-                android:text="@string/fw_version"
-                android:gravity="start"/>
-
-        </LinearLayout>
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:paddingTop="@dimen/about_top"
+                android:paddingBottom="@dimen/about_bottom"
+                android:paddingLeft="@dimen/about_left"
+                android:paddingRight="@dimen/about_left"
+                >
+                <TextView
+                    android:id="@+id/sw_version_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/about_text_font"
+                    android:text="@string/sw_version"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/hw_version_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/about_text_font"
+                    android:text="@string/hw_version"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/fw_version_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/home_info"
+                    android:textSize="@dimen/about_text_font"
+                    android:text="@string/fw_version"
+                    android:gravity="start"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/about_text_font"
+                        android:textColor="@color/home_info"
+                        android:text="@string/date_time"/>
+                    <Button android:id="@+id/date_and_time_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/about_text_font"
+                        android:text="2016/1/1 02:01 下午   >"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/home_info"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/about_text_font"
+                        android:textColor="@color/home_info"
+                        android:text="@string/screen_sleep_time"/>
+                    <Button android:id="@+id/screen_sleep_time_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/about_text_font"
+                        android:text="1分钟   >"
+                        android:background="@android:color/transparent"
+                        android:textColor="@color/home_info"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+            </LinearLayout>
 
     </RelativeLayout>
 

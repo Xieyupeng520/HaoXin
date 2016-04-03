@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:keepScreenOn="true">
     
     
     <FrameLayout
@@ -64,4 +65,4 @@
         android:textColor="@color/loading_msg"/>
 
 </LinearLayout>
-<!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/layout/activity_loading.xml -->
+<!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/layout/activity_loading.xml -->

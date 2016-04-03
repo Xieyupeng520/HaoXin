@@ -2,11 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundimg">
+    android:background="@drawable/backgroundimg"
+    android:keepScreenOn="true">
     
     <FrameLayout 
         android:id="@+id/frame_container_base"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </FrameLayout>
-<!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/layout/activity_base.xml -->
+<!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/layout/activity_base.xml -->

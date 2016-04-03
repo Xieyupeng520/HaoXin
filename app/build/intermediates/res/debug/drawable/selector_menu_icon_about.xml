@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/nav_about_touch" android:state_selected="true"/>
     <item android:drawable="@drawable/nav_about" />
-</selector><!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/drawable/selector_menu_icon_about.xml -->
+</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_about.xml -->

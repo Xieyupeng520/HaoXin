@@ -3,4 +3,4 @@
     <item android:color="@color/btn_oval_unenabled" android:state_enabled="false"/>
     <item android:color="@color/btn_oval_selected" android:state_pressed="true"/>
     <item android:color="@color/btn_oval_noraml"/>
-</selector><!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/drawable/selector_button_oval_text.xml -->
+</selector><!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/drawable/selector_button_oval_text.xml -->

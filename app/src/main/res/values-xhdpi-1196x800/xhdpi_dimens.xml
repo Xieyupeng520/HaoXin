@@ -78,7 +78,7 @@
   <dimen name="spout_df_margin_r">32dp</dimen>
   <dimen name="diak_spout_margin_l">-64dp</dimen>
   <dimen name="site_content_margin_lr">192dp</dimen>
-  <dimen name="site_item_title_margin_t">12dp</dimen>
+  <dimen name="site_item_title_margin_t">10dp</dimen>
   <dimen name="site_item_h">29dp</dimen>
   <dimen name="site_item_title_font">16dp</dimen>
   <dimen name="site_btn_littlearrows_margin_r">14dp</dimen>

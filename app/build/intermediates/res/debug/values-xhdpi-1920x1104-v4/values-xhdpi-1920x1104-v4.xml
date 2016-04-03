@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
     <eat-comment/>
     <dimen name="about_text_font">22sp</dimen>
     <dimen name="button_back_margin_b">15dp</dimen>
@@ -25,7 +25,7 @@
     <dimen name="clean_fill_progress_padding_tlr">4dp</dimen>
     <dimen name="clean_fill_progress_w">840dp</dimen>
     <dimen name="diak_spout_margin_l">-80dp</dimen>
-    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens_menu_dialog.xml -->
     <eat-comment/>
     <dimen name="dialog_btn_font">18sp</dimen>
     <dimen name="dialog_btn_h">31dp</dimen>
@@ -41,7 +41,7 @@
     <dimen name="dialog_msg_font">16sp</dimen>
     <dimen name="dialog_msg_margin_t">48dp</dimen>
     <dimen name="dialog_w">250dp</dimen>
-    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
     <eat-comment/>
     <dimen name="home_content_margin_lr">160dp</dimen>
     <dimen name="home_info_content_height">190dp</dimen>
@@ -94,14 +94,14 @@
     <dimen name="liu_chen_progress_w">23dp</dimen>
     <dimen name="loading_dregee_font">22sp</dimen>
     <dimen name="loading_msg_font">18sp</dimen>
-    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens_menu_dialog.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens_menu_dialog.xml -->
     <eat-comment/>
     <dimen name="main_menu_item_height">75dp</dimen>
     <dimen name="main_menu_item_text_font">15sp</dimen>
     <dimen name="main_menu_item_text_margin_top">49dp</dimen>
     <dimen name="main_menu_item_width">104dp</dimen>
     <dimen name="main_menu_width">104dp</dimen>
-    <!-- From: file:/D:/StudioProjects/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
+    <!-- From: file:/Users/AZZ/Documents/Development/Android/My%20Project/HaoXin/app/src/main/res/values-xhdpi-1920x1104/dimens.xml -->
     <eat-comment/>
     <dimen name="radio_wh">50dp</dimen>
     <dimen name="site_btn_list_corner">10dp</dimen>
