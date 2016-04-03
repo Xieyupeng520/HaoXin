@@ -70,6 +70,9 @@ public abstract class WorkBaseView extends FrameLayout{
 	}
 
 	public void initTime(){
+		if (mTimeText == null) {
+			return;
+		}
 		final Handler updateTimeHandler = new Handler();
 		updateTimeHandler.post(new Runnable() {
 			public void run() {
