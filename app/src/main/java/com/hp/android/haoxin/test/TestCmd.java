@@ -147,8 +147,8 @@ public class TestCmd {
                 if (progress >= 100) {
                     progress = 0;
                 }
-                progress += 5;
-                byte[] data = new byte[]{Response.Complete.B_THREE_STEP_COMPLETE, 0x00, (byte) progress};
+                progress += 15;
+                byte[] data = new byte[]{Response.Complete.WEIGHT_FOUR_STEP_COMPLETE, 0x00, (byte) progress};
                 getReadDeviceCallBack().onReadDeviceData(data, ProtocolType.RPT_OP_PROGRESS);
                 if (progress < 100) {
                     handler.postDelayed(this, 500);

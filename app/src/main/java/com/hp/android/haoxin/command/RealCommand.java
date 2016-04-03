@@ -554,7 +554,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/10/14 测试流路检测
-//        if (step > 0) {
+//        if (step >= 0) {
 //            Test.testLiuLuProgress();
 //        }
     }
@@ -568,7 +568,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/10/14 测试称重校验
-//        Test.testLiuLuProgress();
+        Test.testLiuLuProgress();
     }
 
     private Runnable countDownThread = new Runnable() {

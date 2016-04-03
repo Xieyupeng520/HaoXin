@@ -1,114 +1,230 @@
 [
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_littlearrows.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_littlearrows.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_oval.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_oval.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_step_text.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_step_text.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/progress_loading.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/progress_loading.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progress_clean_fill.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\custom_progress_clean_fill.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_normal.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_normal.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_next_text.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_next_text.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_littlearrows.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_littlearrows.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item_bottom.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item_bottom.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_site_button_letter.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_site_button_letter.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_system_radio.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_system_radio.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_next_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_next_text.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_oval_text.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_oval_text.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_system.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_system.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_home.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_home.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_liu_chen_step_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_text.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_oval.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_oval.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_name.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_name.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_loading.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\progress_loading.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon_system.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_system.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_text_sysradio.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_text_sysradio.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_littlearrows.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_littlearrows.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_about.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_about.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon_site.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_site.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_clean.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_clean.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/shape_btn_list_bg.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/shape_btn_list_bg.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item_top.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item_top.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item_top.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item_top.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_list_bg.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\shape_btn_list_bg.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_clean_close_button.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_clean_close_button.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_dialog.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_dialog.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_home_button_top.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_home_button_top.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_button_top.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_home_button_top.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_dialog.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_dialog.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_system.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_system.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_list_bg.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\shape_btn_list_bg.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_clean_close_button.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_clean_close_button.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon_about.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_about.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_site.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_site.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_text_sysradio.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_text_sysradio.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_step_done_sign.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_step_done_sign.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/custom_progress_clean_fill.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/custom_progress_clean_fill.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progress_vertical.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\custom_progress_vertical.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_next.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_next.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_button.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_button.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_site_list_item_top.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_site_list_item_top.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_next_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_next_text.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_next.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_next.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_system_radio.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_system_radio.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_normal.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_normal.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_site.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_site.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_site_button_letter.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_site_button_letter.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/custom_progress_vertical.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/custom_progress_vertical.xml"
     },
     {
-        "merged": "D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_name.xml",
-        "source": "D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_name.xml"
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_name.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_name.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_oval_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_oval_text.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progress_vertical.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\custom_progress_vertical.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_normal.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_normal.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_oval_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_oval_text.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_step_text.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_step_text.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_button.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_button.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_button_top.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_home_button_top.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_dialog.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_dialog.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_home.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_home.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_clean_close_button.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_clean_close_button.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_site_list_item_bottom.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_site_list_item_bottom.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon_home.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_home.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_oval.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_oval.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_liu_chen_step_done_sign.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_liu_chen_step_done_sign.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_system_radio.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_system_radio.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_site_list_item.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_site_list_item.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_liu_chen_button.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_liu_chen_button.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button_site_list_item_bottom.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_button_site_list_item_bottom.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_loading.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\progress_loading.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_next.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_next.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon_clean.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_menu_icon_clean.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_clean.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_clean.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_pickerview_btn.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/res/drawable/selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_site_button_letter.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_site_button_letter.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_menu_icon_about.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_menu_icon_about.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/res/merged/debug/drawable/selector_button_text_sysradio.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/drawable/selector_button_text_sysradio.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progress_clean_fill.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\custom_progress_clean_fill.xml"
+    },
+    {
+        "merged": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_liu_chen_step_done_sign.xml",
+        "source": "/Users/AZZ/Documents/Development/Android/My Project/HaoXin/D:\\StudioProjects\\HaoXin\\app\\src\\main\\res\\drawable\\selector_liu_chen_step_done_sign.xml"
     }
 ]

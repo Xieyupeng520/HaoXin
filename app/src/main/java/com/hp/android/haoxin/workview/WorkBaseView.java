@@ -32,7 +32,6 @@ public abstract class WorkBaseView extends FrameLayout{
 	private TextView mDayText;
 	private TextView mDateText;
 	private TextView mWeekText;
-	private int mOldHour = -1;
 	protected ViewChange mViewChange;
 	
 	public WorkBaseView(Context context) {
@@ -63,35 +62,34 @@ public abstract class WorkBaseView extends FrameLayout{
 	public abstract int getTitleId();
 
 	public void init(){};
-	
-	
+
+	@Override
+	protected void onAttachedToWindow() {
+		super.onAttachedToWindow();
+		initTime(); //更新时间
+	}
+
 	public void initTime(){
+		if (mTimeText == null) { //有些界面（比如Success界面没有时间显示）
+			return;
+		}
 		final Handler updateTimeHandler = new Handler();
-		new Handler().post(new Runnable() {
+		updateTimeHandler.post(new Runnable() {
 			public void run() {
 				Calendar calender = Calendar.getInstance();
 				SimpleDateFormat df = new SimpleDateFormat("HH : mm");
-				//df.applyPattern("HH:MM");
-				//String timeStr = (String)DateUtils.formatDateTime(mContext, System.currentTimeMillis(), DateUtils.FORMAT_SHOW_TIME);
 				mTimeText.setText(df.format(calender.getTime()));
-				
+
 				int hour = calender.get(Calendar.HOUR_OF_DAY);
-				if(mOldHour != hour){
-					String smPmStr = DateUtils.getAMPMString(Calendar.getInstance().get(Calendar.AM_PM));
-					String pm = smPmStr.toLowerCase();
-					mDayText.setText(pm.equals("pm") ? R.string.pm : R.string.am);
+				mDayText.setText((hour > 12) ? R.string.pm : R.string.am);
 
-//					df.applyPattern("MM月dd日");
-//					mDateText.setText(df.format(calender.getTime()));
-					int month = calender.get(Calendar.MONTH); //比真实的月小1（从0月开始）
-					int dayInMonth = calender.get(Calendar.DAY_OF_MONTH); //和真实的日子一样（从1日开始）
-					mDateText.setText(getContext().getString(R.string.month_and_day, dates[month], dates[dayInMonth - 1]));
+				int month = calender.get(Calendar.MONTH); //比真实的月小1（从0月开始）
+				int dayInMonth = calender.get(Calendar.DAY_OF_MONTH); //和真实的日子一样（从1日开始）
+				mDateText.setText(getContext().getString(R.string.month_and_day, dates[month], dates[dayInMonth - 1]));
 
-					int week = calender.get(Calendar.DAY_OF_WEEK);
-					mWeekText.setText(getContext().getString(R.string.week, weeks[week-1]));
-					mOldHour = hour;
-				}
-				updateTimeHandler.postDelayed(this, 5000);
+				int week = calender.get(Calendar.DAY_OF_WEEK);
+				mWeekText.setText(getContext().getString(R.string.week, weeks[week-1]));
+
 			}
 		});
 	}

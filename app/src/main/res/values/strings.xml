@@ -6,7 +6,7 @@
     <!-- general -->
     <string name="button_normal_sure">確認</string>
     <string name="button_normal_cancel">取消</string>
-    <string name="week">周%s</string>
+    <string name="week">星期%s</string>
     <string name="month_and_day">%1$s月%2$s日</string> <!-- xliff 多格式化語法 -->
     <string name="am">上午</string>
     <string name="pm">下午</string>
@@ -18,9 +18,9 @@
     <string name="btn_next">下一步</string>
     <string name="back_to_home">系統即將返回主界面...</string>
     <string name="succ_ranse">染色結束，請拿出載玻片</string>
-    <string name="succ_liulu">B-流路檢測結束</string>
-    <string name="succ_chengzhong">稱重校驗結束</string>
-    <string name="succ_fill">填充流路結束</string>
+    <string name="succ_liulu">B-流路維護結束</string>
+    <string name="succ_chengzhong">容量校驗結束</string>
+    <string name="succ_fill">塡充管路結束</string>
     <string name="succ_centrifugal">細胞離心結束</string>
     <string name="waiting">Waiting...</string>
     <!-- exception -->
@@ -28,35 +28,35 @@
     <string name="exception_exception">【警告】</string>
     <string name="exception_init_not_connected">設備初始化失敗，請重新啟動</string>
     <string name="exception_not_comm_actived">系統通信鏈路中斷，請重新啟動</string>
-    <string name="exception_of_electric_speed">電機轉速異常，請聯繫技術人員</string>
+    <string name="exception_of_electric_speed">轉速異常，請聯繫技術人員</string>
     <string name="exception_top_cover_opened">設備上蓋打開，請關閉上蓋</string>
     <string name="exception_top_cover_opened_dyeing">上蓋被打開，請關閉上蓋重新開始</string>
     <string name="exception_top_cover_opened_cleaning">上蓋被打開，請關閉上蓋重新開始</string>
     <string name="exception_top_cover_opened_filling">上蓋被打開，請關閉上蓋重新開始</string>
     <string name="exception_top_cover_opened_centrifugal">上蓋被打開，請關閉上蓋重新開始</string>
     <string name="exception_heating_failure">設備加熱失效</string>
-    <string name="exception_detect_glass_position_failure">未檢測到載玻盤，請放入載玻盤</string>
+    <string name="exception_detect_glass_position_failure">未檢測到染片盤，請放入染片盤</string>
     <string name="exception_weighing">設備稱重異常</string>
     <string name="exception_reagent_not_enough">試劑 %s 不足，請添加試劑</string>
     <!-- string -->
-    <string name="dialog_msg_cancel_tianchong">是否取消填充</string>
+    <string name="dialog_msg_cancel_tianchong">是否取消塡充</string>
     <string name="dialog_msg_cancel_ranse">是否取消染色</string>
     <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
-    <string name="dialog_msg_cancel_liulu">是否取消B-流路檢測</string>
-    <string name="dialog_msg_cancel_chengzhong">是否取消稱重校驗</string><!-- 稱重校驗 -->
-    <string name="dialog_msg_over_clean">流路清洗結束，是否開始填充</string>
-    <string name="dialog_msg_hint_liulutianchong">請拿出玻盤樣本，完成流路填充</string>
-    <string name="dialog_msg_dev_fill_request">管路需要填充，載玻片將被污染\n請先移除載玻盤，是否進行填充</string>
+    <string name="dialog_msg_cancel_liulu">是否取消B-流路維護</string>
+    <string name="dialog_msg_cancel_chengzhong">是否取消容量校驗</string><!-- 容量校驗 -->
+    <string name="dialog_msg_over_clean">流路清洗結束，是否開始塡充</string>
+    <string name="dialog_msg_hint_liulutianchong">請拿出玻盤樣本，完成流路塡充</string>
+    <string name="dialog_msg_dev_fill_request">管路需要塡充，載玻片將被污染\n請先移除染片盤，是否進行塡充</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消細胞離心</string>
 
-    <string name="dialog_msg_clean_fill">流路清洗完成，是否進行填充</string>
+    <string name="dialog_msg_clean_fill">流路清洗完成，是否進行塡充</string>
     <!-- home -->
     <string name="home_slide_title">載玻片數量</string>
     <string name="home_info_title">當前設置：</string>
-    <string name="home_info_ranse">染色厚度</string>
+    <string name="home_info_ranse">抹片厚度</string>
     <string name="home_info_jiejing">亞甲基藍</string>
     <string name="home_info_dianjiu">酸性酒精</string>
-    <string name="home_info_guding">固定啟動終止</string>
+    <string name="home_info_guding">抹片固定</string>
     
     <!-- clean progress -->
     <string name="clean_jet">正在噴射：</string>
@@ -75,8 +75,8 @@
     <string name="PROGRESS_JETTING_FIRST_DYE">初染液</string>
 
     <string name="progress_clean_flow_path">正在清洗</string>
-    <string name="progress_fill">正在填充</string>
-    <string name="progress_dry">正在甩干</string>
+    <string name="progress_fill">正在塡充</string>
+    <string name="progress_dry">正在乾燥</string>
     <string name="progress_wait">等待</string>
     <string name="progress_heat">正在加熱</string>
     <string name="PROGRESS_CENTRIFUGAL">正在細胞離心</string>
@@ -84,11 +84,11 @@
     <string name="etc">...</string>
 
     <!-- site -->
-    <string name="site_ranse">染色厚度設置</string>
-    <string name="site_guding">固定啟動終止</string>
+    <string name="site_ranse">抹片厚度設置</string>
+    <string name="site_guding">抹片固定</string>
     <string name="site_jiejing">亞甲基藍調整</string>
     <string name="site_dianjiu">酸性酒精調整</string>
-    <string name="site_chenzhogn">稱重啟動終止</string>
+    <string name="site_chenzhogn">試劑容量測定</string>
     <string name="site_centrifugal">細胞離心</string>
     <string name="site_heat">加熱選擇</string>
 
@@ -100,9 +100,9 @@
     <string name="e">E</string>
     <string name="system_moshi">模式檢測</string>
     <string name="system_liuliang">流量檢測</string>
-    <string name="system_bliulu">B-流路檢測</string>
-    <string name="system_chengzhong">稱重校驗</string>
-    <string name="system_tianchong">填充流路</string>
+    <string name="system_bliulu">B-流路維護</string>
+    <string name="system_chengzhong">容量校驗</string>
+    <string name="system_tianchong">塡充管路</string>
     
     <!-- liu_chen -->
     <string name="step">STEP</string>
@@ -116,7 +116,9 @@
     <!-- about -->
     <string name="sw_version">軟體版本：</string>
     <string name="hw_version">硬體版本：</string>
-    <string name="fw_version">固件版本：</string>
+    <string name="fw_version">韌體版本：</string>
+    <string name="date_time">日期和時間</string>
+    <string name="screen_sleep_time">螢幕休眠時間</string>
 
     <!-- engineer -->
     <string name="a_pump">A泵占空比</string>
@@ -151,13 +153,13 @@
     <string-array name="bliulu_steps">
         <item>請在B流路放500ML去離子水</item>
         <item>請在B流路放入200ML清洗劑</item>
-        <item>請放入B液填充</item>
+        <item>請放入B液塡充</item>
     </string-array>
     <string-array name="chenzhong_steps">
-        <item>確認嚴格按照界面提示步驟操作</item>
-        <item>請將載玻盤從設備移出</item>
-        <item>請給每個容器內注入50ML試劑</item>
-        <item>啟動稱重校驗，大概需要5秒</item>
+        <item>非常重要，請仔細閱讀請嚴格按照提示步驟操作</item>
+        <item>請將染片盤從儀器移出</item>
+        <item>請將每個試劑瓶（A~E）放入50ML試劑</item>
+        <item>校驗正在進行中，請等待5秒</item>
     </string-array>
     
     <string-array name="site_btn_ranses">
@@ -189,15 +191,25 @@
     </string-array>
     <string-array name="site_btn_chengzhongs">
         <item>關閉</item>
-        <item>啟動</item>
+        <item>開啟</item>
     </string-array>
     <string-array name="site_btn_heat">
         <item>關閉</item>
-        <item>啟動</item>
+        <item>開啟</item>
     </string-array>
 
     <string-array name="engineer_btn_cell_centrifugal_speed">
         <item>1500</item>
         <item>2000</item>
+    </string-array>
+
+    <string-array name="screen_sleep_time">
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分鐘</item>
+        <item>2分鐘</item>
+        <item>5分鐘</item>
+        <item>10分鐘</item>
+        <item>30分鐘</item>
     </string-array>
 </resources>
