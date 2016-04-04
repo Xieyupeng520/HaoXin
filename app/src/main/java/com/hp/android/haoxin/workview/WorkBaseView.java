@@ -70,7 +70,7 @@ public abstract class WorkBaseView extends FrameLayout{
 	}
 
 	public void initTime(){
-		if (mTimeText == null) {
+		if (mTimeText == null) { //有些界面（比如Success界面没有时间显示）
 			return;
 		}
 		final Handler updateTimeHandler = new Handler();
