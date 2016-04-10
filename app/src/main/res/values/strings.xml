@@ -6,6 +6,7 @@
     <!-- general -->
     <string name="button_normal_sure">確認</string>
     <string name="button_normal_cancel">取消</string>
+    <string name="button_normal_continue">繼續</string>
     <string name="week">星期%s</string>
     <string name="month_and_day">%1$s月%2$s日</string> <!-- xliff 多格式化語法 -->
     <string name="am">上午</string>
@@ -41,15 +42,15 @@
     <!-- string -->
     <string name="dialog_msg_cancel_tianchong">是否取消塡充</string>
     <string name="dialog_msg_cancel_ranse">是否取消染色</string>
-    <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
+    <string name="dialog_msg_cancel_clean">是否取消清洗</string>
     <string name="dialog_msg_cancel_liulu">是否取消B-流路維護</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消容量校驗</string><!-- 容量校驗 -->
-    <string name="dialog_msg_over_clean">流路清洗結束，是否開始塡充</string>
+    <string name="dialog_msg_over_clean">清洗結束，是否開始塡充</string>
     <string name="dialog_msg_hint_liulutianchong">請拿出玻盤樣本，完成流路塡充</string>
     <string name="dialog_msg_dev_fill_request">管路需要塡充，載玻片將被污染\n請先移除染片盤，是否進行塡充</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消細胞離心</string>
 
-    <string name="dialog_msg_clean_fill">流路清洗完成，是否進行塡充</string>
+    <string name="dialog_msg_clean_fill">清洗完成，是否進行塡充</string>
     <!-- home -->
     <string name="home_slide_title">載玻片數量</string>
     <string name="home_info_title">當前設置：</string>
@@ -137,8 +138,8 @@
     </string-array>
 
     <string-array name="menu_names">
-        <item>主界面</item>
-        <item>流路清洗</item>
+        <item>主程序界面</item>
+        <item>清洗</item>
         <item>參數設置</item>
         <item>系統維護</item>
         <item>關於</item>

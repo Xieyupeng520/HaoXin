@@ -113,26 +113,16 @@ public class CustomDialog {
 	{
 		mMsgView.setText(message);
 	}
+
 	/**
 	 * 设置按钮
-	 * @param text
+	 * @param textRes
 	 * @param listener
 	 */
-	public void setPositiveButton(String text,final View.OnClickListener listener)
+	public void setPositiveButton(int textRes,final View.OnClickListener listener)
 	{
-		mBtnSure.setText(text);
+		mBtnSure.setText(textRes);
 		mBtnSure.setOnClickListener(listener);
-	}
- 
-	/**
-	 * 设置按钮
-	 * @param text
-	 * @param listener
-	 */
-	public void setNegativeButton(String text,final View.OnClickListener listener)
-	{
-		mBtnCancel.setText(text);
-		mBtnCancel.setOnClickListener(listener);
 	}
 	
 	public void setPositiveListener(View.OnClickListener listener){
