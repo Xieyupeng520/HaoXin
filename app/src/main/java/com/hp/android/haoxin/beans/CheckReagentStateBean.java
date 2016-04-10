@@ -53,7 +53,7 @@ public class CheckReagentStateBean {
 //                continue;
 //            }
 
-            //                hasCheckedReagent[i] = true; //表示检查过了
+            //hasCheckedReagent[i] = true; //表示检查过了
 
             if (Global.getSystemStateBean().isReagentEnough(i)) {
                 Log.i("CheckReagentStateBean", getReagentString(i) + "试剂充足");

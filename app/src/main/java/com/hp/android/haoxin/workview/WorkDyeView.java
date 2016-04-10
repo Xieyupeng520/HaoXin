@@ -59,7 +59,7 @@ public class WorkDyeView extends WorkCleanView implements iRequest {
 	public void onRequest() {
 		final CustomDialog devFillDialog = CustomDialog.createHintDialog(getContext(), R.string.dialog_msg_dev_fill_request);
 //		devFillDialog.setHintMsg(R.string.dialog_msg_hint_liulutianchong);
-		devFillDialog.setPositiveButton("继续", new OnClickListener() {
+		devFillDialog.setPositiveButton(R.string.button_normal_continue, new OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				//(11)开始进行流路填充操作

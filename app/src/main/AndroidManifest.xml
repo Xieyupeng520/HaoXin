@@ -29,16 +29,11 @@
         <activity 
             android:name=".LoadingActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="reverseLandscape">
-
-        </activity>
+            android:screenOrientation="reverseLandscape"/>
         <activity 
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="reverseLandscape"
-            android:launchMode="singleTask"
-            >
-
-        </activity>
+            />
     </application>
 </manifest>
