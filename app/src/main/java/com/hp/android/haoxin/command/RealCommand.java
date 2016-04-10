@@ -471,7 +471,7 @@ public class RealCommand extends TestCommand {
                     getOperatorService().sendFillPackets((byte) 0);
 
                     // FIXME: 15/11/4 测试从系统界面跳转过来的填充开始
-                    Test.testClean();
+//                    Test.testClean();
 //                    Test.testDisposeException();
                 }
             } catch (IOException e) {
@@ -554,7 +554,7 @@ public class RealCommand extends TestCommand {
             e.printStackTrace();
         }
         // FIXME: 15/10/14 测试流路检测
-//        if (step >= 0) {
+//        if (step > 0) {
 //            Test.testLiuLuProgress();
 //        }
     }
@@ -703,7 +703,7 @@ public class RealCommand extends TestCommand {
                 mCommand.call.workFinish(false);
             }
         });
-        hintDialog.setPositiveButton("继续", new View.OnClickListener() {
+        hintDialog.setPositiveButton(R.string.button_normal_continue, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 hintDialog.dismiss();

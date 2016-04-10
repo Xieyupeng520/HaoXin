@@ -7,6 +7,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,7 @@ import com.hp.android.haoxin.utils.Constant;
 import com.hp.android.haoxin.utils.FomatTool;
 import com.hp.android.haoxin.utils.Tool;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -133,6 +135,11 @@ public class WorkAboutView extends WorkBaseView{
 		});
 
 		dataAndTimeBtn.setText(FomatTool.formatDateTime(null)); //设置默认时间
+
+		/***************************************************
+		 * 通過反射，將“確定”和“取消”改為繁體
+		 ***************************************************/
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(TimePickerView.class);
 	}
 
 	private void initScreenSleepTime() {
@@ -185,8 +192,27 @@ public class WorkAboutView extends WorkBaseView{
 		sleepTimeBtn.setText(array[defaultSleepTimeIndex] + "   >");
 		pickerView.setSelectOptions(defaultSleepTimeIndex); //默认选中
 
+		/***************************************************
+		 * 通過反射，將“確定”和“取消”改為繁體
+		 ***************************************************/
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(OptionsPickerView.class);
 	}
 
+	private void changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(Class pickerView) {
+		try {
+			Field btnSubmitField = pickerView.getDeclaredField("btnSubmit");
+			btnSubmitField.setAccessible(true);
+			Button btnSubmit = (Button) btnSubmitField.get(pickerView);	//实例化该类型
+			btnSubmit.setText(R.string.button_normal_sure);
+
+			Field btnCancelField = pickerView.getDeclaredField("btnCancel");
+			btnCancelField.setAccessible(true);
+			Button btnCancel = (Button) btnCancelField.get(pickerView);	//实例化该类型
+			btnCancel.setText(R.string.button_normal_cancel);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 	/**
 	 * 保存相关设置
 	 */
