@@ -23,6 +23,8 @@ public abstract class WorkBaseView extends FrameLayout{
 	private static final String[] weeks = {"日","一","二","三","四","五","六"};
 	private static final String[] dates = {"一","二","三","四","五","六","七","八","九","十","十一","十二","十三","十四","十五","十六"
 			,"十七","十八","十九","二十","二十一","二十二","二十三","二十四","二十五","二十六","二十七","二十八","二十九","三十","三十一"};
+	private static final String[] datesDigtal = {"01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16"
+			,"17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"};
 	
 	protected View mContainer;
 	protected int mContainerId;
@@ -70,7 +72,7 @@ public abstract class WorkBaseView extends FrameLayout{
 	}
 
 	public void initTime(){
-		if (mTimeText == null) {
+		if (mTimeText == null) { //有些界面（比如Success界面没有时间显示）
 			return;
 		}
 		final Handler updateTimeHandler = new Handler();
@@ -85,7 +87,8 @@ public abstract class WorkBaseView extends FrameLayout{
 
 				int month = calender.get(Calendar.MONTH); //比真实的月小1（从0月开始）
 				int dayInMonth = calender.get(Calendar.DAY_OF_MONTH); //和真实的日子一样（从1日开始）
-				mDateText.setText(getContext().getString(R.string.month_and_day, dates[month], dates[dayInMonth - 1]));
+//				mDateText.setText(getContext().getString(R.string.month_and_day, dates[month], dates[dayInMonth - 1])); //中文的“一月一日”
+				mDateText.setText(getContext().getString(R.string.month_and_day, datesDigtal[month], datesDigtal[dayInMonth - 1])); //數字的“01月01日”
 
 				int week = calender.get(Calendar.DAY_OF_WEEK);
 				mWeekText.setText(getContext().getString(R.string.week, weeks[week-1]));

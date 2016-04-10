@@ -15,7 +15,7 @@ public class LogoActivity extends BaseActivity{
 		super.initContainer();
 		Global.init();
 
-		Tool.showSystemUI(this, false);
+//		Tool.showSystemUI(this, false);
 		
 		
 		DisplayMetrics mDisplayMetrics = new DisplayMetrics();
