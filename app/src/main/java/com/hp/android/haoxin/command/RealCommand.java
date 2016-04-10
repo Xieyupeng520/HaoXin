@@ -703,7 +703,7 @@ public class RealCommand extends TestCommand {
                 mCommand.call.workFinish(false);
             }
         });
-        hintDialog.setPositiveButton("继续", new View.OnClickListener() {
+        hintDialog.setPositiveButton(R.string.button_normal_continue, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 hintDialog.dismiss();
