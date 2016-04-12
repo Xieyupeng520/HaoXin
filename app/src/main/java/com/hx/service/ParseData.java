@@ -102,7 +102,7 @@ public class ParseData extends Thread {
 		mConnectErrService.start();
 		Vector<DataBuffer> dataBuffer = ReadDeviceData.buffer;
 		do {
-			if (dataBuffer != null && !dataBuffer.isEmpty()) {
+			if (dataBuffer != null && dataBuffer.size()>0) {
 				DataBuffer buffer = dataBuffer.get(0);
 				if (buffer != null) {
 					parseData(buffer.getBuffer(), buffer.getBuffer().length);

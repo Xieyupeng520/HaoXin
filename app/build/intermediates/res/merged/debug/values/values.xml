@@ -30,8 +30,8 @@
         <item>進入主頁面。</item>
     </string-array>
     <string-array name="menu_names">
-        <item>主界面</item>
-        <item>流路清洗</item>
+        <item>主程序界面</item>
+        <item>清洗</item>
         <item>參數設置</item>
         <item>系統維護</item>
         <item>關於</item>
@@ -302,6 +302,7 @@
     <string name="btn_next">下一步</string>
     <string name="btn_start">START</string>
     <string name="button_normal_cancel">取消</string>
+    <string name="button_normal_continue">繼續</string>
     <string name="button_normal_sure">確認</string>
     <string name="c">C</string>
     <string name="c_pump">C泵占空比</string>
@@ -313,14 +314,14 @@
     <string name="date_time">日期和時間</string>
     <string name="dialog_msg_cancel_centrifugal">是否取消細胞離心</string>
     <string name="dialog_msg_cancel_chengzhong">是否取消容量校驗</string>
-    <string name="dialog_msg_cancel_clean">是否取消流路清洗</string>
+    <string name="dialog_msg_cancel_clean">是否取消清洗</string>
     <string name="dialog_msg_cancel_liulu">是否取消B-流路維護</string>
     <string name="dialog_msg_cancel_ranse">是否取消染色</string>
     <string name="dialog_msg_cancel_tianchong">是否取消塡充</string>
-    <string name="dialog_msg_clean_fill">流路清洗完成，是否進行塡充</string>
+    <string name="dialog_msg_clean_fill">清洗完成，是否進行塡充</string>
     <string name="dialog_msg_dev_fill_request">管路需要塡充，載玻片將被污染\n請先移除染片盤，是否進行塡充</string>
     <string name="dialog_msg_hint_liulutianchong">請拿出玻盤樣本，完成流路塡充</string>
-    <string name="dialog_msg_over_clean">流路清洗結束，是否開始塡充</string>
+    <string name="dialog_msg_over_clean">清洗結束，是否開始塡充</string>
     <string name="e">E</string>
     <string name="e_pump">E泵占空比</string>
     <string name="etc">...</string>
