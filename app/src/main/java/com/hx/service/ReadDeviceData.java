@@ -149,6 +149,9 @@ public class ReadDeviceData extends Thread {
 			}
 
 			size +=  i;
+			if (size <= 3) {
+				continue;
+			}
 			DataBuffer dest = new DataBuffer(size);
 			dest.setBuffer(buffer);
 			this.buffer.add(dest);
