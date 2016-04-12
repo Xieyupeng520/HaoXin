@@ -7,12 +7,12 @@
         <item>普通</item>
         <item>高效</item>
     </string-array><string name="exception_reagent_not_enough">试剂 %s 不足，请添加试剂</string><string name="etc">...</string><string name="home_info_ranse">染色厚度</string><string-array name="menu_names">
-        <item>主界面</item>
-        <item>流路清洗</item>
+        <item>主程序界面</item>
+        <item>清洗</item>
         <item>参数设置</item>
         <item>系统维护</item>
         <item>关于</item>
-    </string-array><string name="dialog_msg_clean_fill">流路清洗完成，是否进行填充</string><string name="button_normal_sure">确认</string><string name="b_pump">B泵占空比</string><string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string><string-array name="loading_msgs">
+    </string-array><string name="dialog_msg_clean_fill">清洗完成，是否进行填充</string><string name="button_normal_sure">确认</string><string name="b_pump">B泵占空比</string><string name="PROGRESS_ACID_ALCOHOL">酸性酒精</string><string-array name="loading_msgs">
         <item>获取版本信息...</item>
         <item>初始化系统参数...</item>
         <item>程序模块初始化中...</item>
@@ -26,7 +26,7 @@
         <item>5分钟</item>
         <item>10分钟</item>
         <item>30分钟</item>
-    </string-array><string name="site_centrifugal">细胞离心</string><string name="progress_fill">正在填充</string><string name="am">上午</string><string name="exception_detect_glass_position_failure">未检测到载玻盘，请放入载玻盘</string><string name="exception_top_cover_opened_centrifugal">上盖被打开，请关闭上盖重新开始</string><string name="exception_hint">【提示】</string><string name="switch_close">关闭</string><string name="home_info_jiejing">高锰酸钾</string><string name="PROGRESS_JETTING_FIRST_DYE">初染液</string><string name="exception_exception">【警告】</string><string name="e_pump">E泵占空比</string><string name="dialog_msg_cancel_tianchong">是否取消填充</string><string name="iodine">碘酒</string><string name="progress_clean_flow_path">正在清洗</string><string name="c_pump">C泵占空比</string><string name="app_name">全自动革兰氏染色仪器</string><string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string><string name="PROGRESS_RHODAMINE_B">罗丹明 B</string><string name="exception_top_cover_opened_dyeing">上盖被打开，请关闭上盖重新开始</string><string name="succ_ranse">染色结束，请拿出载玻片</string><string name="PROGRESS_AURAMINE_O">金胺 O</string><string name="system_chengzhong">称重校验</string><string-array name="bliulu_steps">
+    </string-array><string name="site_centrifugal">细胞离心</string><string name="progress_fill">正在填充</string><string name="am">上午</string><string name="exception_detect_glass_position_failure">未检测到载玻盘，请放入载玻盘</string><string name="exception_top_cover_opened_centrifugal">上盖被打开，请关闭上盖重新开始</string><string name="exception_hint">【提示】</string><string name="switch_close">关闭</string><string name="home_info_jiejing">高锰酸钾</string><string name="PROGRESS_JETTING_FIRST_DYE">初染液</string><string name="exception_exception">【警告】</string><string name="e_pump">E泵占空比</string><string name="dialog_msg_cancel_tianchong">是否取消填充</string><string name="iodine">碘酒</string><string name="progress_clean_flow_path">正在清洗</string><string name="c_pump">C泵占空比</string><string name="app_name">全自动革兰氏染色仪器</string><string name="dialog_msg_cancel_chengzhong">是否取消称重校验</string><string name="PROGRESS_RHODAMINE_B">罗丹明 B</string><string name="exception_top_cover_opened_dyeing">上盖被打开，请关闭上盖重新开始</string><string name="succ_ranse">染色结束，请拿出载玻片</string><string name="button_normal_continue">继续</string><string name="PROGRESS_AURAMINE_O">金胺 O</string><string name="system_chengzhong">称重校验</string><string-array name="bliulu_steps">
         <item>请在B流路放500ML去离子水</item>
         <item>请在B流路放入200ML清洗剂</item>
         <item>请放入B液填充</item>
@@ -54,7 +54,7 @@
         <item>中</item>
         <item>低</item>
         <item>H</item>
-    </string-array><string name="sw_version">软件版本：</string><string name="site_dianjiu">酸性酒精调整</string><string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string><string name="screen_sleep_time">屏幕休眠时间</string><string name="dialog_msg_cancel_clean">是否取消流路清洗</string><string-array name="engineer_btn_cell_centrifugal_speed">
+    </string-array><string name="sw_version">软件版本：</string><string name="site_dianjiu">酸性酒精调整</string><string name="PROGRESS_METHYLENE_BLUE">亚甲基蓝</string><string name="screen_sleep_time">屏幕休眠时间</string><string name="dialog_msg_cancel_clean">是否取消清洗</string><string-array name="engineer_btn_cell_centrifugal_speed">
         <item>1500</item>
         <item>2000</item>
     </string-array><string name="btn_exit">退出</string><string name="site_chenzhogn">称重启动终止</string><string name="a_pump">A泵占空比</string><string name="dialog_msg_hint_liulutianchong">请拿出玻盘样本，完成流路填充</string><string name="site_heat">加热选择</string><string name="system_liuliang">流量检测</string><string name="dialog_msg_cancel_ranse">是否取消染色</string><string name="exception_top_cover_opened">设备上盖打开，请关闭上盖</string><string name="switch_open">开启</string><string name="home_info_dianjiu">酸性酒精</string><string name="succ_fill">填充流路结束</string><string name="system_bliulu">B-流路检测</string><string name="pm">下午</string><string-array name="site_grade">
@@ -70,7 +70,7 @@
     </string-array><string name="step">STEP</string><string-array name="site_btn_chengzhongs">
         <item>关闭</item>
         <item>启动</item>
-    </string-array><string name="button_normal_cancel">取消</string><string name="dialog_msg_over_clean">流路清洗结束，是否开始填充</string><string name="saffron">番红</string><string-array name="site_btn_heat">
+    </string-array><string name="button_normal_cancel">取消</string><string name="dialog_msg_over_clean">清洗结束，是否开始填充</string><string name="saffron">番红</string><string-array name="site_btn_heat">
         <item>关闭</item>
         <item>启动</item>
     </string-array></file><file path="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/src/main/res/values/styles.xml" qualifiers=""><style name="layout_vertical" parent="layout_full">  
