@@ -149,12 +149,17 @@ public class ReadDeviceData extends Thread {
 			}
 
 			size +=  i;
-			if (size <= 3) {
+			if (size < 3) {
 				continue;
 			}
-			DataBuffer dest = new DataBuffer(size);
-			dest.setBuffer(buffer);
-			this.buffer.add(dest);
+			
+			try {
+				DataBuffer dest = new DataBuffer(size);
+				dest.setBuffer(buffer);
+				this.buffer.add(dest);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		} while(true);
 	}
 		
