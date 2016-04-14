@@ -15,14 +15,19 @@ public class ShakeHandsUartImpl implements IShakeHands {
 
 	@Override
 	public boolean isShakeHandsResp(byte[] resp) {
-		byte[] SHAKE_HANDS_RESP = {0x55, (byte) 0xAA, (byte) 0xAA, 0x01, (byte) 0x5A, (byte) 0xFA, (byte) 0xFF};
-		int len = SHAKE_HANDS_RESP.length;
-		
-		for (int i = 0; i < len; i++) {
-			if (resp[i] != SHAKE_HANDS_RESP[i]) {
-				return false;
+		try {
+			byte[] SHAKE_HANDS_RESP = {0x55, (byte) 0xAA, (byte) 0xAA, 0x01, (byte) 0x5A, (byte) 0xFA, (byte) 0xFF};
+			int len = SHAKE_HANDS_RESP.length;
+			
+			for (int i = 0; i < len; i++) {
+				if (resp[i] != SHAKE_HANDS_RESP[i]) {
+					return false;
+				}
 			}
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
-		return true;
+		return false;
 	}
 }

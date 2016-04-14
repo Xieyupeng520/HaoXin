@@ -30,7 +30,7 @@
         <item>進入主頁面。</item>
     </string-array>
     <string-array name="menu_names">
-        <item>主程序界面</item>
+        <item>主程序介面</item>
         <item>清洗</item>
         <item>參數設置</item>
         <item>系統維護</item>
