@@ -58,6 +58,7 @@ public class ParseData extends Thread {
 	 * @param size 数据长度
 	 */
 	private void parseData(byte[] buffer, int size) {
+		try{
 		Log.e("ParseData", "paresData(" + byte2HexString(buffer, size));
 		byte []data = null;
 		ProtocolType code = null;
@@ -89,6 +90,9 @@ public class ParseData extends Thread {
 		if (data != null) {
 			mCallBack.onReadDeviceData(data, code);
 		}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/**
@@ -103,12 +107,16 @@ public class ParseData extends Thread {
 		Vector<DataBuffer> dataBuffer = ReadDeviceData.buffer;
 		do {
 			if (dataBuffer != null && dataBuffer.size()>0) {
-				DataBuffer buffer = dataBuffer.get(0);
-				if (buffer != null) {
-					parseData(buffer.getBuffer(), buffer.getBuffer().length);
-					dataBuffer.remove(0);
-				} else {
-					Log.e("ParseData", "buffer is null");
+				try {
+					DataBuffer buffer = dataBuffer.get(0);
+					if (buffer != null) {
+						parseData(buffer.getBuffer(), buffer.getBuffer().length);
+						dataBuffer.remove(0);
+					} else {
+						Log.e("ParseData", "buffer is null");
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
 			} else {
 				try {

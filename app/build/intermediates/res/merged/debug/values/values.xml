@@ -30,7 +30,7 @@
         <item>進入主頁面。</item>
     </string-array>
     <string-array name="menu_names">
-        <item>主程序界面</item>
+        <item>主程序介面</item>
         <item>清洗</item>
         <item>參數設置</item>
         <item>系統維護</item>
@@ -283,7 +283,7 @@
     <string name="PROGRESS_CENTRIFUGAL">正在細胞離心</string>
     <string name="PROGRESS_CLEAN_PLUS">正在清洗</string>
     <string name="PROGRESS_JETTING_FIRST_DYE">初染液</string>
-    <string name="PROGRESS_JETTING_KMNO4">高錳酸鉀</string>
+    <string name="PROGRESS_JETTING_KMNO4">過錳酸鉀</string>
     <string name="PROGRESS_JETTING_RHODAMINE">金胺 O-羅丹明 B</string>
     <string name="PROGRESS_METHYLENE_BLUE">亞甲基藍</string>
     <string name="PROGRESS_RHODAMINE_B">羅丹明 B</string>
@@ -342,7 +342,7 @@
     <string name="fw_version">韌體版本：</string>
     <string name="home_info_dianjiu">酸性酒精</string>
     <string name="home_info_guding">抹片固定</string>
-    <string name="home_info_jiejing">高錳酸鉀</string>
+    <string name="home_info_jiejing">過錳酸鉀</string>
     <string name="home_info_ranse">抹片厚度</string>
     <string name="home_info_title">當前設置：</string>
     <string name="home_slide_title">載玻片數量</string>
@@ -370,7 +370,7 @@
     <string name="site_dianjiu">酸性酒精調整</string>
     <string name="site_guding">抹片固定</string>
     <string name="site_heat">加熱選擇</string>
-    <string name="site_jiejing">高錳酸鉀調整</string>
+    <string name="site_jiejing">過錳酸鉀調整</string>
     <string name="site_ranse">抹片厚度設置</string>
     <string name="step">STEP</string>
     <string name="succ_centrifugal">細胞離心結束</string>

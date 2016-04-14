@@ -93,7 +93,7 @@ public class ProtocolImpl implements IProtocol {
 		if (null == respPackets) {
 			return false;
 		}
-
+		try {
 		//判断头部
 		for (int i = 0; i < PROTOCOL_HEAD_LEN; i++) {
 			if (respPackets[i] != packets[i]) {
@@ -105,6 +105,9 @@ public class ProtocolImpl implements IProtocol {
 		if (respPackets[packets.length - CRC_OFFSET + 1] == (byte)0xFF
 				&& respPackets[packets.length - CRC_OFFSET] == Crc.calcCRC(respPackets, size)) {
 			return true;
+		}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 
 		return false;
@@ -130,7 +133,7 @@ public class ProtocolImpl implements IProtocol {
 		if (null == respPackets || respPackets.length < (PROTOCOL_HEAD_LEN + dataLen)) {
 			return null;
 		}
-
+		try {
 		byte[] data = new byte[dataLen];
 
 		//取得版本号
@@ -140,6 +143,10 @@ public class ProtocolImpl implements IProtocol {
 			}
 		}
 		return data;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	/**
@@ -152,7 +159,7 @@ public class ProtocolImpl implements IProtocol {
 		if (null == respPackets) {
 			return false;
 		}
-
+		try {
 		//判断头部
 		for (int i = 0; i < PROTOCOL_HEAD_LEN; i++) {
 			if (respPackets[i] != packets[i]) {
@@ -164,6 +171,9 @@ public class ProtocolImpl implements IProtocol {
 		if (respPackets[size - 1] == (byte)0xFF
 				&& respPackets[size - CRC_OFFSET] == Crc.calcCRC(respPackets,size)) {
 			return true;
+		}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 
 		return false;
