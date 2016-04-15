@@ -139,7 +139,7 @@ public class WorkAboutView extends WorkBaseView{
 		/***************************************************
 		 * 通過反射，將“確定”和“取消”改為繁體
 		 ***************************************************/
-		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(TimePickerView.class);
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(TimePickerView.class, pickerView);
 	}
 
 	private void initScreenSleepTime() {
@@ -195,10 +195,10 @@ public class WorkAboutView extends WorkBaseView{
 		/***************************************************
 		 * 通過反射，將“確定”和“取消”改為繁體
 		 ***************************************************/
-		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(OptionsPickerView.class);
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(OptionsPickerView.class, pickerView);
 	}
 
-	private void changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(Class pickerView) {
+	private void changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(Class pickerView, Object instance) {
 		try {
 			Field btnSubmitField = pickerView.getDeclaredField("btnSubmit");
 			btnSubmitField.setAccessible(true);
