@@ -139,7 +139,7 @@ public class WorkAboutView extends WorkBaseView{
 		/***************************************************
 		 * 通過反射，將“確定”和“取消”改為繁體
 		 ***************************************************/
-		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(TimePickerView.class);
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(TimePickerView.class, pickerView);
 	}
 
 	private void initScreenSleepTime() {
@@ -195,19 +195,19 @@ public class WorkAboutView extends WorkBaseView{
 		/***************************************************
 		 * 通過反射，將“確定”和“取消”改為繁體
 		 ***************************************************/
-		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(OptionsPickerView.class);
+		changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(OptionsPickerView.class, pickerView);
 	}
 
-	private void changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(Class pickerView) {
+	private void changePickerViewButtonText_FromSimplifieldChinese_ToTraditionalChinese(Class pickerView, Object instance) {
 		try {
 			Field btnSubmitField = pickerView.getDeclaredField("btnSubmit");
 			btnSubmitField.setAccessible(true);
-			Button btnSubmit = (Button) btnSubmitField.get(pickerView);	//实例化该类型
+			Button btnSubmit = (Button) btnSubmitField.get(instance);	//实例化该类型
 			btnSubmit.setText(R.string.button_normal_sure);
 
 			Field btnCancelField = pickerView.getDeclaredField("btnCancel");
 			btnCancelField.setAccessible(true);
-			Button btnCancel = (Button) btnCancelField.get(pickerView);	//实例化该类型
+			Button btnCancel = (Button) btnCancelField.get(instance);	//实例化该类型
 			btnCancel.setText(R.string.button_normal_cancel);
 		} catch (Exception e) {
 			e.printStackTrace();
