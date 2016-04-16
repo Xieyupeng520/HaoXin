@@ -12,6 +12,10 @@ import com.hx.protocol.IComDevice;
 public class DeviceService {
 	private static IComDevice instance = null;
 	private DeviceService() {  }
+	
+	public static void close() {
+		instance.close();
+	}
 
 	public static IComDevice getDevice()  throws SecurityException, IOException, InvalidParameterException {
 		if (instance == null) {
