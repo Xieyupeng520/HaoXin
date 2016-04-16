@@ -5,10 +5,11 @@ import java.util.Vector;
 import android.util.Log;
 import com.hp.android.haoxin.callback.OnConnectedCallBack;
 import com.hp.android.haoxin.callback.OnReadDeviceDataCallBack;
+import com.hp.android.haoxin.command.CommandBridge;
 import com.hx.protocol.IProtocol;
 import com.hx.protocol.ProtocolImpl;
 import com.hx.protocol.ProtocolType;
-import com.hx.service.ReadDeviceData.DataBuffer;
+import com.hx.service.ReadDeviceData.Buffer_C;
 /**
  * 处理数据线程
  * @author qp.wang
@@ -21,9 +22,16 @@ public class ParseData extends Thread {
 	private OnReadDeviceDataCallBack mCallBack = null;
 	private OnConnectedCallBack connListener = null;
 	private ConnectErrService mConnectErrService = null;
+	private Vector<Buffer_C> buffer = null;
+
+	private CommandBridge commandBridge = CommandBridge.getInstance();
 
 	public void setCallBack(OnReadDeviceDataCallBack callBack) {
 		this.mCallBack = callBack;
+	}
+	
+	public void setBuffer(Vector<Buffer_C> buffer) {
+		this.buffer = buffer;
 	}
 
 	public void setConnListener(OnConnectedCallBack connListener) {
@@ -58,8 +66,7 @@ public class ParseData extends Thread {
 	 * @param size 数据长度
 	 */
 	private void parseData(byte[] buffer, int size) {
-		try{
-		Log.e("ParseData", "paresData(" + byte2HexString(buffer, size));
+		
 		byte []data = null;
 		ProtocolType code = null;
 
@@ -88,10 +95,9 @@ public class ParseData extends Thread {
 		}
 
 		if (data != null) {
+			//Log.e("ParseData", "code=" + code);
+//			commandBridge.showToast("onReadDeviceData(" + byte2HexString(data, size) + ", " + code + ")");
 			mCallBack.onReadDeviceData(data, code);
-		}
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 	
@@ -104,27 +110,59 @@ public class ParseData extends Thread {
 		mProtocol = new ProtocolImpl();
 		//启动通信异常检测服务
 		mConnectErrService.start();
-		Vector<DataBuffer> dataBuffer = ReadDeviceData.buffer;
+		int count = 0;
 		do {
-			if (dataBuffer != null && dataBuffer.size()>0) {
-				try {
-					DataBuffer buffer = dataBuffer.get(0);
-					if (buffer != null) {
-						parseData(buffer.getBuffer(), buffer.getBuffer().length);
-						dataBuffer.remove(0);
-					} else {
-						Log.e("ParseData", "buffer is null");
+			boolean flag = true;
+			//Log.e("test", "head="+ReadDeviceData.head+",cnt="+ReadDeviceData.pktcnt);
+			if (ReadDeviceData.buffer.size() > 0) {
+				//Buffer_C buffer = (Buffer_C)this.buffer.get(0);
+				Buffer_C buffer = (Buffer_C)ReadDeviceData.buffer.get(0);
+				/*if (flag) {
+					try {
+						buffer = (Buffer_C)ReadDeviceData.buffer.get(0);
+					} catch (Exception e) {
+						//if (count >=2) {
+							flag = false;
+						//}
+						Log.e("ERR", e.toString());
+						count++;
 					}
-				} catch (Exception e) {
-					e.printStackTrace();
+				} else {
+					buffer = (Buffer_C)ReadDeviceData.buffer.get(0);
+				}*/
+				if (buffer != null) {
+					parseData(buffer.getBuffer(), buffer.getSize());
+					ReadDeviceData.buffer.removeElement(buffer);
 				}
 			} else {
 				try {
-					Thread.sleep(10);
+					Thread.sleep(250);
 				} catch (InterruptedException e) {
-					e.printStackTrace();
 				}
 			}
+			/*if (ReadDeviceData.pktcnt <= 0 ) {
+				try {
+					Thread.sleep(300);
+				} catch (InterruptedException e) {
+				}
+				continue;
+			}
+				
+			Buffer_C buffer = (Buffer_C)ReadDeviceData.buffer[ReadDeviceData.head];
+			ReadDeviceData.setPktcnt(-1);
+			
+			ReadDeviceData.head++;
+			if(ReadDeviceData.head >= ReadDeviceData.buffer.length){
+				ReadDeviceData.head = 0;
+			}
+			if (buffer != null) {
+				parseData(buffer.getBuffer(), buffer.getSize());
+			} else {
+				try {
+					Thread.sleep(250);
+				} catch (InterruptedException e) {
+				}
+			}*/
 		} while(true);
 	}
 }

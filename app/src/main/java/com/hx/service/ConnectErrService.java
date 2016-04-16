@@ -8,7 +8,7 @@ public class ConnectErrService extends Thread {
 	//计数器
 	private int mCount = 0;
 	//重试次数
-	private static int RETRY_MAX = 5;
+	private static int RETRY_MAX = 10;
 
 	public void setCount(int iCount) {
 		this.mCount = iCount;
