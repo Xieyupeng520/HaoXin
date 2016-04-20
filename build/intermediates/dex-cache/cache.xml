@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/libs/usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010_9715801b4f3ab2f6a2df0140d2bc068d11ba8f1d.jar" />
+    </item>
+    <item
+        jar="/Users/AZZ/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_7f03eb010f0c053671d8803c451d00edb3f9d7d6.jar" />
+    </item>
+    <item
+        jar="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="/Users/AZZ/Documents/Development/Android/My Project/HaoXin/app/build/intermediates/pre-dexed/debug/com.bigkoo-pickerview-2.0.8_e8b9ed17cbce807a14bbf137f45312d6047e1310.jar" />
+    </item>
+
+</items>
